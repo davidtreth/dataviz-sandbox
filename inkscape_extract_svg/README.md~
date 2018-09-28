@@ -1,0 +1,3 @@
+This is a Python script to extract the SVG icons as individual files
+from the SVG files containing icon libraries in the
+Inkscape Open Symbols library: https://github.com/Xaviju/inkscape-open-symbols

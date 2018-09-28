@@ -8,4 +8,6 @@ This repository will contain various data visualization experiments that don't f
 
 * hillbagging/ - Data from www.hill-bagging.co.uk - at the moment it's mainly just an example for me to get some experience with Jupyter notebooks for Python.
 
+* inkscape_extract_svg/ - a script to extract the icons from the Inkscape Open Symbols library to individual SVG files
+
 David Trethewey
