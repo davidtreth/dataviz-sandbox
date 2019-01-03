@@ -10,4 +10,6 @@ This repository will contain various data visualization experiments that don't f
 
 * inkscape_extract_svg/ - a script to extract the icons from the Inkscape Open Symbols library to individual SVG files
 
+* landsat365/ - a script to overprint the titles on the images from the Landsat365 project (www.landsat365.org - no longer online but see @landsat365 on Twitter and Instagram)
+
 David Trethewey
