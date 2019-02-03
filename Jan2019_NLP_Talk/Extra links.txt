@@ -1,0 +1,5 @@
+Google's dataset search:
+https://toolbox.google.com/datasetsearch
+
+TensorFlow CNN implementation + tutorial:
+http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/
