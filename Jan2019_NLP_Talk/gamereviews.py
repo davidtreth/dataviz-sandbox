@@ -90,6 +90,16 @@ def plotReviews(list_rev, titletext, Nfig=0):
 	plt.xlabel("review")
 	plt.ylabel("median sentiment score [-1,1]")
 	plt.title(titletext)
+	allscores = np.array([])
+	xvals = np.array([])
+	for i,r in enumerate(list_rev):
+		allscores = np.hstack([allscores,r.sentiments])
+		xvals = np.hstack([xvals,np.zeros(len(r.sentiments))+i+1])
+	plt.figure(Nfig+4, [12,12])
+	plt.xlabel("review")
+	plt.ylabel("all sentiment scores [-1,1]")
+	plt.title(titletext)	
+	plt.plot(xvals, allscores, 'k,')
 							
 # load the lexicon from pickle
 with open('lexicon.pickle', 'rb') as f:
@@ -140,7 +150,7 @@ print("total of {n} negative reviews".format(n=len(negreview_objs)))
 negreviews_lextokens = [r for r in negreview_objs if r.ntokens_lexicon > 0]
 print("total of {n} negative reviews with at least one token within lexicon".format(n=len(negreviews_lextokens)))
 			
-plotReviews(negreviews_lextokens, "Sentiment score for words in lexicon in negative reviews", 3)
+plotReviews(negreviews_lextokens, "Sentiment score for words in lexicon in negative reviews", 4)
 
 plt.tight_layout()
 

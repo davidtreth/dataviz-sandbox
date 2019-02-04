@@ -10,7 +10,7 @@ This repository will contain various data visualization experiments that don't f
 
 * inkscape_extract_svg/ - a script to extract the icons from the Inkscape Open Symbols library to individual SVG files
 
-* Jan2019_NLP_Talk/ - some experimentation based on the 31st January 2019 talk by Peter Conway to the Data Science Cornwall group https://www.meetup.com/datasciencecornwall/events/254352933/ on Natural Language Processing for sentiment analysis.
+* Jan2019_NLP_Talk/ - some experimentation based on the 31st January 2019 talk by Peter Conway to the Data Science Cornwall group https://www.meetup.com/datasciencecornwall/events/254352933/ on Natural Language Processing for sentiment analysis. 
 
 * landsat365/ - a script to overprint the titles on the images from the Landsat365 project (www.landsat365.org - no longer online but see @landsat365 on Twitter and Instagram)
 
