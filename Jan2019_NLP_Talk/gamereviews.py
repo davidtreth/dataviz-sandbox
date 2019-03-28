@@ -36,7 +36,6 @@ class GameReview:
                 # if a sentence contains negation, flip the sentiment values.
                 self.sentences = [s for s in sent_tokenize(reviewtext)]
                 self.lextok_kvtup_2 = []
-                
                 for s in self.sentences:
                     sentencetokens = [t.lower() for t in word_tokenize(s)]
                     sentntokens = len(sentencetokens)
@@ -191,6 +190,7 @@ posreview_objs = []
 for r in posreviews:
         print(r)
         revobj = GameReview(r)
+        print(revobj.lextok_kvtup_2)
         posreview_objs.append(revobj)
         revobj.printSortedLexiconTokens()
         revobj.printStatsSentiment()
@@ -209,6 +209,7 @@ negreview_objs = []
 for r in negreviews:
         print(r)
         revobj = GameReview(r)
+        print(revobj.lextok_kvtup_2)
         negreview_objs.append(revobj)
         revobj.printSortedLexiconTokens()
         revobj.printStatsSentiment()
