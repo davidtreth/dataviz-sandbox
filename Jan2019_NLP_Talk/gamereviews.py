@@ -13,8 +13,8 @@ import pickle
 import numpy as np
 from nltk.tokenize import sent_tokenize, word_tokenize
 import matplotlib.pyplot as plt
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-sia = SentimentIntensityAnalyzer()
+from nltk.sentiment.vader import negated
+
 negation = -1
 
 class GameReview:
@@ -41,7 +41,7 @@ class GameReview:
                     sentencetokens = [t.lower() for t in word_tokenize(s)]
                     sentntokens = len(sentencetokens)
                     sentlextokens = [t for t in sentencetokens if t in lexicon]
-                    if sia.negated(sentencetokens):                        
+                    if negated(sentencetokens):                        
                         sentlextok_kvtup = [("NEG:"+t,negation*lexicon[t]) for t in sentlextokens]
                     else:
                         sentlextok_kvtup = [(t,lexicon[t]) for t in sentlextokens]    
@@ -179,11 +179,11 @@ posfile = os.path.join(gamereviewdir, "pos.txt")
 negfile = os.path.join(gamereviewdir, "neg.txt")
 
 # open positive reviews
-with open(posfile, 'r') as f:
+with open(posfile, 'r', errors='replace') as f:
         posreviews = f.readlines()
         
 # open negative reviews
-with open(negfile, 'r') as f:
+with open(negfile, 'r', errors='replace') as f:
         negreviews = f.readlines()
 
 # generate the review objects for positive reviews
