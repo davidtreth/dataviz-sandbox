@@ -35,16 +35,20 @@ class GameReview:
                 # using sentence tokenization
                 # if a sentence contains negation, flip the sentiment values.
                 self.sentences = [s for s in sent_tokenize(reviewtext)]
+                self.sentnegated = np.zeros(len(self.sentences))
+                self.sentlextok_kvtup_2 = []
                 self.lextok_kvtup_2 = []
-                for s in self.sentences:
+                for i,s in enumerate(self.sentences):
                     sentencetokens = [t.lower() for t in word_tokenize(s)]
                     sentntokens = len(sentencetokens)
                     sentlextokens = [t for t in sentencetokens if t in lexicon]
                     if negated(sentencetokens):                        
                         sentlextok_kvtup = [("NEG:"+t,negation*lexicon[t]) for t in sentlextokens]
+                        self.sentnegated[i] = 1
                     else:
                         sentlextok_kvtup = [(t,lexicon[t]) for t in sentlextokens]    
                     self.lextok_kvtup_2.extend(sentlextok_kvtup)
+                    self.sentlextok_kvtup_2.append(sentlextok_kvtup)
                 # sort by value
                 self.sorted_lextokens_2 = sorted(self.lextok_kvtup_2,key=lambda kvtup:kvtup[1])                    
                 self.sentiments_2 = np.array([tv[1] for tv in self.sorted_lextokens_2])
@@ -172,58 +176,60 @@ def plotReviews(list_rev, titletext, Nfig=0, accountNeg=False):
 with open('lexicon.pickle', 'rb') as f:
    lexicon = pickle.load(f)
 
-# get the reviews   
-gamereviewdir = os.path.join("data","steam_reviews")
-posfile = os.path.join(gamereviewdir, "pos.txt")
-negfile = os.path.join(gamereviewdir, "neg.txt")
 
-# open positive reviews
-with open(posfile, 'r', errors='replace') as f:
-        posreviews = f.readlines()
-        
-# open negative reviews
-with open(negfile, 'r', errors='replace') as f:
-        negreviews = f.readlines()
+if __name__ == "__main__":                                                        
+        # get the reviews   
+        gamereviewdir = os.path.join("data","steam_reviews")
+        posfile = os.path.join(gamereviewdir, "pos.txt")
+        negfile = os.path.join(gamereviewdir, "neg.txt")
 
-# generate the review objects for positive reviews
-posreview_objs = []
-for r in posreviews:
-        print(r)
-        revobj = GameReview(r)
-        print(revobj.lextok_kvtup_2)
-        posreview_objs.append(revobj)
-        revobj.printSortedLexiconTokens()
-        revobj.printStatsSentiment()
-        print("\n" + "-"*80)
-        
-print("total of {n} positive reviews".format(n=len(posreview_objs)))
-posreviews_lextokens = [r for r in posreview_objs if r.ntokens_lexicon > 0]
-print("total of {n} positive reviews with at least one token within lexicon".format(n=len(posreviews_lextokens)))
+        # open positive reviews
+        with open(posfile, 'r', errors='replace') as f:
+                posreviews = f.readlines()
+                
+        # open negative reviews
+        with open(negfile, 'r', errors='replace') as f:
+                negreviews = f.readlines()
 
-plotReviews(posreviews_lextokens, "Sentiment score for words in lexicon in positive reviews")
+        # generate the review objects for positive reviews
+        posreview_objs = []
+        for r in posreviews:
+                print(r)
+                revobj = GameReview(r)
+                print(revobj.lextok_kvtup_2)
+                posreview_objs.append(revobj)
+                revobj.printSortedLexiconTokens()
+                revobj.printStatsSentiment()
+                print("\n" + "-"*80)
+                
+        print("total of {n} positive reviews".format(n=len(posreview_objs)))
+        posreviews_lextokens = [r for r in posreview_objs if r.ntokens_lexicon > 0]
+        print("total of {n} positive reviews with at least one token within lexicon".format(n=len(posreviews_lextokens)))
 
-plt.tight_layout()
+        plotReviews(posreviews_lextokens, "Sentiment score for words in lexicon in positive reviews")
 
-# generate the review objects for positive reviews
-negreview_objs = []
-for r in negreviews:
-        print(r)
-        revobj = GameReview(r)
-        print(revobj.lextok_kvtup_2)
-        negreview_objs.append(revobj)
-        revobj.printSortedLexiconTokens()
-        revobj.printStatsSentiment()
-        print("\n" + "-"*80)
-        
-print("total of {n} negative reviews".format(n=len(negreview_objs)))
-negreviews_lextokens = [r for r in negreview_objs if r.ntokens_lexicon > 0]
-print("total of {n} negative reviews with at least one token within lexicon".format(n=len(negreviews_lextokens)))
-                        
-plotReviews(negreviews_lextokens, "Sentiment score for words in lexicon in negative reviews", 5)
+        plt.tight_layout()
 
-plotReviews(posreviews_lextokens, "Sentiment score, accounting for negation, for words in lexicon in positive reviews", 10, accountNeg=True)
-plotReviews(negreviews_lextokens, "Sentiment score, accounting for negation, for words in lexicon in negative reviews", 15, accountNeg=True)
+        # generate the review objects for negative reviews
+        negreview_objs = []
+        for r in negreviews:
+                print(r)
+                revobj = GameReview(r)
+                print(revobj.lextok_kvtup_2)
+                negreview_objs.append(revobj)
+                revobj.printSortedLexiconTokens()
+                revobj.printStatsSentiment()
+                print("\n" + "-"*80)
+                
+        print("total of {n} negative reviews".format(n=len(negreview_objs)))
+        negreviews_lextokens = [r for r in negreview_objs if r.ntokens_lexicon > 0]
+        print("total of {n} negative reviews with at least one token within lexicon".format(n=len(negreviews_lextokens)))
+                                
+        plotReviews(negreviews_lextokens, "Sentiment score for words in lexicon in negative reviews", 5)
 
-plt.tight_layout()
+        plotReviews(posreviews_lextokens, "Sentiment score, accounting for negation, for words in lexicon in positive reviews", 10, accountNeg=True)
+        plotReviews(negreviews_lextokens, "Sentiment score, accounting for negation, for words in lexicon in negative reviews", 15, accountNeg=True)
 
-plt.show()
+        plt.tight_layout()
+
+        plt.show()
