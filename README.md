@@ -14,4 +14,6 @@ This repository will contain various data visualization experiments that don't f
 
 * landsat365/ - a script to overprint the titles on the images from the Landsat365 project (www.landsat365.org - no longer online but see @landsat365 on Twitter and Instagram)
 
+* coronavirus_data/ - visualizations based on data of cases + deaths from the novel coronavirus Sars-CoV2
+
 David Trethewey
