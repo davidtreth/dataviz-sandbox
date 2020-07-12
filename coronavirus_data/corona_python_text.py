@@ -26,6 +26,21 @@ with open('20200711/coronavirus-deaths_latest.json', 'r') as myfile:
 # note the JSON and CSV data download links that appear 
 # on the website are redirects to the ones below
 
+# TO DO - add Scotland and Wales data at local authority level
+
+# wales has a dashboard at 
+# https://public.tableau.com/profile/public.health.wales.health.protection#!/vizhome/RapidCOVID-19virology-Public/Headlinesummary
+# providing a download in Excel format - though its URL may not be static
+# public health scotland 
+# https://www.publichealthscotland.scot/our-areas-of-work/sharing-our-data-and-intelligence/coronavirus-covid-19-data/
+# data available as .csv from https://www.opendata.nhs.scot/dataset/covid-19-in-scotland
+# northern ireland
+# https://www.nisra.gov.uk/statistics/ni-summary-statistics/coronavirus-covid-19-statistics
+# but doesn't seem to have detailed daily stats in an easy to download and use format
+# https://app.powerbi.com/view?r=eyJrIjoiZGYxNjYzNmUtOTlmZS00ODAxLWE1YTEtMjA0NjZhMzlmN2JmIiwidCI6IjljOWEzMGRlLWQ4ZDctNGFhNC05NjAwLTRiZTc2MjVmZjZjNSIsImMiOjh9
+# since these are not in consistent formats, I will instead use the file from https://github.com/tomwhite/covid-19-uk-data
+
+
 #casesURL = "https://c19downloads.azureedge.net/downloads/json/coronavirus-cases_latest.json"
 #deathsURL = "https://c19downloads.azureedge.net/downloads/json/coronavirus-deaths_latest.json"
 #casesdata = urlopen(casesURL).read()
