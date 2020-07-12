@@ -97,14 +97,13 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3, range_octaves=4
         print("max cases = ",max_cases)
         
         for n in zip(datelist, ncases_valslist):
-            print("{d} {c} cases".format(d=n[0], c=n[1]))
             # range of 4 octaves by default
             octaves = range_octaves*((n[1]/max_cases)**scaling)
             # quantise to the nearest semitone
             octaves = math.floor(octaves*12.0)/12.0
             # calculate frequency
             freq = bass_note*(2**octaves)
-            print("{f:.3f} Hz, {n:.3f} octaves, {a}{b}\n".format(f=freq, n=octaves, a=notes[int((octaves*12) % 12)], b=int(bass_octave+math.floor(octaves))))
+            print("{d} {c} cases, {f:.3f} Hz, {n:.3f} octaves, {a}{b}".format(d=n[0], c=n[1], f=freq, n=octaves, a=notes[int((octaves*12) % 12)], b=int(bass_octave+math.floor(octaves))))
             generate_sine_wave(
             # see http://www.phy.mtu.edu/~suits/notefreqs.html
                 frequency=float(freq),   # Hz, waves per second C6
@@ -112,18 +111,27 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3, range_octaves=4
                 volume=0.25,        # 0..1 how loud it is
                 sample_rate=44100,  # number of samples per second: 11025, 22050, 44100
             )
+        print("\n")
 
 # play the England cases, with square root scaling            
 cases_by_area = corona_python_text.cases_by_country
 play_audio(cases_by_area, "", 2, 5, 0.5)
+
+
+# play regions, with square root scaling
+cases_by_area = corona_python_text.cases_by_region
+play_audio(cases_by_area, "", 2, 5, 0.5)
+
+# play upper-tier local authorities
 cases_by_area = corona_python_text.cases_by_utla
 
-# play upper-tier local authorities, without scaling
 # select only Cornwall
-selectedarea = 'Cornwall and Isles of Scilly'
-play_audio(cases_by_area, selectedarea)
-# play with square-root scaling
-play_audio(cases_by_area, selectedarea, scaling=0.5)
+# selectedarea = 'Cornwall and Isles of Scilly'
+# play without scaling
+# play_audio(cases_by_area, selectedarea)
 
-# play all areas with square-root scaling
+# play with square-root scaling
+# play_audio(cases_by_area, selectedarea, scaling=0.5)
+
+# play all UTLAs with square-root scaling
 play_audio(cases_by_area, scaling=0.5)
