@@ -7,10 +7,13 @@ import numpy
 import time
 from operator import itemgetter
 from pyaudio import PyAudio, paUInt8
+import wave
+from itertools import *
 
 # code partly copied from answers at https://stackoverflow.com/questions/974071/python-library-for-playing-fixed-frequency-sound
- 
-def generate_sine_wave(frequency, duration, volume=0.2, sample_rate=22050):
+
+     
+def generate_sine_wave(frequency, duration, volume=0.2, sample_rate=44100):
     ''' Generate a tone at the given frequency.
 
         Limited to unsigned 8-bit samples at a given sample_rate.
@@ -43,6 +46,7 @@ def generate_sine_wave(frequency, duration, volume=0.2, sample_rate=22050):
     # fill remainder of frameset with silence
     stream.write(b'\x80' * rest_frames)
 
+
     stream.stop_stream()
     stream.close()
     pa.terminate()
@@ -63,45 +67,59 @@ def generate_sine_wave(frequency, duration, volume=0.2, sample_rate=22050):
         # sample_rate=22050,  # number of samples per second: 11025, 22050, 44100
     # )
 
-bass_note = 261.63 / 2 # one octave below middle C
+
 notes = ["C", "C#", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"]
-print("bass note = {h} Hz".format(h=bass_note))
 
-#area = 'Cornwall and Isles of Scilly'
-for area in sorted(corona_python_text.cases_by_utla):
-    area_cases = sorted(corona_python_text.cases_by_utla[area], key=itemgetter(0))
-    startDate = area_cases[0][0]
-    endDate = area_cases[-1][0]
-    startDate = corona_python_text.datestr_to_date(startDate)
-    endDate = corona_python_text.datestr_to_date(endDate)
 
-    cases_by_date = corona_python_text.get_cases_by_date(area_cases , startDate, endDate)
-    ncases_list = list(cases_by_date.items())        
-    ncases_list = sorted(ncases_list, key=itemgetter(0))            
-    datelist = [i[0] for i in ncases_list]
-    ncases_valslist = [i[1] if i[1] else 0 for i in ncases_list]
-
-    print(area)
-    max_cases = max(ncases_valslist)
-    #print(max(ncases_valslist))
-    print("max cases = ",max_cases)
+def play_audio(cases_by_area, selected_area="", bass_octave = 3, range_octaves=4, scaling=1):    
+    bass_note = 261.63 / (5-bass_octave) # one octave below middle C if bass-octave is its default
+    print("bass note = {h} Hz".format(h=bass_note))
+    print("scaling = {s}. freq prop. to (cases/max cases)**scaling".format(s=scaling))
     
-    for n in zip(datelist, ncases_valslist):
-        print("{d} {c} cases".format(d=n[0], c=n[1]))
-        # range of 4 octaves
-        octaves = n[1]*4/max_cases
-        # quantise to the nearest semitone
-        octaves = math.floor(octaves*12.0)/12.0
-        # calculate frequency
-        freq = bass_note*(2**octaves)
-        print("{f:.3f} Hz, {n:.3f} octaves, {a}\n".format(f=freq, n=octaves, a=notes[int((octaves*12) % 12)]))
-        generate_sine_wave(
-        # see http://www.phy.mtu.edu/~suits/notefreqs.html
-            frequency=float(freq),   # Hz, waves per second C6
-            duration=1.0,       # seconds to play sound
-            volume=0.25,        # 0..1 how loud it is
-            sample_rate=22050,  # number of samples per second: 11025, 22050, 44100
-        )
-        
+    for area in sorted(cases_by_area):
+        if selected_area != "" and area != selected_area:
+            continue
+        area_cases = sorted(cases_by_area[area], key=itemgetter(0))
+        startDate = area_cases[0][0]
+        endDate = area_cases[-1][0]
+        startDate = corona_python_text.datestr_to_date(startDate)
+        endDate = corona_python_text.datestr_to_date(endDate)
 
+        cases_by_date = corona_python_text.get_cases_by_date(area_cases , startDate, endDate)
+        ncases_list = list(cases_by_date.items())        
+        ncases_list = sorted(ncases_list, key=itemgetter(0))            
+        datelist = [i[0] for i in ncases_list]
+        ncases_valslist = [i[1] if i[1] else 0 for i in ncases_list]
+
+        print(area)
+        max_cases = max(ncases_valslist)
+        #print(max(ncases_valslist))
+        print("max cases = ",max_cases)
+        
+        for n in zip(datelist, ncases_valslist):
+            print("{d} {c} cases".format(d=n[0], c=n[1]))
+            # range of 4 octaves by default
+            octaves = range_octaves*((n[1]/max_cases)**scaling)
+            # quantise to the nearest semitone
+            octaves = math.floor(octaves*12.0)/12.0
+            # calculate frequency
+            freq = bass_note*(2**octaves)
+            print("{f:.3f} Hz, {n:.3f} octaves, {a}{b}\n".format(f=freq, n=octaves, a=notes[int((octaves*12) % 12)], b=int(bass_octave+math.floor(octaves))))
+            generate_sine_wave(
+            # see http://www.phy.mtu.edu/~suits/notefreqs.html
+                frequency=float(freq),   # Hz, waves per second C6
+                duration=1,       # seconds to play sound
+                volume=0.25,        # 0..1 how loud it is
+                sample_rate=44100,  # number of samples per second: 11025, 22050, 44100
+            )
+
+# play the England cases, with square root scaling            
+cases_by_area = corona_python_text.cases_by_country
+play_audio(cases_by_area, "", 2, 5, 0.5)
+cases_by_area = corona_python_text.cases_by_utla
+
+# play upper-tier local authorities, without scaling
+# select only Cornwall
+selectedarea = 'Cornwall and Isles of Scilly'
+play_audio(cases_by_area, selectedarea)
 
