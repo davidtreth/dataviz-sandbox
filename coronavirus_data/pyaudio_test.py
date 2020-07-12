@@ -122,4 +122,8 @@ cases_by_area = corona_python_text.cases_by_utla
 # select only Cornwall
 selectedarea = 'Cornwall and Isles of Scilly'
 play_audio(cases_by_area, selectedarea)
+# play with square-root scaling
+play_audio(cases_by_area, selectedarea, scaling=0.5)
 
+# play all areas with square-root scaling
+play_audio(cases_by_area, scaling=0.5)
