@@ -1,0 +1,1298 @@
+lastUpdatedAt 2020-07-11T17:20:20.938429Z
+disclaimer Deaths and lab-confirmed case counts and rates for England and subnational areas are provided by Public Health England. All data for the rest of the UK are provided by the devolved administrations. Maps include Ordnance Survey data © Crown copyright and database right 2020 and Office for National Statistics data © Crown copyright and database right 2020. Daily and total case counts are as of 11 July 2020. Daily and total deaths are as of 10 July 2020.
+areaName United Kingdom
+totalLabConfirmedCases 288953
+dailyLabConfirmedCases 820
+
+
+lastUpdatedAt 2020-07-11T17:20:20.938429Z
+disclaimer Deaths and lab-confirmed case counts and rates for England and subnational areas are provided by Public Health England. All data for the rest of the UK are provided by the devolved administrations. Maps include Ordnance Survey data © Crown copyright and database right 2020 and Office for National Statistics data © Crown copyright and database right 2020. Daily and total case counts are as of 11 July 2020. Daily and total deaths are as of 10 July 2020.
+
+
+bass note = 87.21 Hz
+scaling = 0.5. freq prop. to (cases/max cases)**scaling
+England
+max cases =  4794
+2020-01-30 2 cases
+92.396 Hz, 0.083 octaves, C#2
+
+2020-01-31 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-01 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-02 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-03 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-04 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-05 1 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-06 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-07 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-08 4 cases
+92.396 Hz, 0.083 octaves, C#2
+
+2020-02-09 1 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-10 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-11 1 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-12 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-13 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-14 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-15 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-16 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-17 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-18 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-19 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-20 1 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-21 1 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-22 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-23 0 cases
+87.210 Hz, 0.000 octaves, C2
+
+2020-02-24 2 cases
+92.396 Hz, 0.083 octaves, C#2
+
+2020-02-25 5 cases
+92.396 Hz, 0.083 octaves, C#2
+
+2020-02-26 4 cases
+92.396 Hz, 0.083 octaves, C#2
+
+2020-02-27 7 cases
+97.890 Hz, 0.167 octaves, D2
+
+2020-02-28 12 cases
+103.711 Hz, 0.250 octaves, Eb2
+
+2020-02-29 5 cases
+92.396 Hz, 0.083 octaves, C#2
+
+2020-03-01 21 cases
+103.711 Hz, 0.250 octaves, Eb2
+
+2020-03-02 39 cases
+116.411 Hz, 0.417 octaves, F2
+
+2020-03-03 52 cases
+123.334 Hz, 0.500 octaves, F#2
+
+2020-03-04 49 cases
+123.334 Hz, 0.500 octaves, F#2
+
+2020-03-05 47 cases
+116.411 Hz, 0.417 octaves, F2
+
+2020-03-06 73 cases
+130.667 Hz, 0.583 octaves, G2
+
+2020-03-07 47 cases
+116.411 Hz, 0.417 octaves, F2
+
+2020-03-08 50 cases
+123.334 Hz, 0.500 octaves, F#2
+
+2020-03-09 125 cases
+146.669 Hz, 0.750 octaves, A2
+
+2020-03-10 223 cases
+174.420 Hz, 1.000 octaves, C3
+
+2020-03-11 358 cases
+219.755 Hz, 1.333 octaves, E3
+
+2020-03-12 421 cases
+232.823 Hz, 1.417 octaves, F3
+
+2020-03-13 393 cases
+232.823 Hz, 1.417 octaves, F3
+
+2020-03-14 317 cases
+207.422 Hz, 1.250 octaves, Eb3
+
+2020-03-15 397 cases
+232.823 Hz, 1.417 octaves, F3
+
+2020-03-16 546 cases
+276.874 Hz, 1.667 octaves, Ab3
+
+2020-03-17 680 cases
+310.781 Hz, 1.833 octaves, Bb3
+
+2020-03-18 909 cases
+391.560 Hz, 2.167 octaves, D4
+
+2020-03-19 931 cases
+391.560 Hz, 2.167 octaves, D4
+
+2020-03-20 1081 cases
+439.511 Hz, 2.333 octaves, E4
+
+2020-03-21 1035 cases
+414.843 Hz, 2.250 octaves, Eb4
+
+2020-03-22 1209 cases
+493.334 Hz, 2.500 octaves, F#4
+
+2020-03-23 2019 cases
+783.119 Hz, 3.167 octaves, D5
+
+2020-03-24 2020 cases
+783.119 Hz, 3.167 octaves, D5
+
+2020-03-25 2262 cases
+931.291 Hz, 3.417 octaves, F5
+
+2020-03-26 2611 cases
+1107.498 Hz, 3.667 octaves, Ab5
+
+2020-03-27 2658 cases
+1107.498 Hz, 3.667 octaves, Ab5
+
+2020-03-28 2373 cases
+986.669 Hz, 3.500 octaves, F#5
+
+2020-03-29 2440 cases
+986.669 Hz, 3.500 octaves, F#5
+
+2020-03-30 3520 cases
+1659.372 Hz, 4.250 octaves, Eb6
+
+2020-03-31 3782 cases
+1862.582 Hz, 4.417 octaves, F6
+
+2020-04-01 4099 cases
+2090.678 Hz, 4.583 octaves, G6
+
+2020-04-02 4068 cases
+2090.678 Hz, 4.583 octaves, G6
+
+2020-04-03 4098 cases
+2090.678 Hz, 4.583 octaves, G6
+
+2020-04-04 3390 cases
+1566.239 Hz, 4.167 octaves, D6
+
+2020-04-05 3083 cases
+1395.360 Hz, 4.000 octaves, C6
+
+2020-04-06 4388 cases
+2346.706 Hz, 4.750 octaves, A6
+
+2020-04-07 4584 cases
+2486.249 Hz, 4.833 octaves, Bb6
+
+2020-04-08 4304 cases
+2214.996 Hz, 4.667 octaves, Ab6
+
+2020-04-09 4064 cases
+2090.678 Hz, 4.583 octaves, G6
+
+2020-04-10 3582 cases
+1659.372 Hz, 4.250 octaves, Eb6
+
+2020-04-11 3080 cases
+1395.360 Hz, 4.000 octaves, C6
+
+2020-04-12 2948 cases
+1317.044 Hz, 3.917 octaves, B5
+
+2020-04-13 3441 cases
+1566.239 Hz, 4.167 octaves, D6
+
+2020-04-14 3565 cases
+1659.372 Hz, 4.250 octaves, Eb6
+
+2020-04-15 4230 cases
+2214.996 Hz, 4.667 octaves, Ab6
+
+2020-04-16 4367 cases
+2346.706 Hz, 4.750 octaves, A6
+
+2020-04-17 4090 cases
+2090.678 Hz, 4.583 octaves, G6
+
+2020-04-18 4120 cases
+2090.678 Hz, 4.583 octaves, G6
+
+2020-04-19 3474 cases
+1659.372 Hz, 4.250 octaves, Eb6
+
+2020-04-20 3688 cases
+1758.043 Hz, 4.333 octaves, E6
+
+2020-04-21 3971 cases
+1973.337 Hz, 4.500 octaves, F#6
+
+2020-04-22 4794 cases
+2790.720 Hz, 5.000 octaves, C7
+
+2020-04-23 4568 cases
+2486.249 Hz, 4.833 octaves, Bb6
+
+2020-04-24 4371 cases
+2346.706 Hz, 4.750 octaves, A6
+
+2020-04-25 3372 cases
+1566.239 Hz, 4.167 octaves, D6
+
+2020-04-26 3139 cases
+1395.360 Hz, 4.000 octaves, C6
+
+2020-04-27 4032 cases
+2090.678 Hz, 4.583 octaves, G6
+
+2020-04-28 4117 cases
+2090.678 Hz, 4.583 octaves, G6
+
+2020-04-29 4742 cases
+2634.089 Hz, 4.917 octaves, B6
+
+2020-04-30 4317 cases
+2214.996 Hz, 4.667 octaves, Ab6
+
+2020-05-01 4097 cases
+2090.678 Hz, 4.583 octaves, G6
+
+2020-05-02 2743 cases
+1173.353 Hz, 3.750 octaves, A5
+
+2020-05-03 2633 cases
+1107.498 Hz, 3.667 octaves, Ab5
+
+2020-05-04 2843 cases
+1243.124 Hz, 3.833 octaves, Bb5
+
+2020-05-05 3145 cases
+1395.360 Hz, 4.000 octaves, C6
+
+2020-05-06 3267 cases
+1478.332 Hz, 4.083 octaves, C#6
+
+2020-05-07 3204 cases
+1478.332 Hz, 4.083 octaves, C#6
+
+2020-05-08 2621 cases
+1107.498 Hz, 3.667 octaves, Ab5
+
+2020-05-09 1792 cases
+697.680 Hz, 3.000 octaves, C5
+
+2020-05-10 2007 cases
+783.119 Hz, 3.167 octaves, D5
+
+2020-05-11 3070 cases
+1395.360 Hz, 4.000 octaves, C6
+
+2020-05-12 2926 cases
+1243.124 Hz, 3.833 octaves, Bb5
+
+2020-05-13 2880 cases
+1243.124 Hz, 3.833 octaves, Bb5
+
+2020-05-14 2210 cases
+879.022 Hz, 3.333 octaves, E5
+
+2020-05-15 2133 cases
+879.022 Hz, 3.333 octaves, E5
+
+2020-05-16 1773 cases
+697.680 Hz, 3.000 octaves, C5
+
+2020-05-17 1590 cases
+621.562 Hz, 2.833 octaves, Bb4
+
+2020-05-18 2215 cases
+879.022 Hz, 3.333 octaves, E5
+
+2020-05-19 2583 cases
+1107.498 Hz, 3.667 octaves, Ab5
+
+2020-05-20 2353 cases
+986.669 Hz, 3.500 octaves, F#5
+
+2020-05-21 2272 cases
+931.291 Hz, 3.417 octaves, F5
+
+2020-05-22 1800 cases
+697.680 Hz, 3.000 octaves, C5
+
+2020-05-23 1301 cases
+522.669 Hz, 2.583 octaves, G4
+
+2020-05-24 1198 cases
+465.646 Hz, 2.417 octaves, F4
+
+2020-05-25 1382 cases
+553.749 Hz, 2.667 octaves, Ab4
+
+2020-05-26 1464 cases
+586.677 Hz, 2.750 octaves, A4
+
+2020-05-27 1611 cases
+621.562 Hz, 2.833 octaves, Bb4
+
+2020-05-28 1558 cases
+621.562 Hz, 2.833 octaves, Bb4
+
+2020-05-29 1360 cases
+522.669 Hz, 2.583 octaves, G4
+
+2020-05-30 992 cases
+414.843 Hz, 2.250 octaves, Eb4
+
+2020-05-31 978 cases
+414.843 Hz, 2.250 octaves, Eb4
+
+2020-06-01 1303 cases
+522.669 Hz, 2.583 octaves, G4
+
+2020-06-02 1344 cases
+522.669 Hz, 2.583 octaves, G4
+
+2020-06-03 1234 cases
+493.334 Hz, 2.500 octaves, F#4
+
+2020-06-04 1140 cases
+465.646 Hz, 2.417 octaves, F4
+
+2020-06-05 1017 cases
+414.843 Hz, 2.250 octaves, Eb4
+
+2020-06-06 718 cases
+329.261 Hz, 1.917 octaves, B3
+
+2020-06-07 668 cases
+310.781 Hz, 1.833 octaves, Bb3
+
+2020-06-08 990 cases
+414.843 Hz, 2.250 octaves, Eb4
+
+2020-06-09 1062 cases
+439.511 Hz, 2.333 octaves, E4
+
+2020-06-10 1089 cases
+439.511 Hz, 2.333 octaves, E4
+
+2020-06-11 918 cases
+391.560 Hz, 2.167 octaves, D4
+
+2020-06-12 937 cases
+391.560 Hz, 2.167 octaves, D4
+
+2020-06-13 790 cases
+348.840 Hz, 2.000 octaves, C4
+
+2020-06-14 746 cases
+329.261 Hz, 1.917 octaves, B3
+
+2020-06-15 938 cases
+391.560 Hz, 2.167 octaves, D4
+
+2020-06-16 994 cases
+414.843 Hz, 2.250 octaves, Eb4
+
+2020-06-17 912 cases
+391.560 Hz, 2.167 octaves, D4
+
+2020-06-18 945 cases
+391.560 Hz, 2.167 octaves, D4
+
+2020-06-19 811 cases
+348.840 Hz, 2.000 octaves, C4
+
+2020-06-20 628 cases
+293.338 Hz, 1.750 octaves, A3
+
+2020-06-21 552 cases
+276.874 Hz, 1.667 octaves, Ab3
+
+2020-06-22 813 cases
+348.840 Hz, 2.000 octaves, C4
+
+2020-06-23 729 cases
+329.261 Hz, 1.917 octaves, B3
+
+2020-06-24 725 cases
+329.261 Hz, 1.917 octaves, B3
+
+2020-06-25 637 cases
+293.338 Hz, 1.750 octaves, A3
+
+2020-06-26 642 cases
+293.338 Hz, 1.750 octaves, A3
+
+2020-06-27 500 cases
+261.335 Hz, 1.583 octaves, G3
+
+2020-06-28 410 cases
+232.823 Hz, 1.417 octaves, F3
+
+2020-06-29 665 cases
+310.781 Hz, 1.833 octaves, Bb3
+
+2020-06-30 571 cases
+276.874 Hz, 1.667 octaves, Ab3
+
+2020-07-01 606 cases
+293.338 Hz, 1.750 octaves, A3
+
+2020-07-02 553 cases
+276.874 Hz, 1.667 octaves, Ab3
+
+2020-07-03 540 cases
+276.874 Hz, 1.667 octaves, Ab3
+
+2020-07-04 383 cases
+219.755 Hz, 1.333 octaves, E3
+
+2020-07-05 529 cases
+261.335 Hz, 1.583 octaves, G3
+
+2020-07-06 627 cases
+293.338 Hz, 1.750 octaves, A3
+
+2020-07-07 507 cases
+261.335 Hz, 1.583 octaves, G3
+
+2020-07-08 520 cases
+261.335 Hz, 1.583 octaves, G3
+
+2020-07-09 351 cases
+219.755 Hz, 1.333 octaves, E3
+
+2020-07-10 30 cases
+109.878 Hz, 0.333 octaves, E2
+
+bass note = 130.815 Hz
+scaling = 1. freq prop. to (cases/max cases)**scaling
+Cornwall and Isles of Scilly
+max cases =  30
+2020-03-02 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-03-03 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-03-04 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-03-05 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-03-06 2 cases
+155.566 Hz, 0.250 octaves, Eb3
+
+2020-03-07 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-03-08 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-03-09 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-03-10 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-03-11 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-03-12 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-03-13 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-03-14 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-03-15 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-03-16 3 cases
+164.817 Hz, 0.333 octaves, E3
+
+2020-03-17 2 cases
+155.566 Hz, 0.250 octaves, Eb3
+
+2020-03-18 5 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-03-19 2 cases
+155.566 Hz, 0.250 octaves, Eb3
+
+2020-03-20 6 cases
+220.004 Hz, 0.750 octaves, A3
+
+2020-03-21 3 cases
+164.817 Hz, 0.333 octaves, E3
+
+2020-03-22 3 cases
+164.817 Hz, 0.333 octaves, E3
+
+2020-03-23 6 cases
+220.004 Hz, 0.750 octaves, A3
+
+2020-03-24 3 cases
+164.817 Hz, 0.333 octaves, E3
+
+2020-03-25 4 cases
+185.000 Hz, 0.500 octaves, F#3
+
+2020-03-26 11 cases
+349.234 Hz, 1.417 octaves, F4
+
+2020-03-27 15 cases
+523.260 Hz, 2.000 octaves, C5
+
+2020-03-28 10 cases
+329.633 Hz, 1.333 octaves, E4
+
+2020-03-29 11 cases
+349.234 Hz, 1.417 octaves, F4
+
+2020-03-30 11 cases
+349.234 Hz, 1.417 octaves, F4
+
+2020-03-31 20 cases
+830.623 Hz, 2.667 octaves, Ab5
+
+2020-04-01 21 cases
+880.015 Hz, 2.750 octaves, A5
+
+2020-04-02 17 cases
+622.265 Hz, 2.250 octaves, Eb5
+
+2020-04-03 18 cases
+659.266 Hz, 2.333 octaves, E5
+
+2020-04-04 15 cases
+523.260 Hz, 2.000 octaves, C5
+
+2020-04-05 11 cases
+349.234 Hz, 1.417 octaves, F4
+
+2020-04-06 19 cases
+740.001 Hz, 2.500 octaves, F#5
+
+2020-04-07 14 cases
+466.172 Hz, 1.833 octaves, Bb4
+
+2020-04-08 16 cases
+554.375 Hz, 2.083 octaves, C#5
+
+2020-04-09 18 cases
+659.266 Hz, 2.333 octaves, E5
+
+2020-04-10 12 cases
+392.002 Hz, 1.583 octaves, G4
+
+2020-04-11 13 cases
+415.312 Hz, 1.667 octaves, Ab4
+
+2020-04-12 20 cases
+830.623 Hz, 2.667 octaves, Ab5
+
+2020-04-13 21 cases
+880.015 Hz, 2.750 octaves, A5
+
+2020-04-14 10 cases
+329.633 Hz, 1.333 octaves, E4
+
+2020-04-15 8 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-04-16 30 cases
+2093.040 Hz, 4.000 octaves, C7
+
+2020-04-17 19 cases
+740.001 Hz, 2.500 octaves, F#5
+
+2020-04-18 16 cases
+554.375 Hz, 2.083 octaves, C#5
+
+2020-04-19 9 cases
+293.670 Hz, 1.167 octaves, D4
+
+2020-04-20 9 cases
+293.670 Hz, 1.167 octaves, D4
+
+2020-04-21 14 cases
+466.172 Hz, 1.833 octaves, Bb4
+
+2020-04-22 11 cases
+349.234 Hz, 1.417 octaves, F4
+
+2020-04-23 17 cases
+622.265 Hz, 2.250 octaves, Eb5
+
+2020-04-24 17 cases
+622.265 Hz, 2.250 octaves, Eb5
+
+2020-04-25 17 cases
+622.265 Hz, 2.250 octaves, Eb5
+
+2020-04-26 25 cases
+1318.533 Hz, 3.333 octaves, E6
+
+2020-04-27 19 cases
+740.001 Hz, 2.500 octaves, F#5
+
+2020-04-28 13 cases
+415.312 Hz, 1.667 octaves, Ab4
+
+2020-04-29 25 cases
+1318.533 Hz, 3.333 octaves, E6
+
+2020-04-30 26 cases
+1396.937 Hz, 3.417 octaves, F6
+
+2020-05-01 8 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-05-02 11 cases
+349.234 Hz, 1.417 octaves, F4
+
+2020-05-03 14 cases
+466.172 Hz, 1.833 octaves, Bb4
+
+2020-05-04 8 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-05-05 17 cases
+622.265 Hz, 2.250 octaves, Eb5
+
+2020-05-06 12 cases
+392.002 Hz, 1.583 octaves, G4
+
+2020-05-07 13 cases
+415.312 Hz, 1.667 octaves, Ab4
+
+2020-05-08 10 cases
+329.633 Hz, 1.333 octaves, E4
+
+2020-05-09 7 cases
+246.946 Hz, 0.917 octaves, B3
+
+2020-05-10 5 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-05-11 18 cases
+659.266 Hz, 2.333 octaves, E5
+
+2020-05-12 8 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-05-13 4 cases
+185.000 Hz, 0.500 octaves, F#3
+
+2020-05-14 4 cases
+185.000 Hz, 0.500 octaves, F#3
+
+2020-05-15 6 cases
+220.004 Hz, 0.750 octaves, A3
+
+2020-05-16 5 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-05-17 3 cases
+164.817 Hz, 0.333 octaves, E3
+
+2020-05-18 5 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-05-19 5 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-05-20 9 cases
+293.670 Hz, 1.167 octaves, D4
+
+2020-05-21 2 cases
+155.566 Hz, 0.250 octaves, Eb3
+
+2020-05-22 4 cases
+185.000 Hz, 0.500 octaves, F#3
+
+2020-05-23 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-05-24 2 cases
+155.566 Hz, 0.250 octaves, Eb3
+
+2020-05-25 5 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-05-26 5 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-05-27 2 cases
+155.566 Hz, 0.250 octaves, Eb3
+
+2020-05-28 3 cases
+164.817 Hz, 0.333 octaves, E3
+
+2020-05-29 6 cases
+220.004 Hz, 0.750 octaves, A3
+
+2020-05-30 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-05-31 2 cases
+155.566 Hz, 0.250 octaves, Eb3
+
+2020-06-01 4 cases
+185.000 Hz, 0.500 octaves, F#3
+
+2020-06-02 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-06-03 2 cases
+155.566 Hz, 0.250 octaves, Eb3
+
+2020-06-04 2 cases
+155.566 Hz, 0.250 octaves, Eb3
+
+2020-06-05 4 cases
+185.000 Hz, 0.500 octaves, F#3
+
+2020-06-06 4 cases
+185.000 Hz, 0.500 octaves, F#3
+
+2020-06-07 2 cases
+155.566 Hz, 0.250 octaves, Eb3
+
+2020-06-08 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-06-09 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-06-10 10 cases
+329.633 Hz, 1.333 octaves, E4
+
+2020-06-11 8 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-06-12 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-06-13 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-14 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-15 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-06-16 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-06-17 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-06-18 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-19 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-20 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-21 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-06-22 2 cases
+155.566 Hz, 0.250 octaves, Eb3
+
+2020-06-23 3 cases
+164.817 Hz, 0.333 octaves, E3
+
+2020-06-24 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-06-25 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-06-26 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-27 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-06-28 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-29 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-30 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-07-01 4 cases
+185.000 Hz, 0.500 octaves, F#3
+
+2020-07-02 2 cases
+155.566 Hz, 0.250 octaves, Eb3
+
+2020-07-03 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-07-04 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-07-05 2 cases
+155.566 Hz, 0.250 octaves, Eb3
+
+2020-07-06 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-07-07 1 cases
+138.594 Hz, 0.083 octaves, C#3
+
+2020-07-08 2 cases
+155.566 Hz, 0.250 octaves, Eb3
+
+2020-07-09 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-07-10 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+bass note = 130.815 Hz
+scaling = 0.5. freq prop. to (cases/max cases)**scaling
+Cornwall and Isles of Scilly
+max cases =  30
+2020-03-02 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-03-03 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-03-04 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-03-05 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-03-06 2 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-03-07 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-03-08 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-03-09 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-03-10 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-03-11 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-03-12 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-03-13 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-03-14 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-03-15 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-03-16 3 cases
+311.132 Hz, 1.250 octaves, Eb4
+
+2020-03-17 2 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-03-18 5 cases
+392.002 Hz, 1.583 octaves, G4
+
+2020-03-19 2 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-03-20 6 cases
+440.007 Hz, 1.750 octaves, A4
+
+2020-03-21 3 cases
+311.132 Hz, 1.250 octaves, Eb4
+
+2020-03-22 3 cases
+311.132 Hz, 1.250 octaves, Eb4
+
+2020-03-23 6 cases
+440.007 Hz, 1.750 octaves, A4
+
+2020-03-24 3 cases
+311.132 Hz, 1.250 octaves, Eb4
+
+2020-03-25 4 cases
+349.234 Hz, 1.417 octaves, F4
+
+2020-03-26 11 cases
+698.468 Hz, 2.417 octaves, F5
+
+2020-03-27 15 cases
+880.015 Hz, 2.750 octaves, A5
+
+2020-03-28 10 cases
+622.265 Hz, 2.250 octaves, Eb5
+
+2020-03-29 11 cases
+698.468 Hz, 2.417 octaves, F5
+
+2020-03-30 11 cases
+698.468 Hz, 2.417 octaves, F5
+
+2020-03-31 20 cases
+1244.529 Hz, 3.250 octaves, Eb6
+
+2020-04-01 21 cases
+1318.533 Hz, 3.333 octaves, E6
+
+2020-04-02 17 cases
+1046.520 Hz, 3.000 octaves, C6
+
+2020-04-03 18 cases
+1108.749 Hz, 3.083 octaves, C#6
+
+2020-04-04 15 cases
+880.015 Hz, 2.750 octaves, A5
+
+2020-04-05 11 cases
+698.468 Hz, 2.417 octaves, F5
+
+2020-04-06 19 cases
+1174.679 Hz, 3.167 octaves, D6
+
+2020-04-07 14 cases
+830.623 Hz, 2.667 octaves, Ab5
+
+2020-04-08 16 cases
+987.783 Hz, 2.917 octaves, B5
+
+2020-04-09 18 cases
+1108.749 Hz, 3.083 octaves, C#6
+
+2020-04-10 12 cases
+740.001 Hz, 2.500 octaves, F#5
+
+2020-04-11 13 cases
+784.004 Hz, 2.583 octaves, G5
+
+2020-04-12 20 cases
+1244.529 Hz, 3.250 octaves, Eb6
+
+2020-04-13 21 cases
+1318.533 Hz, 3.333 octaves, E6
+
+2020-04-14 10 cases
+622.265 Hz, 2.250 octaves, Eb5
+
+2020-04-15 8 cases
+523.260 Hz, 2.000 octaves, C5
+
+2020-04-16 30 cases
+2093.040 Hz, 4.000 octaves, C7
+
+2020-04-17 19 cases
+1174.679 Hz, 3.167 octaves, D6
+
+2020-04-18 16 cases
+987.783 Hz, 2.917 octaves, B5
+
+2020-04-19 9 cases
+587.339 Hz, 2.167 octaves, D5
+
+2020-04-20 9 cases
+587.339 Hz, 2.167 octaves, D5
+
+2020-04-21 14 cases
+830.623 Hz, 2.667 octaves, Ab5
+
+2020-04-22 11 cases
+698.468 Hz, 2.417 octaves, F5
+
+2020-04-23 17 cases
+1046.520 Hz, 3.000 octaves, C6
+
+2020-04-24 17 cases
+1046.520 Hz, 3.000 octaves, C6
+
+2020-04-25 17 cases
+1046.520 Hz, 3.000 octaves, C6
+
+2020-04-26 25 cases
+1568.008 Hz, 3.583 octaves, G6
+
+2020-04-27 19 cases
+1174.679 Hz, 3.167 octaves, D6
+
+2020-04-28 13 cases
+784.004 Hz, 2.583 octaves, G5
+
+2020-04-29 25 cases
+1568.008 Hz, 3.583 octaves, G6
+
+2020-04-30 26 cases
+1661.247 Hz, 3.667 octaves, Ab6
+
+2020-05-01 8 cases
+523.260 Hz, 2.000 octaves, C5
+
+2020-05-02 11 cases
+698.468 Hz, 2.417 octaves, F5
+
+2020-05-03 14 cases
+830.623 Hz, 2.667 octaves, Ab5
+
+2020-05-04 8 cases
+523.260 Hz, 2.000 octaves, C5
+
+2020-05-05 17 cases
+1046.520 Hz, 3.000 octaves, C6
+
+2020-05-06 12 cases
+740.001 Hz, 2.500 octaves, F#5
+
+2020-05-07 13 cases
+784.004 Hz, 2.583 octaves, G5
+
+2020-05-08 10 cases
+622.265 Hz, 2.250 octaves, Eb5
+
+2020-05-09 7 cases
+493.892 Hz, 1.917 octaves, B4
+
+2020-05-10 5 cases
+392.002 Hz, 1.583 octaves, G4
+
+2020-05-11 18 cases
+1108.749 Hz, 3.083 octaves, C#6
+
+2020-05-12 8 cases
+523.260 Hz, 2.000 octaves, C5
+
+2020-05-13 4 cases
+349.234 Hz, 1.417 octaves, F4
+
+2020-05-14 4 cases
+349.234 Hz, 1.417 octaves, F4
+
+2020-05-15 6 cases
+440.007 Hz, 1.750 octaves, A4
+
+2020-05-16 5 cases
+392.002 Hz, 1.583 octaves, G4
+
+2020-05-17 3 cases
+311.132 Hz, 1.250 octaves, Eb4
+
+2020-05-18 5 cases
+392.002 Hz, 1.583 octaves, G4
+
+2020-05-19 5 cases
+392.002 Hz, 1.583 octaves, G4
+
+2020-05-20 9 cases
+587.339 Hz, 2.167 octaves, D5
+
+2020-05-21 2 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-05-22 4 cases
+349.234 Hz, 1.417 octaves, F4
+
+2020-05-23 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-05-24 2 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-05-25 5 cases
+392.002 Hz, 1.583 octaves, G4
+
+2020-05-26 5 cases
+392.002 Hz, 1.583 octaves, G4
+
+2020-05-27 2 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-05-28 3 cases
+311.132 Hz, 1.250 octaves, Eb4
+
+2020-05-29 6 cases
+440.007 Hz, 1.750 octaves, A4
+
+2020-05-30 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-05-31 2 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-06-01 4 cases
+349.234 Hz, 1.417 octaves, F4
+
+2020-06-02 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-06-03 2 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-06-04 2 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-06-05 4 cases
+349.234 Hz, 1.417 octaves, F4
+
+2020-06-06 4 cases
+349.234 Hz, 1.417 octaves, F4
+
+2020-06-07 2 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-06-08 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-06-09 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-06-10 10 cases
+622.265 Hz, 2.250 octaves, Eb5
+
+2020-06-11 8 cases
+523.260 Hz, 2.000 octaves, C5
+
+2020-06-12 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-06-13 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-14 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-15 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-06-16 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-06-17 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-06-18 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-19 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-20 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-21 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-06-22 2 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-06-23 3 cases
+311.132 Hz, 1.250 octaves, Eb4
+
+2020-06-24 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-06-25 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-06-26 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-27 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-06-28 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-29 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-06-30 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-07-01 4 cases
+349.234 Hz, 1.417 octaves, F4
+
+2020-07-02 2 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-07-03 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-07-04 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-07-05 2 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-07-06 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-07-07 1 cases
+207.656 Hz, 0.667 octaves, Ab3
+
+2020-07-08 2 cases
+261.630 Hz, 1.000 octaves, C4
+
+2020-07-09 0 cases
+130.815 Hz, 0.000 octaves, C3
+
+2020-07-10 0 cases
+130.815 Hz, 0.000 octaves, C3
+
