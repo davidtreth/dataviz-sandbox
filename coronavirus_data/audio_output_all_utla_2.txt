@@ -1,0 +1,653 @@
+lastUpdatedAt 2020-07-11T17:20:20.938429Z
+disclaimer Deaths and lab-confirmed case counts and rates for England and subnational areas are provided by Public Health England. All data for the rest of the UK are provided by the devolved administrations. Maps include Ordnance Survey data © Crown copyright and database right 2020 and Office for National Statistics data © Crown copyright and database right 2020. Daily and total case counts are as of 11 July 2020. Daily and total deaths are as of 10 July 2020.
+areaName United Kingdom
+totalLabConfirmedCases 288953
+dailyLabConfirmedCases 820
+
+
+lastUpdatedAt 2020-07-11T17:20:20.938429Z
+disclaimer Deaths and lab-confirmed case counts and rates for England and subnational areas are provided by Public Health England. All data for the rest of the UK are provided by the devolved administrations. Maps include Ordnance Survey data © Crown copyright and database right 2020 and Office for National Statistics data © Crown copyright and database right 2020. Daily and total case counts are as of 11 July 2020. Daily and total deaths are as of 10 July 2020.
+
+
+bass note = 87.21 Hz
+scaling = 0.5. freq prop. to (cases/max cases)**scaling
+England
+max cases =  4794
+C#2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C#2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2𝅘𝅥𝅯  C2♩ C2♩ C#2♩ C#2♩ C#2♩ D2♩ Eb2♩ C#2♩ Eb2♩ F2♩ F#2♩ F#2♪ F2♪ G2♩ F2♩ F#2♪ A2♩ C3♩ E3♩ F3♩ F3♪ Eb3♩ F3♩ Ab3♩ Bb3♩ D4♩ D4♪ E4♩ Eb4♪ F#4♩ D5♩ D5♪ F5♩ Ab5♩ Ab5♪ F#5♩ F#5♪ Eb6♩ F6♪ G6♪ G6♪ G6♪ D6♩ C6♪ A6♩ Bb6♪ Ab6♪ G6♪ Eb6♩ C6♩ B5♪ D6♩ Eb6♪ Ab6♩ A6♪ G6♪ G6♪ Eb6♩ E6♪ F#6♪ C7♩ Bb6♪ A6♪ D6♩ C6♪ G6♩ G6♪ B6♩ Ab6♪ G6♪ A5♩ Ab5♪ Bb5♪ C6♩ C#6♪ C#6♪ Ab5♩ C5♩ D5♩ C6♩ Bb5♪ Bb5♪ E5♩ E5♪ C5♩ Bb4♩ E5♩ Ab5♩ F#5♪ F5♪ C5♩ G4♩ F4♪ Ab4♩ A4♪ Bb4♩ Bb4♪ G4♩ Eb4♩ Eb4♪ G4♩ G4♪ F#4♪ F4♪ Eb4♩ B3♩ Bb3♪ Eb4♩ E4♪ E4♪ D4♩ D4♪ C4♩ B3♪ D4♩ Eb4♪ D4♪ D4♪ C4♩ A3♩ Ab3♩ C4♩ B3♩ B3♪ A3♩ A3♪ G3♩ F3♩ Bb3♩ Ab3♩ A3♪ Ab3♪ Ab3♪ E3♩ G3♩ A3♩ G3♩ G3♪ E3♩ E2♩ 
+
+bass note = 87.21 Hz
+scaling = 0.5. freq prop. to (cases/max cases)**scaling
+East Midlands
+max cases =  378
+Eb2♩ C2♩ C2♩ C2♩ Eb2♩ C2♩ C2♩ Eb2♩ Eb2𝅘𝅥𝅯  Eb2𝅘𝅥𝅯  E2♩ Ab2♩ E2♩ F2♩ Ab2♩ F#2♩ Eb2♩ A2♩ Bb2♩ Eb3♩ C#3♩ D3♩ C#3♩ Eb3♩ F3♩ F3♪ A3♩ C#4♩ Bb3♩ C#4♩ F#4♩ A4♩ B4♩ A4♩ D5♩ C5♩ D5♩ B4♩ Ab5♩ Eb6♩ F6♪ A5♩ C#6♩ F#5♩ C#5♩ A5♩ Bb5♪ F#5♩ B5♩ E5♩ E5♪ A5♩ E5♩ Ab5♩ A5♪ D6♩ C#6♪ G5♩ C6♩ F#5♩ A5♩ Ab6♩ D6♩ F6♪ C6♩ C6♪ G6♩ D6♩ C7♩ E6♩ E6𝅘𝅥𝅯  G5♩ E5♩ B5♩ E6♩ Ab6♩ F#6♪ D6♩ E5♩ G5♩ F#6♩ G6♪ F6♪ Bb5♩ C6♩ C#6♪ G5♩ D6♩ E6♪ Eb6♪ Eb6♪ B5♩ Eb5♩ C#5♩ F#5♩ Eb5♩ G5♩ F#5♪ E5♩ C5♩ C#5♪ A5♩ A5♪ E5♩ C5♩ D5♪ G4♩ B4♩ E5♩ F5♪ Eb5♪ F5♪ E5♪ B4♩ C#5♪ Eb5♩ Eb5♪ Eb5♪ E5♪ D5♪ C#5♪ B4♪ F5♩ E5♪ E5♪ Bb4♩ Ab4♪ E4♩ Eb4♪ B4♩ B4𝅘𝅥𝅯  A4♪ G4♩ G4♪ E4♩ Bb4♩ B4♪ F#4♩ E4♩ A3♩ F#2♩ 
+
+East of England
+max cases =  522
+D2♩ D2𝅘𝅥𝅯  Eb2♩ C2♩ D2♩ C2♩ F#2♩ F#2𝅘𝅥𝅯  D2♩ F2♩ E2♩ Eb2♩ F2♩ Bb2♩ A2♩ B2♩ Eb3♩ Bb2♩ Eb3♩ C3♩ E3♩ Bb3♩ G3♩ A3♩ B3♩ C#4♩ C5♩ A4♩ C5♩ D5♩ F5♩ B4♩ C#5♩ A5♩ B5♪ B5♪ D6♩ C#6♪ F#5♩ Ab5♪ Eb6♩ Eb6♪ F6♪ B5♩ Bb5♪ G5♩ F#5♪ Ab5♩ Ab5♪ A5♪ C6♩ D6♪ B5♪ Bb5♪ D6♩ E6♩ C7♩ A6♪ F#6♩ D6♩ C#6♪ B6♩ Ab6♪ A6♪ F#6♩ Bb6♩ A5♩ Bb5♪ Eb6♩ B5♩ Eb6♩ E6♪ Eb5♩ C#5♩ C#5♪ Eb6♩ Bb5♩ B5♪ D5♩ D5♪ Bb4♩ Ab4♩ Ab5♩ F5♩ E5♪ F5♪ C5♩ Ab4♩ D4♩ G4♩ Ab4♪ G4♪ Ab4♪ Ab4𝅘𝅥𝅯  Bb3♩ G3♩ F#4♩ F4♪ Eb4♪ C4♩ D4♩ C4♩ F#3♩ C#4♩ F#4♩ F4♪ Bb3♩ A3♪ C#4♩ Bb3♩ Eb4♩ Eb4♪ B3♩ B3♪ Bb3♩ D3♩ G3♩ Bb3♩ F3♩ Ab3♩ E3♩ Ab3♩ B2♩ C3♩ F#3♩ Eb3♩ E3♩ Ab3♩ Ab3♪ E3♩ Eb3♩ G3♩ D3♩ F#3♩ B2♩ Eb2♩ 
+
+London
+max cases =  1071
+C#2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C#2♩ Eb2♩ D2♩ D2𝅘𝅥𝅯  Eb2♩ C#2♩ Eb2♩ F#2♩ E2♩ G2♩ F#2♩ Ab2♩ F#2♩ Ab2♩ C#3♩ F3♩ C4♩ B3♪ A3♩ Bb3♪ B3♩ E4♩ Ab4♩ Bb4♩ A4♪ C#5♩ Bb4♩ D5♩ C6♩ Bb5♪ D6♩ D6♪ E6♪ Ab5♩ Ab5♪ F6♩ G6♪ A6♪ C7♪ A6♪ D6♩ Bb5♩ F6♩ Ab6♩ F#6♪ Eb6♪ A5♩ F5♩ F5♪ Ab5♩ A5♪ B5♪ Ab5♩ Ab5♪ C5♩ C5♪ D5♪ Eb5♪ C5♩ F5♩ B4♩ A4♩ Ab4♪ C#5♩ Ab4♩ D5♩ C#5♪ Bb4♩ E4♩ B3♩ E4♩ Eb4♪ F4♩ F#4♪ D4♩ Ab3♩ Ab3♪ B3♩ C#4♩ D4♪ Bb3♩ Ab3♩ Eb3♩ E3♪ G3♩ Ab3♩ Bb3♪ B3♪ E3♩ D3♩ C#3♩ C#3♩ D3♩ E3♩ Eb3♩ C#3♩ B2♩ B2𝅘𝅥𝅯  C3♩ C3♪ E3♩ C#3♩ C3♩ C3♪ C3♪ C#3♩ Eb3♩ C#3♩ C3♩ C#3♩ B2♩ Bb2♩ B2♩ C3♩ C3♪ C3♪ B2♩ A2♩ A2♪ C#3♩ C3♪ C3♪ C#3♩ C3♩ Bb2♩ Ab2♩ C#3♩ C#3♪ C3♩ Bb2♩ B2♩ Bb2♩ C3♩ C3♪ C#3♩ B2♩ Ab2♩ E2♩ 
+
+North East
+max cases =  383
+Eb2♩ C2♩ Eb2♩ E2♩ Eb2♩ E2♩ C2♩ F2♩ F#2♩ Eb2♩ E2♩ G2♩ G2𝅘𝅥𝅯  A2♩ Ab2♩ C3♩ B2♩ C#3♩ Eb3♩ D3♩ C#3♩ B3♩ D4♩ D4𝅘𝅥𝅯  F#4♩ F#4♪ Ab4♩ G4♪ E5♩ Ab5♩ F6♩ A5♩ C#6♩ C6♪ A5♩ B6♩ A6♪ E6♩ F#6♪ B5♩ D6♪ G5♩ Bb5♩ C#6♩ Eb6♩ E6♪ E6♪ B6♩ D6♩ F#6♩ E6♪ Bb6♩ G6♪ G6♪ Ab5♩ D5♩ Eb6♩ Bb6♩ Bb6𝅘𝅥𝅯  C7♪ D6♩ F5♩ Eb5♩ Bb5♩ C6♪ B5♪ G5♩ D5♩ C#5♪ C#5𝅘𝅥𝅯  Bb5♩ A5♪ C5♩ C5♪ B4♪ Bb4♪ F#4♩ C#5♩ Bb4♩ B4♪ Bb4♪ F4♩ D4♩ D4♪ B3♩ F#4♩ Ab4♩ A3♩ C#4♩ A3♩ Ab3♪ C#4♩ B3♩ A3♩ B3♩ G3♩ E3♩ C3♩ F3♩ G3♩ F#3♪ D3♩ G3♩ F3♩ F3𝅘𝅥𝅯  F3♪ C#3♩ C#3♪ D3♩ B2♩ C3♩ F#2♩ Eb3♩ Eb3♪ Bb2♩ Bb2♪ Ab2♩ B2♩ A2♩ Bb2♩ Bb2𝅘𝅥𝅯  Ab2♩ A2♩ Ab2♩ A2♩ F#2♩ Bb2♩ Bb2♪ Bb2♪ F#2♩ C2♩ 
+
+North West
+max cases =  911
+C#2♩ C2♩ F2♩ E2♩ F2♩ D2♩ F#2♩ D2♩ E2♩ E2♩ F2♩ G2♩ Ab2♩ C3♩ C3♪ A2♩ A2♪ D3♩ D3♪ F#3♩ G3♩ F#3♩ A3♩ A3♪ D4♩ G4♩ G4𝅘𝅥𝅯  C#5♩ C5♪ B4♪ C#5♩ Ab5♩ Bb5♪ C#6♩ Eb6♩ Eb6♪ C6♩ C#6♪ Bb6♩ G6♪ Bb6♪ Ab6♪ C6♩ C#6♪ G5♩ C#6♩ D6♪ E6♪ G6♩ B5♩ Bb6♩ C#6♩ Eb6♩ E6♪ C7♩ Bb6♪ F#6♩ Bb5♩ F5♩ C#6♩ E6♩ Ab6♩ G6♪ F6♪ E5♩ Ab5♩ F5♩ B5♩ C6♪ Ab5♩ G5♪ C5♩ C#5♪ A5♩ Bb5♪ A5♪ F5♩ Eb5♪ E5♪ Bb4♩ E5♩ B5♩ Ab5♩ F5♩ D5♩ A4♩ Ab4♪ Ab4♪ B4♩ Bb4♪ B4♩ Bb4♪ F4♩ F#4♪ Ab4♩ A4♪ G4♩ F#4♪ E4♩ Bb3♩ Bb3♪ C#4♩ F4♩ F4♪ D4♩ C#4♪ Bb3♩ C4♩ C#4♩ E4♩ D4♩ D4♪ C#4♪ A3♩ G3♩ C4♩ Bb3♩ C#4♩ Bb3♩ Ab3♩ G3♩ G3♪ Bb3♩ Ab3♩ A3♪ G3♩ G3♪ E3♩ Ab3♩ B3♩ F#3♩ G3♩ E3♩ Eb2♩ 
+
+South East
+max cases =  717
+D2♩ C2♩ C2♩ E2♩ D2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ D2♩ D2𝅘𝅥𝅯  C2♩ Eb2♩ Eb2𝅘𝅥𝅯  Eb2𝅘𝅥𝅯  D2♩ D2𝅘𝅥𝅯  F#2♩ F2♩ E2♩ Ab2♩ E2♩ G2♩ Bb2♩ C#3♩ Eb3♩ Ab3♩ E3♩ D3♩ E3♩ G3♩ A3♩ C4♩ C#4♪ C#4♪ C#4♪ F4♩ C#5♩ Bb4♩ Eb5♩ E5♪ E5♪ F5♪ D5♩ C6♩ C6♪ E6♩ C#6♩ Eb6♪ B5♩ Bb5♪ F#6♩ C7♩ F6♩ Eb6♪ F6♩ G5♩ C#6♩ F6♩ E6♪ B6♩ A6♪ B6♪ Eb6♩ A5♩ C#6♩ Ab6♩ Bb6♪ Bb6♪ A6♪ D6♩ D6♪ E6♩ A6♩ Bb6♪ A6♪ Eb6♩ A5♩ F#5♩ C#6♩ C6♪ B5♪ A5♪ F#5♩ B4♩ Eb5♩ C#6♩ A5♩ C#6♩ D5♩ C5♩ G4♩ A4♩ F#5♩ G5♪ F5♩ Eb5♩ B4♩ C4♩ Eb4♩ F#4♩ F#4♪ G4♩ G4♪ E4♩ C#4♩ C#4♪ F#4♩ A4♩ D4♩ E4♩ D4♩ Ab3♩ F3♩ C4♩ B3♪ C#4♩ A3♩ Ab3♪ F#3♩ G3♪ Bb3♩ A3♪ Ab3♩ G3♪ G3♪ F#3♩ F#3♪ G3♩ F3♩ D3♩ F#3♩ F#3𝅘𝅥𝅯  E3♩ Eb3♩ G3♩ E3♩ F#3♩ F3♩ F#3♪ C3♩ E3♩ D3♩ E3♩ F3♩ C3♩ F2♩ 
+
+South West
+max cases =  348
+Eb2♩ Eb2𝅘𝅥𝅯  C2♩ C2♩ F2♩ A2♩ Bb2♩ G2♩ F#2♩ Bb2♩ E2♩ F2♩ G2♩ Bb2♩ D3♩ Eb3♩ F3♩ B2♩ C#3♩ C#3♪ D3♩ A3♩ D3♩ A3♩ Ab3♪ A3♪ C#4♩ D4♪ Ab4♩ B4♩ C5♪ Ab4♩ Ab4♪ F5♩ D5♩ G5♩ G5𝅘𝅥𝅯  G5♪ F#5♪ Eb5♩ G5♩ Bb5♩ C#6♩ D6♪ C#6♪ F#5♩ G5♪ Ab5♪ G5♪ Bb5♩ E6♩ C#6♪ F5♩ A5♩ G5♪ C6♩ F#6♩ F6♪ D6♩ A5♩ Eb6♩ A6♩ F6♩ C7♩ D6♩ E6♪ Bb5♩ F#5♩ F5♪ F#5♪ A5♩ G5♩ F#5♪ A4♩ C#5♩ Eb6♩ F#5♩ F#5♪ G4♩ Ab4♩ F#4♩ G4♪ B4♩ A4♪ C#5♩ F#4♩ F4♪ Ab3♩ C4♩ C#4♪ F4♩ Ab4♩ Bb4♪ Eb4♩ Bb3♩ C#4♩ B3♩ Bb3♪ D4♩ D4♪ B3♩ Eb3♩ D3♩ Eb3♩ E3♪ F3♩ E3♩ D3♩ C3♩ A2♩ D3♩ C3♩ C3♪ B2♩ Eb3♩ A2♩ A2𝅘𝅥𝅯  D3♩ C3♩ C3♪ A2♩ B2♩ A2♩ Bb2♩ C3♩ C#3♩ Eb3♩ Bb2♩ A2♩ A2♩ C#3♩ D3♩ C3♩ A2♩ A2♩ C2♩ 
+
+West Midlands
+max cases =  578
+Eb2♩ E2♩ D2♩ E2♩ F#2♩ Eb2♩ F2♩ E2♩ G2♩ Bb2♩ C#3♩ E3♩ Eb3♩ C#3♩ E3♩ F#3♩ Ab3♩ C4♩ Eb4♩ F#4♩ Eb4♩ D4♩ D5♩ Eb5♪ D5♪ Ab5♩ F5♩ Ab5♩ B5♩ Eb6♩ D6♪ D6♪ E6♪ C6♩ Bb5♪ F#5♩ B5♩ C#6♪ B5♪ Bb5♪ B5♪ Eb5♩ D5♪ F5♩ Ab5♩ C#6♩ Ab6♩ E6♩ Bb6♩ Bb5♩ C#6♩ G6♩ C7♩ Bb6♪ F#6♩ C#6♩ Ab5♩ D6♩ C6♪ E6♩ E6♪ F#6♪ Ab5♩ G5♪ D5♩ Ab5♩ Ab5♪ B5♩ Bb5♪ G4♩ C5♩ Eb5♩ G5♩ D5♩ E5♪ E5♪ A4♩ Ab4♪ B4♩ F5♩ Eb5♪ C#5♩ Bb4♩ F#4♩ E4♪ F4♪ F#4♪ Bb4♩ G4♩ G4𝅘𝅥𝅯  D4♩ A3♩ Eb4♩ E4♪ Eb4♪ F4♪ C#4♩ A3♩ G3♩ Eb4♩ C#4♩ B3♪ C4♪ A3♩ B3♩ A3♩ C#4♩ C#4♪ Bb3♩ Bb3♪ F3♩ F3♪ Eb3♩ Ab3♩ F#3♩ F#3♪ F#3♪ Ab3♩ E3♩ C3♩ F#3♩ F3♩ F3♪ F#3♪ Eb3♩ B2♩ D3♩ F3♩ F#3♩ F#3♪ B3♩ Eb2♩ 
+
+Yorkshire and The Humber
+max cases =  712
+D2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ D2♩ C2♩ C2♩ C2♩ C2♩ C2♩ C2♩ D2♩ Eb2♩ C2♩ Eb2♩ Eb2♩ E2♩ Eb2♩ Eb2𝅘𝅥𝅯  Eb2𝅘𝅥𝅯  F2♩ Eb2♩ F2♩ A2♩ G2♩ Ab2♩ G2♩ G2𝅘𝅥𝅯  G2♩ B2♩ C3♩ Eb3♩ E3♩ F3♪ G3♩ A3♩ Eb4♩ E4♪ Eb4♪ F#4♩ Eb4♩ Ab4♩ Bb4♩ C#5♩ E5♩ D5♪ Bb4♩ D5♩ Ab4♩ A4♪ E5♩ F5♪ E5♪ Eb5♪ D5♪ C5♩ C5♪ E5♩ Eb5♪ C6♩ G5♩ F#5♪ F#5♪ A5♩ A5♪ F#5♩ F6♩ B5♩ F#6♩ A5♩ Bb5♪ D6♩ C#6♪ C7♩ F#6♩ Ab6♪ Ab5♩ Ab5♪ F#5♪ B5♩ A5♪ C6♩ F#5♩ B4♩ D5♩ Bb5♩ G5♩ A5♪ F#5♩ F5♪ C5♩ B4♪ C5♪ Ab5♩ D5♩ G5♩ C5♩ Bb4♩ Ab4♩ B4♩ Bb4♪ B4♪ C#5♪ G4♩ E4♩ F4♪ G4♪ G4♪ Ab4♪ F#4♩ Eb4♩ C4♩ Eb4♩ F#4♩ F4♪ A4♩ G4♩ B4♩ G4♩ E4♩ F#4♩ A4♩ Bb4♪ C5♩ G4♩ E4♩ C4♩ E4♩ F4♪ E4♪ D4♪ Eb4♪ Eb4♪ Bb3♩ C#4♩ B3♩ C#4♩ Bb3♩ B3♪ G3♩ A3♩ C4♩ A3♩ Bb3♩ E3♩ F2♩ 
+
+bass note = 130.815 Hz
+scaling = 0.5. freq prop. to (cases/max cases)**scaling
+Barking and Dagenham
+max cases =  26
+A3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ A3𝅘𝅥𝅯  C3♩ A3♩ F#4♩ A3♩ C#4♩ F#4♩ F#4𝅘𝅥𝅯  A4♩ A4𝅘𝅥𝅯  F#4♩ E5♩ F5♩ C5♩ G5♩ Ab5♪ G5♪ C5♩ Ab5♩ G5♪ G5𝅘𝅥𝅯  G5𝅘𝅥𝅯  F6♩ Ab6♩ C7♩ Eb6♩ D6♪ F6♩ Ab5♩ Ab6♩ Ab6𝅘𝅥𝅯  C6♩ G5♩ E5♩ Eb6♩ Eb6𝅘𝅥𝅯  B5♩ Ab5♩ Ab5𝅘𝅥𝅯  F5♩ C5♩ C6♩ C5♩ B5♩ E5♩ G5♩ E4♩ C5♩ F5♩ D5♩ B4♩ C5♩ A4♩ G5♩ B4♩ D5♩ F#4♩ B4♩ F#4♩ B4♩ B4𝅘𝅥𝅯  F#4♩ C5♩ C5𝅘𝅥𝅯  E4♩ G5♩ C#4♩ A3♩ C#4♩ A3♩ C#4♩ A4♩ F#4♩ F#4𝅘𝅥𝅯  A3♩ C#4♩ C3♩ E4♩ F#4♩ C3♩ F#4♩ C3♩ C3♩ C3♩ C#4♩ A3♩ F#4♩ C#4♩ C3♩ C3♩ C3♩ A3♩ C3♩ C3♩ A3♩ E4♩ C#4♩ A3♩ A3𝅘𝅥𝅯  C3♩ C#4♩ C3♩ C3♩ C3♩ C#4♩ A3♩ A3𝅘𝅥𝅯  F#4♩ C#4♩ E4♩ A3♩ C3♩ C#4♩ C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ E4♩ C3♩ C3♩ 
+
+Barnet
+max cases =  66
+F3♩ F3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ B3♩ F3♩ F3𝅘𝅥𝅯  C3♩ F3♩ Bb3♩ Bb3𝅘𝅥𝅯  G4♩ C#4♩ D4♩ D4𝅘𝅥𝅯  F#4♩ G4♩ Eb4♩ Bb4♩ F#5♩ Eb5♩ C#5♩ F#5♩ Ab5♩ C6♩ E6♩ G6♩ G6♪ Bb5♩ Ab5♩ D6♩ Eb6♪ B5♩ C7♩ B5♩ C6♪ C#6♪ C6♪ Eb6♩ F6♪ Bb5♩ Eb5♩ D5♪ C#5♩ E5♩ Eb5♪ E5♩ D5♩ Eb5♪ Bb4♩ Eb5♩ Bb4♩ F#5♩ G4♩ C#5♩ C5♩ G4♩ C5♩ D5♩ F5♩ C5♩ C#5♩ F#4♩ F4♩ C#4♩ Ab4♩ Bb4♩ F#4♩ A4♩ Eb4♩ C#4♩ E4♩ D4♩ G4♩ Bb4♩ C#4♩ C#4𝅘𝅥𝅯  Ab3♩ D4♩ F4♩ F4𝅘𝅥𝅯  F#4♩ E4♩ Bb3♩ F3♩ Ab3♩ F3♩ B3♩ F4♩ B3♩ Bb3♩ F3♩ F3𝅘𝅥𝅯  F3𝅘𝅥𝅯  Bb3♩ Bb3𝅘𝅥𝅯  F3♩ F3𝅘𝅥𝅯  Ab3♩ Ab3𝅘𝅥𝅯  F3♩ C3♩ Ab3♩ F3♩ F3𝅘𝅥𝅯  Ab3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  F3♩ C3♩ C3♩ F3♩ C3♩ C3♩ C3♩ Ab3♩ Bb3♩ C3♩ F3♩ Bb3♩ F3♩ Ab3♩ F3♩ F3𝅘𝅥𝅯  F3𝅘𝅥𝅯  Bb3♩ F3♩ Ab3♩ F3♩ Ab3♩ C3♩ 
+
+Barnsley
+max cases =  41
+G3♩ Bb3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ G3♩ C3♩ C3♩ Bb3♩ G3♩ C3♩ Bb3♩ C4♩ E4♩ G3♩ D4♩ G4♩ Eb5♩ F5♩ B4♩ Bb5♩ F5♩ E5♪ Eb5♪ F5♩ G6♩ D6♩ E5♩ Bb4♩ C#5♩ Bb3♩ Eb5♩ B5♩ F5♩ Ab5♩ C#6♩ C#6𝅘𝅥𝅯  Bb5♩ G6♩ Eb6♩ Eb5♩ C#5♪ Ab5♩ F5♩ E6♩ B5♩ E5♩ G6♩ B5♩ F5♩ C#6♩ A5♩ E6♩ F#6♩ Ab6♩ E6♩ Ab6♩ D6♩ G6♩ Ab6♪ Eb5♩ F6♩ F5♩ E5♩ Eb5♪ C#6♩ F5♩ Bb4♩ C#6♩ Ab6♩ C7♩ C5♩ C5𝅘𝅥𝅯  C#5♪ F#5♩ F5♪ E5♩ F5♩ F5𝅘𝅥𝅯  C#5♩ F6♩ C#5♩ B4♩ F5♩ E5♩ Bb4♩ E4♩ C5♩ F5♩ F5𝅘𝅥𝅯  A4♩ Ab5♩ A5♪ F#5♩ Eb5♩ Ab5♩ F5♩ Ab5♩ B4♩ A5♩ Eb5♩ B5♩ A4♩ A5♩ B5♩ F6♩ F5♩ F5♪ Ab5♩ F5♩ F5♪ C#5♩ C#5𝅘𝅥𝅯  Eb5♪ C5♩ G4♩ Bb4♩ F#4♩ Bb4♩ F#4♩ F#4𝅘𝅥𝅯  D4♩ D4𝅘𝅥𝅯  G4♩ G3♩ G3𝅘𝅥𝅯  C3♩ 
+
+Bath and North East Somerset
+max cases =  16
+C4♩ E4♩ C4♩ C3♩ C3♩ C4♩ C3♩ D5♩ Ab4♩ Ab4𝅘𝅥𝅯  C4♩ E4♩ C5♩ Ab4♩ C5♩ D5♩ C5♩ E4♩ F5♩ D5♩ C3♩ D5♩ C5♩ C5𝅘𝅥𝅯  C4♩ D5♩ Eb6♩ G5♩ A5♩ Eb6♩ C7♩ C#6♩ E4♩ F5♩ C6♩ A5♩ D5♩ F5♩ D5♩ C#6♩ Ab4♩ D5♩ C6♩ F5♩ A5♩ Ab4♩ G5♩ C5♩ Ab4♩ A5♩ C#6♩ F5♩ A5♩ C5♩ Ab4♩ C5♩ Ab4♩ E4♩ E4𝅘𝅥𝅯  C3♩ C5♩ G5♩ E4♩ C4♩ C4𝅘𝅥𝅯  C3♩ Ab4♩ Ab4𝅘𝅥𝅯  C3♩ C3♩ F5♩ D5♩ E4♩ C4♩ C3♩ C4♩ C3♩ E4♩ C4♩ C4𝅘𝅥𝅯  E4♩ Ab4♩ C4♩ C3♩ C4♩ C3♩ C3♩ C3♩ C4♩ C3♩ C3♩ C3♩ C3♩ C3♩ E4♩ C3♩ Ab4♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ 
+
+Bedford
+max cases =  34
+Ab3♩ C3♩ C3♩ C3♩ B3♩ B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  C3♩ Ab3♩ F#4♩ Eb5♩ B4♩ Ab4♩ C5♩ G5♩ F#4♩ D4♩ A4♩ F5♩ E5♪ E5𝅘𝅥𝅯  C6♩ F#4♩ Ab4♩ F5♩ Ab5♩ C6♩ C#6♪ Ab5♩ D5♩ D5𝅘𝅥𝅯  Ab5♩ C6♩ F5♩ C6♩ A5♩ F5♩ F#4♩ B4♩ Eb6♩ G5♩ C7♩ F#5♩ F#4♩ A4♩ C7♩ F5♩ F6♩ D6♩ D5♩ D5𝅘𝅥𝅯  Eb6♩ Bb5♩ F#5♩ F5♪ A6♩ F5♩ A4♩ C5♩ Eb5♩ G5♩ C6♩ F#5♩ E5♩ D5♩ F#5♩ A5♩ F5♩ A5♩ C#6♩ G5♩ C5♩ A4♩ E4♩ F#5♩ F5♪ C5♩ D6♩ E4♩ B3♩ E5♩ C5♩ F#5♩ A4♩ Eb5♩ F#4♩ B4♩ Bb5♩ F5♩ Ab5♩ A4♩ E5♩ C5♩ E4♩ C#6♩ F#5♩ Eb5♩ E5♪ D5♩ B3♩ Eb5♩ D5♪ C3♩ C5♩ Ab4♩ E4♩ D4♩ E4♩ F#4♩ Ab4♩ A4♩ Ab4♩ B3♩ E4♩ Ab4♩ Ab3♩ B3♩ Ab3♩ C3♩ C3♩ 
+
+Bexley
+max cases =  48
+A3♩ A3𝅘𝅥𝅯  C#4♩ Eb4♩ C#4♩ C4♩ F#3♩ C#4♩ E4♩ E4𝅘𝅥𝅯  Eb4♩ Ab4♩ C#4♩ A4♩ E5♩ C5♩ F#5♩ Bb4♩ F#5♩ A4♩ C#5♩ D5♪ G5♩ C#6♩ C6♩ D6♩ C6♪ F#5♩ A5♩ C7♩ Eb5♩ F5♩ F#5♩ Eb5♩ Bb4♩ C5♪ Bb5♩ F#5♩ A5♩ F#5♩ A4♩ Ab5♩ C#5♩ D5♪ F5♩ C#5♩ F#5♩ D5♩ E4♩ C#5♩ D5♪ E5♩ Eb5♪ E5♪ E5𝅘𝅥𝅯  G4♩ Ab4♩ E4♩ C#5♩ Bb4♩ G4♩ C#4♩ G4♩ F#4♩ Bb4♩ E4♩ Bb4♩ A3♩ F#3♩ E4♩ G4♩ C4♩ E4♩ D5♩ G4♩ A3♩ F#3♩ C3♩ Eb4♩ C4♩ E4♩ F#3♩ Eb4♩ C4♩ A3♩ A3𝅘𝅥𝅯  C#4♩ C3♩ F#3♩ C3♩ C4♩ A3♩ C4♩ C4𝅘𝅥𝅯  F#3♩ A3♩ F#3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ F#3♩ C4♩ C#4♩ F#3♩ F#3𝅘𝅥𝅯  A3♩ C3♩ C4♩ F#3♩ C3♩ F#3♩ C3♩ C#4♩ F#3♩ A3♩ C3♩ C3♩ C#4♩ F#3♩ F#3𝅘𝅥𝅯  C4♩ F#3♩ C3♩ 
+
+Birmingham
+max cases =  132
+E3♩ E3𝅘𝅥𝅯  C3♩ C3♩ E3♩ C3♩ C3♩ E3♩ E3𝅘𝅥𝅯  Ab3♩ Bb3♩ B3♩ Eb4♩ B3♩ D4♩ E4♩ Ab4♩ B4♩ C5♪ F#5♩ Bb4♩ A4♩ A5♩ Bb5♪ Ab5♪ E6♩ Bb5♩ C#6♩ G6♩ Bb6♩ C7♪ G6♩ F#6♪ C#6♩ D6♪ B5♩ A5♩ C6♩ C6𝅘𝅥𝅯  F5♩ Ab5♩ C5♩ E5♩ C#5♩ B5♩ C6♪ Ab6♩ F6♩ G6♩ A5♩ Ab5♪ D6♩ G6♩ Eb6♩ B5♩ A5♩ F5♩ G5♩ Eb5♩ B5♩ C6♪ C#6♪ D5♩ F#5♩ A4♩ F#5♩ D5♩ E5♩ G5♩ C#5♩ C#5♪ D5♩ C#5♪ E5♩ C#5♩ Eb5♩ B4♩ F#4♩ A4♩ B4♩ Bb4♪ Ab4♩ A4♩ G4♩ Ab4♪ E4♩ B4♩ Bb4♪ A4♩ F4♩ F4𝅘𝅥𝅯  F4♪ Eb4♩ E4♩ F4♪ F#4♩ F#4♪ Eb4♩ C4♩ G4♩ F#4♪ B3♩ C4♩ F4♩ B3♩ E4♩ Bb4♩ F#4♩ F4♩ E4♩ C4♩ B3♩ Eb4♩ F4♩ F#4♩ C#4♩ C#4♪ C4♩ A3♩ B3♩ B3♩ Eb4♩ B3♩ F#4♩ C4♩ B3♩ Bb3♩ D4♩ Bb3♩ B3♩ G3♩ C3♩ 
+
+Blackburn with Darwen
+max cases =  43
+G3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Bb3♩ C3♩ G3♩ C4♩ D4♩ G3♩ Bb3♩ D4♩ D4𝅘𝅥𝅯  Ab4♩ Ab4𝅘𝅥𝅯  Ab4𝅘𝅥𝅯  Ab4𝅘𝅥𝅯  C#5♩ A4♩ B4♩ Ab4♩ B4♩ Eb5♩ C#5♩ F#5♩ C#5♩ B4♩ C#5♩ C5♪ F5♩ B4♩ C5♩ E4♩ G5♩ A4♩ A4𝅘𝅥𝅯  D5♩ Eb5♪ B5♩ C#5♩ G4♩ A4♩ G5♩ F5♩ Ab5♩ G5♪ E5♩ D4♩ A4♩ E5♩ C#5♩ Ab5♩ F#5♩ B4♩ F5♩ G4♩ C#5♩ B5♩ C#5♩ D5♪ A4♩ A4𝅘𝅥𝅯  E4♩ D5♩ C#5♪ Eb5♩ Ab5♩ C7♩ A4♩ F4♩ C4♩ A4♩ E4♩ C5♩ D5♩ G4♩ Bb3♩ D4♩ A4♩ D5♩ D4♩ D5♩ C#5♪ D4♩ Bb3♩ D4♩ C4♩ D4♩ A4♩ D4♩ C4♩ D4♩ Bb3♩ C#5♩ A4♩ E4♩ F4♩ C5♩ D4♩ Ab4♩ A4♩ C4♩ Bb3♩ C3♩ B4♩ C4♩ C4𝅘𝅥𝅯  G4♩ E5♩ F4♩ C4♩ G4♩ D5♩ E4♩ A4♩ C#5♩ G3♩ 
+
+Blackpool
+max cases =  29
+Ab3♩ C3♩ Ab3♩ C3♩ Ab3♩ C3♩ Ab3♩ C4♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  F4♩ C4♩ G4♩ F4♩ A4♩ F#5♩ G4♩ C#6♩ C#5♩ A5♩ Eb4♩ A4♩ E5♩ Ab5♩ F5♩ C6♩ Bb5♩ F5♩ Bb5♩ C#5♩ Ab5♩ B5♩ Eb6♩ Bb6♩ C7♪ F6♩ G6♪ D6♩ F#6♩ E6♪ A5♩ F5♩ F6♩ B6♩ C6♩ D6♩ E5♩ C#5♩ Bb5♩ D5♩ Ab5♩ A6♩ D5♩ E5♩ B5♩ C#5♩ F5♩ E5♪ F#5♩ D5♩ A4♩ D5♩ C#5♩ E5♩ F6♩ F#6♪ F#6𝅘𝅥𝅯  F#5♩ Bb5♩ D5♩ F#5♩ D5♩ F#5♩ E5♩ F5♩ C#5♩ A4♩ G4♩ Eb4♩ Ab5♩ A4♩ A4𝅘𝅥𝅯  A4𝅘𝅥𝅯  C#5♩ Eb4♩ D5♩ F5♩ Eb4♩ Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  Ab3♩ Eb4♩ C4♩ C4𝅘𝅥𝅯  C4𝅘𝅥𝅯  Eb4♩ Eb4𝅘𝅥𝅯  C3♩ C4♩ C4𝅘𝅥𝅯  G4♩ A4♩ F4♩ Ab3♩ C4♩ C3♩ C3♩ Ab3♩ F4♩ Eb4♩ C3♩ Ab3♩ C4♩ C3♩ C4♩ Ab3♩ C3♩ 
+
+Bolton
+max cases =  51
+F#3♩ C3♩ C3♩ C3♩ F#3♩ C3♩ F#3♩ C3♩ C3♩ C3♩ A3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ A3♩ B3♩ F#3♩ B3♩ A3♩ A3𝅘𝅥𝅯  F#3♩ B3♩ A3♩ Eb4♩ Eb4𝅘𝅥𝅯  E4♩ F4♩ Bb4♩ B3♩ Eb5♩ G5♩ A5♩ Eb5♩ Eb6♩ Ab5♩ D5♩ D6♩ Ab5♩ A6♩ G6♪ C6♩ C6♪ A5♩ Eb6♩ C#6♩ G6♩ E6♪ Bb5♩ Eb6♩ E6♪ B5♩ C6♪ C7♩ E6♩ D6♩ D5♩ D5𝅘𝅥𝅯  D5♪ G6♩ Ab6♪ C6♩ Eb6♩ Eb5♩ F#5♩ Eb5♩ A5♩ C6♩ C5♩ C#5♪ F4♩ E5♩ F#5♩ Eb5♩ Bb4♩ C#5♩ Ab5♩ G5♪ C#5♩ E5♩ D6♩ E5♩ B4♩ A4♩ A4𝅘𝅥𝅯  G4♩ Ab4♩ C#5♩ G5♩ D5♩ A4♩ Ab4♩ F4♩ B4♩ C5♪ C6♩ C5♩ E4♩ F#3♩ C#4♩ B3♩ E4♩ Ab4♩ Bb4♩ C#4♩ E4♩ C#4♩ E4♩ Eb4♩ B4♩ E4♩ A3♩ Ab4♩ E4♩ C#5♩ D5♪ D5𝅘𝅥𝅯  F4♩ Ab4♩ F4♩ F#3♩ C#5♩ G4♩ E4♩ C#4♩ Ab4♩ G4♩ E4♩ D5♩ C#4♩ Eb4♩ B3♩ C3♩ 
+
+Bournemouth, Christchurch and Poole
+max cases =  38
+B3♩ G3♩ C3♩ C3♩ C3♩ B3♩ C3♩ C#4♩ C3♩ G3♩ C3♩ C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ C#4♩ G3♩ G3𝅘𝅥𝅯  F4♩ F4𝅘𝅥𝅯  B4♩ B4𝅘𝅥𝅯  Ab4♩ G4♩ E5♩ G4♩ F#5♩ D5♩ C#5♪ Bb4♩ D5♩ A5♩ A5♪ F#5♩ Ab5♩ C6♩ Ab4♩ C6♩ F5♩ A5♩ B4♩ Eb6♩ E5♩ E5𝅘𝅥𝅯  Bb4♩ B4♩ Ab5♩ Ab4♩ B4♩ B4𝅘𝅥𝅯  F4♩ C7♩ A6♩ B5♩ F6♩ Bb5♩ F#6♩ C#5♩ B4♩ Ab5♩ D5♩ B4♩ B4𝅘𝅥𝅯  Bb4♩ E5♩ C5♩ B4♩ Ab5♩ Eb4♩ Eb4𝅘𝅥𝅯  B3♩ G4♩ Eb4♩ C#4♩ B4♩ C#4♩ Bb4♩ G3♩ B3♩ Eb4♩ G3♩ G3𝅘𝅥𝅯  Eb4♩ Bb4♩ Ab4♩ B3♩ B3𝅘𝅥𝅯  C3♩ C3♩ G3♩ B3♩ B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  G3♩ C3♩ C3♩ C3♩ G3♩ G3𝅘𝅥𝅯  C3♩ G3♩ C#4♩ C3♩ C3♩ G3♩ C3♩ C3♩ C3♩ B3♩ B3𝅘𝅥𝅯  C3♩ G3♩ C3♩ C3♩ G3♩ C3♩ B3♩ C3♩ C3♩ C3♩ B3♩ G3♩ G3𝅘𝅥𝅯  C3♩ B3♩ C3♩ 
+
+Bracknell Forest
+max cases =  16
+C4♩ C3♩ C3♩ C3♩ C3♩ C3♩ E4♩ C3♩ C3♩ C3♩ C3♩ C3♩ C4♩ C4𝅘𝅥𝅯  C4𝅘𝅥𝅯  C3♩ C4♩ C4𝅘𝅥𝅯  D5♩ E4♩ E4𝅘𝅥𝅯  C4♩ Ab4♩ Ab4𝅘𝅥𝅯  E4♩ D5♩ C5♩ Ab4♩ C6♩ C#6♩ Ab4♩ C#6♩ G5♩ C5♩ C5𝅘𝅥𝅯  Eb6♩ C#6♪ Ab4♩ C5♩ C#6♩ G5♩ C7♩ C#6♩ D5♩ D5𝅘𝅥𝅯  A5♩ G5♩ Ab4♩ F5♩ F5𝅘𝅥𝅯  C6♩ C#6♩ D5♩ E4♩ G5♩ C6♩ D5♩ D5𝅘𝅥𝅯  C5♩ Ab4♩ C5♩ Ab4♩ D5♩ E4♩ Ab4♩ D5♩ Ab4♩ G5♩ Ab4♩ C5♩ C4♩ C3♩ C4♩ D5♩ D5𝅘𝅥𝅯  Ab4♩ C4♩ Eb6♩ C5♩ C5𝅘𝅥𝅯  C5𝅘𝅥𝅯  C3♩ C4♩ D5♩ C3♩ C4♩ E4♩ C4♩ Ab4♩ E4♩ F5♩ C4♩ C3♩ E4♩ C4♩ C3♩ C4♩ E4♩ C4♩ C4𝅘𝅥𝅯  C4𝅘𝅥𝅯  C4𝅘𝅥𝅯  E4♩ C3♩ C3♩ C4♩ Ab4♩ C3♩ C3♩ C4♩ C3♩ C3♩ C3♩ C3♩ C3♩ C4♩ C4𝅘𝅥𝅯  C3♩ C3♩ C3♩ E4♩ C3♩ C3♩ C3♩ C3♩ C3♩ E4♩ E4𝅘𝅥𝅯  C4♩ C3♩ 
+
+Bradford
+max cases =  110
+E3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ E3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F#3♩ C3♩ F#3♩ C3♩ F#3♩ C3♩ C3♩ G3♩ F#3♩ C3♩ F#3♩ G3♩ G3𝅘𝅥𝅯  B3♩ C#4♩ C4♩ D4♩ Ab4♩ F4♩ Ab4♩ A4♩ Ab4♩ Ab4♪ G4♪ Bb4♩ Ab4♩ C5♩ Eb5♩ D5♪ Eb5♪ C#5♩ Ab4♩ G4♪ C5♩ G4♩ A4♩ Ab5♩ Eb5♩ E5♪ Eb5♪ Eb5♪ D5♪ Eb5♪ A5♩ G5♪ C6♩ G5♩ E5♩ E5♪ Bb5♩ F#6♩ F#5♩ F6♩ D5♩ E5♩ F5♪ E5♪ A5♩ Bb5♪ B5♪ E5♩ E5♪ C#6♩ C6♪ F6♩ C6♩ F#5♩ Eb5♩ A4♩ F#5♩ C7♩ C#6♩ C6♪ Bb4♩ E5♩ G4♩ C#5♩ Eb5♩ G5♩ E5♩ E5♪ F5♪ E5♪ F#5♩ Eb5♩ F#5♩ F#5♪ F5♪ C#5♩ C#5♪ Bb5♩ F#5♩ D6♩ D5♩ E6♩ E5♩ A5♩ A5♪ Ab5♪ C#6♩ F6♩ F5♩ F5♪ Eb5♩ C5♩ Ab5♩ F5♩ E5♪ F5♪ F#5♪ G4♩ D5♩ G4♩ D5♩ Bb4♩ C5♩ Ab4♩ A4♪ G5♩ Ab4♩ C5♩ F4♩ F#3♩ 
+
+Brent
+max cases =  59
+F#3♩ F#3𝅘𝅥𝅯  Bb3♩ C4♩ G4♩ F#4♩ Bb3♩ E4♩ F4♩ G4♩ F5♩ E5♪ F5♪ E5♪ D5♩ G5♩ F#6♩ A5♩ F#6♩ F6♪ G6♪ B5♩ A6♩ B6♪ F#6♩ Bb6♩ C7♪ A6♪ G6♪ D6♩ D6𝅘𝅥𝅯  A5♩ E6♩ A5♩ Eb6♩ F5♩ Ab5♩ G5♪ C6♩ Bb5♩ Eb6♩ C#6♩ A5♩ E5♩ C5♩ Eb5♩ C#5♩ C#5𝅘𝅥𝅯  C5♪ B4♩ Bb4♪ Eb5♩ Eb5♪ D5♪ Eb5♪ D5♪ F#4♩ C4♩ F4♩ Eb4♩ F4♩ F4𝅘𝅥𝅯  Eb5♩ F4♩ Bb3♩ F4♩ E4♩ C4♩ E4♩ Bb3♩ F#3♩ Bb3♩ C#4♩ Ab4♩ G4♪ Bb3♩ C#4♩ Bb3♩ C4♩ F#3♩ F#3𝅘𝅥𝅯  Ab3♩ Ab3𝅘𝅥𝅯  F#3♩ Eb4♩ Eb4𝅘𝅥𝅯  C3♩ F#3♩ Ab3♩ Ab3𝅘𝅥𝅯  Eb4♩ Bb3♩ Ab3♩ F#3♩ C4♩ C4𝅘𝅥𝅯  C4𝅘𝅥𝅯  Bb3♩ Bb3𝅘𝅥𝅯  C3♩ Bb3♩ C4♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  Ab3♩ C4♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  C#4♩ C4♩ C3♩ Ab3♩ F#3♩ Ab3♩ Ab3𝅘𝅥𝅯  F#3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C4♩ C4𝅘𝅥𝅯  F#3♩ F#3𝅘𝅥𝅯  C3♩ 
+
+Brighton and Hove
+max cases =  20
+Bb3♩ C3♩ C3♩ F#4♩ Bb3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Bb3♩ C3♩ C3♩ Bb3♩ C3♩ C3♩ Eb4♩ C3♩ C3♩ Eb4♩ C3♩ Eb4♩ Eb4𝅘𝅥𝅯  C3♩ A4♩ Eb4♩ F#4♩ F#4𝅘𝅥𝅯  F#4𝅘𝅥𝅯  A4♩ E5♩ D5♩ Ab5♩ C#6♩ F#5♩ Ab5♩ D5♩ D5𝅘𝅥𝅯  Bb6♩ D6♩ B5♩ D6♩ B5♩ A5♪ F#6♩ C7♩ D5♩ D6♩ F#5♩ C#6♩ B5♪ Ab6♩ A6♪ D6♩ F6♩ F6𝅘𝅥𝅯  B5♩ Ab5♩ B5♩ Ab6♩ C#6♩ E5♩ B5♩ C#6♪ C5♩ A6♩ Bb6♪ E5♩ F#5♩ A4♩ C#6♩ D5♩ B5♩ F#5♩ A4♩ E5♩ Eb4♩ A4♩ E5♩ C5♩ D5♩ A4♩ E5♩ Eb4♩ A4♩ Eb4♩ D5♩ C5♩ C5𝅘𝅥𝅯  C5𝅘𝅥𝅯  F#4♩ C5♩ C5𝅘𝅥𝅯  D6♩ C#6♪ D5♩ A4♩ B5♩ D5♩ Ab5♩ Ab5𝅘𝅥𝅯  B5♩ D5♩ D5𝅘𝅥𝅯  C5♩ F#4♩ F#4𝅘𝅥𝅯  A4♩ F#4♩ E5♩ A4♩ Bb3♩ F#4♩ C3♩ Eb4♩ C3♩ Eb4♩ A4♩ F#4♩ A4♩ Bb3♩ Eb4♩ Bb3♩ Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  A4♩ Bb3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Bb3♩ Eb4♩ C3♩ 
+
+Bristol, City of
+max cases =  39
+G3♩ C3♩ C3♩ G3♩ G3𝅘𝅥𝅯  C3♩ C3♩ G3♩ C3♩ G3♩ C#4♩ Bb3♩ G3♩ C3♩ Eb4♩ Ab4♩ Bb3♩ Eb4♩ A4♩ F4♩ B4♩ Eb4♩ D5♩ E5♩ E5𝅘𝅥𝅯  C5♩ D5♩ G5♩ Ab5♪ G5♪ F5♩ Bb5♩ C5♩ E5♩ Eb5♪ C6♩ E6♩ G5♩ Ab5♪ Eb6♩ F5♩ F#5♪ G5♪ C6♩ E6♩ E5♩ E5𝅘𝅥𝅯  F5♪ B5♩ Bb5♪ B6♩ D6♩ C7♩ D5♩ C6♩ F#6♩ Ab6♩ F#6♪ C6♩ E6♩ Eb5♩ B4♩ C6♩ Eb5♩ C6♩ F#5♩ Ab5♩ C5♩ D6♩ Ab5♩ A4♩ Eb4♩ C#5♩ Bb3♩ Ab4♩ F#4♩ B4♩ Ab5♩ Eb5♩ B4♩ B4𝅘𝅥𝅯  G3♩ C#5♩ C#4♩ F4♩ Ab6♩ Eb6♩ C#5♩ Eb4♩ D5♩ F4♩ D5♩ Eb4♩ C5♩ A4♩ A4𝅘𝅥𝅯  Eb4♩ C#4♩ Eb4♩ Bb3♩ F4♩ Bb3♩ Eb4♩ Bb3♩ C3♩ Bb3♩ Bb3𝅘𝅥𝅯  C#4♩ C3♩ G3♩ C3♩ C3♩ C#4♩ Eb4♩ C3♩ Bb3♩ G3♩ C3♩ C#4♩ C3♩ C#4♩ Bb3♩ C3♩ G3♩ Bb3♩ C#4♩ G3♩ G3𝅘𝅥𝅯  C3♩ C3♩ 
+
+Bromley
+max cases =  49
+F#3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  A3♩ Eb4♩ E4♩ C#4♩ E4♩ F#4♩ E4♩ Ab4♩ C5♩ E4♩ F5♩ Eb5♩ A5♩ E6♩ C#6♩ Bb5♩ C6♩ C#6♪ D6♪ Ab5♩ F#6♩ Bb6♩ C7♪ F#6♩ D6♩ F6♩ C6♩ G6♩ F#6♪ Bb6♩ Eb6♩ A5♩ Bb5♪ C5♩ Eb6♩ Ab5♩ Bb5♩ C6♩ B5♪ D5♩ C5♩ F5♩ Bb4♩ C5♩ F#6♩ A5♩ Ab5♪ C5♩ Bb5♩ Bb4♩ E6♩ A5♩ D5♩ D5𝅘𝅥𝅯  Bb4♩ C#5♩ C#5𝅘𝅥𝅯  F#6♩ F5♩ A5♩ C#4♩ Bb4♩ F#4♩ F#5♩ F#4♩ F#4𝅘𝅥𝅯  A4♩ Eb4♩ A3♩ E4♩ Eb4♩ C#4♩ A3♩ Eb4♩ F#3♩ B3♩ B3𝅘𝅥𝅯  C3♩ C#4♩ E4♩ F#3♩ C3♩ F#3♩ A3♩ A3𝅘𝅥𝅯  B3♩ A3♩ F#3♩ C3♩ F#3♩ A3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ C3♩ F#3♩ A3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ C#4♩ F#3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ A3♩ A3𝅘𝅥𝅯  C3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  C3♩ A3♩ F#3♩ C3♩ C3♩ 
+
+Buckinghamshire
+max cases =  41
+G3♩ C3♩ C3♩ G3♩ C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  Bb3♩ G4♩ E4♩ Eb5♩ F#4♩ C4♩ Bb3♩ Bb4♩ G4♩ F#4♩ F#4𝅘𝅥𝅯  G4♩ C5♩ C#5♪ A4♩ Bb4♩ B5♩ B4♩ F#5♩ Bb5♩ C5♩ E6♩ B5♩ Ab5♩ F#6♩ C6♩ Bb5♩ Eb5♩ D6♩ A6♩ F#6♩ B5♩ D6♩ Ab5♩ A4♩ Bb5♩ Bb5𝅘𝅥𝅯  Eb6♩ E6♪ F#6♩ B5♩ D6♩ E5♩ Eb6♩ E6♪ G6♩ Ab6♪ B5♩ Bb5♪ F#6♩ C7♩ G5♩ E6♩ F5♩ G5♩ C#5♩ G5♩ A4♩ Bb5♩ G5♩ A5♩ E5♩ C#5♩ B5♩ Bb5♪ F6♩ E5♩ F5♪ F6♩ B4♩ A5♩ F5♩ Ab6♩ C6♩ F5♩ A4♩ F#4♩ Bb4♩ G4♩ F#5♩ E5♩ E4♩ A4♩ C5♩ G4♩ Eb5♩ D4♩ A4♩ C4♩ A4♩ Bb3♩ E4♩ A4♩ G4♩ E4♩ C4♩ C4𝅘𝅥𝅯  C4𝅘𝅥𝅯  D4♩ A4♩ G4♩ C4♩ D4♩ C4♩ F#4♩ G4♩ D4♩ Bb3♩ G3♩ C4♩ G3♩ Bb3♩ Bb4♩ C4♩ D4♩ A4♩ E4♩ Bb3♩ E4♩ G4♩ D4♩ G3♩ G3𝅘𝅥𝅯  C3♩ 
+
+Bury
+max cases =  43
+G3♩ C3♩ Bb3♩ C3♩ C3♩ C3♩ C3♩ C3♩ G3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C4♩ C3♩ C3♩ G3♩ Bb3♩ Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  G3♩ Bb3♩ G4♩ C4♩ Ab4♩ C4♩ Eb5♩ A4♩ B4♩ G4♩ F5♩ G4♩ F5♩ Ab4♩ G5♩ C5♩ F#5♩ B5♩ D6♩ B5♩ B5♪ Ab5♩ C#6♩ F5♩ A5♩ C5♩ E6♩ C6♩ E6♩ Ab6♩ E5♩ B5♩ C5♩ Ab5♩ C6♩ D6♪ B4♩ A4♩ A5♩ C#6♩ Ab5♩ F5♩ C#5♩ G4♩ C#5♩ C5♪ E4♩ G5♩ Ab4♩ A4♩ Ab4♩ A4♩ Ab4♩ C#5♩ Eb5♩ E5♪ Eb5♪ C5♩ Ab4♩ F#5♩ C6♩ C7♩ D6♩ Ab5♩ C4♩ B4♩ G4♩ C5♩ D5♩ Ab4♩ F4♩ C5♩ A4♩ A4𝅘𝅥𝅯  F#5♩ F4♩ C5♩ A4♩ G4♩ D4♩ A4♩ E4♩ G4♩ Ab4♩ Ab4𝅘𝅥𝅯  A4♩ E4♩ Ab4♩ G4♩ C4♩ G3♩ D4♩ C4♩ C3♩ C4♩ C4𝅘𝅥𝅯  Bb3♩ G3♩ C4♩ Bb3♩ C3♩ E4♩ C3♩ D4♩ C4♩ F4♩ Bb3♩ G3♩ Bb3♩ G3♩ Bb3♩ C3♩ C3♩ 
+
+Calderdale
+max cases =  20
+Bb3♩ Eb4♩ C3♩ C3♩ C3♩ C3♩ Eb4♩ C3♩ C3♩ C3♩ C3♩ Eb4♩ C3♩ Eb4♩ Bb3♩ A4♩ D5♩ D5𝅘𝅥𝅯  C5♩ Ab5♩ C#6♩ C5♩ D5♩ B5♩ C#6♪ F#5♩ F#4♩ A5♩ E5♩ A5♩ D5♩ C#6♩ F#4♩ F#5♩ D5♩ F#5♩ A6♩ B5♩ E6♩ D5♩ C5♩ C5𝅘𝅥𝅯  D6♩ F#6♩ F#5♩ Ab5♩ E5♩ A4♩ E5♩ F6♩ A4♩ A6♩ C7♩ C5♩ E5♩ D5♩ F#6♩ A4♩ F6♩ A4♩ Eb4♩ A5♩ C#6♩ E6♩ Ab5♩ D5♩ C5♩ A4♩ F#5♩ D5♩ E5♩ D5♩ Bb3♩ C5♩ A5♩ F#4♩ A4♩ D5♩ D5𝅘𝅥𝅯  Eb4♩ Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  C3♩ A4♩ C3♩ A4♩ C5♩ F#4♩ Bb3♩ D5♩ C5♩ Eb4♩ A4♩ F#4♩ E5♩ Eb4♩ Bb3♩ A4♩ Eb4♩ C5♩ F#5♩ C3♩ A4♩ F#4♩ Eb4♩ A5♩ F#4♩ A4♩ A5♩ A4♩ C5♩ C5𝅘𝅥𝅯  C5𝅘𝅥𝅯  Eb4♩ Eb4𝅘𝅥𝅯  F#4♩ F#4𝅘𝅥𝅯  F#4𝅘𝅥𝅯  D5♩ B5♩ F#4♩ C5♩ Bb3♩ 
+
+Cambridgeshire
+max cases =  71
+F3♩ C3♩ F3♩ C3♩ C3♩ C3♩ C3♩ A3♩ F3♩ B3♩ C4♩ C3♩ Ab3♩ F3♩ F3𝅘𝅥𝅯  E4♩ Eb4♩ F4♩ F4𝅘𝅥𝅯  C4♩ A4♩ B4♩ B4𝅘𝅥𝅯  G4♩ C5♩ F4♩ G4♩ E5♩ C#5♩ Ab4♩ D5♩ B4♩ C5♩ F5♩ C5♩ F5♩ G5♩ Ab5♪ F5♩ C5♩ C5♪ A4♩ C#5♩ A4♩ G5♩ Ab5♩ A4♩ D5♩ F5♩ A5♩ B5♩ B5𝅘𝅥𝅯  E5♩ Eb5♪ G5♩ A5♩ Ab6♩ F6♩ G6♪ Ab6♪ D6♩ Ab5♩ Eb6♩ Bb5♩ D6♩ E6♩ E5♩ Ab5♩ A5♪ C7♩ F#5♩ Eb6♩ G5♩ F#5♪ C5♩ C5𝅘𝅥𝅯  F#5♩ A5♩ C6♩ C6𝅘𝅥𝅯  F5♩ A4♩ F4♩ F4𝅘𝅥𝅯  Eb4♩ F#4♩ Ab4♩ G5♩ Bb4♩ A3♩ F#4♩ G5♩ Bb4♩ F#4♩ C4♩ C#4♩ Eb4♩ F#4♩ D5♩ C#4♩ C#4𝅘𝅥𝅯  C4♩ Ab3♩ A3♩ B3♩ F4♩ Ab3♩ Ab3𝅘𝅥𝅯  A3♩ C#4♩ C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  A3♩ E4♩ C4♩ C4𝅘𝅥𝅯  F3♩ C3♩ C4♩ C3♩ C4♩ C#4♩ F3♩ Ab3♩ A3♩ C4♩ A3♩ C4♩ Ab3♩ F3♩ 
+
+Camden
+max cases =  29
+C4♩ C3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C4♩ Ab3♩ C4♩ E5♩ G4♩ G4𝅘𝅥𝅯  Ab3♩ Eb4♩ Eb4𝅘𝅥𝅯  F4♩ E5♩ G4♩ A4♩ Bb5♩ F5♩ Bb5♩ E6♩ F#6♪ C7♩ D6♩ F5♩ A4♩ C#6♩ C#6𝅘𝅥𝅯  D6♪ A6♩ D6♩ F#6♩ B5♩ C6♪ Eb6♩ F6♩ C6♩ E5♩ D5♩ C#5♩ Ab5♩ D5♩ E6♩ F5♩ F5𝅘𝅥𝅯  Bb5♩ A4♩ C#5♩ B4♩ D5♩ F#5♩ F4♩ B4♩ C4♩ C4𝅘𝅥𝅯  A4♩ Eb4♩ C#5♩ C#5𝅘𝅥𝅯  Ab3♩ C4♩ C3♩ G4♩ F4♩ C#5♩ Eb4♩ C4♩ C4𝅘𝅥𝅯  A4♩ Eb4♩ F4♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  C3♩ C4♩ Ab3♩ F4♩ C4♩ Ab3♩ C3♩ C4♩ Ab3♩ C3♩ Ab3♩ C3♩ Ab3♩ C3♩ C4♩ C3♩ C4♩ C4𝅘𝅥𝅯  C3♩ C3♩ C3♩ Eb4♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ C4♩ C4𝅘𝅥𝅯  Ab3♩ C4♩ C3♩ Ab3♩ C3♩ C4♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ C3♩ Ab3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ C3♩ C4♩ Ab3♩ C3♩ C3♩ C3♩ 
+
+Central Bedfordshire
+max cases =  33
+B3♩ Ab3♩ C3♩ D4♩ C3♩ F#4♩ C3♩ C3♩ Ab4♩ E4♩ B3♩ D4♩ Ab4♩ D5♩ C#5♩ Ab4♩ B4♩ E5♩ D5♩ F#4♩ Eb5♩ C6♩ Ab5♩ Eb6♩ G5♩ E5♩ A5♩ C#6♩ B5♩ A5♩ Bb5♪ B5♪ G5♩ B5♩ C#5♩ A5♩ A5𝅘𝅥𝅯  C#5♩ E6♩ G5♩ Bb4♩ F#5♩ A6♩ F6♩ F#6♪ A5♩ F6♩ F#5♩ C7♩ C#5♩ G5♩ E5♩ E6♩ E6𝅘𝅥𝅯  B4♩ D6♩ B4♩ G5♩ F#5♪ C#5♩ F#4♩ D5♩ E5♩ Bb5♩ E6♩ Ab5♩ Eb5♩ Bb4♩ Bb4𝅘𝅥𝅯  A5♩ Ab5♪ F#4♩ F#5♩ B4♩ Eb5♩ B4♩ F#5♩ Bb5♩ G5♩ Eb6♩ C6♩ D4♩ E5♩ Bb4♩ Bb4𝅘𝅥𝅯  C#5♩ Bb4♩ Bb4𝅘𝅥𝅯  Eb5♩ Ab3♩ Ab4♩ C#5♩ D5♩ Ab4♩ D4♩ D5♩ F#4♩ C#5♩ Ab4♩ E5♩ B4♩ Bb4♩ B3♩ Ab4♩ Ab4𝅘𝅥𝅯  F#4♩ E4♩ C3♩ Ab3♩ C3♩ F#4♩ B3♩ B3𝅘𝅥𝅯  D4♩ E4♩ D4♩ B3♩ C3♩ E4♩ B3♩ B3𝅘𝅥𝅯  C3♩ C3♩ 
+
+Cheshire East
+max cases =  69
+F3♩ F3𝅘𝅥𝅯  Bb3♩ Ab3♩ Bb3♩ F3♩ C3♩ B3♩ B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  F3♩ Bb3♩ C4♩ Ab3♩ Eb4♩ Ab4♩ F#4♩ A4♩ E4♩ Ab4♩ Ab4𝅘𝅥𝅯  C5♩ Ab5♩ F#5♪ A4♩ C#5♩ F#5♩ A5♩ F#5♩ A5♩ C6♩ G5♩ G5𝅘𝅥𝅯  C#5♩ Ab5♩ F#5♩ G5♪ C#6♩ Ab5♩ B5♩ F#5♩ Bb5♩ G5♩ B5♩ G6♩ Bb5♩ C6♪ F5♩ B5♩ G5♩ C#6♩ A6♩ C#6♩ Ab5♩ F#5♩ F#5♪ Bb5♩ E6♩ G5♩ E5♩ B4♩ Ab4♩ G5♩ F5♩ C7♩ E5♩ E5𝅘𝅥𝅯  B4♩ B4𝅘𝅥𝅯  F5♩ G5♩ G5𝅘𝅥𝅯  G5♪ B4♩ Ab4♩ Bb4♩ A4♪ E5♩ C5♩ D5♩ C#5♪ Ab4♩ Ab4♪ A4♩ F4♩ Bb4♩ G5♩ F#4♩ B3♩ G4♩ F4♩ C#5♩ F#4♩ E4♩ Ab4♩ D4♩ A4♩ Ab4♩ Ab4♪ F#4♩ E4♩ Ab4♩ C3♩ Bb3♩ E4♩ B3♩ G4♩ Ab4♪ C4♩ Bb3♩ B3♩ Bb3♩ Bb3𝅘𝅥𝅯  D4♩ F3♩ B3♩ Bb3♩ B3♩ Ab3♩ F3♩ Bb3♩ Ab3♩ C3♩ 
+
+Cheshire West and Chester
+max cases =  47
+G3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ A3𝅘𝅥𝅯  G3♩ C3♩ C3♩ A3♩ A3𝅘𝅥𝅯  G3♩ A3♩ D4♩ C4♩ G3♩ C4♩ Eb4♩ D4♩ Eb4♩ Eb4𝅘𝅥𝅯  E5♩ B4♩ A5♩ E5♩ F5♩ C#6♩ B5♩ F#6♩ D6♩ Eb6♪ D6♪ D6♪ C#6♪ C6♪ B5♪ E5♩ C6♩ Eb5♩ Ab5♩ Ab5𝅘𝅥𝅯  C#6♩ D6♪ Bb5♩ Bb5𝅘𝅥𝅯  Ab5♪ A6♩ C#6♩ C#6♪ Bb5♩ Bb5𝅘𝅥𝅯  E5♩ F#6♩ C7♩ E6♩ D6♪ F#6♩ B5♩ B5♪ A5♩ C6♩ E6♩ G5♩ Ab6♩ F5♩ G5♩ E6♩ E6♪ Eb6♪ E6♪ A5♩ Bb5♪ F#5♩ D6♩ C#6♪ C#6♪ C5♩ F#5♩ G5♪ E5♩ G4♩ B5♩ D5♩ B5♩ Ab5♩ G4♩ C5♩ G5♩ D5♩ Bb4♩ C#5♩ Eb4♩ B4♩ F4♩ F4𝅘𝅥𝅯  F4𝅘𝅥𝅯  G4♩ F4♩ A4♩ A4𝅘𝅥𝅯  F4♩ G4♩ Bb4♩ G4♩ Eb4♩ F4♩ G3♩ D4♩ A3♩ Eb4♩ F#4♩ B4♩ C4♩ C4𝅘𝅥𝅯  D4♩ B4♩ F#4♩ Eb4♩ D4♩ A3♩ A4♩ Eb4♩ C3♩ C4♩ F#4♩ Eb4♩ G3♩ 
+
+Cornwall and Isles of Scilly
+max cases =  30
+Ab3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C4♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  Eb4♩ C4♩ G4♩ C4♩ A4♩ Eb4♩ Eb4𝅘𝅥𝅯  A4♩ Eb4♩ F4♩ F5♩ A5♩ Eb5♩ F5♩ F5𝅘𝅥𝅯  Eb6♩ E6♪ C6♩ C#6♪ A5♩ F5♩ D6♩ Ab5♩ B5♩ C#6♩ F#5♩ G5♪ Eb6♩ E6♪ Eb5♩ C5♩ C7♩ D6♩ B5♩ D5♩ D5𝅘𝅥𝅯  Ab5♩ F5♩ C6♩ C6𝅘𝅥𝅯  C6𝅘𝅥𝅯  G6♩ D6♩ G5♩ G6♩ Ab6♪ C5♩ F5♩ Ab5♩ C5♩ C6♩ F#5♩ G5♪ Eb5♩ B4♩ G4♩ C#6♩ C5♩ F4♩ F4𝅘𝅥𝅯  A4♩ G4♩ Eb4♩ G4♩ G4𝅘𝅥𝅯  D5♩ C4♩ F4♩ Ab3♩ C4♩ G4♩ G4𝅘𝅥𝅯  C4♩ Eb4♩ A4♩ C3♩ C4♩ F4♩ Ab3♩ C4♩ C4𝅘𝅥𝅯  F4♩ F4𝅘𝅥𝅯  C4♩ Ab3♩ Ab3𝅘𝅥𝅯  Eb5♩ C5♩ Ab3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  C3♩ C3♩ C3♩ Ab3♩ C4♩ Eb4♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ Ab3♩ C3♩ C3♩ C3♩ F4♩ C4♩ Ab3♩ Ab3𝅘𝅥𝅯  C4♩ Ab3♩ Ab3𝅘𝅥𝅯  C4♩ C3♩ C3♩ 
+
+County Durham
+max cases =  99
+E3♩ C3♩ C3♩ C3♩ C3♩ E3♩ E3𝅘𝅥𝅯  C3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  Eb4♩ B3♩ F4♩ F#4♪ F#4𝅘𝅥𝅯  A4♩ F4♩ A4♩ C5♩ Bb5♩ E5♩ F5♪ D5♩ C5♩ Ab6♩ D6♩ B5♩ C6♪ C6♪ Bb5♪ C#5♩ Ab5♩ F#5♩ Bb5♩ C#6♩ C6♪ F#6♩ Bb5♩ D6♩ C#6♪ G6♩ F#6♪ E6♩ D6♪ A5♩ C6♩ Ab6♩ C7♩ E6♩ D6♪ C6♩ G5♩ C6♩ F#6♩ D6♩ Eb5♩ F5♩ F5𝅘𝅥𝅯  F#5♪ F#6♩ C6♩ Eb5♩ B5♩ Bb5♪ C6♩ E5♩ G5♩ Eb5♩ Ab5♩ F#5♩ D5♩ Eb5♩ Bb4♩ G4♩ A4♩ C#5♩ E4♩ G4♩ D4♩ Ab4♩ G4♪ F4♩ D4♩ G4♩ E4♩ F#3♩ Bb3♩ A3♩ E4♩ Ab3♩ Bb3♩ Bb3𝅘𝅥𝅯  A3♩ D4♩ Bb3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  Bb3♩ C4♩ E3♩ A3♩ Eb4♩ E3♩ Bb3♩ Ab3♩ Ab3𝅘𝅥𝅯  F#3♩ E3♩ Ab3♩ C3♩ F#3♩ E3♩ Bb3♩ F#3♩ C3♩ E3♩ F#3♩ C3♩ C3♩ 
+
+Coventry
+max cases =  36
+Ab3♩ Ab3𝅘𝅥𝅯  C3♩ Ab3♩ C3♩ C3♩ B3♩ B3𝅘𝅥𝅯  C3♩ C3♩ C3♩ G4♩ E4♩ E4𝅘𝅥𝅯  F4♩ Ab3♩ C5♩ G4♩ D5♩ Bb5♩ Ab5♩ Bb5♩ E5♩ A5♩ Ab5♪ D6♩ G6♩ F6♪ B5♩ D6♩ A5♩ C#5♩ E6♩ C#6♩ C#5♩ E6♩ F#5♩ F#5𝅘𝅥𝅯  C#6♩ A5♩ Eb5♩ C#6♩ Eb6♪ B5♩ F#5♩ Bb4♩ G6♩ Bb6♩ Eb6♩ Ab6♩ Bb5♩ Ab5♩ E5♩ Eb5♪ F5♩ C#6♩ Ab6♩ C7♩ A5♩ Eb6♩ Bb4♩ Eb6♩ Ab5♩ F6♩ E6♪ D5♩ Ab5♩ Ab6♩ A5♩ Eb5♩ C#5♩ F5♩ C5♩ A4♩ C5♩ C6♩ Eb5♩ Eb5𝅘𝅥𝅯  A4♩ A4𝅘𝅥𝅯  C#5♩ G4♩ C#4♩ G4♩ E4♩ F#5♩ C#5♩ C3♩ C#4♩ E4♩ B3♩ Bb4♩ C#4♩ Ab3♩ C#4♩ B3♩ C3♩ F4♩ A4♩ C#4♩ C#4𝅘𝅥𝅯  B3♩ C#4♩ G4♩ C#4♩ F4♩ Ab3♩ E4♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  C#4♩ Ab3♩ Ab3𝅘𝅥𝅯  B3♩ Ab3♩ C#4♩ E4♩ B3♩ B3𝅘𝅥𝅯  Ab3♩ Ab3𝅘𝅥𝅯  C3♩ 
+
+Croydon
+max cases =  82
+F3♩ C3♩ F3♩ C3♩ B3♩ D4♩ Bb3♩ G4♩ D4♩ G4♩ C5♩ Ab4♩ Eb4♩ D5♩ D5𝅘𝅥𝅯  C#5♪ G5♩ Eb5♩ Bb5♩ B5♪ Bb5♪ C5♩ Eb5♩ Eb6♩ C6♩ Eb6♩ C7♩ C#6♩ C6♪ G5♩ Bb5♩ B5♪ E6♩ Bb5♩ D5♩ C#5♪ F5♩ Eb5♩ C#6♩ Bb5♩ F#5♩ F#5♪ F#5♪ G4♩ Eb5♩ D5♪ Eb5♪ F#5♩ C#5♩ G4♩ C5♩ G5♩ F5♪ Bb4♩ D5♩ B4♩ B4♪ D4♩ G4♩ D4♩ Eb4♩ Eb4𝅘𝅥𝅯  G4♩ B3♩ A3♩ Bb3♩ E4♩ D4♩ Eb4♩ Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  G3♩ B3♩ D4♩ F#4♩ Eb4♩ A3♩ D4♩ A3♩ C4♩ B3♩ B3𝅘𝅥𝅯  F3♩ B3♩ C3♩ F3♩ F3𝅘𝅥𝅯  B3♩ G3♩ G3𝅘𝅥𝅯  A3♩ G3♩ F3♩ G3♩ A3♩ C3♩ A3♩ C3♩ C3♩ F3♩ C3♩ C3♩ F3♩ G3♩ C3♩ G3♩ F3♩ F3𝅘𝅥𝅯  F3𝅘𝅥𝅯  Bb3♩ G3♩ A3♩ C3♩ C3♩ C3♩ G3♩ F3♩ F3𝅘𝅥𝅯  F3𝅘𝅥𝅯  C3♩ G3♩ Bb3♩ C3♩ F3♩ F3𝅘𝅥𝅯  C3♩ 
+
+Cumbria
+max cases =  96
+F#3♩ C3♩ F#3♩ C3♩ E3♩ Ab3♩ E3♩ C3♩ Ab3♩ C4♩ C4♩ C4♩ E3♩ E4♩ E4𝅘𝅥𝅯  B4♩ C5♩ E4♩ B4♩ G4♩ C#5♩ Ab5♩ A5♪ Bb5♪ C6♪ D5♩ Bb5♩ E5♩ E6♩ F#6♪ E6♪ Ab5♩ B5♩ G6♩ C7♩ F6♩ A6♩ E6♩ E5♩ C5♩ E5♩ B5♩ B5𝅘𝅥𝅯  F5♩ F5♪ Eb5♩ C5♩ A4♩ Ab5♩ Ab5𝅘𝅥𝅯  F#5♩ F#5♪ A5♩ F#5♩ F#5𝅘𝅥𝅯  C#6♩ Ab5♩ Ab6♩ Eb6♩ C6♩ G4♩ E4♩ Ab4♩ F#5♩ Eb5♩ F5♩ G4♩ A3♩ Eb4♩ A4♩ D4♩ F#4♩ F#4♪ C4♩ F#4♩ C#4♩ F4♩ Ab4♩ E4♩ Bb3♩ C#5♩ C4♩ C4♩ F#3♩ A3♩ C#4♩ D4♩ Ab3♩ C#4♩ A3♩ A3𝅘𝅥𝅯  Ab4♩ C#4♩ Bb3♩ F#3♩ E3♩ A3♩ E3♩ D4♩ E3♩ C4♩ E3♩ F#3♩ F#3𝅘𝅥𝅯  C4♩ Bb3♩ Ab3♩ Bb3♩ Bb3𝅘𝅥𝅯  Ab3♩ Ab3𝅘𝅥𝅯  F#3♩ Bb3♩ Ab3♩ C3♩ C4♩ A3♩ E3♩ A3♩ E4♩ C4♩ F#3♩ E3♩ E3𝅘𝅥𝅯  C4♩ F4♩ A3♩ C3♩ F#3♩ C3♩ 
+
+Darlington
+max cases =  35
+Ab3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ Ab3♩ B3♩ D4♩ D4𝅘𝅥𝅯  B3♩ D4♩ Ab3♩ C5♩ B3♩ E4♩ F#4♩ G4♩ D5♩ B3♩ C#6♩ D5♩ C6♩ F#5♩ E4♩ C5♩ G5♩ F#4♩ A4♩ E5♩ C5♩ Bb4♩ C#5♩ Bb4♩ F#5♩ E5♩ D5♪ Bb5♩ E5♩ C#5♩ G4♩ E6♩ C6♩ F#5♩ C7♩ Bb4♩ C5♩ B3♩ Ab5♩ E4♩ G4♩ G4𝅘𝅥𝅯  B3♩ Bb4♩ G4♩ G4𝅘𝅥𝅯  Bb5♩ D4♩ E4♩ G4♩ D4♩ F#4♩ A4♩ C5♩ A4♩ G4♩ F#4♩ Ab3♩ A4♩ E4♩ Ab3♩ Bb4♩ D4♩ D4𝅘𝅥𝅯  B3♩ C3♩ D4♩ B3♩ B3𝅘𝅥𝅯  D4♩ B3♩ B3𝅘𝅥𝅯  Ab3♩ G4♩ B3♩ D4♩ Ab3♩ C3♩ F#4♩ C3♩ C3♩ Ab3♩ C3♩ B3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ 
+
+Derby
+max cases =  30
+Ab3♩ C3♩ C3♩ C3♩ C4♩ C4𝅘𝅥𝅯  C3♩ Ab3♩ Ab3𝅘𝅥𝅯  F4♩ A4♩ Eb4♩ F4♩ Eb5♩ Eb4♩ C5♩ Ab5♩ C6♩ E6♩ F5♩ C5♩ C5𝅘𝅥𝅯  E6♩ Eb6♪ F6♩ F#6♪ C7♩ D6♩ F6♩ C#6♩ C4♩ C4𝅘𝅥𝅯  D6♩ F5♩ F#5♪ F#5𝅘𝅥𝅯  G5♪ F5♩ A4♩ C5♩ Eb5♩ F#5♩ B5♩ Eb5♩ D5♩ D5𝅘𝅥𝅯  F4♩ Bb6♩ B5♩ D6♩ A5♩ Bb6♩ C5♩ F#5♩ F#6♩ F#5♩ G5♪ A5♩ F5♩ F5𝅘𝅥𝅯  G5♩ A5♩ Ab5♪ C6♩ A5♩ Eb6♩ C#6♩ B5♩ A5♪ D5♩ B4♩ F#5♩ B4♩ F5♩ B5♩ Ab5♩ F6♩ D5♩ A4♩ A4𝅘𝅥𝅯  G5♩ Eb5♩ D5♩ G4♩ Eb5♩ G5♩ G5𝅘𝅥𝅯  G4♩ B5♩ C6♪ A4♩ Eb5♩ Eb5𝅘𝅥𝅯  A4♩ D5♩ Eb5♩ G4♩ B4♩ E6♩ D5♩ C5♩ Eb5♩ F#5♩ G5♪ Eb5♩ D5♩ G4♩ F4♩ G5♩ A4♩ G4♩ Ab3♩ A4♩ G4♩ C4♩ Eb4♩ A4♩ C4♩ F4♩ C4♩ Eb4♩ G4♩ Eb4♩ F4♩ F4𝅘𝅥𝅯  Ab3♩ C3♩ 
+
+Derbyshire
+max cases =  88
+F3♩ C3♩ C3♩ C3♩ C3♩ C3♩ G3♩ F3♩ G3♩ C3♩ F3♩ C3♩ F3♩ Ab3♩ G3♩ C4♩ G3♩ D4♩ C4♩ E4♩ A4♩ Eb4♩ E4♩ D4♩ E4♩ Bb4♩ C5♩ E5♩ B4♩ Bb4♪ Bb4𝅘𝅥𝅯  Eb5♩ G5♩ D5♩ G5♩ C6♩ C6𝅘𝅥𝅯  D5♩ F#5♩ F5♪ D4♩ C#5♩ Ab5♩ Ab5♪ G5♪ D5♩ C5♩ G5♩ F5♩ F5♪ Ab5♩ Ab5𝅘𝅥𝅯  A5♩ F5♩ Ab5♩ Eb5♩ C#6♩ E6♩ E6♪ Eb6♪ C7♩ Ab6♩ F6♩ A5♩ E6♩ F5♩ E6♩ Eb5♩ E5♩ A5♩ F6♩ F#6♪ B5♩ C#6♩ F#5♩ E5♩ C#6♩ A5♩ F5♩ Ab5♩ Eb5♩ Ab5♩ A5♪ D6♩ A5♩ C#6♩ F5♩ Ab5♩ Bb4♩ F#5♩ F5♪ Eb5♩ D5♪ E5♩ C5♩ C5♪ Bb4♩ D5♩ C#5♩ D5♩ Bb4♩ G4♩ Eb4♩ E4♩ Ab4♩ B3♩ G4♩ E4♩ B4♩ G4♩ F#4♪ G4♩ E4♩ A4♩ C4♩ D4♩ E4♩ Eb4♩ E4♩ G4♩ Eb4♩ E4♩ C4♩ G3♩ D4♩ B3♩ C4♩ F4♩ B3♩ Ab3♩ B3♩ G3♩ G3𝅘𝅥𝅯  C4♩ Ab3♩ C3♩ C3♩ 
+
+Devon
+max cases =  40
+Bb3♩ C#4♩ F#4♩ C#4♩ G3♩ Eb4♩ C3♩ G3♩ C3♩ G3♩ G3𝅘𝅥𝅯  Bb3♩ F#4♩ Bb3♩ C#4♩ Eb4♩ Bb3♩ C#4♩ C3♩ C#4♩ G3♩ Eb4♩ E4♩ F#4♩ F5♩ F5𝅘𝅥𝅯  D5♩ Eb5♪ C5♩ Bb4♩ F5♩ C#6♩ C6♪ A5♩ G6♩ A5♩ E5♩ C#6♩ D5♩ B5♩ E6♩ F#5♩ F#6♩ C#6♩ C#6♪ C#6𝅘𝅥𝅯  F6♩ Bb6♩ A5♩ C#5♩ A5♩ A5♪ F#6♩ E6♪ A5♩ Eb5♩ A5♩ Bb6♩ D5♩ C7♩ B5♩ F6♩ Ab5♩ Ab5𝅘𝅥𝅯  Eb4♩ Ab5♩ D6♩ Eb5♩ G5♩ A4♩ G5♩ F#5♪ F#4♩ D5♩ A4♩ A4𝅘𝅥𝅯  E4♩ F#4♩ Ab4♩ A4♩ C#5♩ Bb3♩ A4♩ Bb3♩ Bb3𝅘𝅥𝅯  C#4♩ E4♩ Bb3♩ D5♩ Bb3♩ Eb4♩ Eb4𝅘𝅥𝅯  G3♩ C3♩ C#4♩ Bb3♩ C3♩ C3♩ G3♩ C#4♩ G3♩ G3𝅘𝅥𝅯  Bb3♩ C3♩ C3♩ Bb3♩ G3♩ C3♩ G3♩ Bb3♩ C#4♩ G3♩ C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ G3♩ C3♩ G3♩ C3♩ Bb3♩ C#4♩ G3♩ G3𝅘𝅥𝅯  C#4♩ C3♩ Bb3♩ G3♩ C3♩ C#4♩ C3♩ 
+
+Doncaster
+max cases =  54
+A3♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ A3𝅘𝅥𝅯  F#3♩ C#4♩ C#4𝅘𝅥𝅯  C3♩ F#4♩ B3♩ G4♩ A4♩ G4♩ C#4♩ E5♩ D5♩ E5♩ C5♩ D5♩ A4♩ D5♩ F4♩ C3♩ F#3♩ F4♩ C#5♩ Ab5♩ E4♩ C#5♩ Ab4♩ B4♩ D4♩ F#5♩ G5♪ G5𝅘𝅥𝅯  B5♩ F5♩ E5♪ C5♩ F6♩ E6♪ B6♩ A5♩ Bb5♪ Ab5♩ F#5♩ C7♩ B6♪ Ab6♪ B5♩ Bb5♪ C5♩ E5♩ Ab6♩ E5♩ D6♩ Ab5♩ E5♩ C#6♩ D5♩ F6♩ C6♩ F#6♩ G5♩ C6♩ D5♩ F5♩ C5♩ C6♩ D6♪ Ab5♩ E5♩ F#5♩ Ab5♩ Eb6♩ B5♩ Ab5♩ F#4♩ G5♩ B5♩ A5♩ Eb6♩ D5♩ A4♩ F#4♩ B4♩ D5♩ D5♪ F#4♩ B4♩ C#5♩ G4♩ E4♩ D4♩ D4𝅘𝅥𝅯  A4♩ E4♩ Bb4♩ F#4♩ E4♩ F5♩ Eb5♩ G4♩ E4♩ F4♩ B3♩ A3♩ F4♩ F4𝅘𝅥𝅯  F#4♩ E4♩ E4𝅘𝅥𝅯  B3♩ C#4♩ D4♩ D4𝅘𝅥𝅯  B3♩ A3♩ C3♩ 
+
+Dorset
+max cases =  31
+Ab3♩ Ab3𝅘𝅥𝅯  C4♩ Ab3♩ C4♩ Ab3♩ C3♩ C4♩ Ab3♩ C4♩ D4♩ D4𝅘𝅥𝅯  A4♩ F4♩ C4♩ D4♩ Eb5♩ A4♩ C5♩ Bb4♩ F5♩ G4♩ A5♩ Eb5♩ A5♩ Bb4♩ A4♩ F5♩ C#5♩ B5♩ B5𝅘𝅥𝅯  F5♩ D4♩ G4♩ F4♩ C5♩ C5𝅘𝅥𝅯  F4♩ C#5♩ C5♩ Ab5♩ C#5♩ G4♩ Eb5♩ D6♩ A4♩ C#5♩ Eb6♩ C7♩ D6♩ B5♩ Bb4♩ B5♩ Ab5♩ C6♩ C#5♩ G4♩ F4♩ Bb4♩ E5♩ G4♩ F4♩ G4♩ C4♩ Bb4♩ C4♩ F4♩ C3♩ C4♩ Eb5♩ Ab3♩ F4♩ C3♩ D4♩ D4𝅘𝅥𝅯  C3♩ Ab3♩ F4♩ D4♩ G4♩ C4♩ Bb4♩ Ab3♩ C3♩ C4♩ C4𝅘𝅥𝅯  C3♩ Ab3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C4♩ C3♩ Ab3♩ C3♩ C4♩ C4𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ Ab3♩ C4♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ C3♩ 
+
+Dudley
+max cases =  48
+F#3♩ C3♩ A3♩ F#3♩ C3♩ C#4♩ F#3♩ A3♩ C#4♩ C4♩ A3♩ E4♩ A4♩ Bb4♩ E4♩ Ab4♩ E5♩ C5♩ E5♩ A5♩ C#5♩ Eb5♩ A5♩ C6♩ Ab5♩ F5♩ C#6♩ Eb5♩ C6♩ G5♩ Bb5♩ Eb5♩ C#5♩ Bb4♩ C6♩ F#5♩ Ab4♩ D5♩ F#4♩ Bb5♩ A6♩ B5♩ C7♩ Bb4♩ Eb5♩ F#5♩ F#5♪ C6♩ C6𝅘𝅥𝅯  C#6♪ C5♩ A4♩ F#5♩ C#6♩ Bb5♩ G6♩ C6♩ D5♩ Bb4♩ C5♪ C5𝅘𝅥𝅯  D5♩ C5♩ E4♩ Ab4♩ G4♩ F#5♩ C#4♩ F5♩ A4♩ G4♩ F#5♩ C#5♩ G4♩ C#4♩ C5♩ C4♩ Eb4♩ Eb4𝅘𝅥𝅯  F#4♩ E4♩ Eb4♩ C4♩ C5♩ A3♩ C3♩ Eb4♩ C4♩ C4𝅘𝅥𝅯  Eb4♩ F#4♩ Eb5♩ F#3♩ F#3𝅘𝅥𝅯  A3♩ F#3♩ A3♩ A3𝅘𝅥𝅯  C3♩ Eb4♩ F#3♩ C4♩ A3♩ C4♩ C3♩ F#3♩ C4♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  A3♩ C4♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  C#4♩ C3♩ A3♩ C3♩ F#3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  
+
+Ealing
+max cases =  45
+G3♩ C3♩ C3♩ C3♩ C3♩ C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ G3♩ G3𝅘𝅥𝅯  C3♩ E4♩ Bb4♩ C4♩ C4𝅘𝅥𝅯  Bb3♩ Ab4♩ D5♩ A4♩ F#5♩ F#5𝅘𝅥𝅯  E5♩ C5♩ F#5♩ D6♩ F6♩ F#6♪ D6♩ G6♩ Ab5♩ B5♩ D6♩ A6♩ C6♩ Bb6♩ Eb6♩ C6♩ D5♩ Eb6♩ B6♩ F#6♩ D6♩ C7♩ C6♩ C#6♪ F#6♩ C6♩ B6♩ B5♩ A5♪ Ab5♪ F5♩ A5♩ Ab5♪ Eb5♩ F5♩ A5♩ E5♩ F#5♩ G5♪ E5♩ Bb5♩ Ab5♩ F#5♩ Ab5♩ F#4♩ C#5♩ F#4♩ C5♩ Ab5♩ Eb5♩ D4♩ Bb3♩ Bb4♩ B4♩ B5♩ G5♩ B4♩ G3♩ Bb3♩ D4♩ D4𝅘𝅥𝅯  B4♩ D4♩ C5♩ Bb3♩ C4♩ E4♩ D4♩ E4♩ F#4♩ E4♩ C4♩ Bb3♩ D4♩ Bb3♩ E4♩ D4♩ D4𝅘𝅥𝅯  C4♩ G3♩ Bb3♩ F#4♩ Bb3♩ C3♩ D4♩ G3♩ G3𝅘𝅥𝅯  C3♩ C4♩ G3♩ Bb3♩ C4♩ D4♩ G3♩ Bb3♩ F4♩ F4𝅘𝅥𝅯  C4♩ G3♩ Bb3♩ Bb3𝅘𝅥𝅯  F#4♩ C3♩ C4♩ Bb3♩ C4♩ G3♩ C4♩ C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ 
+
+East Riding of Yorkshire
+max cases =  54
+A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  C#4♩ C3♩ C3♩ A3♩ F#3♩ F#3𝅘𝅥𝅯  A3♩ C3♩ C3♩ A3♩ D4♩ A3♩ E4♩ B3♩ B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  Ab4♩ Bb4♩ C#5♩ G4♩ F4♩ Bb4♩ C5♩ Ab4♩ F5♩ F5𝅘𝅥𝅯  F5𝅘𝅥𝅯  G4♩ F#5♩ E4♩ D5♩ D5♪ A5♩ A5♪ F5♩ B4♩ B4𝅘𝅥𝅯  G5♩ C6♩ F#5♩ G5♪ B5♩ F#6♩ E6♪ E6♪ G6♩ F#6♪ Bb6♩ C7♪ Ab6♩ F5♩ Ab5♩ F5♩ Bb5♩ F#5♩ E5♩ C5♩ D5♩ Ab4♩ F6♩ Ab5♩ B5♩ Bb5♪ G5♩ G5𝅘𝅥𝅯  F#5♪ Ab5♪ F5♩ C#5♩ B5♩ D5♩ F#4♩ Ab4♩ Ab6♩ B4♩ D5♩ C5♩ C#5♪ F#4♩ D4♩ F#4♩ C#4♩ F4♩ C#4♩ E4♩ F4♩ F4𝅘𝅥𝅯  A4♩ B4♩ Ab4♩ G4♩ B3♩ Bb4♩ F#4♩ D4♩ Eb5♩ G4♩ G4𝅘𝅥𝅯  D4♩ A3♩ F#3♩ E4♩ C#4♩ C3♩ C3♩ C#4♩ A3♩ C3♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  B3♩ A3♩ F#3♩ C3♩ C#4♩ C3♩ A3♩ C3♩ C3♩ 
+
+East Sussex
+max cases =  51
+C#4♩ A3♩ F#3♩ C3♩ C3♩ F#3♩ E4♩ B3♩ C#4♩ C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  Ab4♩ Bb4♩ C#5♩ C5♪ G4♩ B4♩ C#5♩ Bb5♩ F#5♩ Eb5♩ C5♩ F#5♩ B4♩ F5♩ B5♩ E5♩ Bb5♩ E5♩ B4♩ C5♪ Eb5♩ C5♩ F#5♩ F5♪ A5♩ Ab5♪ Eb5♩ C5♩ C6♩ C6♪ E5♩ C6♩ D6♩ C6♩ A5♩ C7♩ B5♩ C7♩ F#5♩ D5♩ E6♩ C6♩ G5♩ Bb5♩ F#5♩ F#5♪ D5♩ Bb5♩ F6♩ Bb4♩ F#5♩ D5♩ B3♩ A3♩ F4♩ F4𝅘𝅥𝅯  Eb5♩ C#5♩ B3♩ Ab5♩ F#3♩ C5♩ D5♩ Bb4♩ B4♪ Ab4♩ F4♩ B3♩ C#4♩ C#4𝅘𝅥𝅯  B4♩ Eb4♩ Eb4𝅘𝅥𝅯  C#4♩ C#4𝅘𝅥𝅯  C3♩ A3♩ Eb4♩ G4♩ C#4♩ Ab4♩ A4♩ E4♩ A4♩ Bb4♩ B4♪ F#3♩ G4♩ C#4♩ B3♩ B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  C#4♩ C#4𝅘𝅥𝅯  E4♩ F4♩ B3♩ Ab4♩ Eb4♩ A3♩ B3♩ B3𝅘𝅥𝅯  F#3♩ F4♩ Eb4♩ C#4♩ C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  
+
+Enfield
+max cases =  38
+G3♩ C3♩ G3♩ G3𝅘𝅥𝅯  F4♩ B3♩ G4♩ Eb4♩ Ab4♩ B3♩ B3𝅘𝅥𝅯  D5♩ Ab4♩ F#5♩ Bb5♩ Bb4♩ A5♩ C6♩ D6♪ B5♩ G5♩ G5𝅘𝅥𝅯  Bb5♩ B4♩ D6♩ Eb6♪ E6♪ F6♪ Eb6♪ Bb5♩ F5♩ A6♩ Ab6♪ G6♪ F#6♪ D6♩ B5♩ C6♪ F5♩ C7♩ F#5♩ C6♩ Bb6♩ Ab5♩ E5♩ G6♩ D6♩ Eb6♪ Eb6𝅘𝅥𝅯  Eb6𝅘𝅥𝅯  E6♪ Ab5♩ E5♩ E5𝅘𝅥𝅯  F#5♩ C#5♩ D5♪ C5♩ Eb4♩ B4♩ B4𝅘𝅥𝅯  F4♩ B3♩ Ab4♩ G3♩ B3♩ G4♩ Bb4♩ Ab4♩ Eb4♩ Eb4𝅘𝅥𝅯  Ab4♩ C5♩ G4♩ Bb4♩ C#4♩ B3♩ B3𝅘𝅥𝅯  G3♩ C#4♩ B3♩ C#4♩ C#4𝅘𝅥𝅯  G3♩ C#4♩ C3♩ G3♩ C3♩ C#4♩ G3♩ B3♩ C3♩ B3♩ C3♩ C3♩ C#4♩ C3♩ B3♩ Eb4♩ B3♩ G3♩ C#4♩ C#4𝅘𝅥𝅯  B3♩ C3♩ C3♩ G3♩ C3♩ G3♩ C#4♩ G3♩ Eb4♩ G3♩ C#4♩ C3♩ C#4♩ B3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C#4♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ C3♩ C3♩ 
+
+Essex
+max cases =  143
+E3♩ C3♩ C3♩ C3♩ E3♩ F3♩ C3♩ E3♩ C3♩ C3♩ E3♩ F3♩ F#3♩ Bb3♩ C#4♩ Ab3♩ A3♩ Ab3♩ C4♩ C4♩ C4♩ E4♩ F4♩ Bb4♩ E5♩ C5♩ A5♩ G5♪ A5♩ F#5♩ F5♪ Bb5♩ C#6♩ F6♩ E6♪ D6♩ C#6♪ F5♩ E6♩ E6♪ Eb6♪ Ab5♩ F#5♪ G5♪ Eb5♩ C6♩ F5♩ Bb5♩ Bb5♪ Ab5♩ B5♩ B5♪ F6♩ G6♪ Ab6♪ G6♪ B6♩ A6♪ E6♩ C7♩ F#6♩ F6♪ D6♩ Eb6♪ G5♩ C6♩ Bb5♩ Eb6♩ B5♩ C#6♪ Eb5♩ Bb4♩ Eb5♩ C6♩ F#5♩ Ab5♩ C#5♩ Ab4♩ Bb4♩ Ab4♩ F#5♩ E5♩ E5♪ Eb5♪ D5♪ G4♩ F4♩ Ab4♩ Bb4♩ B4♪ G4♩ C#4♩ C#4𝅘𝅥𝅯  Bb3♩ C#4♩ G4♩ F#4♩ E4♩ E4♪ Ab3♩ Ab3♩ A3♩ G4♩ Eb4♩ F4♩ Eb4♩ F#4♩ F#4♪ Bb4♩ E4♩ C#4♩ B3♩ Eb4♩ F#3♩ A3♩ Bb3♩ C#4♩ D4♪ C4♩ Eb4♩ F#3♩ Ab3♩ A3♩ B3♩ A3♩ C#4♩ D4♪ C4♩ Ab3♩ C#4♩ F#3♩ F4♩ E3♩ C3♩ 
+
+Gateshead
+max cases =  50
+F#3♩ C3♩ C3♩ C3♩ C3♩ F#3♩ C3♩ C3♩ F#3♩ A3♩ C3♩ Eb4♩ F4♩ F#3♩ A4♩ C#4♩ C5♩ G4♩ C#6♩ F5♩ D6♩ Ab5♩ F5♩ C#6♩ F#5♩ G6♩ A6♪ A6𝅘𝅥𝅯  E6♩ D6♪ Bb5♩ F#5♩ F#5𝅘𝅥𝅯  A5♩ B5♩ Bb5♪ C#6♩ E6♩ D6♪ Bb5♩ F6♩ B5♩ C7♩ C6♩ Bb4♩ F4♩ A5♩ D6♩ Bb6♩ B5♩ G5♩ Ab4♩ F4♩ Eb6♩ D5♩ A5♩ Ab5♪ Ab4♩ E4♩ G4♩ C#5♩ Eb4♩ Eb4𝅘𝅥𝅯  A3♩ Bb4♩ B3♩ F4♩ E4♩ A3♩ G4♩ A4♩ C#4♩ F#3♩ B3♩ A3♩ Eb4♩ B3♩ C3♩ F#3♩ A3♩ B3♩ A3♩ A3𝅘𝅥𝅯  C3♩ B3♩ F#3♩ A3♩ C3♩ F#3♩ C3♩ A3♩ F#3♩ A3♩ F#3♩ C3♩ F#3♩ C3♩ F#3♩ A3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  C3♩ C3♩ F#3♩ C3♩ C3♩ C3♩ C3♩ F#3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ C3♩ C3♩ A3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ C3♩ 
+
+Gloucestershire
+max cases =  63
+F#3♩ F#3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ C3♩ F#3♩ C3♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Bb3♩ C3♩ Bb3♩ C4♩ C#4♩ F4♩ Ab3♩ E4♩ F#4♩ F4♩ E4♩ Bb4♩ F5♩ B4♩ D5♩ F5♩ C5♩ Bb5♩ A5♪ B5♩ A5♪ A5♪ E6♩ A5♩ C6♩ Ab6♩ Bb6♪ D6♩ C7♩ Bb5♩ C#6♩ D6♪ G5♩ Eb6♩ Bb6♩ Ab5♩ C6♩ C#6♪ Eb5♩ C6♩ A5♩ E6♩ D6♪ B5♩ C5♩ D6♩ C#6♪ Bb5♩ F#5♩ C#6♩ F#5♩ G5♪ A5♩ F5♩ F5𝅘𝅥𝅯  Eb5♩ F5♩ C4♩ C#4♩ C6♩ Eb5♩ F5♩ F4♩ Ab4♩ D4♩ D4𝅘𝅥𝅯  E4♩ Ab4♩ D4♩ F4♩ D4♩ Ab3♩ C#4♩ C#4𝅘𝅥𝅯  D4♩ E4♩ Ab3♩ Bb3♩ Ab3♩ Bb3♩ C4♩ F#3♩ Bb3♩ C4♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ C3♩ C3♩ Bb3♩ Ab3♩ C4♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  Ab3♩ Ab3𝅘𝅥𝅯  C3♩ C3♩ Ab3♩ F#3♩ F#3𝅘𝅥𝅯  Bb3♩ F#3♩ C3♩ C3♩ F#3♩ C#4♩ C#4𝅘𝅥𝅯  Bb3♩ C3♩ C3♩ F#3♩ Bb3♩ Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  C3♩ C3♩ C3♩ 
+
+Greenwich
+max cases =  37
+G3♩ C3♩ C3♩ C#4♩ Eb4♩ G4♩ F4♩ B3♩ G4♩ F4♩ F5♩ Eb5♩ G4♩ F5♩ A5♩ G4♩ E5♩ Ab5♩ Bb5♩ C5♩ A5♩ G5♩ D5♩ G5♩ G6♩ A6♪ F6♩ E6♪ F#5♩ E6♩ C7♩ B5♩ E6♩ C6♩ Bb5♪ G5♩ F#5♪ Eb5♩ G6♩ G5♩ E5♩ Eb5♪ C5♩ Ab4♩ C5♩ C5𝅘𝅥𝅯  F5♩ Eb5♩ F5♩ C5♩ D5♩ C5♪ D5♩ C#6♩ C5♩ D5♩ C#4♩ G3♩ G4♩ G4𝅘𝅥𝅯  C#4♩ B4♩ C5♩ B3♩ G4♩ Eb4♩ Ab4♩ C5♩ B3♩ Bb4♩ C#4♩ B3♩ Eb4♩ F4♩ G3♩ G4♩ G3♩ C#4♩ C3♩ B3♩ F4♩ C#4♩ G3♩ F4♩ C3♩ G3♩ G3𝅘𝅥𝅯  C#4♩ C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  G3♩ G3𝅘𝅥𝅯  B3♩ F4♩ G3♩ G3𝅘𝅥𝅯  C#4♩ C3♩ C3♩ G3♩ G3𝅘𝅥𝅯  C#4♩ C#4𝅘𝅥𝅯  G3♩ C3♩ C3♩ Eb4♩ B3♩ C3♩ G3♩ C3♩ C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  B3♩ G3♩ B3♩ C3♩ C3♩ C3♩ 
+
+Hackney and City of London
+max cases =  38
+G3♩ C3♩ G3♩ B3♩ G3♩ Bb4♩ G4♩ Eb4♩ F4♩ B3♩ G4♩ G4𝅘𝅥𝅯  Ab4♩ G4♩ F5♩ F4♩ F5♩ Bb5♩ Bb5𝅘𝅥𝅯  G5♩ D6♩ Ab5♩ D5♩ F#5♩ Bb5♩ Ab6♩ A6♪ C7♩ F6♩ Eb6♪ C6♩ D6♩ F6♩ A5♩ A5♪ G5♩ F#5♪ C#5♩ B4♩ Bb4♩ D5♩ Ab4♩ B4♩ G4♩ C5♩ F5♩ F4♩ Bb4♩ Bb4𝅘𝅥𝅯  F4♩ G3♩ Ab4♩ Eb4♩ C#4♩ C5♩ G4♩ D5♩ Ab4♩ Eb4♩ Eb4𝅘𝅥𝅯  F4♩ F4𝅘𝅥𝅯  Ab4♩ C#4♩ C#4𝅘𝅥𝅯  C3♩ Eb4♩ C#4♩ F4♩ G3♩ C#4♩ G3♩ G3𝅘𝅥𝅯  F4♩ G4♩ B3♩ B3𝅘𝅥𝅯  C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  B3♩ G3♩ B3♩ G3♩ G3𝅘𝅥𝅯  C#4♩ G3♩ F4♩ G3♩ G3𝅘𝅥𝅯  C3♩ C3♩ C3♩ G3♩ G3𝅘𝅥𝅯  C3♩ C3♩ B3♩ C3♩ B3♩ G3♩ C3♩ C#4♩ G3♩ C3♩ C3♩ G3♩ C3♩ G3♩ C3♩ G3♩ C3♩ B3♩ C3♩ C#4♩ C#4𝅘𝅥𝅯  B3♩ C#4♩ C3♩ G4♩ G3♩ G3𝅘𝅥𝅯  B3♩ C3♩ G3♩ 
+
+Halton
+max cases =  23
+D4♩ Bb3♩ Bb3𝅘𝅥𝅯  C3♩ Bb3♩ D4♩ C3♩ C3♩ Bb3♩ C3♩ C3♩ C3♩ Bb4♩ F4♩ D4♩ D5♩ F#5♩ D4♩ Bb5♩ F#5♩ E5♩ C#6♩ F#6♩ Bb5♩ D6♩ C7♩ Bb5♩ C#6♩ D6♪ Bb5♩ A5♪ Ab4♩ E5♩ G5♩ C6♩ C#6♪ G5♩ E6♩ G5♩ G5𝅘𝅥𝅯  C#6♩ F#5♩ C#6♩ C#6𝅘𝅥𝅯  C5♩ F4♩ E5♩ E5𝅘𝅥𝅯  G6♩ A6♩ Bb4♩ G5♩ F#5♩ F4♩ Ab4♩ Bb4♩ E5♩ D5♩ D5𝅘𝅥𝅯  D4♩ A5♩ D5♩ C#6♩ E5♩ F4♩ F#6♩ G5♩ G5𝅘𝅥𝅯  D6♩ A5♩ Bb5♪ Bb3♩ D4♩ D4𝅘𝅥𝅯  F4♩ D5♩ Ab4♩ Bb4♩ F6♩ C3♩ F4♩ Ab4♩ Ab4𝅘𝅥𝅯  Bb3♩ Bb3𝅘𝅥𝅯  D4♩ Bb3♩ C3♩ C3♩ Bb3♩ Ab4♩ C3♩ Bb3♩ C3♩ C3♩ Bb3♩ Bb4♩ C3♩ Bb3♩ Bb3𝅘𝅥𝅯  C3♩ C3♩ Ab4♩ D4♩ C3♩ C3♩ C3♩ D4♩ C3♩ C3♩ F4♩ Ab4♩ C3♩ C3♩ Bb3♩ D4♩ C3♩ C3♩ C3♩ Bb3♩ C3♩ 
+
+Hammersmith and Fulham
+max cases =  51
+F#3♩ C3♩ A3♩ C3♩ C3♩ B3♩ B3𝅘𝅥𝅯  Bb4♩ F#3♩ B3♩ A3♩ B3♩ B3𝅘𝅥𝅯  G4♩ Ab4♩ B3♩ G4♩ B4♩ C#5♩ C5♪ C#5♪ F5♩ Ab5♩ G4♩ B4♩ F4♩ B4♩ E5♩ Bb5♩ F#5♩ F#5♪ D5♩ A4♩ D5♩ G5♩ F5♩ A4♩ Eb5♩ C#4♩ F4♩ Ab4♩ Ab4𝅘𝅥𝅯  C6♩ A5♩ Eb5♩ C#4♩ E4♩ A4♩ F5♩ Ab5♩ C7♩ A4♩ B3♩ Eb4♩ C#4♩ C#4𝅘𝅥𝅯  Ab4♩ Eb4♩ Ab4♩ F#3♩ A3♩ Eb4♩ F#3♩ A3♩ C#4♩ B3♩ F#3♩ F#3𝅘𝅥𝅯  A3♩ B3♩ B3𝅘𝅥𝅯  F#3♩ A3♩ C3♩ F#3♩ B3♩ F#3♩ Eb4♩ A3♩ C#4♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ C3♩ A3♩ C3♩ C3♩ F#3♩ A3♩ B3♩ F#3♩ C3♩ A3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  C3♩ F#3♩ C3♩ F#3♩ C3♩ C3♩ B3♩ A3♩ A3𝅘𝅥𝅯  F#3♩ C3♩ B3♩ B3𝅘𝅥𝅯  C#4♩ C#4𝅘𝅥𝅯  C3♩ Eb4♩ C3♩ C3♩ B3♩ F#3♩ F#3𝅘𝅥𝅯  A3♩ C3♩ B3♩ C3♩ C3♩ F#3♩ C3♩ C3♩ 
+
+Hampshire
+max cases =  145
+Eb3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Eb3♩ Eb3𝅘𝅥𝅯  A3♩ C3♩ Eb3♩ Bb3♩ F3♩ B3♩ G4♩ Eb4♩ Ab3♩ C#4♩ F4♩ Eb4♩ E4♩ G4♩ A4♩ G4♩ B4♩ Eb5♩ B4♩ D5♩ F5♩ F#5♪ B5♩ Eb5♩ C6♩ B5♪ A5♩ C#6♩ C#6♪ Bb5♩ Bb5𝅘𝅥𝅯  E6♩ F#6♩ C6♩ Bb5♩ C6♩ E5♩ Bb5♩ B5♪ Ab5♩ Eb6♩ B5♩ Eb6♩ B5♩ G5♩ C6♩ E6♩ A6♩ C7♪ F#6♩ E6♪ B5♩ E6♩ F6♪ Eb6♪ F6♩ D6♩ E5♩ F#5♩ C#6♩ F5♩ F5♪ Eb5♩ D5♪ Bb4♩ C#5♩ F5♩ Ab5♩ Ab5♪ A4♩ B4♩ Bb4♪ Ab4♩ E5♩ A5♩ C#5♩ C5♪ Eb5♩ A4♩ F#4♩ A4♩ E4♩ F#4♩ F#4♪ C#4♩ B3♩ D4♩ Eb4♪ C5♩ C#4♩ G4♩ F#4♩ F#3♩ F#3𝅘𝅥𝅯  B3♩ C#4♩ Bb3♩ A3♩ F3♩ F3𝅘𝅥𝅯  G3♩ F#3♩ F#3𝅘𝅥𝅯  Eb3♩ F#3♩ F#3𝅘𝅥𝅯  Ab3♩ C3♩ Eb3♩ F3♩ C3♩ C3♩ Ab3♩ C3♩ Eb3♩ Ab3♩ F3♩ Eb3♩ F3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  F3♩ G3♩ F3♩ F3𝅘𝅥𝅯  C3♩ 
+
+Haringey
+max cases =  30
+Ab3♩ C4♩ Eb4♩ A4♩ B4♩ C5♩ Ab3♩ F4♩ C4♩ F4♩ G5♩ Eb5♩ F5♩ F5𝅘𝅥𝅯  F5𝅘𝅥𝅯  A5♩ D6♩ F#5♩ D5♩ D6♩ B5♩ B5𝅘𝅥𝅯  Eb6♩ C#6♩ F#6♩ Bb6♩ A6♪ C6♩ D5♩ Ab5♩ C7♩ A5♩ Eb6♩ F5♩ Eb5♪ F#5♩ C6♩ Eb5♩ Ab5♩ G4♩ B4♩ F4♩ C6♩ G4♩ F5♩ B4♩ G5♩ D5♩ D5𝅘𝅥𝅯  B4♩ D5♩ F4♩ Eb5♩ Eb4♩ D5♩ Eb4♩ Ab3♩ Eb4♩ A4♩ G4♩ F#5♩ A4♩ C4♩ F4♩ F4𝅘𝅥𝅯  Ab3♩ F4♩ G4♩ B4♩ G4♩ Ab3♩ C3♩ Ab3♩ C4♩ F4♩ Ab3♩ C4♩ Eb4♩ Ab3♩ C3♩ G4♩ Ab3♩ C3♩ Ab3♩ C3♩ Ab3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ Ab3♩ C3♩ C3♩ Ab3♩ C4♩ Ab3♩ C4♩ Ab3♩ C4♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C4♩ Ab3♩ Eb4♩ Ab3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ C3♩ Ab3♩ C3♩ C3♩ Eb4♩ C4♩ Eb4♩ C4♩ C3♩ C3♩ Ab3♩ 
+
+Harrow
+max cases =  40
+G3♩ C3♩ C3♩ C3♩ C3♩ C3♩ E4♩ G3♩ E4♩ A4♩ Eb4♩ Bb4♩ F#4♩ D5♩ E5♩ C6♩ C#5♩ E5♩ Ab5♩ F5♩ A5♩ D6♩ E6♩ E6𝅘𝅥𝅯  C7♩ Eb6♩ C6♩ E6♩ D6♪ C6♩ F#6♩ C6♩ D6♩ D6𝅘𝅥𝅯  C#6♪ E6♩ C#6♩ F#6♩ Eb6♩ F5♩ F5𝅘𝅥𝅯  C6♩ G5♩ G5𝅘𝅥𝅯  C6♩ Eb6♩ F5♩ Eb6♩ G5♩ E6♩ A5♩ Ab5♩ F5♩ A5♩ E5♩ C6♩ E5♩ F#6♩ F#5♩ C5♩ Ab4♩ Ab4𝅘𝅥𝅯  A5♩ D5♩ Eb5♪ A5♩ C5♩ Ab4♩ C3♩ C#4♩ Ab4♩ C#4♩ Bb4♩ E4♩ C3♩ Eb4♩ E4♩ Eb4♩ E4♩ Eb4♩ Bb3♩ G3♩ C3♩ C3♩ Bb3♩ Eb4♩ Eb4𝅘𝅥𝅯  G3♩ Eb4♩ C3♩ G3♩ E4♩ Bb3♩ Bb3𝅘𝅥𝅯  G3♩ C#4♩ Bb3♩ F#4♩ Eb4♩ Bb3♩ Bb3𝅘𝅥𝅯  G3♩ C3♩ C3♩ C3♩ G3♩ C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ Bb3♩ C3♩ G3♩ G3𝅘𝅥𝅯  C3♩ C#4♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ Bb3♩ C3♩ C#4♩ G3♩ Bb3♩ Bb3𝅘𝅥𝅯  C#4♩ G3♩ C3♩ 
+
+Hartlepool
+max cases =  26
+A3♩ C3♩ A3♩ C3♩ A3♩ C3♩ C3♩ C3♩ C3♩ C#4♩ A3♩ C#4♩ E4♩ A3♩ A4♩ E4♩ E4𝅘𝅥𝅯  C#4♩ B4♩ B4𝅘𝅥𝅯  E4♩ E5♩ G5♩ B4♩ E5♩ F#4♩ F#4𝅘𝅥𝅯  B4♩ F#4♩ D5♩ E5♩ F5♩ F#4♩ C7♩ Ab5♩ G5♪ G5𝅘𝅥𝅯  Ab5♪ A6♩ A5♩ B5♪ B5𝅘𝅥𝅯  E5♩ Eb6♩ F#6♩ G5♩ D5♩ D5𝅘𝅥𝅯  C5♩ E5♩ B4♩ C6♩ D6♩ B4♩ E5♩ C6♩ F5♩ C#6♩ F5♩ Eb6♩ D5♩ A4♩ E4♩ A5♩ F#4♩ A4♩ C#4♩ A4♩ A3♩ A3𝅘𝅥𝅯  C3♩ C5♩ A4♩ A3♩ A4♩ C#4♩ A3♩ A4♩ C#4♩ D5♩ C#4♩ F#4♩ A3♩ C#4♩ C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  A3♩ E4♩ C#4♩ E4♩ C#4♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  C3♩ C3♩ A3♩ C3♩ E4♩ C#4♩ A3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ A3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ A3♩ C3♩ A3♩ C3♩ 
+
+Havering
+max cases =  37
+B3♩ C3♩ C3♩ G3♩ C3♩ B3♩ G3♩ G3𝅘𝅥𝅯  B3♩ F4♩ B3♩ C#4♩ D5♩ Ab4♩ Eb4♩ G4♩ E5♩ C5♩ G5♩ E5♩ D5♩ C5♪ G4♩ B4♩ Ab5♩ F6♩ G6♩ Ab6♪ C7♩ C6♩ C#6♪ F#6♩ C7♩ Bb6♪ E6♩ E6𝅘𝅥𝅯  A5♩ D6♩ Ab5♩ G5♪ C6♩ C#6♪ C5♩ D5♩ F#5♩ F5♪ C5♩ Eb5♩ F5♩ D5♩ D5𝅘𝅥𝅯  Bb4♩ E5♩ Ab4♩ B4♩ D5♩ B5♩ C5♩ Bb4♩ G5♩ Ab4♩ Bb4♩ G3♩ C#4♩ C3♩ Eb4♩ Eb4𝅘𝅥𝅯  B3♩ Eb4♩ F4♩ Ab4♩ Eb4♩ C#4♩ B3♩ C#4♩ Ab4♩ C5♩ B3♩ C3♩ G3♩ B3♩ C#4♩ B3♩ C3♩ C3♩ C3♩ B3♩ G3♩ C3♩ C#4♩ G3♩ G3𝅘𝅥𝅯  C3♩ B3♩ B3𝅘𝅥𝅯  C#4♩ B3♩ C3♩ B3♩ G3♩ G3𝅘𝅥𝅯  C#4♩ G3♩ C3♩ C3♩ G3♩ C3♩ C3♩ G3♩ G4♩ C#4♩ G3♩ G3𝅘𝅥𝅯  B3♩ C3♩ B3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C#4♩ B3♩ C3♩ G3♩ C#4♩ C#4𝅘𝅥𝅯  C3♩ C3♩ 
+
+Herefordshire, County of
+max cases =  56
+F#3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  B3♩ C3♩ F#3♩ C3♩ C3♩ D4♩ C3♩ B3♩ Eb4♩ B3♩ C3♩ F#3♩ A3♩ C4♩ C4𝅘𝅥𝅯  D4♩ G4♩ Eb4♩ C4♩ D4♩ C4♩ C4𝅘𝅥𝅯  A4♩ B3♩ D4♩ D4𝅘𝅥𝅯  Eb4♩ Eb4𝅘𝅥𝅯  G4♩ E4♩ D4♩ B3♩ D4♩ E4♩ A4♩ B4♩ C#5♩ B4♩ A5♩ E5♩ B5♩ C4♩ C#5♩ C6♩ A4♩ F#4♩ G4♩ E5♩ C#5♩ B4♩ G4♩ Bb4♩ C5♩ A5♩ C6♩ A3♩ F#3♩ F#4♩ A4♩ C4♩ F#4♩ F5♩ E4♩ A4♩ Eb4♩ Eb5♩ Eb5𝅘𝅥𝅯  Eb5♪ D4♩ C4♩ E4♩ G4♩ A3♩ D4♩ C4♩ E4♩ D4♩ F#3♩ B3♩ C4♩ C4𝅘𝅥𝅯  C5♩ C4♩ B3♩ F#3♩ E4♩ F#4♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  C3♩ B3♩ C3♩ C3♩ C3♩ F#3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ B3♩ C3♩ C3♩ C3♩ A3♩ C3♩ F#3♩ C3♩ C3♩ F#3♩ A3♩ C3♩ C4♩ C7♩ C3♩ 
+
+Hertfordshire
+max cases =  103
+E3♩ E3𝅘𝅥𝅯  E3𝅘𝅥𝅯  C3♩ E3♩ C3♩ Bb3♩ F#3♩ C3♩ A3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  Bb3♩ B3♩ F#3♩ D4♩ A3♩ F#4♩ B3♩ Bb3♩ B4♩ Bb4♪ Bb4♪ A4♪ F4♩ C6♩ G5♩ B5♩ A5♩ Bb5♪ G5♩ C#6♩ G6♩ F6♩ G6♩ C7♩ F#6♩ Bb5♩ C#6♩ A6♩ F#6♩ G6♪ F6♩ F6♪ B5♩ Bb5♪ B5♪ C#6♪ D6♪ Eb6♪ Ab6♩ B5♩ G6♩ C6♩ D6♩ G6♩ E6♩ C6♩ Bb5♩ Bb5♪ D6♩ E6♪ A6♩ B5♩ F#6♩ Eb5♩ D5♩ C#6♩ Ab5♩ D6♩ F#5♩ E5♩ Ab5♩ F#4♩ A5♩ A5♪ C6♩ A4♩ Bb4♩ Ab4♩ Ab4♪ G5♩ D5♩ D5𝅘𝅥𝅯  G4♩ Bb4♩ B4♩ D4♩ Ab4♩ A4♪ F#4♩ A4♩ Ab4♪ D4♩ A3♩ F#4♩ D4♩ C#4♩ C#4𝅘𝅥𝅯  F#4♩ E4♩ Bb3♩ F4♩ A4♩ Eb4♩ E4♪ D4♩ C#4♩ Bb3♩ D4♩ A3♩ D4♩ F#4♩ F4♩ C3♩ Bb3♩ A3♩ Bb3♩ Ab3♩ Ab3𝅘𝅥𝅯  B3♩ B3𝅘𝅥𝅯  F#3♩ F4♩ B3♩ F#3♩ D4♩ G4♩ C4♩ Ab3♩ Ab4♩ C4♩ B3♩ F#3♩ C3♩ 
+
+Hillingdon
+max cases =  44
+G3♩ C3♩ G3♩ Bb3♩ C3♩ C3♩ Bb3♩ C3♩ Bb3♩ Bb3𝅘𝅥𝅯  D4♩ C4♩ G3♩ E4♩ A4♩ E5♩ E4♩ D5♩ C5♩ A4♩ Bb4♩ F5♩ F#5♪ F5♪ Ab5♩ C6♩ C5♩ F#5♩ G5♪ F6♩ A5♩ F5♩ C7♩ F5♩ E5♪ Bb5♩ C#6♩ F#5♩ E6♩ Ab5♩ F5♩ C#5♩ F5♩ F5𝅘𝅥𝅯  A5♩ G5♩ F6♩ Ab5♩ B5♩ C6♪ Eb5♩ E5♪ Ab5♩ D5♩ C5♩ Eb5♩ F#5♩ D5♩ A4♩ D5♩ E5♩ D5♩ E4♩ D5♩ G4♩ C#5♩ C#5𝅘𝅥𝅯  G3♩ E4♩ Bb3♩ C4♩ Bb4♩ F4♩ A4♩ C4♩ E4♩ Bb3♩ G3♩ E4♩ C4♩ G4♩ Bb3♩ G3♩ D4♩ C4♩ G3♩ Bb3♩ C4♩ Bb3♩ C3♩ Bb3♩ C4♩ C3♩ D4♩ G3♩ C3♩ C3♩ C3♩ F4♩ Bb3♩ E4♩ G3♩ C4♩ Bb3♩ G3♩ C3♩ D4♩ C3♩ C3♩ G3♩ G3𝅘𝅥𝅯  Bb3♩ E4♩ E4𝅘𝅥𝅯  C4♩ G3♩ C4♩ G3♩ C4♩ C4𝅘𝅥𝅯  F4♩ C4♩ E4♩ C4♩ C4𝅘𝅥𝅯  C4𝅘𝅥𝅯  C4𝅘𝅥𝅯  C4𝅘𝅥𝅯  C3♩ Bb3♩ C3♩ 
+
+Hounslow
+max cases =  33
+Ab3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ B3♩ Ab4♩ Ab3♩ F#4♩ E4♩ F#4♩ C#5♩ B4♩ Eb5♩ F#5♩ Bb4♩ G5♩ B4♩ Bb5♩ Ab5♩ Bb5♩ Ab5♩ F#6♩ B4♩ Ab5♩ E6♩ Eb6♪ B6♩ C7♪ F6♩ Bb5♩ C6♩ B5♪ E6♩ E6♪ E6♪ A5♩ C#5♩ F#5♩ C#5♩ Eb6♩ Bb5♩ Bb5𝅘𝅥𝅯  B5♪ G5♩ E6♩ G5♩ Eb6♩ C#5♩ Ab5♩ Bb5♩ D6♩ Ab5♩ B4♩ Eb5♩ C6♩ A6♩ F#5♩ Eb5♩ F#4♩ G5♩ E4♩ D5♩ C#5♩ C#5𝅘𝅥𝅯  C#5𝅘𝅥𝅯  E4♩ D4♩ D5♩ F#4♩ F#4𝅘𝅥𝅯  F#4𝅘𝅥𝅯  D4♩ E4♩ B3♩ Ab3♩ B3♩ E4♩ F#4♩ Ab3♩ C3♩ B3♩ B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  D4♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  E4♩ E4𝅘𝅥𝅯  Bb4♩ E4♩ F#4♩ Ab3♩ Ab4♩ D5♩ B3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  B3♩ B3𝅘𝅥𝅯  D4♩ D4𝅘𝅥𝅯  D4𝅘𝅥𝅯  Ab3♩ F#4♩ B3♩ D4♩ E4♩ D5♩ B3♩ C3♩ B3♩ C3♩ B3♩ F#4♩ B3♩ Ab3♩ C3♩ B3♩ Ab3♩ Ab3𝅘𝅥𝅯  D4♩ Ab3♩ Ab3𝅘𝅥𝅯  
+
+Isle of Wight
+max cases =  34
+Ab3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  E4♩ B3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  B3♩ C3♩ D4♩ Ab3♩ A4♩ Ab3♩ Ab3𝅘𝅥𝅯  D4♩ B3♩ E4♩ B3♩ F#4♩ B3♩ F#4♩ B3♩ B3𝅘𝅥𝅯  Ab3♩ C3♩ E4♩ B4♩ Ab3♩ E4♩ Ab3♩ C3♩ Ab4♩ E4♩ D5♩ F6♩ D5♩ A5♩ Ab4♩ C5♩ C7♩ Ab4♩ Ab5♩ A5♪ D4♩ Eb5♩ F#4♩ B4♩ F#5♩ A4♩ D4♩ B3♩ B4♩ Ab4♩ F#5♩ A4♩ E5♩ Ab3♩ C3♩ D5♩ B4♩ F#4♩ A4♩ E4♩ E4𝅘𝅥𝅯  Ab3♩ Ab3𝅘𝅥𝅯  F#4♩ C3♩ G5♩ F#4♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  D4♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  C3♩ Ab3♩ C3♩ C3♩ B3♩ C3♩ C3♩ D4♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ 
+
+Islington
+max cases =  24
+A3♩ C3♩ C#4♩ C#4𝅘𝅥𝅯  F#5♩ C5♩ A4♩ C5♩ A4♩ C#5♩ Eb5♩ F5♩ E4♩ Eb5♩ Eb5𝅘𝅥𝅯  C7♩ F#6♩ Ab5♩ Eb5♩ C#6♩ C#5♩ Ab5♩ F6♩ F#6♪ E6♩ Ab6♩ C#6♩ E6♩ A4♩ Eb5♩ C6♩ A5♩ Ab5♪ G4♩ G4𝅘𝅥𝅯  C#5♩ C#5𝅘𝅥𝅯  C#5𝅘𝅥𝅯  F#5♩ C#5♩ A5♩ G4♩ A3♩ A5♩ G4♩ E4♩ Eb5♩ G4♩ A3♩ C#5♩ C#5𝅘𝅥𝅯  G4♩ C#4♩ C5♩ A4♩ A3♩ G4♩ G4𝅘𝅥𝅯  C#4♩ C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  C5♩ G4♩ C3♩ G4♩ C#4♩ G4♩ A3♩ G4♩ C#4♩ C#4𝅘𝅥𝅯  A3♩ E4♩ A3♩ A3𝅘𝅥𝅯  C#4♩ A3♩ C3♩ C#4♩ A3♩ C#4♩ C3♩ A3♩ A3𝅘𝅥𝅯  C3♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  C3♩ E4♩ C3♩ A3♩ C3♩ C3♩ A3♩ E4♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  E4♩ C3♩ A3♩ C3♩ C3♩ C3♩ A3♩ C3♩ C3♩ A3♩ C3♩ C#4♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  C3♩ C#4♩ A3♩ A3𝅘𝅥𝅯  C3♩ C3♩ C3♩ 
+
+Kensington and Chelsea
+max cases =  22
+Bb3♩ Bb3𝅘𝅥𝅯  C3♩ C3♩ Ab4♩ C3♩ Ab4♩ C#5♩ C3♩ Bb3♩ D4♩ Ab4♩ Ab5♩ Ab5𝅘𝅥𝅯  C#5♩ F4♩ F4𝅘𝅥𝅯  Bb3♩ C#5♩ Eb5♩ E5♩ Bb4♩ Bb4𝅘𝅥𝅯  Bb4𝅘𝅥𝅯  C#5♩ F#5♩ Eb5♩ D6♩ C7♩ A6♪ F#5♩ F#5𝅘𝅥𝅯  C7♩ G6♩ E6♩ A6♩ Eb6♩ Eb5♩ C#5♩ A5♩ Ab6♩ A6♪ G6♩ A5♩ Ab4♩ F4♩ Eb5♩ Eb5𝅘𝅥𝅯  C#5♩ F#5♩ E5♩ C#5♩ Bb3♩ Eb5♩ C#5♩ F#6♩ C#5♩ C3♩ Bb4♩ F4♩ Bb4♩ F4♩ D4♩ Bb4♩ Bb4𝅘𝅥𝅯  D4♩ F4♩ Bb3♩ D4♩ F4♩ Ab4♩ D4♩ D4𝅘𝅥𝅯  C3♩ Bb3♩ D4♩ Bb3♩ C3♩ Bb3♩ C3♩ D4♩ D4𝅘𝅥𝅯  C3♩ Bb3♩ Bb4♩ C3♩ Bb3♩ Bb3𝅘𝅥𝅯  C3♩ Bb3♩ C3♩ Bb3♩ D4♩ Bb3♩ C3♩ Bb3♩ C3♩ C3♩ C3♩ C3♩ Bb3♩ F4♩ Bb3♩ C3♩ C3♩ C3♩ Bb3♩ C3♩ D4♩ C3♩ Bb3♩ C#5♩ C3♩ Bb3♩ C3♩ C3♩ D4♩ D4𝅘𝅥𝅯  F4♩ Bb3♩ C3♩ C3♩ C3♩ C3♩ Bb3♩ C3♩ C3♩ Bb3♩ C3♩ C3♩ Bb3♩ Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  C3♩ C3♩ 
+
+Kent
+max cases =  184
+Eb3♩ C3♩ C3♩ C3♩ Eb3♩ C3♩ F3♩ Eb3♩ C3♩ Eb3♩ F3♩ G3♩ F#3♩ Ab3♩ A3♩ G3♩ G3𝅘𝅥𝅯  Bb3♩ G3♩ C4♩ C#4♩ D4♩ A3♩ E4♩ C5♩ A4♩ D5♩ D5♪ D5♪ C5♩ Eb5♩ E5♪ Bb5♩ C#6♩ Ab5♩ Bb5♩ F5♩ F#5♪ F#6♩ Eb6♩ C6♩ D6♩ Eb6♪ Eb5♩ D6♩ D6♪ F#5♩ B6♩ Bb6♪ C7♪ B5♩ Ab5♩ D6♩ F6♩ E6♪ B5♩ E6♩ B5♩ G5♩ B5♩ F6♩ A6♩ Eb6♩ A5♩ A5♪ F#5♩ G5♩ Eb6♩ Bb5♩ A5♪ Ab5♪ C#5♩ D5♩ D6♩ B5♩ C#6♩ Ab5♩ F#5♩ Ab4♩ F5♩ C6♩ E6♩ C#6♩ B5♪ C#5♩ E4♩ C#5♩ F5♩ E5♩ Eb5♪ C#5♩ C#5♪ C#5♪ B4♩ E5♩ F5♩ E5♪ C5♩ Eb5♩ Ab4♩ Eb4♩ D5♩ C#5♪ D5♪ Eb4♩ G4♩ E4♩ G4♩ A4♩ A4♪ G4♩ Bb4♩ G4♩ G4𝅘𝅥𝅯  E4♩ Bb4♩ E4♩ Eb4♪ F#4♩ G4♪ C#4♩ F4♩ G4♩ F4♩ F4♪ E4♩ G4♩ C4♩ D4♩ C4♩ C#4♩ Eb4♩ Bb3♩ C3♩ 
+
+Kingston upon Hull, City of
+max cases =  68
+F3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Bb3♩ C3♩ C3♩ F3♩ Bb3♩ Bb3𝅘𝅥𝅯  Ab3♩ C3♩ Bb3♩ Bb3𝅘𝅥𝅯  Ab3♩ C#4♩ E4♩ F#4♩ E4♩ B3♩ Bb4♩ Ab4♩ F4♩ Ab4♩ C5♩ A4♩ F#4♩ Bb4♩ F#5♩ Ab5♩ F#4♩ Bb4♩ E5♩ C5♩ F5♩ Ab4♩ G5♩ C5♩ B5♩ F#5♩ F#5𝅘𝅥𝅯  A5♩ Bb5♪ C7♩ G6♩ F6♪ D5♩ Bb5♩ G5♩ G5♪ Ab4♩ F#5♩ C5♩ E4♩ D5♩ D5𝅘𝅥𝅯  F5♩ B4♩ C#5♩ D5♪ Ab4♩ Eb5♩ F5♩ Eb5♩ D5♪ C6♩ D5♩ F5♩ Ab5♩ D5♩ C5♩ Bb4♩ C#5♩ A4♩ Ab4♪ G4♩ Eb4♩ G4♩ Eb4♩ G4♩ D4♩ B3♩ F3♩ Eb4♩ D4♩ B4♩ D4♩ Ab4♩ Bb4♩ Eb4♩ G4♩ F5♩ C#4♩ D4♩ Bb3♩ C#4♩ B3♩ Ab3♩ B3♩ Ab3♩ Bb3♩ F3♩ F3𝅘𝅥𝅯  F3𝅘𝅥𝅯  F3𝅘𝅥𝅯  Bb3♩ Ab3♩ C3♩ F3♩ F3𝅘𝅥𝅯  C3♩ F3♩ C3♩ C3♩ C3♩ C3♩ 
+
+Kingston upon Thames
+max cases =  23
+Bb3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Bb3♩ C3♩ C3♩ Bb3♩ Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  F4♩ D4♩ Bb4♩ C5♩ D4♩ C5♩ C5𝅘𝅥𝅯  Bb3♩ Bb3𝅘𝅥𝅯  A5♩ E6♩ C6♩ C#6♪ A5♩ C5♩ C6♩ G6♩ Bb5♩ F#5♩ E6♩ Ab6♩ A5♩ F#5♩ C6♩ F#6♩ A6♩ G6♪ G5♩ Ab4♩ C7♩ C6♩ G6♩ F6♩ G6♩ Bb6♩ Ab6♪ G5♩ G5𝅘𝅥𝅯  E6♩ G5♩ F#6♩ D5♩ Bb4♩ Bb4𝅘𝅥𝅯  G5♩ F4♩ G6♩ E6♩ F#5♩ Bb5♩ C5♩ E5♩ Bb4♩ C5♩ C5𝅘𝅥𝅯  Ab4♩ D4♩ E5♩ F#5♩ F#5𝅘𝅥𝅯  E5♩ Bb5♩ F4♩ Bb3♩ C3♩ D4♩ D4𝅘𝅥𝅯  D5♩ Ab4♩ Ab4𝅘𝅥𝅯  C3♩ Bb3♩ F4♩ D4♩ Bb3♩ Bb3𝅘𝅥𝅯  C5♩ Bb3♩ C3♩ Bb3♩ Bb3𝅘𝅥𝅯  D4♩ F4♩ C3♩ D4♩ D4𝅘𝅥𝅯  D4𝅘𝅥𝅯  D4𝅘𝅥𝅯  Bb3♩ Bb3𝅘𝅥𝅯  D4♩ D4𝅘𝅥𝅯  C3♩ C3♩ Bb3♩ Bb3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Bb3♩ D4♩ C3♩ C3♩ C3♩ C3♩ Bb3♩ Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  C3♩ C3♩ C3♩ Bb3♩ 
+
+Kirklees
+max cases =  58
+F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  C3♩ C3♩ C3♩ F#3♩ Ab3♩ F#3♩ D4♩ Ab3♩ C4♩ Bb3♩ Bb3𝅘𝅥𝅯  C4♩ Eb4♩ G4♩ Ab4♩ G4♪ F#4♩ C5♩ Eb5♩ Eb5𝅘𝅥𝅯  F#5♩ F5♪ E5♪ B4♩ A4♩ A5♩ Ab5♩ E5♩ C5♩ B4♪ C#5♩ E4♩ F5♩ G5♩ F#5♪ Ab5♪ Eb5♩ G5♩ D6♩ A4♩ D5♩ A5♩ Ab5♪ D6♩ E5♩ G4♩ G5♩ C#5♩ B5♩ A5♪ C7♩ E5♩ C#5♩ B4♩ B5♩ C#5♩ E5♩ A5♩ C#5♩ Ab5♩ E5♩ Bb5♩ G5♩ F#5♪ F#5♪ Ab5♪ Bb4♩ E5♩ C6♩ E5♩ Ab5♩ A5♪ C#5♩ C5♩ D4♩ Eb5♩ E5♪ E5♪ G4♩ F#4♩ D4♩ F#4♩ G4♩ F4♩ C5♩ Ab4♩ Bb3♩ Eb4♩ A4♩ G4♩ A4♩ E6♩ Ab5♩ E5♩ B4♩ Bb4♪ C6♩ E5♩ B4♩ D5♩ F5♩ A4♩ Bb4♪ Eb5♩ C#5♩ G5♩ C5♩ A4♩ E5♩ Eb5♪ Eb5𝅘𝅥𝅯  B5♩ Eb5♩ Ab5♩ C#5♩ Eb5♩ Eb5𝅘𝅥𝅯  C#5♩ D5♩ A4♩ Bb3♩ 
+
+Knowsley
+max cases =  32
+Ab3♩ C3♩ C3♩ C4♩ C3♩ C3♩ C4♩ C3♩ Ab3♩ D4♩ C4♩ Ab3♩ E4♩ D5♩ Bb4♩ Bb4𝅘𝅥𝅯  D5♩ F5♩ Eb6♩ F#5♩ C6♩ Eb6♩ Eb6𝅘𝅥𝅯  A5♩ G5♩ C7♩ Ab5♩ C#6♩ A6♩ F5♩ A5♩ C5♩ C6♩ C5♩ F#6♩ G6♪ G6𝅘𝅥𝅯  F5♩ C6♩ F6♩ G5♩ E6♩ F6♪ C6♩ Bb5♪ D5♩ Bb5♩ E6♩ G6♩ Eb6♩ E6♪ D5♩ D5𝅘𝅥𝅯  C5♩ C6♩ Eb6♩ F5♩ Bb4♩ Ab4♩ Bb4♩ A5♩ Ab4♩ Ab4𝅘𝅥𝅯  Ab4𝅘𝅥𝅯  D4♩ F#4♩ E4♩ Bb4♩ C#5♩ Bb4♩ Bb4𝅘𝅥𝅯  F#4♩ Ab3♩ E4♩ Ab3♩ E4♩ F#4♩ D4♩ Bb4♩ Ab3♩ F#4♩ Ab3♩ C4♩ Ab3♩ Ab4♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ Ab3♩ E4♩ Ab3♩ E4♩ C4♩ Ab3♩ C3♩ D4♩ D4𝅘𝅥𝅯  C3♩ Ab3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C5♩ E4♩ E4𝅘𝅥𝅯  E4𝅘𝅥𝅯  C4♩ D4♩ Bb4♩ D4♩ C4♩ Bb4♩ D4♩ C4♩ C3♩ Ab3♩ C4♩ C3♩ C3♩ C3♩ C3♩ 
+
+Lambeth
+max cases =  54
+F#3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ F#3♩ A3♩ C3♩ A3♩ F#4♩ C5♩ C#4♩ A4♩ Ab4♪ B4♩ D5♩ F5♩ D5♩ F#5♩ B5♩ Eb5♩ C#6♩ Bb5♩ A5♪ Eb6♩ F#6♩ D6♩ Eb6♪ A5♩ C7♩ F#6♩ A6♩ F#6♩ F6♪ C6♩ Eb5♩ F#6♩ F6♪ C6♩ C#6♪ D5♩ Ab6♩ D5♩ D5𝅘𝅥𝅯  A4♩ Ab5♩ F5♩ Bb4♩ D5♩ A4♩ C#5♩ B4♩ D5♩ G5♩ Bb4♩ F#4♩ G4♩ Ab4♩ G4♩ Ab4♩ F#4♩ A4♩ B3♩ C#4♩ D4♩ D4𝅘𝅥𝅯  D4𝅘𝅥𝅯  F4♩ A3♩ E4♩ B3♩ D4♩ B3♩ E4♩ G4♩ F4♩ F#3♩ C3♩ A3♩ A3𝅘𝅥𝅯  E4♩ Ab4♩ A3♩ D4♩ A3♩ F#3♩ B3♩ C3♩ F#3♩ C3♩ C3♩ C3♩ A3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  A3♩ F#3♩ C3♩ C#4♩ F#3♩ A3♩ C3♩ F#3♩ A3♩ C3♩ A3♩ C3♩ C3♩ F#3♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ F#3♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  C3♩ F#3♩ C3♩ F#3♩ E4♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ C3♩ 
+
+Lancashire
+max cases =  158
+F3♩ C3♩ C3♩ C3♩ F3♩ C3♩ C3♩ C3♩ Eb3♩ C3♩ F3♩ Ab3♩ F#3♩ C3♩ F3♩ Bb3♩ G3♩ C4♩ D4♩ Bb3♩ B3♩ Eb4♩ Bb4♩ C5♩ B4♪ F#5♩ C#5♩ C5♪ Bb4♩ C#6♩ B5♩ C6♪ C#6♪ E6♩ C6♩ C#6♪ E6♩ Eb6♪ D6♪ D6♪ Ab5♩ C6♩ F#5♩ Bb5♩ C6♪ C6♪ D6♩ Bb5♩ F6♩ B5♩ C6♪ D6♪ C7♩ G6♩ G6𝅘𝅥𝅯  Bb5♩ G5♩ C6♩ E6♩ C6♩ A6♩ Eb6♩ G5♩ C#6♩ Ab5♩ Bb5♩ G5♩ Ab5♩ C#6♩ A5♩ F5♩ Eb6♩ G6♩ G5♩ Ab5♪ G5♪ C6♩ E5♩ E5♪ Eb6♩ C#6♪ C6♪ F5♩ D5♩ Eb5♪ G5♩ G5♪ F5♩ D5♩ F5♩ A4♩ B4♩ Eb5♩ Eb5♪ Bb4♩ B4♪ Ab4♩ B4♩ A4♩ B4♩ Bb4♪ C#5♩ G4♩ F#4♩ E4♩ F4♩ F#4♪ A4♩ F#4♩ B4♩ A4♩ F#4♩ D4♩ G4♩ C#4♩ C#4𝅘𝅥𝅯  Eb4♩ C#4♩ B3♩ Eb4♩ C4♩ C4♪ Bb3♩ C4♩ Bb3♩ Ab3♩ E4♩ F4♪ A4♩ C4♩ Eb4♩ C3♩ 
+
+Leeds
+max cases =  109
+F#3♩ C3♩ C3♩ C3♩ C3♩ E3♩ C3♩ C3♩ F#3♩ C3♩ G3♩ C3♩ G3♩ E3♩ C3♩ C3♩ F#3♩ E3♩ G3♩ A3♩ B3♩ C4♩ B3♩ Eb4♩ F#4♩ G4♪ Eb4♩ A4♩ A4𝅘𝅥𝅯  B4♩ A4♩ B4♩ Bb4♩ C#5♩ C#5♪ Eb5♩ F#4♩ Eb5♩ Ab5♩ C6♩ F#5♩ F#5♪ G5♪ F5♩ F5♪ C5♩ E5♩ E6♩ Ab6♩ C6♩ A5♩ F#6♩ C6♩ E6♩ C7♩ F6♩ A6♩ F#5♩ G5♪ D6♩ D6𝅘𝅥𝅯  F6♩ A5♩ F#6♩ Ab5♩ D5♩ G5♩ Ab5♪ A5♪ F6♩ G5♩ Bb4♩ G5♩ B5♩ Eb5♩ A5♩ E5♩ C5♩ E5♩ F#5♩ E5♪ E5♪ F5♪ A5♩ C5♩ Eb4♩ D4♪ F4♩ E4♩ F4♩ G4♩ F#4♩ B3♩ F#4♩ F4♩ C#4♩ G4♩ F4♩ F4♪ C4♩ F4♩ F#4♪ Ab4♩ A4♩ D4♩ E5♩ C#4♩ B3♩ Ab4♩ Eb4♩ C5♩ F5♩ D5♩ E4♩ C#4♩ Ab4♩ Eb4♩ F#4♩ Eb4♩ E4♩ F4♩ D4♩ C#4♩ B3♩ D4♩ C#4♩ C4♩ G3♩ B3♩ Eb4♩ A3♩ Eb4♩ F#3♩ C3♩ 
+
+Leicester
+max cases =  97
+E3♩ E3𝅘𝅥𝅯  E3𝅘𝅥𝅯  C3♩ C3♩ F#3♩ Ab3♩ Bb3♩ B3♩ F#3♩ Bb3♩ C4♩ E4♩ A4♩ Bb3♩ F4♩ C#4♩ E4♩ E3♩ Bb3♩ C#5♩ Eb5♩ B4♩ C5♪ F#4♩ A4♩ C5♩ C5♪ A4♩ Eb5♩ A4♩ Ab4♩ B4♩ Eb4♩ F#4♩ F#4♪ Eb4♩ E4♩ Ab4♩ C#5♩ C#5♪ A4♩ D5♩ Bb4♩ F5♩ Bb4♩ C4♩ F5♩ Eb5♩ F5♩ G5♩ G4♩ Eb4♩ Ab4♩ F5♩ C5♩ C6♩ D5♩ E5♩ Ab4♩ C#5♩ Eb5♩ F#5♩ F#5♪ D5♩ G5♩ C#6♩ E5♩ E5𝅘𝅥𝅯  A5♩ G5♩ Bb5♩ B4♩ Eb5♩ Bb4♩ C5♩ C5♪ Eb5♩ E5♪ C5♩ Bb4♩ C#5♩ Ab5♩ E6♩ C#5♩ F5♩ C#5♩ B4♩ A5♩ C#6♩ Eb6♪ C#6♪ F#6♩ C6♩ C#6♪ D6♪ F#6♩ F6♪ E6♪ F6♪ G6♪ Eb6♩ Eb6♪ Bb6♩ Bb6𝅘𝅥𝅯  C7♪ F6♩ F6♪ Bb5♩ E5♩ G6♩ D6♩ F6♩ C6♩ D6♪ G5♩ G6♩ G6𝅘𝅥𝅯  B5♩ B5♪ A4♩ A3♩ 
+
+Leicestershire
+max cases =  68
+F3♩ C3♩ C3♩ C3♩ F3♩ F3𝅘𝅥𝅯  C3♩ C3♩ Bb3♩ C3♩ B3♩ Ab3♩ Ab3𝅘𝅥𝅯  F3♩ Ab3♩ Ab3𝅘𝅥𝅯  B3♩ Ab4♩ B4♩ D4♩ F4♩ F5♩ C5♩ D5♩ Ab4♩ B4♩ B4𝅘𝅥𝅯  Bb4♪ B3♩ A4♩ D6♩ Eb6♪ C#5♩ F5♩ D5♩ Ab5♩ Ab5𝅘𝅥𝅯  E5♩ C5♩ A5♩ F#5♩ Eb5♩ D5♪ D5𝅘𝅥𝅯  E5♩ A5♩ F6♩ C#6♩ Bb5♩ C6♩ Ab5♩ Eb6♩ Eb6♪ F5♩ Ab5♩ Ab5𝅘𝅥𝅯  Bb4♩ B5♩ C#6♩ Ab6♩ G6♪ Bb5♩ Ab5♩ E5♩ F#5♩ C#6♩ C#6𝅘𝅥𝅯  E6♩ B5♩ B4♩ D5♩ A5♩ D6♩ C6♪ G5♩ D6♩ G6♩ C6♩ F#6♩ C7♩ F6♩ F6♪ G5♩ D5♩ Ab4♩ F#5♩ C5♩ F#5♩ Eb5♩ G5♩ Bb4♩ F#5♩ A5♩ G5♩ A4♩ Ab4♪ F5♩ F4♩ D5♩ G5♩ Bb5♩ D5♩ Bb5♩ F5♩ D5♩ C5♩ Bb4♩ E5♩ F5♪ F5♪ B4♩ F#5♩ Bb4♩ D5♩ F5♩ G5♩ Bb4♩ Ab4♩ G4♩ G4𝅘𝅥𝅯  D5♩ F#5♩ B4♩ Ab4♩ B4♩ Ab4♩ D5♩ B4♩ A4♩ Ab4♩ D4♩ C3♩ 
+
+Lewisham
+max cases =  55
+F#3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F#3♩ C3♩ C3♩ F#3♩ C3♩ C3♩ F#3♩ D4♩ G4♩ B3♩ A3♩ Eb4♩ A4♩ F#4♩ G4♩ C#5♩ F#5♩ F#4♩ E5♩ Bb5♩ C#5♩ G5♩ A5♪ C#6♩ F5♩ A5♩ Bb5♪ Eb6♩ Eb6♪ C7♩ Bb6♪ Bb5♩ C6♩ G6♩ B5♩ Bb5♪ C#6♩ B4♩ C#5♩ E5♩ Bb5♩ C#5♩ Ab5♩ D5♩ Bb5♩ Eb4♩ A4♩ C5♩ B5♩ F4♩ C#5♩ A4♩ B4♩ F4♩ C#5♩ C5♩ G4♩ C#5♩ F#4♩ F4♩ Eb4♩ D4♩ F4♩ Eb4♩ G4♩ F4♩ A3♩ B3♩ F4♩ D4♩ Ab4♩ B3♩ F#3♩ B3♩ F#3♩ A3♩ C4♩ A3♩ D4♩ A3♩ F#3♩ A3♩ C4♩ A3♩ F#3♩ A3♩ C4♩ C3♩ A3♩ B3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  A3♩ F#3♩ A3♩ F#3♩ C3♩ B3♩ A3♩ C3♩ F#3♩ C3♩ C3♩ F#3♩ A3♩ A3𝅘𝅥𝅯  F#3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  A3♩ C3♩ C3♩ A3♩ C3♩ C3♩ F#3♩ A3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ B3♩ B3𝅘𝅥𝅯  A3♩ C3♩ 
+
+Lincolnshire
+max cases =  76
+G3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F3♩ B3♩ G3♩ A3♩ C3♩ C3♩ G3♩ C3♩ G3♩ C4♩ A3♩ C4♩ B3♩ G3♩ Eb4♩ G4♩ F#4♩ D5♩ Bb4♩ C#5♩ A4♩ F5♩ E5♪ G5♩ Ab4♩ A5♩ C5♩ C#5♩ A5♩ F5♩ A4♩ C#5♩ F5♩ F5♪ G5♩ Eb5♩ Ab5♩ F5♩ Bb5♩ E5♩ Bb4♩ Ab5♩ E5♩ C5♩ F#5♩ E5♩ Ab5♩ Eb5♩ D6♩ G5♩ D6♩ F#6♩ G5♩ D6♩ Bb5♩ E5♩ A5♩ F6♩ F#6♪ C7♩ Bb5♩ Eb5♩ F#5♩ A5♩ Bb6♩ F#6♩ D5♩ Ab5♩ F5♩ G4♩ F5♩ B5♩ G5♩ G5𝅘𝅥𝅯  C#5♩ D5♪ F4♩ F5♩ Bb4♩ C#5♩ C5♪ Bb4♩ B3♩ Bb4♩ Bb4♪ Bb4♪ B4♪ F#4♩ C#5♩ B4♩ F#4♩ C5♩ Bb4♩ C#5♩ C4♩ A4♩ Eb4♩ F4♩ F4𝅘𝅥𝅯  C4♩ B3♩ B3𝅘𝅥𝅯  A3♩ D4♩ F#4♩ C4♩ F3♩ C#4♩ A3♩ B3♩ B3𝅘𝅥𝅯  A3♩ B3♩ C4♩ A3♩ G3♩ B3♩ F3♩ F4♩ D4♩ F3♩ A3♩ G3♩ C3♩ 
+
+Liverpool
+max cases =  76
+F3♩ G3♩ C3♩ C3♩ F3♩ F3𝅘𝅥𝅯  C3♩ C3♩ F3♩ C3♩ A3♩ G3♩ G3𝅘𝅥𝅯  C3♩ A3♩ B3♩ E4♩ C#4♩ F4♩ Ab4♩ G4♪ B4♩ Eb5♩ D5♪ Ab5♩ E5♩ E5𝅘𝅥𝅯  A5♩ C6♩ B5♪ D6♩ F6♩ F#6♪ C#6♩ C#6♪ Eb6♩ A6♩ C7♩ Ab6♩ Ab5♩ Bb5♩ Ab5♩ A5♪ F#5♩ C6♩ E6♩ A5♩ C#6♩ F5♩ C6♩ B5♪ Eb6♩ Ab5♩ A5♩ C6♩ C5♩ A5♩ A5♪ C#6♩ Bb5♩ C6♩ F5♩ F5𝅘𝅥𝅯  C5♩ F#5♩ C#5♩ D5♪ E5♩ G4♩ Bb4♩ Bb4𝅘𝅥𝅯  Bb5♩ C#5♩ Ab4♩ F#5♩ D4♩ F4♩ F4𝅘𝅥𝅯  G4♩ Bb4♩ A4♪ E4♩ Ab4♩ C5♩ Ab4♩ Bb4♩ B4♪ G4♩ D4♩ F#4♩ C4♩ C#4♩ C#4𝅘𝅥𝅯  Eb4♩ F#4♩ C4♩ A3♩ B3♩ G3♩ G3𝅘𝅥𝅯  C#4♩ C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  A3♩ B3♩ C4♩ F#4♩ G3♩ G3𝅘𝅥𝅯  F3♩ C#4♩ E4♩ B3♩ C#4♩ C4♩ G3♩ C#4♩ D4♩ G4♩ C#4♩ D4♩ F4♩ D4♩ F3♩ E4♩ A3♩ A3𝅘𝅥𝅯  G3♩ C3♩ C3♩ 
+
+Luton
+max cases =  36
+B3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ F4♩ G4♩ E4♩ C5♩ C#4♩ F4♩ A4♩ F#5♩ D5♩ C5♩ Eb5♩ C#5♩ C#5𝅘𝅥𝅯  Ab5♩ E6♩ Ab5♩ D6♩ A5♩ F5♩ F6♩ F#6♪ G6♪ B6♩ Ab5♩ C#6♩ F#5♩ D6♩ F#5♩ Eb6♩ Bb4♩ F4♩ E6♩ B6♩ E4♩ C5♩ E5♩ Bb5♩ A5♪ Ab5♪ C6♩ G4♩ C7♩ F#5♩ E5♩ A4♩ E6♩ A4♩ G4♩ Bb5♩ F4♩ C5♩ D5♩ G4♩ Bb4♩ C#5♩ Ab5♩ Bb5♩ G4♩ B5♩ F#5♩ D5♩ E6♩ E6𝅘𝅥𝅯  D6♪ A5♩ E5♩ C5♩ Bb5♩ C#5♩ E5♩ Ab5♩ Ab5𝅘𝅥𝅯  D5♩ Bb4♩ A4♩ C3♩ E5♩ F5♪ D5♩ E4♩ C#5♩ Bb4♩ C#4♩ Eb5♩ F5♩ A5♩ E4♩ G4♩ Eb5♩ E5♪ F4♩ D6♩ A4♩ A4𝅘𝅥𝅯  G4♩ G4𝅘𝅥𝅯  A4♩ F5♩ E4♩ C#4♩ G4♩ A4♩ C3♩ B3♩ F4♩ F4𝅘𝅥𝅯  E4♩ F4♩ F4𝅘𝅥𝅯  A4♩ E4♩ Ab3♩ C3♩ C3♩ Bb4♩ C3♩ 
+
+Manchester
+max cases =  73
+F3♩ F3𝅘𝅥𝅯  G3♩ C3♩ C3♩ C3♩ G3♩ F3♩ F3𝅘𝅥𝅯  C3♩ D4♩ C3♩ A3♩ C#4♩ B3♩ A3♩ B3♩ B3𝅘𝅥𝅯  A3♩ B3♩ G4♩ E4♩ A4♩ D5♩ A4♩ G5♩ D5♩ Eb5♪ Ab5♩ F#5♩ Ab5♩ F#5♩ B5♩ A5♩ C7♩ G6♩ E6♩ Ab6♩ Bb5♩ C#6♩ Bb5♩ B5♪ Eb6♩ Bb5♩ A5♪ A4♩ F6♩ A5♩ C6♩ B5♪ F#6♩ Eb6♩ E6♪ A5♩ E5♩ D5♩ Ab5♩ Eb6♩ Ab5♩ Bb5♩ D5♩ F#5♩ D5♩ C#6♩ D6♪ B5♩ F5♩ E5♪ F#5♩ Ab5♩ A5♪ A5♪ Eb5♩ E5♪ Bb5♩ F5♩ A5♩ D6♩ G5♩ Eb5♩ E5♪ B4♩ Bb4♩ Eb5♩ D5♪ F4♩ Ab5♩ C#5♩ Eb5♩ C#5♩ C5♪ E5♩ B4♩ B4♪ D5♩ E4♩ Eb4♩ B4♩ Bb4♩ A4♩ C#5♩ A4♩ A4𝅘𝅥𝅯  C5♩ Bb4♩ C5♩ C5𝅘𝅥𝅯  E5♩ Bb4♩ A4♪ C#4♩ B4♩ Ab4♩ C#5♩ A4♩ F#4♩ B4♩ E4♩ F4♩ D4♩ A4♩ Bb4♩ Ab4♩ G4♪ C#4♩ Ab4♩ C#4♩ A4♩ C4♩ C3♩ 
+
+Medway
+max cases =  37
+B3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Eb4♩ G3♩ C#4♩ C3♩ B3♩ G3♩ B3♩ G3♩ C#4♩ B3♩ C5♩ C#4♩ D5♩ G5♩ C5♩ D5♩ B4♩ B4𝅘𝅥𝅯  B4𝅘𝅥𝅯  C5♩ Ab5♩ A6♩ Eb6♩ G5♩ D6♩ Bb5♩ G6♩ C7♩ C#6♩ B5♩ Eb6♩ Bb5♩ E5♩ Eb5♪ F#5♩ G5♪ Ab5♪ Eb6♩ Ab5♩ Eb5♩ Bb5♩ A5♪ B4♩ G5♩ G5𝅘𝅥𝅯  B4♩ C5♩ Ab4♩ Ab5♩ Ab5𝅘𝅥𝅯  D6♩ D6𝅘𝅥𝅯  F#5♩ Eb4♩ Ab5♩ D5♩ C#6♩ D5♩ B4♩ B4𝅘𝅥𝅯  C5♩ Ab4♩ F5♩ F#5♪ Bb4♩ F4♩ Eb4♩ F4♩ C5♩ Ab4♩ G4♩ C5♩ Bb4♩ B3♩ Eb4♩ B3♩ C3♩ G3♩ C#4♩ G4♩ C#4♩ C#4𝅘𝅥𝅯  F4♩ G4♩ G3♩ C#4♩ C#4𝅘𝅥𝅯  G3♩ B3♩ F4♩ C#4♩ Eb4♩ C3♩ B3♩ B3𝅘𝅥𝅯  G3♩ C#4♩ C3♩ C#4♩ B3♩ Eb4♩ C5♩ Ab4♩ B3♩ B3𝅘𝅥𝅯  G3♩ B3♩ G3♩ Eb4♩ B3♩ G3♩ G3𝅘𝅥𝅯  G4♩ G3♩ Eb4♩ C#4♩ C3♩ G3♩ F4♩ C3♩ C3♩ C3♩ 
+
+Merton
+max cases =  37
+G3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ B3♩ C3♩ C3♩ G3♩ G4♩ Ab4♩ C#4♩ Ab4♩ G4♩ G3♩ G4♩ C5♩ E5♩ D5♩ B4♩ Ab4♩ Bb4♩ F#5♩ C#6♩ C#6𝅘𝅥𝅯  F5♩ D6♩ F5♩ E5♪ C#6♩ F6♩ F6♪ A6♩ C#6♩ F#5♩ Ab5♩ C7♩ Ab5♩ G5♪ C#6♩ F5♩ A5♩ E5♩ C6♩ E5♩ F5♪ F5𝅘𝅥𝅯  C6♩ B4♩ E5♩ E5𝅘𝅥𝅯  E5𝅘𝅥𝅯  Bb4♩ C5♩ F5♩ D5♩ F4♩ Bb4♩ D5♩ Bb4♩ D5♩ C5♪ Ab4♩ C5♩ Eb4♩ F4♩ F5♩ Bb4♩ C#4♩ B3♩ Eb4♩ B3♩ B4♩ C5♩ C#4♩ C#4𝅘𝅥𝅯  B3♩ Eb4♩ B4♩ C5♩ Bb4♩ F4♩ C3♩ C#4♩ B3♩ C3♩ Eb4♩ B3♩ C#4♩ G3♩ C3♩ C3♩ Eb4♩ G3♩ C3♩ G3♩ C3♩ C#4♩ C3♩ G3♩ Eb4♩ G3♩ C3♩ G3♩ C3♩ G3♩ B3♩ C#4♩ G3♩ G3𝅘𝅥𝅯  B3♩ C3♩ C3♩ Ab4♩ C3♩ G3♩ B3♩ G3♩ B3♩ G3♩ G3𝅘𝅥𝅯  C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ C3♩ C3♩ 
+
+Middlesbrough
+max cases =  28
+A3♩ C3♩ C3♩ C3♩ A3♩ C3♩ C4♩ A3♩ C4♩ A3♩ C4♩ C5♩ C5𝅘𝅥𝅯  C5𝅘𝅥𝅯  E5♩ A5♩ C#6♩ B5♩ G6♩ Ab5♩ Bb6♩ F6♩ F6𝅘𝅥𝅯  C#6♩ A6♩ Ab4♩ D6♩ C#6♪ B5♩ A5♪ Eb6♩ E6♪ C6♩ Ab5♩ F6♩ C7♩ G5♩ C#6♩ E6♩ C7♩ Ab5♩ Ab5𝅘𝅥𝅯  A5♪ Ab4♩ A6♩ Bb6♪ F#5♩ Bb6♩ B5♩ Eb5♩ B5♩ Ab5♩ F6♩ E5♩ E5𝅘𝅥𝅯  C#5♩ Ab4♩ Bb4♩ B5♩ E5♩ Ab4♩ C4♩ A3♩ Bb4♩ Ab4♩ G5♩ F6♩ C#5♩ Ab5♩ E5♩ C4♩ F#4♩ Eb4♩ C5♩ A3♩ C3♩ Eb4♩ F#4♩ A3♩ C4♩ F#5♩ Bb4♩ Ab4♩ C4♩ Bb4♩ C4♩ C4𝅘𝅥𝅯  A3♩ Eb4♩ Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  C#5♩ C3♩ Eb5♩ A3♩ A3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ F#4♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ C4♩ C4𝅘𝅥𝅯  C3♩ C3♩ C4♩ C3♩ C3♩ C3♩ C3♩ 
+
+Milton Keynes
+max cases =  38
+G3♩ C3♩ C3♩ G3♩ C3♩ C3♩ C3♩ C3♩ C3♩ G3♩ C3♩ G3♩ G3𝅘𝅥𝅯  C3♩ C#4♩ D5♩ G4♩ B3♩ Eb4♩ B3♩ C#6♩ F5♩ C5♩ Ab4♩ C5♩ C5𝅘𝅥𝅯  C5𝅘𝅥𝅯  F5♩ Ab5♩ F5♩ D5♩ D5𝅘𝅥𝅯  C5♩ B5♩ A5♪ A5𝅘𝅥𝅯  D5♩ E5♪ Ab5♩ F5♩ Ab4♩ F#5♩ G5♪ D5♩ G5♩ E5♩ F4♩ Ab4♩ Ab4𝅘𝅥𝅯  G5♩ F6♩ B5♩ F#5♩ Bb4♩ F#5♩ D6♩ D5♩ C7♩ C6♩ B4♩ Bb4♩ G5♩ F5♩ A5♩ Bb4♩ E5♩ C5♩ Eb4♩ B3♩ F4♩ F4𝅘𝅥𝅯  F4𝅘𝅥𝅯  G4♩ G4𝅘𝅥𝅯  C#4♩ G3♩ C3♩ Eb4♩ F4♩ G4♩ Eb4♩ G3♩ Eb4♩ C3♩ B3♩ G3♩ C#4♩ G3♩ B3♩ C3♩ C#4♩ C3♩ C3♩ B3♩ C#4♩ B3♩ C3♩ G3♩ C#4♩ B3♩ F4♩ G4♩ G3♩ B3♩ B3𝅘𝅥𝅯  G4♩ C#4♩ C3♩ G4♩ G3♩ D5♩ F4♩ G3♩ G3𝅘𝅥𝅯  C3♩ Eb4♩ C3♩ C3♩ G3♩ G3𝅘𝅥𝅯  C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  B3♩ C3♩ C3♩ G3♩ C3♩ C3♩ 
+
+Newcastle upon Tyne
+max cases =  41
+G3♩ C3♩ G3♩ G3𝅘𝅥𝅯  C3♩ G3♩ C3♩ C3♩ G3♩ C3♩ C3♩ Bb3♩ Bb3𝅘𝅥𝅯  D4♩ C3♩ F#4♩ C4♩ E4♩ A4♩ Bb4♩ E4♩ F#5♩ A5♩ Ab5♪ Ab5𝅘𝅥𝅯  A5♪ C#5♩ F6♩ Ab5♩ G6♩ C7♩ F6♩ F#6♪ B5♩ C6♪ Bb6♩ B6♪ F6♩ C7♩ E6♩ A5♩ F#5♩ A5♩ F6♩ D6♩ F#6♩ E6♪ Ab6♩ Eb6♩ Eb6𝅘𝅥𝅯  A5♩ Ab6♩ C6♩ F#6♩ E5♩ F5♪ F5♪ G6♩ Bb5♩ C7♩ G5♩ Bb5♩ C5♩ F5♩ B5♩ A5♩ C6♩ B4♩ E4♩ B4♩ Bb4♩ Ab5♩ Eb5♩ B4♩ B4𝅘𝅥𝅯  B4𝅘𝅥𝅯  G4♩ F#4♩ F#4𝅘𝅥𝅯  B4♩ G4♩ G4𝅘𝅥𝅯  D4♩ D4𝅘𝅥𝅯  Bb3♩ D6♩ F5♩ G4♩ B4♩ F#4♩ E4♩ D4♩ Bb3♩ E4♩ D4♩ Bb4♩ C3♩ C3♩ E4♩ E4𝅘𝅥𝅯  C4♩ G3♩ C3♩ Bb3♩ B4♩ D4♩ F#4♩ C4♩ Bb3♩ G3♩ C3♩ C3♩ Bb3♩ D4♩ Bb3♩ Bb3𝅘𝅥𝅯  C3♩ G3♩ C3♩ G3♩ D4♩ G3♩ C3♩ G3♩ C3♩ G3♩ G3𝅘𝅥𝅯  C4♩ C3♩ G3♩ C3♩ 
+
+Newham
+max cases =  60
+F#3♩ F#3𝅘𝅥𝅯  Bb3♩ Ab3♩ Bb3♩ C4♩ E4♩ F#4♩ C#4♩ A4♩ Eb4♩ B4♩ Eb4♩ B4♩ F#5♩ A4♩ B5♩ D6♩ D6𝅘𝅥𝅯  C6♪ E5♩ D6♩ F6♩ Eb6♩ C6♩ C7♩ F#6♩ G5♩ F6♩ F6𝅘𝅥𝅯  D6♩ Eb6♪ F#5♩ A5♩ C5♩ Eb5♩ C#5♩ D5♪ C5♩ C5𝅘𝅥𝅯  F#4♩ F4♩ F#4♩ A4♩ C5♩ C#5♪ A4♩ B4♩ E4♩ C5♩ E4♩ A4♩ A4𝅘𝅥𝅯  C4♩ F#4♩ C#4♩ F4♩ F4𝅘𝅥𝅯  D5♩ Eb4♩ C4♩ E4♩ F#4♩ C#4♩ C4♩ F#3♩ C#4♩ Ab3♩ Ab3𝅘𝅥𝅯  E4♩ C4♩ C3♩ C3♩ F4♩ Ab3♩ E4♩ F#3♩ Ab3♩ F#3♩ Bb3♩ C#4♩ F#3♩ C#4♩ C3♩ Ab3♩ C3♩ Bb3♩ F#4♩ Bb3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  Bb3♩ F#3♩ F#3𝅘𝅥𝅯  Ab3♩ C#4♩ F#3♩ Bb3♩ Ab3♩ F#3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ Ab3♩ F#3♩ C3♩ C3♩ Ab3♩ C#4♩ Ab3♩ F#3♩ F#3𝅘𝅥𝅯  Eb4♩ C#4♩ F#3♩ C3♩ Ab3♩ F#3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ 
+
+Norfolk
+max cases =  78
+F3♩ F3𝅘𝅥𝅯  F3𝅘𝅥𝅯  C#4♩ F3♩ F3𝅘𝅥𝅯  C#4♩ C#4𝅘𝅥𝅯  E4♩ A3♩ A3𝅘𝅥𝅯  C#4♩ C#4𝅘𝅥𝅯  F#4♩ Ab4♩ F#4♩ Eb5♩ C5♩ D5♩ C5♪ E5♩ Eb5♪ C#5♩ E5♩ B5♩ F5♩ Ab5♩ C#6♩ D6♪ F6♩ Eb6♪ C#6♪ Eb6♪ Bb5♩ Eb6♩ F6♪ E6♪ C#6♩ E6♩ Bb5♩ F6♩ B5♩ C#6♪ C7♩ Ab6♩ Eb6♩ B5♩ Bb5♪ Ab6♩ C7♩ A6♩ Ab6♪ D6♩ C#6♪ Ab6♩ E6♩ Eb6♪ Bb6♩ Bb5♩ C#6♩ C5♩ F5♩ G5♩ F#6♩ F#5♩ A4♩ F5♩ D5♩ A4♩ E5♩ A5♩ D5♩ F5♩ Ab4♩ Eb4♩ F#4♩ G4♪ G4𝅘𝅥𝅯  F#4♩ A4♩ D4♩ C4♩ Bb3♩ Eb5♩ A3♩ D4♩ A4♩ C4♩ G3♩ Bb3♩ A3♩ E4♩ Eb5♩ C4♩ C4𝅘𝅥𝅯  G3♩ A3♩ Eb4♩ Bb3♩ C4♩ F#4♩ Bb3♩ A3♩ Bb3♩ A3♩ G3♩ A3♩ F3♩ C4♩ A3♩ F3♩ A3♩ C3♩ C3♩ G3♩ Bb3♩ F3♩ C3♩ C3♩ C3♩ F3♩ G3♩ C3♩ 
+
+North East Lincolnshire
+max cases =  10
+Eb4♩ C3♩ Eb4♩ Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  A4♩ F#5♩ A5♩ D5♩ D5𝅘𝅥𝅯  Eb4♩ D5♩ F#5♩ A4♩ A5♩ Eb4♩ C7♩ D5♩ A4♩ C#6♩ D5♩ F#5♩ F#5𝅘𝅥𝅯  F#5𝅘𝅥𝅯  A5♩ A4♩ F#5♩ C#6♩ C3♩ Eb4♩ A6♩ A4♩ Eb4♩ F#5♩ A4♩ E6♩ A6♩ F#5♩ A4♩ Eb4♩ C#6♩ F#5♩ Eb4♩ Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  C3♩ C3♩ Eb4♩ A4♩ Eb4♩ Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  F#5♩ A4♩ C3♩ C3♩ Eb4♩ Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  C3♩ A4♩ C3♩ Eb4♩ Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  A4♩ C3♩ Eb4♩ A4♩ A4𝅘𝅥𝅯  Eb4♩ Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  C3♩ C3♩ A4♩ C3♩ D5♩ Eb4♩ Eb4𝅘𝅥𝅯  C3♩ C3♩ F#5♩ A5♩ Eb4♩ A4♩ Eb4♩ C3♩ A4♩ Eb4♩ C3♩ C3♩ C3♩ C3♩ C3♩ A4♩ Eb4♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Eb4♩ Eb4𝅘𝅥𝅯  A4♩ C3♩ C3♩ C3♩ C3♩ C3♩ 
+
+North Lincolnshire
+max cases =  24
+A3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ C3♩ C3♩ C#4♩ A3♩ C3♩ C3♩ A3♩ A3𝅘𝅥𝅯  E4♩ E4𝅘𝅥𝅯  C#4♩ C#4𝅘𝅥𝅯  C5♩ E4♩ C#5♩ Eb5♩ G4♩ B5♩ G4♩ C3♩ C#5♩ A4♩ F#5♩ E6♩ E4♩ Eb6♩ Eb5♩ C#5♩ Eb6♩ Eb6𝅘𝅥𝅯  A5♩ F#6♩ A5♩ C#5♩ F6♩ C#6♩ F6♩ Bb6♩ A6♪ C#5♩ C7♩ Ab5♩ G6♩ F6♩ Bb6♩ Bb6𝅘𝅥𝅯  F6♩ B5♩ C#5♩ E6♩ A5♩ F5♩ A4♩ G4♩ G4𝅘𝅥𝅯  C#6♩ C#6𝅘𝅥𝅯  C#6𝅘𝅥𝅯  C#5♩ Ab5♩ F#5♪ C#5♩ F#5♩ C5♩ A4♩ Eb5♩ A4♩ E4♩ C5♩ Eb5♩ G4♩ C5♩ A4♩ C5♩ A3♩ A3𝅘𝅥𝅯  E4♩ C#4♩ E4♩ G4♩ C#4♩ C3♩ C3♩ A3♩ C3♩ A3♩ C3♩ C3♩ C#4♩ C3♩ C#4♩ C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  C3♩ C3♩ C#4♩ C3♩ C3♩ E4♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  C3♩ C3♩ C#4♩ A3♩ C3♩ C3♩ A3♩ A3𝅘𝅥𝅯  C#4♩ C3♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  C3♩ 
+
+North Somerset
+max cases =  31
+Ab3♩ C3♩ G4♩ G4𝅘𝅥𝅯  C4♩ C4𝅘𝅥𝅯  Ab3♩ C3♩ Ab3♩ C3♩ C3♩ C4♩ Ab3♩ C3♩ C3♩ Ab3♩ Bb4♩ D4♩ A4♩ C4♩ F4♩ C5♩ F4♩ C5♩ Bb4♩ C5♩ A4♩ F4♩ A4♩ D4♩ G4♩ E5♩ F4♩ Bb4♩ Ab3♩ G4♩ G4𝅘𝅥𝅯  C#5♩ D4♩ C6♩ A4♩ F4♩ G4♩ E5♩ F#6♩ E6♪ B5♩ F5♩ C5♩ Bb5♩ Eb6♩ C7♩ Ab6♩ F6♩ Bb5♩ F5♩ Ab5♩ F5♩ A6♩ A5♩ F6♩ Ab5♩ E5♩ F6♩ Ab5♩ F#6♩ Bb4♩ E5♩ E5𝅘𝅥𝅯  E5𝅘𝅥𝅯  C6♩ F5♩ Ab6♩ C#5♩ E5♩ C5♩ D6♩ Ab5♩ G6♩ C6♩ Ab5♩ C4♩ A4♩ C5♩ C5𝅘𝅥𝅯  F5♩ Eb5♩ G4♩ C#5♩ Ab3♩ C4♩ F4♩ F4𝅘𝅥𝅯  D4♩ C3♩ Ab3♩ C4♩ D4♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  C3♩ C3♩ C4♩ Ab3♩ C3♩ C4♩ D4♩ C3♩ C3♩ C3♩ C4♩ Ab3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  C3♩ C3♩ 
+
+North Tyneside
+max cases =  35
+Ab3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ D4♩ Ab3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  E4♩ D4♩ D4𝅘𝅥𝅯  C3♩ B3♩ E4♩ E4𝅘𝅥𝅯  E4𝅘𝅥𝅯  G4♩ D5♩ A5♩ A4♩ D4♩ B5♩ C7♩ F#5♩ F5♪ Eb6♩ Bb5♩ A6♩ F6♩ Bb5♩ Ab5♩ Bb4♩ Ab5♩ A4♩ G5♩ F5♩ Ab5♩ C#6♩ Eb6♩ C#6♩ A5♩ D5♩ F#5♩ E6♩ F#5♩ C6♩ Bb4♩ Bb4𝅘𝅥𝅯  Ab5♩ E5♩ E5𝅘𝅥𝅯  F#6♩ C5♩ G4♩ A4♩ A4𝅘𝅥𝅯  D5♩ G5♩ C#5♩ F#6♩ Bb4♩ Bb4𝅘𝅥𝅯  E5♩ F#4♩ Bb5♩ C#5♩ Bb4♩ C3♩ D5♩ E4♩ E4𝅘𝅥𝅯  E5♩ A4♩ F#4♩ G4♩ C3♩ F#4♩ E4♩ G4♩ Ab3♩ A4♩ C3♩ B3♩ D4♩ Ab3♩ C5♩ D4♩ B3♩ D4♩ Ab3♩ Ab3𝅘𝅥𝅯  D4♩ E4♩ E4𝅘𝅥𝅯  F#4♩ Ab3♩ D4♩ D4𝅘𝅥𝅯  Ab3♩ B3♩ Ab3♩ D4♩ C3♩ C3♩ Ab3♩ D4♩ Ab3♩ C3♩ Ab3♩ C3♩ C3♩ Ab3♩ C3♩ B3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ Ab3♩ C3♩ 
+
+North Yorkshire
+max cases =  86
+F3♩ C3♩ C3♩ F3♩ C3♩ C3♩ F3♩ G3♩ C3♩ Ab3♩ G3♩ F3♩ C3♩ Ab3♩ G3♩ Ab3♩ Ab3𝅘𝅥𝅯  D4♩ F4♩ G3♩ F#4♩ Eb4♩ F4♩ F4𝅘𝅥𝅯  A4♩ F#4♩ G4♪ E5♩ Bb4♩ F5♩ Bb4♩ F5♩ D5♩ C5♩ Eb5♩ F5♩ Eb5♪ D5♩ D5♪ C#5♩ D5♩ D5𝅘𝅥𝅯  Ab4♩ Bb5♩ F5♩ D5♩ D5𝅘𝅥𝅯  A5♩ B5♩ F5♩ A5♩ D6♩ F6♩ E5♩ F#6♩ C6♩ C6♪ C7♩ E6♩ C#6♩ Ab5♩ Ab5♪ Bb5♩ Eb6♩ C6♩ Bb6♩ G5♩ F5♩ E5♪ F5♪ B5♩ F5♩ E5♪ C5♩ G4♩ Bb4♩ F4♩ F#5♩ A4♩ Eb5♩ Bb4♩ C5♩ F4♩ Ab4♩ Ab4♪ Eb5♩ F#5♩ G4♩ B4♩ A4♩ C4♩ F4♩ C#4♩ Eb4♩ E4♩ G3♩ Bb3♩ G3♩ B3♩ Bb4♩ C#4♩ E4♩ A4♩ D4♩ B4♩ Eb4♩ Ab4♩ Ab4♪ C4♩ F4♩ D4♩ E4♩ D4♩ B3♩ B3𝅘𝅥𝅯  F3♩ G3♩ Bb3♩ Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  Ab3♩ Ab3𝅘𝅥𝅯  G3♩ F3♩ Ab3♩ F3♩ G3♩ Ab3♩ F3♩ C3♩ 
+
+Northamptonshire
+max cases =  72
+F3♩ C3♩ C3♩ F3♩ C3♩ F3♩ Ab3♩ F3♩ C3♩ Ab3♩ C3♩ B3♩ A3♩ Ab3♩ Ab3𝅘𝅥𝅯  F3♩ F3𝅘𝅥𝅯  B3♩ C3♩ F4♩ F4𝅘𝅥𝅯  D4♩ Ab4♩ B4♩ Bb4♪ F#5♩ C#5♩ C#5♪ C5♪ Eb5♩ F6♩ Eb6♪ F6♩ E6♪ F#6♪ C6♩ Ab5♩ C#6♩ F5♩ Ab5♩ Ab5𝅘𝅥𝅯  F5♩ Ab5♩ C#5♩ C5♩ Ab5♩ F#5♩ F5♪ Eb5♩ G5♩ Ab5♪ A4♩ A4♪ C#5♩ C5♩ Ab5♩ D5♩ Ab5♩ G6♩ Bb5♩ C#6♩ C#6♪ C6♪ Ab5♩ C5♩ A5♩ A5♪ E6♩ G6♩ Eb6♩ Bb5♩ C#6♩ C7♩ D6♩ G6♩ F6♩ D6♩ Bb5♩ Ab5♩ D6♩ F#5♩ A5♩ D6♩ Eb6♪ Eb6𝅘𝅥𝅯  Bb5♩ Bb5𝅘𝅥𝅯  F#5♩ D6♩ Bb5♩ C6♪ F#5♩ D5♩ G5♩ C5♩ C#6♩ C5♩ C#5♪ F#4♩ C#5♩ Bb4♩ Eb5♩ C#5♩ E5♩ A4♩ Bb4♪ Eb5♩ G4♩ A4♩ G4♩ E5♩ Bb4♩ B4♪ A4♩ B4♩ C#5♩ Ab4♩ E4♩ C4♩ D4♩ A4♩ B3♩ Bb4♩ E4♩ A4♩ A4♪ A4♪ C#4♩ Eb5♩ C5♩ C#4♩ B4♩ C3♩ 
+
+Northumberland
+max cases =  52
+F#3♩ C3♩ A3♩ F#3♩ A3♩ F#3♩ A3♩ F#3♩ C3♩ B3♩ F4♩ F#4♩ F#4𝅘𝅥𝅯  B4♩ F4♩ A4♩ E4♩ F4♩ Eb5♩ F#6♩ A5♩ G5♪ A5♪ G5♪ B5♩ C#6♩ Eb6♩ Eb6♪ Ab5♩ F6♩ E6♪ C#6♩ E6♩ A5♩ A6♩ F6♩ C7♩ Eb6♩ C#6♩ Eb6♩ F#6♩ C6♩ A6♩ F5♩ D5♩ C#6♩ Ab5♩ C6♩ Bb6♩ Bb5♩ C5♩ D5♩ C5♩ C#5♪ D6♩ A5♩ C#5♩ A4♩ C#5♩ F6♩ Ab5♩ B4♩ A4♩ F#4♩ F#4𝅘𝅥𝅯  D4♩ F#4♩ E4♩ E4𝅘𝅥𝅯  Bb4♩ D4♩ C3♩ F#4♩ A4♩ C#4♩ G5♩ A4♩ F4♩ B4♩ C#4♩ G4♩ D4♩ A3♩ D4♩ C3♩ F4♩ C#4♩ A3♩ E4♩ F4♩ C3♩ B3♩ B3𝅘𝅥𝅯  D4♩ A3♩ F#3♩ D4♩ F#3♩ A3♩ C3♩ C3♩ B3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  C3♩ A3♩ C#4♩ F#3♩ C3♩ A3♩ C3♩ A3♩ F#3♩ B3♩ F#3♩ C3♩ F#3♩ C3♩ 
+
+Nottingham
+max cases =  45
+G3♩ C3♩ C3♩ C3♩ C3♩ C3♩ G3♩ C3♩ G3♩ C3♩ G3♩ C4♩ C3♩ C4♩ D4♩ G3♩ Bb3♩ G3♩ E4♩ Bb3♩ D4♩ F#4♩ F4♩ A4♩ E4♩ F4♩ A4♩ E5♩ A4♩ D4♩ F#4♩ B4♩ Eb5♩ E5♪ Ab5♩ E5♩ Eb5♪ B4♩ Ab5♩ Bb5♪ E5♩ C5♩ C#5♪ C5♪ F#5♩ E5♩ C5♩ E5♩ B5♩ Eb6♩ A4♩ B5♩ G5♩ Eb6♩ C7♩ C#6♩ F6♩ Ab4♩ Bb4♩ C#6♩ Eb5♩ C5♩ Ab5♩ C#6♩ C5♩ A4♩ F5♩ F5𝅘𝅥𝅯  A4♩ F4♩ Ab4♩ E4♩ Bb3♩ Bb4♩ B4♩ C#5♩ F#4♩ E4♩ D4♩ E4♩ Ab4♩ C5♩ C5𝅘𝅥𝅯  Ab4♩ Ab4𝅘𝅥𝅯  E4♩ A4♩ B4♩ F4♩ C4♩ Bb4♩ B4♩ A4♩ E4♩ A4♩ G5♩ G3♩ Bb4♩ B4♩ F4♩ F4𝅘𝅥𝅯  E4♩ F#4♩ B4♩ Ab4♩ F#4♩ C3♩ Bb3♩ A4♩ F4♩ F4𝅘𝅥𝅯  D4♩ Ab4♩ G3♩ G3𝅘𝅥𝅯  E4♩ D4♩ C4♩ Ab4♩ D4♩ Bb3♩ Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  F4♩ Bb3♩ C3♩ D4♩ C3♩ C3♩ C3♩ 
+
+Nottinghamshire
+max cases =  76
+F3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ C3♩ C3♩ G3♩ G3𝅘𝅥𝅯  C3♩ C3♩ F3♩ C#4♩ B3♩ B3𝅘𝅥𝅯  Eb4♩ C4♩ C4𝅘𝅥𝅯  A3♩ F4♩ E4♩ E4𝅘𝅥𝅯  F4♩ D4♩ Eb4♩ Bb4♩ Bb4𝅘𝅥𝅯  A5♩ F#5♩ F#5♪ F#5♪ Ab5♩ Bb5♩ Ab5♩ Bb5♩ Bb5𝅘𝅥𝅯  E5♩ C5♩ F#5♩ A5♩ G5♩ Eb6♩ B4♩ D5♩ C6♩ B5♪ D6♩ C#6♪ F#6♩ G6♪ Bb5♩ A5♩ F5♩ G5♩ Ab6♩ Bb6♪ C#6♩ Ab5♩ Eb5♩ E6♩ C6♩ C7♩ E6♩ D6♩ F5♩ F5𝅘𝅥𝅯  E5♩ E5𝅘𝅥𝅯  G5♩ F#5♪ F5♪ D5♩ C#5♪ C#6♩ C6♪ A5♩ G5♩ A5♪ B4♩ E5♩ G5♩ A5♪ G5♪ F5♩ F#6♩ F#4♩ A4♩ A4𝅘𝅥𝅯  E5♩ F5♩ F#5♪ G4♩ D5♩ A4♩ D6♩ F5♩ C5♩ E5♩ D5♩ Bb4♩ D4♩ C5♩ Bb4♩ G4♩ A4♩ G4♩ D4♩ D4𝅘𝅥𝅯  Bb4♩ Bb4𝅘𝅥𝅯  Bb4♪ C#5♩ Ab4♩ F4♩ F#4♩ Ab4♩ E4♩ E4𝅘𝅥𝅯  C4♩ C4𝅘𝅥𝅯  B3♩ A3♩ F4♩ C4♩ C4𝅘𝅥𝅯  Eb4♩ G3♩ B3♩ F3♩ C4♩ F3♩ G3♩ G3𝅘𝅥𝅯  C3♩ 
+
+Oldham
+max cases =  48
+F#3♩ C3♩ C3♩ F#3♩ C3♩ A3♩ C3♩ C3♩ A3♩ C3♩ F#3♩ A3♩ F#3♩ C3♩ C#4♩ F#3♩ A3♩ Eb4♩ C4♩ A4♩ Eb4♩ E4♩ C5♩ C5♪ C#5♪ Bb4♩ C5♩ A4♩ F5♩ C5♩ Ab5♩ A5♪ F#5♩ C5♩ C5𝅘𝅥𝅯  E6♩ Ab6♩ D6♩ F#6♩ C7♩ E6♩ Ab5♩ Eb5♩ F#5♩ C6♩ D6♩ G5♩ D6♩ D6𝅘𝅥𝅯  A5♩ G5♪ C6♩ A5♩ D5♩ C5♩ D5♩ C5♩ F5♩ C6♩ F5♩ F6♩ Ab5♩ F5♩ C6♩ F#5♩ Ab5♩ E6♩ Ab5♩ G4♩ G4𝅘𝅥𝅯  D5♩ E5♩ Eb5♪ E5♪ F#5♩ C5♩ Ab4♩ C5♩ Eb5♩ Bb5♩ E5♩ E5𝅘𝅥𝅯  Eb4♩ F#4♩ Eb5♩ E4♩ Bb4♩ Ab4♩ G5♩ A5♪ C#6♩ C5♩ E5♩ G4♩ Bb4♩ F5♩ Bb4♩ A3♩ E5♩ Bb5♩ F#5♩ C5♩ F5♩ Eb5♩ Bb5♩ C#5♩ C5♪ C5♪ D5♩ Bb4♩ C#5♩ C5♩ Ab4♩ D5♩ F5♩ Ab4♩ A4♩ E4♩ F#4♩ G4♩ Bb4♩ A4♪ E4♩ A3♩ G4♩ C#4♩ Bb4♩ F#4♩ G4♩ A3♩ C3♩ 
+
+Oxfordshire
+max cases =  78
+F3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F3♩ A3♩ C3♩ C3♩ A3♩ F3♩ F3𝅘𝅥𝅯  A3♩ C#4♩ C4♩ F3♩ Bb3♩ C3♩ C4♩ A3♩ E4♩ D4♩ G4♩ C4♩ C#4♩ Eb4♩ C#5♩ D5♪ A4♩ Eb5♩ E5♪ C#5♩ C5♪ A5♩ D6♩ B5♩ A6♩ A6𝅘𝅥𝅯  A5♩ D6♩ D6♪ Bb6♩ G6♩ F#6♪ A6♩ F#5♩ A5♩ Eb6♩ Eb6♪ A5♩ D6♩ C#6♪ C6♪ Ab5♩ A5♪ F#5♩ C6♩ G6♩ F#6♪ G5♩ D6♩ C#6♪ C6♪ A5♩ F#6♩ F5♩ B5♩ Ab4♩ E6♩ G6♩ Bb5♩ G5♩ C6♩ C#6♪ G6♩ C7♩ C#6♩ F#6♩ Ab5♩ F5♩ A4♩ Eb6♩ C6♩ C#5♩ Ab5♩ E5♩ E5𝅘𝅥𝅯  A4♩ G4♩ F#4♪ C5♩ B4♪ G4♩ G5♩ C#4♩ C4♩ C5♩ F#4♩ F4♩ F4𝅘𝅥𝅯  A4♩ F3♩ F#4♩ E4♩ D4♩ E4♩ D4♩ G4♩ C4♩ A3♩ F4♩ C4♩ C#4♩ C#4𝅘𝅥𝅯  C4♩ A3♩ F3♩ C#4♩ G3♩ A3♩ D4♩ C#4♩ C4♩ A3♩ C4♩ C4𝅘𝅥𝅯  A3♩ C4♩ C4𝅘𝅥𝅯  F3♩ C#4♩ Bb3♩ F3♩ D4♩ C#4♩ C3♩ 
+
+Peterborough
+max cases =  56
+A3♩ C3♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  D4♩ B3♩ C4♩ B3♩ A3♩ F#3♩ C4♩ Eb4♩ D4♩ B3♩ Eb4♩ C4♩ Eb4♩ D4♩ Ab4♩ C4♩ Eb4♩ F#4♩ G4♩ E4♩ A3♩ C4♩ C4𝅘𝅥𝅯  G4♩ F#4♩ C4♩ D4♩ Bb4♩ Bb4𝅘𝅥𝅯  A3♩ D4♩ A4♩ Eb5♩ D5♪ Eb5♩ E4♩ F#4♩ C6♩ C6♪ Eb6♩ B5♩ E6♩ F#6♪ Eb5♩ F5♩ D5♩ F#5♩ Bb4♩ C7♩ C#5♩ F#5♩ D5♩ B5♩ Eb5♩ Bb5♩ F5♩ F#5♪ C5♩ C5♪ Eb5♩ Eb5𝅘𝅥𝅯  F5♩ D5♩ E5♩ F#5♩ E4♩ Bb4♩ G4♩ Ab4♩ C5♩ B4♩ F#4♩ E4♩ A4♩ B3♩ D4♩ D4𝅘𝅥𝅯  Eb5♩ F#5♩ D4♩ Ab4♩ G4♩ B4♩ Ab4♩ A3♩ C4♩ D4♩ F#4♩ Bb4♩ F#4♩ A4♩ F#4♩ D4♩ C4♩ B4♩ Eb4♩ E4♩ Eb4♩ G4♩ F#3♩ C4♩ A3♩ C4♩ Eb4♩ C4♩ Eb4♩ A3♩ C5♩ E4♩ G4♩ G4𝅘𝅥𝅯  B3♩ F#3♩ 
+
+Plymouth
+max cases =  40
+G3♩ C3♩ C3♩ Bb3♩ C3♩ C#4♩ G3♩ C3♩ C#4♩ Bb3♩ Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  C3♩ C#4♩ Ab4♩ C#4♩ Bb4♩ C#4♩ C#4𝅘𝅥𝅯  E4♩ Ab4♩ Bb3♩ A4♩ D5♩ E5♩ C5♩ G3♩ E4♩ A4♩ Eb4♩ Bb4♩ Eb5♩ G3♩ Ab4♩ D5♩ F#5♩ C#5♩ C5♪ F#5♩ Ab4♩ A5♩ Bb4♩ F#5♩ C7♩ B5♩ E4♩ Eb5♩ F5♩ F#5♪ F5♪ F6♩ Ab4♩ F5♩ Eb4♩ C5♩ Ab4♩ E5♩ A5♩ D5♩ Bb3♩ G3♩ E4♩ Eb4♩ Eb5♩ Eb4♩ Eb4𝅘𝅥𝅯  Ab5♩ F#4♩ Ab5♩ Eb4♩ E4♩ F#4♩ C3♩ C#4♩ C3♩ C#4♩ Eb4♩ Bb3♩ G3♩ A4♩ C#4♩ Bb3♩ C3♩ Eb4♩ C3♩ C3♩ Bb3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ C3♩ C#4♩ G3♩ C3♩ C3♩ C3♩ G3♩ C3♩ C3♩ G3♩ C3♩ G3♩ G3𝅘𝅥𝅯  Eb4♩ G3♩ C3♩ C3♩ C3♩ G3♩ C3♩ C#4♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ Bb3♩ G3♩ C3♩ G3♩ C3♩ C3♩ 
+
+Portsmouth
+max cases =  27
+A3♩ C3♩ C3♩ A3♩ A3𝅘𝅥𝅯  E4♩ E4𝅘𝅥𝅯  Ab4♩ E4♩ E4𝅘𝅥𝅯  F#4♩ E4♩ A3♩ D5♩ Eb5♩ Bb4♩ Bb5♩ Ab4♩ E4♩ Ab4♩ C#4♩ F#4♩ A3♩ Bb4♩ Ab4♩ F5♩ Bb4♩ F5♩ F5𝅘𝅥𝅯  D5♩ F#5♩ F5♪ Eb5♩ A5♩ C5♩ F#4♩ F#5♩ Ab5♪ Bb4♩ Eb5♩ Ab4♩ E4♩ A3♩ Bb5♩ C7♩ A5♩ Ab5♪ Bb4♩ C6♩ Eb5♩ F#5♩ F#5𝅘𝅥𝅯  Eb5♩ A5♩ D5♩ C#4♩ Bb4♩ Eb5♩ Bb5♩ C5♩ Ab4♩ C3♩ E4♩ A3♩ C3♩ C5♩ A3♩ C#4♩ C#4𝅘𝅥𝅯  E4♩ Ab4♩ E4♩ C#4♩ C3♩ C#4♩ A3♩ C3♩ A3♩ E4♩ C#4♩ F#4♩ A3♩ A3𝅘𝅥𝅯  C3♩ C3♩ A3♩ C3♩ C3♩ C#4♩ C#4𝅘𝅥𝅯  A3♩ E4♩ A3♩ A3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ A3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C#4♩ C3♩ A3♩ C3♩ C3♩ C3♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  F#4♩ C3♩ C3♩ 
+
+Reading
+max cases =  37
+G3♩ C3♩ G3♩ C3♩ G3♩ C3♩ C#4♩ B3♩ G3♩ B3♩ Eb4♩ G3♩ C3♩ C#4♩ B3♩ Eb4♩ B3♩ Bb4♩ Ab4♩ C#4♩ C5♩ D5♩ C5♪ F4♩ F5♩ C5♩ B4♩ F5♩ Bb4♩ F4♩ E5♩ E5𝅘𝅥𝅯  F#5♩ F5♪ B4♩ E6♩ F6♪ C7♩ D6♩ F#6♩ B5♩ G4♩ Bb4♩ Ab5♩ C#6♩ G5♩ D5♩ E5♩ Eb5♪ G5♩ C6♩ A5♩ G5♩ B4♩ Ab4♩ Bb4♩ B4♩ D5♩ Bb4♩ C5♩ F4♩ F4𝅘𝅥𝅯  F4𝅘𝅥𝅯  Ab4♩ C5♩ Ab4♩ F4♩ F4𝅘𝅥𝅯  Eb4♩ Eb4𝅘𝅥𝅯  B3♩ B4♩ C5♩ F4♩ C#4♩ C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  B3♩ C#4♩ G3♩ Bb4♩ Eb4♩ G3♩ C#4♩ B3♩ B4♩ Eb4♩ C#4♩ Eb4♩ C3♩ G3♩ C3♩ Eb4♩ C3♩ B3♩ B3𝅘𝅥𝅯  C3♩ G3♩ C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ C3♩ B3♩ G3♩ G3𝅘𝅥𝅯  C3♩ C#4♩ B3♩ C3♩ G3♩ B3♩ C3♩ C3♩ C3♩ G3♩ C3♩ C#4♩ G3♩ C3♩ C3♩ 
+
+Redbridge
+max cases =  54
+F#3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ B3♩ B3𝅘𝅥𝅯  D4♩ E4♩ F#4♩ Bb4♩ Bb4𝅘𝅥𝅯  D4♩ Ab4♩ Bb4♩ E5♩ A4♩ C#5♩ C#5𝅘𝅥𝅯  F5♩ C#5♩ F5♩ Ab5♩ Bb5♩ F#5♩ B5♩ F5♩ A5♩ G5♩ A5♩ C7♩ D6♩ C#6♪ A4♩ C5♩ Bb5♩ F5♩ C#5♩ Bb4♩ D5♩ F5♩ F4♩ F#4♩ D5♩ C#5♩ D5♩ C5♩ D4♩ Ab4♩ C5♩ A5♩ A4♩ Bb4♪ Ab5♩ G4♩ Ab4♩ G4♩ C5♩ Ab5♩ C#5♩ F5♩ F4♩ C#4♩ F4♩ B3♩ E4♩ D4♩ F#3♩ B3♩ E4♩ C#4♩ C#4𝅘𝅥𝅯  F#4♩ F#4𝅘𝅥𝅯  C3♩ D4♩ A3♩ C3♩ A3♩ F#3♩ B3♩ F#3♩ C3♩ C3♩ B3♩ B3𝅘𝅥𝅯  A3♩ D4♩ E4♩ A3♩ D4♩ C3♩ B3♩ A3♩ E4♩ C#4♩ F4♩ A3♩ D4♩ A3♩ F#3♩ A3♩ A3𝅘𝅥𝅯  F#3♩ F#3𝅘𝅥𝅯  A3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ C3♩ F#3♩ A3♩ F#3♩ E4♩ D4♩ A3♩ F#3♩ B3♩ F#3♩ A3♩ F#3♩ A3♩ F#3♩ C3♩ F#3♩ 
+
+Redcar and Cleveland
+max cases =  28
+A3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ C3♩ A3♩ C3♩ A3♩ Eb4♩ C4♩ C4𝅘𝅥𝅯  Eb4♩ Bb4♩ E5♩ F#5♩ C5♩ C5𝅘𝅥𝅯  C#5♩ F#5♩ C5♩ C#6♩ Ab5♩ C#5♩ Eb5♩ G5♩ C3♩ Eb5♩ Eb5𝅘𝅥𝅯  C6♩ C#5♩ A5♩ Ab4♩ C#5♩ Bb4♩ C5♩ F#5♩ G5♪ E5♩ Eb6♩ D6♪ F#5♩ D6♩ C5♩ Ab4♩ A5♩ C6♩ C#6♪ B5♩ Ab6♩ Eb5♩ F#5♩ F#5𝅘𝅥𝅯  C7♩ E5♩ A5♩ C5♩ C#5♩ E5♩ C5♩ Bb4♩ F#5♩ Bb4♩ A3♩ C5♩ F#4♩ F#5♩ G5♪ F#4♩ Ab5♩ Bb4♩ A3♩ C5♩ Ab4♩ F#5♩ Bb4♩ Bb4𝅘𝅥𝅯  C4♩ A3♩ Ab4♩ Ab5♩ Ab4♩ F#4♩ C4♩ A3♩ A3𝅘𝅥𝅯  C3♩ A3♩ A3𝅘𝅥𝅯  C3♩ A3♩ C3♩ C3♩ C4♩ C3♩ A3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C4♩ A3♩ C3♩ C3♩ A3♩ Eb4♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ C3♩ C3♩ C3♩ C3♩ C4♩ C3♩ C3♩ 
+
+Richmond upon Thames
+max cases =  19
+Eb4♩ C3♩ C3♩ C3♩ C3♩ B3♩ B3𝅘𝅥𝅯  G4♩ C3♩ Eb4♩ Bb4♩ C5♩ C5𝅘𝅥𝅯  Bb4♩ A5♩ Eb4♩ A5♩ Ab6♩ F6♩ F#6♪ D6♩ C7♩ C6♩ F#6♩ D6♩ Ab6♩ F#6♪ G5♩ F#6♩ G5♩ F5♩ C6♩ F6♩ A5♩ A5𝅘𝅥𝅯  Bb5♩ D5♩ C6♩ G5♩ A5♩ A5𝅘𝅥𝅯  C6♩ F5♩ D5♩ C6♩ D5♩ Bb5♩ G4♩ Bb4♩ C5♩ Bb4♩ B3♩ A5♩ F5♩ F#6♩ Bb5♩ F5♩ G4♩ Bb4♩ Bb4𝅘𝅥𝅯  G4♩ G4𝅘𝅥𝅯  D5♩ G4♩ Eb4♩ C3♩ Bb4♩ B3♩ Bb4♩ B3♩ Bb4♩ B3♩ B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  C3♩ B3♩ G4♩ C3♩ C3♩ G4♩ C5♩ G4♩ G4𝅘𝅥𝅯  C3♩ C3♩ C3♩ B3♩ B3𝅘𝅥𝅯  C3♩ Eb4♩ G4♩ B3♩ C3♩ C3♩ G4♩ G4𝅘𝅥𝅯  B3♩ C3♩ Eb4♩ C3♩ C3♩ C3♩ B3♩ B3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ Bb4♩ C3♩ C3♩ B3♩ C3♩ B3♩ C3♩ C3♩ B3♩ B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  C3♩ B3♩ B3𝅘𝅥𝅯  C3♩ B3♩ C3♩ C3♩ C3♩ 
+
+Rochdale
+max cases =  36
+Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  C3♩ Ab3♩ C3♩ Ab3♩ C#4♩ F4♩ Ab3♩ Ab3𝅘𝅥𝅯  C#4♩ G4♩ Ab3♩ C#5♩ A4♩ Bb4♩ F#5♩ D5♩ E5♩ Bb4♩ D5♩ A5♩ Ab5♩ C5♩ Ab5♩ Ab5♪ D5♩ Ab5♩ F#6♩ C7♩ D6♩ A5♩ Ab5♩ Ab5𝅘𝅥𝅯  B5♩ E6♩ E6𝅘𝅥𝅯  Ab5♩ Ab5♪ E6♩ Ab5♩ G6♩ Bb5♩ E6♩ A5♩ A5𝅘𝅥𝅯  D5♩ C5♩ Bb5♩ Ab5♩ A5♩ Eb5♩ Eb5𝅘𝅥𝅯  F4♩ Bb4♩ F5♩ C#6♩ C6♪ A5♩ A5𝅘𝅥𝅯  G4♩ G4𝅘𝅥𝅯  Bb4♩ F#5♩ F5♪ E6♩ Ab5♩ F#5♩ A4♩ C6♩ B5♪ Eb5♩ A5♩ Ab5♪ D5♩ G4♩ C5♩ C5𝅘𝅥𝅯  F#5♩ B5♩ Eb5♩ C#5♩ F5♩ C#6♩ E6♩ Bb4♩ E5♩ Bb5♩ F4♩ C#5♩ C#5𝅘𝅥𝅯  F#5♩ Bb5♩ F#5♩ Ab5♩ F4♩ C5♩ Eb5♩ C6♩ A5♩ Bb5♪ A5♪ Eb5♩ A5♩ C#5♩ E4♩ F#5♩ F#5𝅘𝅥𝅯  Ab5♪ E5♩ C#5♩ D5♩ Eb5♪ G4♩ F4♩ D5♩ Bb4♩ C#6♩ F#5♩ Bb4♩ C#5♩ F4♩ Ab3♩ 
+
+Rotherham
+max cases =  43
+G3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Bb3♩ G3♩ C3♩ C3♩ G3♩ C3♩ C3♩ G3♩ Bb3♩ Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  C4♩ D4♩ A4♩ B4♩ C#5♩ A4♩ F5♩ B4♩ F5♩ D6♩ D6𝅘𝅥𝅯  Eb6♪ Bb5♩ E5♩ G5♩ C5♩ A4♩ Ab4♩ A5♩ A5𝅘𝅥𝅯  Ab5♪ Bb5♩ C5♩ D6♩ G6♩ Ab5♩ G6♩ Eb5♩ Bb5♩ D6♩ C#6♪ B5♩ Ab5♩ F#6♩ D6♩ A6♩ C6♩ Ab5♩ C7♩ D6♩ Bb6♩ F6♩ F6𝅘𝅥𝅯  Eb6♪ F#5♩ B5♩ B5♪ Ab5♩ Bb5♩ Eb5♩ A4♩ A4𝅘𝅥𝅯  D6♩ B5♩ B5𝅘𝅥𝅯  G4♩ F#5♩ B4♩ C#5♩ A5♩ C#6♩ E5♩ C#6♩ G5♩ C#6♩ Bb5♩ F5♩ E5♪ D5♩ B5♩ C5♩ D5♩ D5𝅘𝅥𝅯  A5♩ Eb5♩ F#5♩ D5♩ A4♩ C5♩ F5♩ A4♩ Ab4♩ F#5♩ D5♩ D5𝅘𝅥𝅯  Ab4♩ Ab4𝅘𝅥𝅯  G4♩ A4♩ Eb5♩ F5♩ B5♩ Eb5♩ G4♩ C5♩ Ab4♩ C#5♩ Ab4♩ D5♩ F#5♩ E4♩ G5♩ Ab4♩ A4♩ A4𝅘𝅥𝅯  F4♩ C4♩ F4♩ D4♩ B4♩ G4♩ C4♩ C3♩ 
+
+Rutland
+max cases =  7
+F#4♩ F#4𝅘𝅥𝅯  C3♩ F#4♩ C3♩ C3♩ F#4♩ C3♩ C#5♩ C3♩ C3♩ F#4♩ C3♩ F#4♩ C3♩ F#4♩ F#4𝅘𝅥𝅯  C3♩ F#4♩ C3♩ C#5♩ F#4♩ C3♩ C3♩ F#4♩ C3♩ C3♩ F#4♩ C3♩ C3♩ E6♩ F#4♩ F#4𝅘𝅥𝅯  F#4𝅘𝅥𝅯  C3♩ C3♩ C3♩ G5♩ F#4♩ F#4𝅘𝅥𝅯  F#4𝅘𝅥𝅯  C#5♩ F#4♩ G5♩ G5𝅘𝅥𝅯  G5𝅘𝅥𝅯  C3♩ F#4♩ F#4𝅘𝅥𝅯  C#5♩ C#5𝅘𝅥𝅯  G5♩ C3♩ C7♩ F#4♩ C#5♩ C3♩ C3♩ F#4♩ Ab6♩ F#4♩ C3♩ C3♩ F#4♩ C3♩ C#5♩ C3♩ C#5♩ C3♩ C#5♩ C#5𝅘𝅥𝅯  C3♩ F#4♩ F#4𝅘𝅥𝅯  C3♩ C#5♩ C3♩ F#4♩ C3♩ C3♩ C3♩ C3♩ C3♩ G5♩ F#4♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F#4♩ C3♩ C3♩ C3♩ C3♩ F#4♩ F#4𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ F#4♩ C3♩ C3♩ C3♩ C3♩ C3♩ 
+
+Salford
+max cases =  36
+Ab3♩ C3♩ Ab3♩ B3♩ C3♩ C3♩ F4♩ B3♩ C#4♩ A4♩ C5♩ Bb4♩ A4♩ D5♩ Ab5♩ G4♩ A5♩ E5♩ A5♩ F5♩ C6♩ G6♩ Ab5♩ C6♩ Eb5♩ Ab5♩ Bb5♩ A6♩ Ab5♩ A6♩ Eb6♩ G6♩ E6♩ C6♩ A5♩ F#6♩ E6♪ B6♩ Eb6♩ C7♩ C6♩ Bb5♪ F6♩ F#6♪ F6♪ Eb6♩ A5♩ C6♩ Ab5♩ C6♩ E6♩ Bb5♩ G6♩ Eb5♩ F5♩ C#5♩ F#5♩ F#5𝅘𝅥𝅯  F#5𝅘𝅥𝅯  C#5♩ C5♩ E4♩ A4♩ Bb4♩ A4♩ B3♩ E5♩ G4♩ Bb4♩ A4♩ C5♩ F#5♩ F4♩ Ab3♩ F4♩ C#5♩ F4♩ C#4♩ C#4𝅘𝅥𝅯  F5♩ C#4♩ A4♩ G4♩ G4𝅘𝅥𝅯  F4♩ C#5♩ C5♩ A4♩ E4♩ Ab3♩ C#4♩ F4♩ D5♩ E4♩ E4𝅘𝅥𝅯  E4𝅘𝅥𝅯  E4𝅘𝅥𝅯  C#4♩ A4♩ Ab3♩ G4♩ Bb4♩ Ab3♩ C3♩ G4♩ B3♩ C#4♩ E4♩ B3♩ B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  F4♩ E4♩ C#4♩ C3♩ F4♩ B3♩ C#4♩ G4♩ E4♩ D5♩ E4♩ C3♩ 
+
+Sandwell
+max cases =  40
+Bb3♩ Eb4♩ Bb3♩ C#4♩ Eb4♩ E4♩ Bb3♩ Ab4♩ Ab5♩ F#4♩ Ab4♩ Eb5♩ B5♩ G5♩ G5𝅘𝅥𝅯  E5♩ A5♩ Ab5♪ F6♩ Ab6♩ Ab6𝅘𝅥𝅯  F6♩ Bb6♩ F#6♩ A5♩ C#6♩ E6♩ F#6♩ F#6𝅘𝅥𝅯  Bb5♩ Eb6♩ C#5♩ F5♩ B5♩ G5♩ E6♩ Bb6♩ Bb5♩ C7♩ C6♩ F6♩ Eb6♩ B5♩ F#6♩ Bb6♩ G5♩ F#5♪ A6♩ A6𝅘𝅥𝅯  E6♩ F#5♩ C6♩ Bb4♩ G5♩ Bb4♩ A5♩ G5♩ Bb5♩ C#5♩ A4♩ F5♩ Eb5♩ E5♪ F#5♩ G5♪ Ab5♪ Eb5♩ A4♩ A5♩ E5♩ F5♪ D5♩ Eb5♪ F#4♩ F5♩ F#4♩ F5♩ C5♩ C#5♩ Eb4♩ Eb4𝅘𝅥𝅯  E4♩ E4𝅘𝅥𝅯  A4♩ Eb4♩ C#5♩ F#4♩ E4♩ Ab4♩ A4♩ F#4♩ E4♩ E5♩ Ab4♩ C#5♩ A4♩ G3♩ Ab4♩ C#4♩ E4♩ C#4♩ Eb4♩ G3♩ F#4♩ Eb4♩ C3♩ Bb3♩ E4♩ C3♩ Bb3♩ E4♩ C3♩ G3♩ Bb3♩ G3♩ G3𝅘𝅥𝅯  Bb3♩ G3♩ Ab4♩ Eb4♩ Ab4♩ G3♩ 
+
+Sefton
+max cases =  45
+G3♩ C3♩ C3♩ C4♩ C3♩ Bb3♩ G3♩ C3♩ G3♩ G3𝅘𝅥𝅯  D4♩ Bb3♩ Bb3𝅘𝅥𝅯  D4♩ F#4♩ F#4𝅘𝅥𝅯  F#5♩ C5♩ E5♩ C5♩ C5𝅘𝅥𝅯  G5♩ F6♩ C#6♩ E6♩ C7♩ F6♩ C#6♩ F#6♩ Ab6♪ F6♩ F6𝅘𝅥𝅯  D5♩ C#6♩ Ab5♩ E6♩ Eb6♪ A6♩ C#6♩ C#6♪ A6♩ Bb5♩ G5♩ C6♩ G6♩ E6♩ A5♩ C#6♩ D5♩ C5♩ D6♩ Eb6♪ B5♩ B5♪ F5♩ Ab5♩ B4♩ G5♩ Eb5♩ F5♩ Ab5♩ Ab4♩ A5♩ E5♩ D5♩ B5♩ A4♩ E4♩ E4𝅘𝅥𝅯  Bb4♩ A4♩ B4♩ D5♩ A4♩ E4♩ F#5♩ A4♩ E4♩ Bb3♩ F#4♩ B4♩ D4♩ G3♩ B4♩ Bb3♩ F#4♩ A4♩ D4♩ C4♩ Bb3♩ C4♩ E4♩ D5♩ E4♩ C4♩ G3♩ Bb3♩ G3♩ C4♩ F4♩ C4♩ D4♩ E4♩ G3♩ G3𝅘𝅥𝅯  E4♩ C4♩ G3♩ G3𝅘𝅥𝅯  D4♩ C3♩ G3♩ G3𝅘𝅥𝅯  C4♩ C3♩ F4♩ G3♩ G3𝅘𝅥𝅯  Bb3♩ Bb3𝅘𝅥𝅯  G3♩ C3♩ C4♩ C3♩ 
+
+Sheffield
+max cases =  110
+E3♩ C3♩ E3♩ E3𝅘𝅥𝅯  F#3♩ C3♩ G3♩ G3𝅘𝅥𝅯  C3♩ B3♩ C3♩ F#3♩ A3♩ B3♩ B3𝅘𝅥𝅯  F4♩ E4♪ G4♩ B4♩ Bb4♪ Eb5♩ F#5♩ B5♩ B5♪ G5♩ G5♪ C5♩ C6♩ B5♪ Eb6♩ C7♩ C6♩ A5♩ F#5♩ F5♪ C#6♩ C6♪ Ab5♩ Ab5♪ A5♪ Bb5♪ A5♪ Eb5♩ D6♩ Ab5♩ E6♩ Ab5♩ E5♩ C#6♩ A5♩ C6♩ F#5♩ C#6♩ C5♩ B5♩ Eb6♩ Ab5♩ C#6♩ F#5♩ D6♩ C6♩ F5♩ Ab5♩ Ab5♪ B4♩ E5♩ F#5♪ C#5♩ C#5𝅘𝅥𝅯  Bb4♩ A4♩ C#5♩ C#5♪ C5♪ B4♩ C5♪ Bb4♩ Eb4♩ C#4♩ A4♩ C#5♩ A4♩ G4♩ G4♪ B4♩ G4♩ E5♩ Ab4♩ C5♩ E4♩ F#4♩ Ab4♩ F4♩ D5♩ Ab4♩ Bb4♩ Eb4♩ G4♩ A4♩ Bb4♩ Ab4♩ A4♩ B4♩ Ab4♩ C#5♩ B4♩ G4♩ Bb4♩ F#4♩ A4♩ F4♩ F4𝅘𝅥𝅯  E4♪ F#4♩ F#4𝅘𝅥𝅯  B4♩ Ab4♩ Bb4♩ C#5♩ Eb4♩ Ab4♩ C5♩ F#4♩ Eb4♩ C4♩ B3♩ C#4♩ C4♩ C4𝅘𝅥𝅯  Eb4♩ C4♩ E3♩ 
+
+Shropshire
+max cases =  37
+G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C#4♩ C3♩ C3♩ C3♩ C3♩ C3♩ Eb4♩ B3♩ F4♩ B3♩ Eb4♩ Eb4𝅘𝅥𝅯  C5♩ Eb4♩ F5♩ C5♩ E5♩ E5𝅘𝅥𝅯  B4♩ B4𝅘𝅥𝅯  E5♩ Bb4♩ Bb5♩ Bb4♩ Ab4♩ C5♩ B4♩ A5♩ F5♩ F4♩ Bb4♩ G5♩ G5𝅘𝅥𝅯  F#5♪ B4♩ F#5♩ C6♩ Bb4♩ Ab5♩ D5♩ G6♩ C#6♩ C6♪ B5♪ D6♩ G5♩ A5♩ F6♩ D6♩ A5♩ F5♩ C#6♩ E5♩ C#6♩ F5♩ F5𝅘𝅥𝅯  Bb6♩ B5♩ D6♩ D6𝅘𝅥𝅯  Ab5♩ D6♩ C#6♪ F5♩ C#6♩ D5♩ F#5♩ C#6♩ Eb6♪ G6♩ C6♩ Eb6♩ D5♩ Bb4♩ Eb5♩ B4♩ F5♩ F#5♪ G5♪ C5♩ G4♩ E6♩ B4♩ C7♩ C5♩ A5♩ G4♩ Eb4♩ Eb5♩ D5♪ C5♪ Bb4♩ Ab4♩ Bb4♩ Eb4♩ E5♩ E5𝅘𝅥𝅯  C#4♩ C#4𝅘𝅥𝅯  B3♩ Ab4♩ Eb4♩ Eb4𝅘𝅥𝅯  C3♩ Ab4♩ Eb4♩ C#4♩ F4♩ C#4♩ Ab4♩ C#4♩ Eb4♩ C#4♩ Eb4♩ G3♩ G3𝅘𝅥𝅯  C#4♩ B3♩ B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  C3♩ 
+
+Slough
+max cases =  27
+A3♩ C3♩ E4♩ A3♩ C3♩ C5♩ Bb4♩ F#4♩ C#4♩ F#4♩ C5♩ F#4♩ A3♩ Ab4♩ Ab4𝅘𝅥𝅯  C#4♩ Bb4♩ F5♩ C5♩ Bb4♩ Ab5♩ F#5♪ Ab4♩ Bb4♩ F5♩ Bb4♩ F#5♩ E4♩ F5♩ Bb5♩ Ab4♩ Eb5♩ Eb6♩ Eb5♩ D5♩ Bb5♩ Ab5♩ Eb5♩ Bb5♩ D6♩ D6𝅘𝅥𝅯  D5♩ Ab5♩ D5♩ F#5♩ D5♩ Ab4♩ D5♩ F5♩ Ab5♩ F#5♪ D5♩ F5♩ Bb4♩ D5♩ Ab5♩ C7♩ D5♩ Bb4♩ F#4♩ Bb4♩ Ab4♩ Ab4𝅘𝅥𝅯  Ab4𝅘𝅥𝅯  Ab4𝅘𝅥𝅯  C5♩ E4♩ Ab4♩ C#4♩ Ab4♩ F#4♩ A3♩ C3♩ C5♩ C#4♩ C3♩ A3♩ A3𝅘𝅥𝅯  C3♩ C#4♩ A3♩ C#4♩ A3♩ Ab4♩ C#4♩ C3♩ C3♩ C#4♩ C#4𝅘𝅥𝅯  E4♩ E4𝅘𝅥𝅯  C3♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  C3♩ F#4♩ F#4𝅘𝅥𝅯  C#4♩ Bb4♩ C#4♩ Bb4♩ C#4♩ Ab4♩ C#4♩ E4♩ C3♩ A3♩ E4♩ C#4♩ Ab4♩ C#4♩ C3♩ C#4♩ E4♩ A3♩ E4♩ E4𝅘𝅥𝅯  A3♩ C3♩ A3♩ C3♩ A3♩ E4♩ C#4♩ C3♩ 
+
+Solihull
+max cases =  36
+Ab3♩ C3♩ C3♩ C3♩ C3♩ B3♩ Ab3♩ Ab3𝅘𝅥𝅯  F4♩ E4♩ E4𝅘𝅥𝅯  C#4♩ C5♩ F#5♩ Ab5♪ Ab5♪ Ab5𝅘𝅥𝅯  G6♩ E5♩ F5♪ Ab5♩ F#5♩ E6♩ B5♩ Eb6♩ D5♩ E5♩ A5♩ F5♩ Bb5♩ Eb6♩ E5♩ A4♩ C#5♩ B5♩ B5𝅘𝅥𝅯  E5♩ D5♩ C6♩ C5♩ E6♩ F5♩ D6♩ C7♩ A4♩ D5♩ F5♩ E5♪ G4♩ D5♩ Eb6♩ Eb5♩ A4♩ G4♩ A5♩ A4♩ Bb4♩ Bb4𝅘𝅥𝅯  Ab5♩ Bb4♩ F4♩ A4♩ C#4♩ D5♩ E4♩ C3♩ E4♩ Ab3♩ Bb4♩ C#4♩ E4♩ Bb4♩ F4♩ B3♩ Ab3♩ C#4♩ C#4𝅘𝅥𝅯  G4♩ Ab3♩ G4♩ C3♩ C3♩ B3♩ B3𝅘𝅥𝅯  Ab3♩ Ab3𝅘𝅥𝅯  B3♩ C3♩ C3♩ C#4♩ Ab3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  B3♩ Ab3♩ B3♩ B3𝅘𝅥𝅯  Ab3♩ C3♩ B3♩ Bb4♩ Ab3♩ B3♩ Ab3♩ B3♩ C3♩ C3♩ B3♩ E4♩ C3♩ C3♩ B3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  E4♩ C3♩ C3♩ 
+
+Somerset
+max cases =  35
+Ab3♩ C3♩ C3♩ C3♩ B3♩ B3𝅘𝅥𝅯  D4♩ D4𝅘𝅥𝅯  B3♩ Ab3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  D4♩ D4𝅘𝅥𝅯  B3♩ E4♩ E4𝅘𝅥𝅯  F#4♩ A4♩ Bb4♩ F#4♩ E4♩ C5♩ Bb4♩ Bb4𝅘𝅥𝅯  B5♩ Ab5♩ G4♩ C5♩ Ab5♩ C#5♩ Ab5♩ F5♩ Ab5♩ Bb5♩ D5♩ F#5♩ A5♩ Bb5♪ A6♩ B6♪ F#5♩ Bb4♩ D6♩ D6𝅘𝅥𝅯  B5♩ G5♩ C6♩ F#5♩ C6♩ D6♩ E6♪ C7♩ A6♩ C#6♩ Eb6♩ F#4♩ Ab6♩ A4♩ F5♩ F#5♪ B5♩ G5♩ F5♩ C6♩ Eb6♩ Bb6♩ C#6♩ B5♪ A5♩ C#5♩ F#5♩ F#5𝅘𝅥𝅯  C#6♩ Bb5♩ D6♩ A4♩ G4♩ F#5♩ E5♩ Ab5♩ C6♩ Eb6♩ G4♩ Bb5♩ F5♩ E5♪ G6♩ Ab5♩ G4♩ B3♩ D4♩ F#4♩ Bb4♩ E4♩ B3♩ E4♩ Ab3♩ C3♩ D4♩ B3♩ A4♩ Ab3♩ D5♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  B3♩ B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  C3♩ Ab3♩ E4♩ C3♩ B3♩ C3♩ C3♩ B3♩ C3♩ Ab3♩ D4♩ C3♩ 
+
+South Gloucestershire
+max cases =  33
+Ab3♩ B3♩ C3♩ D4♩ D4𝅘𝅥𝅯  D4𝅘𝅥𝅯  C3♩ Ab3♩ C3♩ Ab3♩ B3♩ Ab3♩ C3♩ D4♩ D4𝅘𝅥𝅯  B4♩ F#4♩ F#5♩ E4♩ Ab4♩ B4♩ C#5♩ Ab5♩ Eb5♩ Ab4♩ C#5♩ D5♩ C#5♩ D5♩ D5𝅘𝅥𝅯  C#5♩ Ab6♩ F#5♩ Ab4♩ Ab4𝅘𝅥𝅯  E4♩ B3♩ B4♩ C6♩ Ab4♩ Bb4♩ C#5♩ Eb5♩ Bb5♩ C6♩ E6♩ B5♩ E6♩ C#6♩ B4♩ E6♩ Ab5♩ C7♩ A5♩ D5♩ B4♩ B5♩ F#4♩ E4♩ C#5♩ C#5𝅘𝅥𝅯  Eb5♩ Ab4♩ Bb4♩ C#5♩ F#5♩ B4♩ Ab4♩ C#5♩ Eb5♩ E4♩ D6♩ D5♩ E4♩ B4♩ Ab3♩ Ab3𝅘𝅥𝅯  B3♩ Ab3♩ B3♩ E4♩ Ab3♩ B3♩ B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  F#4♩ Ab4♩ E4♩ B3♩ C3♩ C3♩ Ab3♩ B3♩ C3♩ Ab3♩ E4♩ C3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ C3♩ Ab3♩ B3♩ C3♩ C3♩ C3♩ C3♩ C3♩ 
+
+South Tyneside
+max cases =  32
+Ab3♩ Ab3𝅘𝅥𝅯  C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C4♩ C4𝅘𝅥𝅯  C3♩ C4♩ F#4♩ E4♩ C4♩ Bb4♩ Ab3♩ F#4♩ G5♩ F#5♪ C#5♩ F#5♩ C6♩ F5♩ Ab5♩ E6♩ C6♩ C6𝅘𝅥𝅯  F5♩ C6♩ F5♩ C#5♩ A5♩ Ab6♩ G6♪ Bb6♩ G6♩ Bb5♩ Ab5♩ G6♩ C6♩ Ab6♩ D6♩ C7♩ A5♩ E5♩ Ab6♩ F6♩ F#6♪ Ab6♪ Ab5♩ F#4♩ F#5♩ D5♩ F#5♩ Ab5♩ C#5♩ Bb5♩ Bb4♩ F5♩ G5♩ Bb6♩ Ab5♩ C4♩ E5♩ F#4♩ Bb4♩ E5♩ C4♩ F5♩ Bb4♩ Ab4♩ D4♩ E4♩ C4♩ E4♩ D5♩ Ab3♩ C4♩ D4♩ Ab3♩ D4♩ Ab3♩ Ab3𝅘𝅥𝅯  D4♩ C3♩ C4♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  D4♩ C3♩ Ab3♩ C4♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C4♩ C3♩ C3♩ 
+
+Southampton
+max cases =  24
+A3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C#4♩ C3♩ C3♩ C#4♩ C3♩ A3♩ C#4♩ A3♩ C#4♩ E4♩ E4𝅘𝅥𝅯  C5♩ G4♩ C5♩ C#4♩ C5♩ C#6♩ B5♩ F#5♩ F5♩ F6♩ F#6♪ C6♩ E6♩ F#5♩ Ab5♩ A5♪ F5♩ C#6♩ B5♩ A6♩ F5♩ C#5♩ F#5♩ Ab5♩ F6♩ Eb5♩ Eb6♩ G6♩ C#6♩ C5♩ Eb6♩ G6♩ Bb6♩ C7♪ Ab5♩ C#5♩ Ab6♩ E6♩ F#6♩ G6♪ F#6♪ Ab5♩ B5♩ Ab5♩ Ab6♩ B5♩ Eb6♩ C5♩ F#5♩ G4♩ Eb5♩ A5♩ Eb6♩ G6♩ F#5♩ G4♩ G4𝅘𝅥𝅯  C#5♩ F#5♩ Eb5♩ C5♩ F6♩ A4♩ G4♩ C#4♩ A3♩ C#5♩ C5♩ C#4♩ A5♩ A4♩ Eb5♩ C#4♩ F#5♩ C#4♩ B5♩ C#4♩ E4♩ C#4♩ C#5♩ A3♩ E4♩ E4𝅘𝅥𝅯  C#4♩ A3♩ A3𝅘𝅥𝅯  G4♩ C5♩ A3♩ C3♩ A3♩ C3♩ A3♩ C3♩ C3♩ C3♩ A3♩ C3♩ A3♩ C3♩ C#4♩ E4♩ A3♩ C#4♩ G4♩ A3♩ C3♩ A3♩ C3♩ A4♩ C3♩ C3♩ 
+
+Southend-on-Sea
+max cases =  24
+A3♩ C3♩ C3♩ C3♩ C3♩ A3♩ C3♩ C3♩ A3♩ C3♩ A3♩ C3♩ C#4♩ C#4𝅘𝅥𝅯  C3♩ C3♩ C3♩ A3♩ G4♩ C5♩ C5𝅘𝅥𝅯  C#4♩ Eb5♩ C#5♩ C5♩ Ab5♩ B5♩ C#6♩ E6♩ C6♩ F#6♩ C#6♩ F5♩ F#6♩ F6♪ A4♩ C5♩ F#5♩ G4♩ Eb5♩ F#5♩ C#5♩ C5♩ E4♩ A3♩ A3𝅘𝅥𝅯  C#5♩ Eb5♩ A4♩ F#5♩ G4♩ C5♩ F#5♩ F#5𝅘𝅥𝅯  E4♩ A3♩ C#5♩ Eb5♩ C5♩ Ab5♩ G4♩ B5♩ G4♩ Eb5♩ Eb5𝅘𝅥𝅯  E4♩ A4♩ C5♩ A4♩ Eb5♩ A4♩ C#5♩ C5♩ C5𝅘𝅥𝅯  A3♩ Eb5♩ E4♩ G4♩ C5♩ E4♩ C5♩ A4♩ C7♩ A3♩ C#4♩ C#4𝅘𝅥𝅯  C3♩ C#4♩ C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  G4♩ C#4♩ E4♩ C5♩ E4♩ G4♩ C5♩ C#4♩ G4♩ Eb5♩ E6♩ F#5♩ F5♩ Eb5♩ C5♩ G4♩ C#5♩ E4♩ A3♩ E4♩ G4♩ A4♩ C3♩ G4♩ A3♩ C3♩ E4♩ A3♩ A3𝅘𝅥𝅯  F#5♩ E4♩ A3♩ C3♩ E4♩ E4𝅘𝅥𝅯  C#4♩ C3♩ C3♩ 
+
+Southwark
+max cases =  59
+Ab3♩ C3♩ C3♩ F#3♩ C3♩ C3♩ F#3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  Ab3♩ F#3♩ Ab3♩ E4♩ Eb4♩ Ab4♩ G4♪ F4♩ G4♩ A4♩ C5♩ Eb5♩ Eb5♪ C5♩ F5♩ Bb4♩ A5♩ E6♩ Bb5♩ A5♪ B5♩ G6♩ B5♩ C6♪ A6♩ C6♩ C7♩ G6♩ A6♩ D6♩ G5♩ Eb6♩ Ab6♩ E6♩ E6♪ C6♩ A5♩ A4♩ G5♩ F5♩ Ab5♩ F5♩ C5♩ C#5♪ C#4♩ Ab4♩ D5♩ C#4♩ Bb4♩ A4♪ Bb3♩ G4♩ C#5♩ E4♩ C5♩ C5♪ A4♩ Bb3♩ Bb3𝅘𝅥𝅯  Eb4♩ F4♩ F#4♩ C4♩ C4𝅘𝅥𝅯  E4♩ Eb4♩ G4♩ F#4♩ C#4♩ C4♩ C#4♩ Ab3♩ C3♩ Ab3♩ F#3♩ C3♩ Ab3♩ C3♩ Bb3♩ F#3♩ Ab3♩ F#3♩ Eb4♩ Bb3♩ F#3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ Ab3♩ C3♩ F#3♩ C3♩ F#3♩ C3♩ C3♩ F#3♩ C3♩ C3♩ Ab3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  C#4♩ Ab3♩ F#3♩ C3♩ F#3♩ C3♩ F#3♩ C3♩ F#3♩ Ab3♩ F#3♩ Eb4♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  Bb3♩ C3♩ C3♩ Bb3♩ Bb3𝅘𝅥𝅯  C3♩ F#3♩ C3♩ 
+
+St. Helens
+max cases =  55
+F#3♩ C3♩ F#3♩ C3♩ F#3♩ C3♩ C3♩ A3♩ F#3♩ C4♩ A3♩ A3𝅘𝅥𝅯  C4♩ A4♩ A4𝅘𝅥𝅯  Bb4♪ C5♩ Ab4♩ E5♩ G5♩ Eb5♩ Bb5♩ A5♩ B5♩ Bb5♪ E5♩ A5♩ C6♩ C5♩ F5♩ Bb4♩ Ab4♩ C#5♩ G4♩ Ab4♩ A5♩ Eb6♩ G5♩ D6♩ Eb5♩ A5♩ F6♩ E6♪ C7♩ E6♩ G5♩ F#4♩ F#5♩ Bb5♩ D5♩ F#5♩ A5♩ F4♩ A4♩ D4♩ Eb4♩ C#5♩ G4♩ F4♩ F4𝅘𝅥𝅯  G4♩ Bb4♩ E5♩ F4♩ Ab4♩ F4♩ C#5♩ F#4♩ Ab4♩ F#4♩ D4♩ B3♩ Eb4♩ F4♩ B3♩ D4♩ C4♩ F#3♩ Eb4♩ Eb4𝅘𝅥𝅯  C4♩ B3♩ F4♩ B3♩ F#3♩ F#3𝅘𝅥𝅯  A3♩ F#3♩ C3♩ A3♩ B3♩ C4♩ A3♩ F#3♩ F#3𝅘𝅥𝅯  A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  F#3♩ A3♩ A3𝅘𝅥𝅯  F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  A3♩ F#3♩ D4♩ C3♩ A3♩ A3𝅘𝅥𝅯  F#3♩ C3♩ F#3♩ C3♩ F#3♩ C3♩ F#3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ 
+
+Staffordshire
+max cases =  98
+E3♩ E3𝅘𝅥𝅯  E3𝅘𝅥𝅯  E3𝅘𝅥𝅯  C3♩ C3♩ C3♩ E3♩ E3𝅘𝅥𝅯  E3𝅘𝅥𝅯  Ab3♩ B3♩ A3♩ C4♩ C#4♩ Bb3♩ E4♩ F4♩ F#4♩ Ab4♩ F#4♩ C5♩ Bb4♩ F5♩ F5𝅘𝅥𝅯  F5♪ Bb4♩ G5♩ G5♪ G5𝅘𝅥𝅯  B5♩ C6♪ A5♩ Ab5♪ E5♩ Ab5♩ C6♩ Bb5♩ C6♩ C#6♪ F#5♩ F5♩ F#5♪ Bb5♩ C#6♩ F6♩ A5♩ E6♩ B5♩ B5♪ F#6♩ C7♩ A6♪ E6♩ Bb5♩ F5♩ D6♩ C6♪ B5♪ Eb6♩ F6♩ D6♩ E5♩ F5♩ Bb5♩ C6♩ C#6♪ Ab5♩ E4♩ C#5♩ D5♪ Bb5♩ F5♩ Bb5♩ F5♩ C#5♩ A4♩ Eb5♩ D5♪ Bb5♩ E5♩ C#5♩ E5♩ A4♩ Ab4♪ Eb5♩ G5♩ A4♩ C5♩ B4♩ F4♩ F4𝅘𝅥𝅯  G4♩ G4𝅘𝅥𝅯  Ab4♪ E4♩ Bb3♩ A4♩ B4♩ G4♩ Bb4♩ E4♩ E4𝅘𝅥𝅯  G4♩ F#4♩ E4♩ G4♩ F#4♩ F#4𝅘𝅥𝅯  Eb4♩ D4♩ Bb3♩ E4♩ C#4♩ E4♩ D4♩ Bb4♩ E4♩ F#3♩ F4♩ C4♩ F#4♩ C4♩ C4𝅘𝅥𝅯  Bb3♩ A3♩ E4♩ A4♩ B3♩ B3𝅘𝅥𝅯  C3♩ 
+
+Stockport
+max cases =  49
+F#3♩ C3♩ C3♩ C3♩ F#3♩ C3♩ C3♩ C3♩ C3♩ F#3♩ A3♩ F#3♩ B3♩ B3𝅘𝅥𝅯  C3♩ B3♩ E4♩ F#4♩ F#4𝅘𝅥𝅯  A3♩ E4♩ E4𝅘𝅥𝅯  E4𝅘𝅥𝅯  A4♩ Ab4♩ D5♩ G4♩ A4♩ B4♩ Ab5♩ F5♩ Eb6♩ C6♩ D6♩ Bb5♩ Bb5𝅘𝅥𝅯  A6♩ C6♩ C#6♪ E6♩ D6♪ B5♩ C#5♩ F#6♩ F#5♩ D6♩ F6♩ G5♩ F6♩ C6♩ C6♪ F5♩ C7♩ F#6♩ Bb5♩ Ab5♩ F5♩ B5♩ G5♩ Eb6♩ B6♩ C6♩ Bb4♩ Ab5♩ Bb5♩ G5♩ Bb5♩ Ab5♩ D5♩ C5♩ D5♩ C5♩ E5♩ G5♩ Ab4♩ Ab4𝅘𝅥𝅯  Bb4♩ F5♩ C5♩ Bb4♩ Eb5♩ F5♩ Eb5♩ Ab4♩ G4♩ G4𝅘𝅥𝅯  E4♩ F#4♩ C#4♩ G4♩ F#4♩ B3♩ B3𝅘𝅥𝅯  F#4♩ A4♩ C#4♩ E4♩ A3♩ E4♩ Eb4♩ A3♩ Eb4♩ B3♩ A3♩ B3♩ B3𝅘𝅥𝅯  A3♩ E4♩ C#4♩ Eb4♩ Ab4♩ C#4♩ F#4♩ E4♩ C#4♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  C#4♩ C#4𝅘𝅥𝅯  Ab4♩ C3♩ C#4♩ F#3♩ Eb4♩ C3♩ F#3♩ A3♩ A3𝅘𝅥𝅯  F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  
+
+Stockton-on-Tees
+max cases =  31
+Ab3♩ C4♩ Ab3♩ C3♩ C3♩ Ab3♩ C3♩ Ab3♩ D4♩ C3♩ Ab3♩ C4♩ C3♩ C3♩ D4♩ C4♩ C4𝅘𝅥𝅯  A4♩ C5♩ E5♩ F4♩ Bb5♩ C5♩ G5♩ G5𝅘𝅥𝅯  Bb5♩ E5♩ F5♪ C#5♩ D6♩ C#5♩ C6♩ A4♩ E5♩ Eb5♪ C#5♩ A5♩ E5♩ Eb5♪ Bb4♩ G5♩ F5♪ B5♩ A5♩ C#6♩ Ab5♩ A5♪ C#5♩ Eb5♩ Eb5𝅘𝅥𝅯  C7♩ A5♩ Ab5♪ Ab6♩ B5♩ C#6♩ A5♩ C6♩ A5♩ Ab5♪ E5♩ C#5♩ E5♩ G5♩ Bb5♩ C#5♩ E5♩ G5♩ E5♩ A4♩ B5♩ Ab5♩ C5♩ C#5♩ A4♩ Ab5♩ Eb5♩ C5♩ Eb5♩ G4♩ A4♩ A4𝅘𝅥𝅯  D4♩ F4♩ A4♩ F5♩ F4♩ C#5♩ Bb4♩ C4♩ C3♩ Bb4♩ D4♩ Bb4♩ F4♩ C#6♩ Ab3♩ C3♩ Bb4♩ D4♩ Ab3♩ Eb5♩ C4♩ A4♩ Ab3♩ D4♩ D4𝅘𝅥𝅯  C4♩ C4𝅘𝅥𝅯  Ab3♩ F4♩ D4♩ C4♩ D4♩ C4♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ C3♩ Ab3♩ D4♩ Ab3♩ C3♩ C3♩ 
+
+Stoke-on-Trent
+max cases =  46
+Bb3♩ C3♩ G3♩ C3♩ C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  Bb3♩ Bb3𝅘𝅥𝅯  D4♩ Eb4♩ Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  C4♩ D4♩ F5♩ D5♩ C4♩ F5♩ A4♩ B4♩ F4♩ Eb5♩ Eb4♩ B4♩ F#5♩ B4♩ Bb5♩ C5♩ Bb4♩ Eb5♩ D5♪ E5♩ Bb4♩ E5♩ D5♩ D5𝅘𝅥𝅯  F5♩ Ab5♩ G5♪ B5♩ Bb5♪ G5♩ E5♩ A5♩ C6♩ A5♩ C7♩ C6♩ C6♪ Ab5♩ G5♪ C#6♩ G6♩ Eb6♩ D6♪ Ab4♩ G5♩ A5♩ F6♩ F#5♩ C6♩ G5♩ E5♩ Bb4♩ C#5♩ Eb5♩ G5♩ C#5♩ F#5♩ Bb4♩ E5♩ C5♩ F#5♩ D6♩ E5♩ B4♩ D5♩ D5𝅘𝅥𝅯  E5♩ E5𝅘𝅥𝅯  Bb4♩ B4♩ C#5♩ D4♩ D4𝅘𝅥𝅯  Eb4♩ C#5♩ F4♩ A4♩ Eb4♩ D5♩ Eb4♩ D4♩ B4♩ A4♩ A4𝅘𝅥𝅯  F#4♩ Eb4♩ G3♩ Eb4♩ B4♩ F#4♩ F#4𝅘𝅥𝅯  Eb4♩ Bb3♩ C3♩ C4♩ Ab4♩ D4♩ Ab4♩ Bb3♩ G3♩ F4♩ F4𝅘𝅥𝅯  C4♩ Ab4♩ Bb3♩ C3♩ 
+
+Suffolk
+max cases =  98
+E3♩ C3♩ C3♩ F#3♩ E3♩ Ab3♩ E3♩ F#3♩ B3♩ E3♩ A3♩ A3𝅘𝅥𝅯  E3♩ A3♩ D4♩ C4♩ G4♩ Eb4♩ Bb3♩ Ab4♩ A4♩ B3♩ A4♩ B4♩ C5♩ D5♩ Bb4♩ D5♩ A4♩ D5♩ D5𝅘𝅥𝅯  C#5♩ F5♩ C#5♩ Eb5♩ C#5♩ C#5𝅘𝅥𝅯  A4♩ Bb4♩ F5♩ B5♩ F5♩ E6♩ Ab5♩ F6♩ Ab5♩ C7♩ F#6♩ G6♪ C6♩ A5♩ C6♩ B5♪ B5𝅘𝅥𝅯  C6♪ A6♩ F5♩ G5♩ D6♩ F#5♩ D6♩ Bb5♩ B4♩ F#4♩ C5♩ Eb6♩ E5♩ G5♩ Eb5♩ Eb5♪ Bb4♩ E4♩ G5♩ C5♩ Bb4♩ F#5♩ Bb4♩ E4♩ F#4♩ Eb4♩ F#4♩ A4♩ G4♩ G4𝅘𝅥𝅯  C#4♩ F4♩ A4♩ A4𝅘𝅥𝅯  G4♩ C#4♩ B3♩ C#4♩ Bb3♩ C#4♩ E3♩ Ab3♩ C3♩ Ab3♩ E3♩ C3♩ Ab3♩ Bb3♩ E3♩ F#3♩ C3♩ C3♩ Ab3♩ C3♩ F#3♩ Ab3♩ C3♩ A3♩ E3♩ E3𝅘𝅥𝅯  Ab3♩ C3♩ Bb3♩ A3♩ A3𝅘𝅥𝅯  Ab3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  C3♩ C3♩ 
+
+Sunderland
+max cases =  61
+F#3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ F#3♩ Bb3♩ Bb3𝅘𝅥𝅯  C#4♩ Ab3♩ Eb4♩ D5♩ G4♩ Ab4♩ F#4♩ C4♩ Ab4♩ A5♩ F#6♩ E6♪ C#6♩ F#6♩ F6♪ G6♪ B6♩ G6♩ G6♪ F#6♪ C#6♩ F#6♩ A5♩ B5♩ A5♩ Bb6♩ A5♩ Eb6♩ A6♩ Eb6♩ C7♩ G5♩ C6♩ B5♪ Bb5♪ G5♩ B4♩ Ab5♩ D6♩ G6♩ D6♩ C6♩ D5♩ Bb4♩ Bb5♩ Eb5♩ Bb4♩ Bb4𝅘𝅥𝅯  G4♩ C#6♩ F#4♩ Bb4♩ Bb4♪ G4♩ F4♩ F4𝅘𝅥𝅯  G4♩ C4♩ F#4♩ Ab4♩ Eb4♩ Eb4𝅘𝅥𝅯  C#4♩ F4♩ F4𝅘𝅥𝅯  Ab3♩ Ab3𝅘𝅥𝅯  C4♩ Bb3♩ E4♩ Bb3♩ Ab3♩ Bb3♩ Bb3𝅘𝅥𝅯  F#3♩ C4♩ Bb3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C4♩ Ab3♩ C3♩ C3♩ F#3♩ C3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ F#3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ F#3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ F#3♩ F#3𝅘𝅥𝅯  Ab3♩ C3♩ C3♩ 
+
+Surrey
+max cases =  142
+E3♩ C3♩ C3♩ E3♩ C3♩ C3♩ C3♩ F3♩ C3♩ C3♩ F3♩ C3♩ F3♩ F#3♩ A3♩ A3𝅘𝅥𝅯  F4♩ A3♩ C4♩ C4𝅘𝅥𝅯  D4♩ F4♩ B4♩ F#4♩ Ab4♩ G4♪ C5♩ E5♩ D5♩ F5♩ F5♪ F#5♪ F#5𝅘𝅥𝅯  E5♩ E6♩ Ab5♩ D6♩ A5♩ Ab5♪ A5♪ Ab5♪ C#6♩ G6♩ C#6♩ Ab5♩ C#6♩ Ab5♩ B5♩ F6♩ E6♪ C7♩ C6♩ E6♩ D6♪ B5♩ B5𝅘𝅥𝅯  F6♩ D6♩ E6♪ Eb6♪ Bb5♩ Eb5♩ G5♩ A5♩ Ab5♪ Ab5♪ Ab5𝅘𝅥𝅯  G5♪ E5♩ Eb5♩ F5♩ C#5♩ Bb5♩ B4♩ G4♩ C5♩ Eb5♩ F#5♩ Ab5♩ C5♩ Bb4♩ A4♪ G4♩ B4♩ A4♩ C#5♩ A4♩ E4♩ E4♪ C4♩ F4♩ C#4♩ F#4♩ G4♩ C#4♩ C#4♪ C4♩ B3♩ E4♩ F#3♩ C#4♩ Bb3♩ A3♩ A3♩ C4♩ Bb3♩ C4♩ Eb4♩ A3♩ A3♩ C4♩ C#4♩ A3♩ Bb3♩ B3♩ A3♩ C3♩ Bb3♩ A3♩ C#4♩ F#3♩ A3♩ F#3♩ C#4♩ F#3♩ C4♩ A3♩ C4♩ Bb3♩ A3♩ F#3♩ C4♩ F#3♩ A3♩ C#4♩ A3♩ C3♩ 
+
+Sutton
+max cases =  57
+F#3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ F#3♩ Ab3♩ C3♩ Ab3♩ C4♩ Ab3♩ C3♩ B3♩ C4♩ D4♩ B3♩ Ab4♩ D4♩ G4♩ G5♩ D5♩ Bb4♩ Bb4♪ F5♩ D5♩ A4♩ F#5♩ Eb5♩ D6♩ Bb5♩ E5♩ E4♩ Ab4♩ G5♩ Bb5♩ Bb5𝅘𝅥𝅯  F#5♩ B4♩ E5♩ G4♩ C7♩ B5♩ C#6♪ G5♩ F#5♪ Eb5♩ Bb4♩ A4♩ D5♩ D5♪ C#5♩ A4♩ G4♩ Bb4♩ Bb4𝅘𝅥𝅯  D4♩ B4♩ Bb4♩ G4♩ C#5♩ Ab4♩ C4♩ Ab4♩ C4♩ C4𝅘𝅥𝅯  E4♩ C4♩ D4♩ Ab4♩ B3♩ C4♩ D4♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ D4♩ G4♩ Eb4♩ Bb4♩ D4♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ F#3♩ Eb4♩ C4♩ B3♩ Ab3♩ Ab3𝅘𝅥𝅯  F#3♩ B3♩ B3𝅘𝅥𝅯  F#3♩ F#3𝅘𝅥𝅯  Ab3♩ C4♩ B3♩ Ab3♩ F#3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  F#3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  Ab3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ C3♩ C3♩ F#3♩ C3♩ B3♩ C3♩ C3♩ 
+
+Swindon
+max cases =  25
+A3♩ C3♩ C3♩ A3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C#4♩ C3♩ A3♩ C3♩ A3♩ C#4♩ C3♩ A3♩ C3♩ E4♩ E4𝅘𝅥𝅯  G4♩ E4♩ A4♩ E4♩ A3♩ B4♩ B4𝅘𝅥𝅯  G4♩ Eb5♩ A5♩ C#5♩ A5♩ F#5♩ E5♩ Eb6♩ C#6♩ F6♩ B5♩ Eb6♩ F#5♩ C#6♩ Eb6♩ A5♩ D6♩ G5♩ B4♩ D6♩ Eb6♪ A5♩ C#6♩ D6♪ E5♩ F#5♩ C#6♩ E5♩ C7♩ G5♩ C#5♩ C#6♩ F6♩ Bb5♩ B4♩ E5♩ C#5♩ D6♩ Eb5♩ F#5♩ G5♩ Eb6♩ F#5♩ G5♩ A4♩ G4♩ Eb5♩ C#5♩ A4♩ G4♩ G5♩ A4♩ C#4♩ C#5♩ A3♩ A3𝅘𝅥𝅯  A4♩ B4♩ C3♩ A3♩ A4♩ C#4♩ E4♩ A3♩ E4♩ C#4♩ G4♩ C3♩ C#4♩ C#4𝅘𝅥𝅯  E4♩ E4𝅘𝅥𝅯  C#4♩ C3♩ C#4♩ A3♩ G4♩ G4𝅘𝅥𝅯  C3♩ C#4♩ C#5♩ G4♩ C#4♩ B4♩ C#4♩ A3♩ A3𝅘𝅥𝅯  C3♩ C#4♩ A4♩ A3♩ C3♩ C3♩ A3♩ C#4♩ A3♩ C#4♩ G4♩ A3♩ A3𝅘𝅥𝅯  C3♩ C3♩ 
+
+Tameside
+max cases =  52
+F#3♩ C3♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C#4♩ A3♩ A3𝅘𝅥𝅯  B3♩ A3♩ B3♩ B3𝅘𝅥𝅯  C#4♩ A3♩ F#4♩ C#4♩ B3♩ D4♩ C#4♩ F#4♩ F#4𝅘𝅥𝅯  F4♩ C5♩ A4♩ E5♩ C#5♩ E5♩ C5♩ C#5♩ C5♪ B5♩ A4♩ Bb5♩ C5♩ A4♩ F#4♩ E5♩ F5♩ C#5♩ Eb5♩ F#5♩ B4♩ B5♩ C5♩ C5♪ C5𝅘𝅥𝅯  Eb5♩ C5♩ F5♩ Bb4♩ D5♩ Eb5♪ F#4♩ A5♩ F5♩ B5♩ A4♩ C6♩ G4♩ E5♩ C5♩ C#5♪ D5♪ C5♩ D5♩ D6♩ F#5♩ A5♩ Bb6♩ Eb5♩ C5♩ C#5♪ F5♩ C7♩ B5♩ Bb5♪ G5♩ E5♩ B4♩ C5♪ C5♪ Eb5♩ F#4♩ F4♩ B4♩ C5♩ D5♩ Eb5♪ C5♩ Bb4♩ B4♪ E4♩ E4𝅘𝅥𝅯  G4♩ B4♩ C5♩ F#4♩ B4♩ F4♩ A4♩ B4♩ Eb5♩ C5♩ A4♩ Bb4♩ A4♪ A3♩ B4♩ C#4♩ A4♩ E4♩ F#3♩ D4♩ A3♩ F4♩ C#4♩ F#4♩ B3♩ C#4♩ C3♩ D4♩ F#3♩ D4♩ E4♩ F#3♩ C3♩ 
+
+Telford and Wrekin
+max cases =  20
+Bb3♩ C3♩ Bb3♩ C3♩ Bb3♩ Eb4♩ Bb3♩ Eb4♩ C3♩ C5♩ F#4♩ F#4𝅘𝅥𝅯  D5♩ F#5♩ D5♩ A5♩ D5♩ D5𝅘𝅥𝅯  A4♩ E5♩ E5𝅘𝅥𝅯  E5𝅘𝅥𝅯  A5♩ F#4♩ B5♩ D5♩ Eb4♩ E5♩ Eb4♩ F#4♩ F#4𝅘𝅥𝅯  C5♩ E5♩ E5𝅘𝅥𝅯  A5♩ A6♩ D5♩ A5♩ Ab5♩ C7♩ E6♩ A4♩ B5♩ D5♩ Ab5♩ E5♩ A5♩ Ab5♩ A5♩ C5♩ D5♩ E5♩ Ab5♩ Bb6♩ F#4♩ F#4𝅘𝅥𝅯  E5♩ E5𝅘𝅥𝅯  D6♩ B5♩ C5♩ D6♩ Ab5♩ F#4♩ E5♩ C5♩ F#6♩ C7♩ D5♩ Ab5♩ F#5♩ A4♩ C5♩ Eb4♩ D5♩ C5♩ C5𝅘𝅥𝅯  C5𝅘𝅥𝅯  C3♩ Eb4♩ F#4♩ Eb4♩ C5♩ Bb3♩ Bb3𝅘𝅥𝅯  F#4♩ Eb4♩ Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  F#4♩ A4♩ F#4♩ F#4𝅘𝅥𝅯  F#5♩ Eb4♩ Eb4𝅘𝅥𝅯  Bb3♩ C3♩ Eb4♩ C3♩ Bb3♩ C3♩ Bb3♩ F#4♩ Eb4♩ Eb4𝅘𝅥𝅯  C3♩ Bb3♩ Bb3𝅘𝅥𝅯  C3♩ F#4♩ Bb3♩ C3♩ C3♩ Eb4♩ F#4♩ C3♩ C3♩ C3♩ 
+
+Thurrock
+max cases =  19
+B3♩ B3𝅘𝅥𝅯  C3♩ C3♩ B3♩ C3♩ Eb4♩ G4♩ C5♩ B3♩ C3♩ G4♩ C5♩ A5♩ Eb4♩ Bb4♩ Bb5♩ D6♩ F5♩ F5𝅘𝅥𝅯  Bb5♩ Bb5𝅘𝅥𝅯  Bb5𝅘𝅥𝅯  C7♩ G5♩ Bb5♩ Bb5𝅘𝅥𝅯  G5♩ F#6♩ C7♩ F5♩ F5𝅘𝅥𝅯  G5♩ C5♩ G5♩ C5♩ Bb4♩ C6♩ C5♩ D5♩ Bb4♩ D5♩ A5♩ C6♩ C5♩ C5𝅘𝅥𝅯  Bb4♩ A6♩ D5♩ F5♩ Bb5♩ G5♩ C5♩ Bb4♩ B3♩ B3𝅘𝅥𝅯  C5♩ D5♩ F5♩ Eb4♩ F5♩ G4♩ A5♩ Bb4♩ B3♩ Eb4♩ Bb4♩ C6♩ B3♩ C3♩ Eb4♩ G5♩ Eb4♩ C5♩ Eb4♩ C3♩ C5♩ C5𝅘𝅥𝅯  B3♩ Eb4♩ Eb4𝅘𝅥𝅯  Eb4𝅘𝅥𝅯  C3♩ Eb4♩ B3♩ B3𝅘𝅥𝅯  Bb4♩ C5♩ G4♩ Eb4♩ C5♩ G5♩ Bb4♩ Eb4♩ B3♩ C5♩ Bb4♩ C5♩ C5𝅘𝅥𝅯  C5𝅘𝅥𝅯  B3♩ B3𝅘𝅥𝅯  C3♩ Bb4♩ F5♩ B3♩ B3𝅘𝅥𝅯  Eb4♩ C3♩ B3♩ C3♩ B3♩ B3𝅘𝅥𝅯  C3♩ B3♩ Eb4♩ B3♩ C3♩ B3♩ C3♩ B3♩ C3♩ C3♩ 
+
+Torbay
+max cases =  24
+G4♩ C3♩ C3♩ C3♩ A3♩ A3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  C3♩ A4♩ A3♩ A3𝅘𝅥𝅯  C#4♩ C#4𝅘𝅥𝅯  A3♩ A4♩ C5♩ E4♩ A3♩ A4♩ C#5♩ E4♩ C#4♩ C3♩ G4♩ E4♩ C#4♩ C5♩ E4♩ Ab6♩ A4♩ A3♩ C#4♩ E4♩ E4𝅘𝅥𝅯  E4𝅘𝅥𝅯  A3♩ F6♩ G4♩ C7♩ F#5♩ C5♩ Ab5♩ C#5♩ A3♩ Ab6♩ C5♩ E4♩ E4𝅘𝅥𝅯  C3♩ C#4♩ A3♩ E4♩ G4♩ C#4♩ A4♩ A3♩ C#4♩ A3♩ C3♩ C3♩ E4♩ E4𝅘𝅥𝅯  C#4♩ A3♩ A3𝅘𝅥𝅯  C3♩ C#4♩ C3♩ C3♩ A3♩ A3𝅘𝅥𝅯  C#4♩ A3♩ C3♩ A3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ C3♩ C3♩ C3♩ C3♩ A3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ G4♩ C3♩ C3♩ C3♩ C3♩ A3♩ C3♩ C3♩ C3♩ C3♩ C3♩ 
+
+Tower Hamlets
+max cases =  36
+B3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  B3♩ B3𝅘𝅥𝅯  Ab3♩ F4♩ C#4♩ C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  G4♩ C#5♩ C#5𝅘𝅥𝅯  D5♩ Bb4♩ E4♩ D5♩ Ab5♩ F6♩ Bb6♩ C#6♩ Eb5♩ B5♩ F#5♩ E6♩ Eb6♪ G6♩ C7♩ C6♩ Bb5♪ E6♩ Bb5♩ E6♩ Bb5♩ A5♪ E5♩ F#5♩ Ab5♩ Bb4♩ F#5♩ Eb5♩ C#4♩ G4♩ G4𝅘𝅥𝅯  Eb5♩ C#5♩ A4♩ C#5♩ C#4♩ Eb5♩ A4♩ F4♩ C#4♩ D5♩ G4♩ C#5♩ C#4♩ E4♩ Ab3♩ B3♩ B3𝅘𝅥𝅯  C#4♩ Ab3♩ E4♩ B3♩ F4♩ B3♩ B3𝅘𝅥𝅯  Ab3♩ B3♩ C3♩ Ab3♩ B3♩ B3𝅘𝅥𝅯  C#4♩ F4♩ B3♩ E4♩ Ab3♩ Ab3𝅘𝅥𝅯  C#4♩ Ab3♩ B3♩ B3𝅘𝅥𝅯  C#4♩ Ab3♩ B3♩ B3𝅘𝅥𝅯  C#4♩ C3♩ Ab3♩ C3♩ B3♩ Ab3♩ C#4♩ C3♩ F4♩ B3♩ Ab3♩ C3♩ Ab3♩ C3♩ Ab3♩ C3♩ F4♩ B3♩ C3♩ C3♩ Ab3♩ C3♩ C3♩ Ab3♩ B3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ Ab3♩ Ab3𝅘𝅥𝅯  B3♩ C#4♩ C#4𝅘𝅥𝅯  C5♩ Ab3♩ E4♩ C3♩ 
+
+Trafford
+max cases =  33
+D4♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ C3♩ C3♩ D4♩ C3♩ D4♩ B3♩ Ab3♩ B3♩ Ab3♩ C3♩ F#4♩ E4♩ Bb4♩ E4♩ C#5♩ F#4♩ D5♩ D5𝅘𝅥𝅯  Ab5♩ B4♩ F#5♩ B4♩ C6♩ F#5♩ Ab6♩ G6♪ F#6♪ A5♩ C6♩ Eb6♩ C6♩ Bb6♩ C6♩ E6♩ A5♩ E5♩ Eb5♪ E6♩ Ab5♩ E6♩ Eb5♩ E6♩ E5♩ E6♩ F6♪ G6♪ G5♩ Bb5♩ Eb5♩ D5♪ Ab5♩ G5♪ F#6♩ Eb6♩ Bb5♩ G5♩ G5𝅘𝅥𝅯  Ab5♪ F#5♩ Eb5♩ E5♪ Ab5♩ Bb4♩ Ab4♩ Bb5♩ C#6♩ F#5♩ Eb5♩ Eb5𝅘𝅥𝅯  Ab5♩ C#5♩ F6♩ C7♩ B4♩ B4𝅘𝅥𝅯  Ab5♩ F#4♩ Ab4♩ C#5♩ Eb5♩ B4♩ Ab5♩ C#5♩ Eb5♩ B4♩ F#5♩ D5♩ F#4♩ E4♩ E4𝅘𝅥𝅯  B3♩ E4♩ Ab4♩ B4♩ B4𝅘𝅥𝅯  E4♩ Ab4♩ Ab4𝅘𝅥𝅯  B3♩ B3𝅘𝅥𝅯  F#4♩ Bb4♩ E4♩ D4♩ D4𝅘𝅥𝅯  C3♩ D4♩ Ab3♩ B3♩ C3♩ C3♩ B3♩ Ab3♩ B3♩ D4♩ E4♩ Ab3♩ Ab3𝅘𝅥𝅯  B3♩ D4♩ Ab3♩ C3♩ D4♩ B3♩ C3♩ 
+
+Wakefield
+max cases =  43
+G3♩ D4♩ C3♩ C3♩ C3♩ C3♩ C3♩ D4♩ G3♩ Bb3♩ Bb3𝅘𝅥𝅯  E4♩ G4♩ G4𝅘𝅥𝅯  C5♩ D5♩ G4♩ D5♩ C5♩ C5𝅘𝅥𝅯  F5♩ F#5♪ F#5𝅘𝅥𝅯  D6♩ C5♩ A5♩ B5♩ B5♪ C6♪ D5♩ E5♩ Ab4♩ Bb5♩ F#5♩ G5♩ E6♩ Bb5♩ F5♩ A5♩ Bb5♪ F5♩ F#5♪ A6♩ E5♩ D6♩ G5♩ Ab5♪ G6♩ E6♩ F#6♪ C7♩ B5♩ Bb5♪ B5♪ C#5♩ Ab6♩ C#6♩ Ab6♩ A5♩ Ab5♪ F#5♩ F#5𝅘𝅥𝅯  D6♩ F5♩ G5♩ G5♪ G5♪ F5♩ E5♪ A5♩ G5♪ B5♩ B5𝅘𝅥𝅯  A4♩ Eb5♩ Eb5𝅘𝅥𝅯  C#5♩ Ab4♩ G5♩ F#5♪ C#5♩ F#5♩ F5♪ F#5♪ D5♩ Ab4♩ F4♩ G4♩ C5♩ A4♩ F4♩ C4♩ G4♩ A4♩ F4♩ D4♩ A4♩ B4♩ C#5♩ C#5𝅘𝅥𝅯  B4♩ B4𝅘𝅥𝅯  G3♩ G4♩ C4♩ G4♩ F4♩ Ab4♩ Bb3♩ G4♩ Bb3♩ G3♩ G4♩ G4𝅘𝅥𝅯  A4♩ A4𝅘𝅥𝅯  B4♩ Ab4♩ A4♩ B4♩ F4♩ C3♩ 
+
+Walsall
+max cases =  50
+F#3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F#3♩ Eb4♩ F4♩ A3♩ A3𝅘𝅥𝅯  C#4♩ F#3♩ C#4♩ Eb4♩ G4♩ Ab4♩ B4♩ A4♩ F5♩ Eb5♩ Eb5𝅘𝅥𝅯  F5♩ G5♩ D6♩ G5♩ B5♩ C6♪ E6♩ B6♩ B5♩ Bb5♪ E5♩ D6♩ D6♪ C#5♩ D6♩ E5♩ Ab4♩ C5♩ F5♩ F#5♪ Ab5♩ D6♩ Eb6♪ A5♩ C#5♩ E6♩ G6♩ D6♩ B5♩ C7♩ C6♩ Bb5♩ C#6♩ F#6♩ E5♩ C6♩ E6♩ G4♩ A4♩ Eb4♩ E5♩ F4♩ Bb4♩ C#5♩ F4♩ Ab4♩ Bb4♩ C5♩ Ab4♩ A4♩ Ab4♩ C#4♩ A4♩ F4♩ Eb4♩ B4♩ F4♩ F4𝅘𝅥𝅯  E4♩ A3♩ G4♩ E4♩ E4𝅘𝅥𝅯  E4𝅘𝅥𝅯  Eb4♩ B3♩ A3♩ G4♩ F#3♩ C#4♩ Ab4♩ C3♩ A3♩ A3𝅘𝅥𝅯  C#4♩ A3♩ F4♩ F#3♩ A3♩ B3♩ C3♩ Eb4♩ B3♩ F#3♩ A3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  B3♩ C3♩ C3♩ Eb4♩ C3♩ C3♩ F#3♩ C#4♩ F#3♩ B3♩ F#3♩ A3♩ C3♩ F#3♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  B3♩ C3♩ 
+
+Waltham Forest
+max cases =  39
+G3♩ G3𝅘𝅥𝅯  C3♩ C3♩ G3♩ C3♩ Bb3♩ G3♩ Bb3♩ C#4♩ Eb4♩ Bb3♩ F4♩ C#5♩ B4♩ Eb5♩ D5♪ C#4♩ B5♩ C#5♩ C#6♩ Ab6♩ Eb6♩ B5♩ C#6♩ C#6𝅘𝅥𝅯  C7♩ D6♩ Eb6♪ F#6♩ C6♩ Eb6♩ Eb6♪ C6♩ C6♪ C#6♪ C#6𝅘𝅥𝅯  F#5♩ C6♩ Bb5♪ C6♩ F#6♩ Eb5♩ C#5♩ F5♩ A5♩ F5♩ Ab4♩ B4♩ E5♩ F5♪ B4♩ D5♩ Eb5♪ C#4♩ A4♩ C5♩ D5♩ Eb4♩ F#4♩ C#5♩ A4♩ C5♩ C5𝅘𝅥𝅯  F4♩ Ab4♩ Bb3♩ C#4♩ Bb3♩ F#4♩ Bb3♩ G3♩ Bb3♩ Eb4♩ Bb3♩ Ab4♩ G3♩ C#4♩ Bb3♩ G3♩ G3𝅘𝅥𝅯  Bb3♩ G3♩ C3♩ Bb3♩ Bb3𝅘𝅥𝅯  G3♩ Bb3♩ C3♩ Bb3♩ C3♩ Bb3♩ G3♩ Bb3♩ Bb3𝅘𝅥𝅯  F4♩ G3♩ C3♩ Eb4♩ C3♩ C3♩ G3♩ Bb3♩ F4♩ Bb3♩ G3♩ C#4♩ G3♩ G3𝅘𝅥𝅯  Bb3♩ Bb3𝅘𝅥𝅯  C3♩ G3♩ F4♩ G3♩ Bb3♩ A4♩ C3♩ G3♩ C3♩ G3♩ Bb3♩ C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ 
+
+Wandsworth
+max cases =  45
+G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ C3♩ C3♩ C3♩ Bb3♩ Bb3𝅘𝅥𝅯  A4♩ Bb4♩ C5♩ D4♩ B4♩ C5♪ C#5♪ Ab5♩ Eb5♩ F5♩ Bb5♩ E5♩ E5𝅘𝅥𝅯  C#6♩ C#6♪ C7♩ E6♩ Eb6♪ Ab5♩ Bb5♩ D6♩ A6♩ Ab6♪ Ab6𝅘𝅥𝅯  C#6♩ C#6𝅘𝅥𝅯  F#5♩ F#6♩ C6♩ C6𝅘𝅥𝅯  B5♪ D6♩ D5♩ B4♩ F5♩ Bb5♩ Ab5♪ Ab5♪ Ab5♪ C#5♩ D4♩ Bb4♩ A4♩ F4♩ B4♩ C5♪ F#4♩ F#4𝅘𝅥𝅯  F#4𝅘𝅥𝅯  Ab4♩ C5♩ C#5♪ C5♪ C4♩ D4♩ D4𝅘𝅥𝅯  E4♩ E4𝅘𝅥𝅯  A4♩ Bb3♩ D4♩ F4♩ G3♩ Bb4♩ Ab4♩ C4♩ F4♩ G3♩ Bb3♩ C4♩ C4𝅘𝅥𝅯  D4♩ C4♩ G3♩ D4♩ C4♩ C3♩ C3♩ G3♩ Bb3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C4♩ C3♩ Bb3♩ G3♩ C3♩ C3♩ C3♩ C3♩ G3♩ G3𝅘𝅥𝅯  G3𝅘𝅥𝅯  C3♩ C3♩ G3♩ Bb3♩ C3♩ D4♩ G3♩ C3♩ Bb3♩ C3♩ C4♩ C4𝅘𝅥𝅯  C3♩ Bb3♩ D4♩ C3♩ C3♩ C3♩ G3♩ C3♩ Bb3♩ D4♩ Bb3♩ Bb3𝅘𝅥𝅯  C4♩ Bb3♩ G3♩ C3♩ C3♩ 
+
+Warrington
+max cases =  43
+G3♩ C3♩ C3♩ Bb3♩ C3♩ C3♩ G3♩ C3♩ C3♩ C3♩ Bb3♩ G3♩ G3𝅘𝅥𝅯  Bb3♩ E4♩ C4♩ G3♩ C4♩ B4♩ Ab4♩ B4♩ G5♩ G5♪ F#5♩ B5♩ F5♩ F5𝅘𝅥𝅯  B5♩ F#6♩ E6♩ A6♩ Bb5♩ D6♩ F#5♩ G4♩ G5♩ Eb6♩ A5♩ A6♩ D5♩ C7♩ Bb5♩ D6♩ F6♩ Ab6♩ G6♪ C6♩ G5♩ E5♩ Bb5♩ E6♩ Bb5♩ Ab6♩ C#6♩ G4♩ C#5♩ G5♩ C#5♩ A5♩ C#5♩ B4♩ D5♩ B4♩ F#5♩ G5♩ E5♩ B4♩ B4𝅘𝅥𝅯  C5♩ B4♪ C5♩ Eb5♩ G4♩ E5♩ E4♩ F4♩ E4♩ A4♩ F4♩ Ab4♩ C5♩ E4♩ G3♩ A4♩ F4♩ C5♩ G4♩ G4𝅘𝅥𝅯  D5♩ G3♩ E4♩ D4♩ F4♩ E4♩ G4♩ C4♩ C4𝅘𝅥𝅯  E4♩ G3♩ Ab4♩ Bb3♩ G3♩ E4♩ Bb3♩ C3♩ E4♩ Bb3♩ Bb3𝅘𝅥𝅯  G3♩ Bb3♩ C3♩ Bb3♩ C3♩ Bb3♩ C4♩ G3♩ C3♩ G3♩ G3𝅘𝅥𝅯  C3♩ C3♩ G3♩ C3♩ C3♩ 
+
+Warwickshire
+max cases =  75
+G3♩ C3♩ G3♩ G3𝅘𝅥𝅯  C3♩ C3♩ C3♩ F3♩ A3♩ G3♩ B3♩ A3♩ F3♩ A3♩ Eb4♩ B3♩ A4♩ Eb4♩ G4♩ E4♩ D4♩ F5♩ C5♩ Ab4♩ F5♩ B4♩ E5♩ E5♪ B5♩ C5♩ F#5♩ Eb6♩ Bb5♩ A5♪ Eb5♩ A5♩ Bb5♪ F#5♩ B5♩ F5♩ Ab5♩ C#5♩ F5♩ C5♩ Ab5♩ Eb6♩ F#5♩ C7♩ G5♩ Ab5♪ A5♪ D6♩ G5♩ D6♩ C#6♪ F#5♩ Eb6♩ C6♩ C#6♪ F6♩ Ab5♩ F#5♩ C6♩ E5♩ Ab5♩ A5♪ D6♩ F#5♩ F4♩ C#5♩ D5♪ Bb5♩ F5♩ C5♩ B4♩ G4♩ Bb4♩ Eb5♩ A5♩ C5♩ D5♩ B4♩ G4♩ D4♩ B4♩ Ab4♩ G4♪ D5♩ C4♩ F4♩ E4♩ F#4♩ C5♩ F#4♩ G4♩ E4♩ D4♩ Eb4♩ C#5♩ F#4♩ Bb4♩ A4♩ D4♩ E4♩ F#4♩ G4♩ D4♩ Ab4♩ E4♩ F#4♩ G3♩ A3♩ D4♩ F3♩ A3♩ D4♩ C4♩ E4♩ B3♩ A3♩ B3♩ C4♩ C4𝅘𝅥𝅯  C4𝅘𝅥𝅯  G3♩ B3♩ B3𝅘𝅥𝅯  A3♩ F#4♩ D4♩ C3♩ 
+
+West Berkshire
+max cases =  17
+B3♩ C3♩ C3♩ C3♩ C3♩ E4♩ C3♩ B3♩ B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  Ab4♩ B3♩ Ab4♩ F#5♩ B3♩ Ab5♩ Ab4♩ F#5♩ B4♩ D5♩ E5♩ Ab4♩ D6♩ B4♩ G6♩ D5♩ C6♩ F6♩ E5♩ E5𝅘𝅥𝅯  D6♩ D5♩ E4♩ F6♩ Bb5♩ F#5♩ E6♩ E6𝅘𝅥𝅯  Bb5♩ C7♩ C6♩ G6♩ E5♩ Bb6♩ E6♩ F#5♩ Bb5♩ Ab4♩ Bb5♩ E5♩ D6♩ B4♩ C7♩ F#5♩ D5♩ D5𝅘𝅥𝅯  B3♩ C6♩ Ab4♩ B3♩ B3𝅘𝅥𝅯  B3𝅘𝅥𝅯  Ab4♩ B3♩ E5♩ B4♩ D5♩ B3♩ Ab4♩ D5♩ B3♩ Ab5♩ D5♩ Ab5♩ D5♩ E5♩ B3♩ B4♩ B3♩ B4♩ C3♩ D5♩ C3♩ C3♩ B3♩ E4♩ E4𝅘𝅥𝅯  E4𝅘𝅥𝅯  B3♩ C3♩ B3♩ C3♩ C3♩ C3♩ C3♩ B3♩ C3♩ B3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ B3♩ C3♩ B3♩ C3♩ C3♩ C3♩ C3♩ B3♩ C3♩ C3♩ C3♩ C3♩ C3♩ E4♩ C3♩ C3♩ C3♩ C3♩ 
+
+West Sussex
+max cases =  77
+F3♩ C3♩ C3♩ C3♩ C3♩ G3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ G3♩ C3♩ G3♩ F3♩ A3♩ C#4♩ F3♩ A3♩ E4♩ E4𝅘𝅥𝅯  E4𝅘𝅥𝅯  Eb4♩ F4♩ E4♩ Ab4♩ C5♩ D5♩ C5♩ B4♪ Bb4♩ A4♪ F#5♩ F#5𝅘𝅥𝅯  Eb5♩ C#5♩ Eb6♩ G5♩ E5♩ D6♩ E6♩ B5♩ Bb5♪ E5♩ E5♪ F#5♩ A5♩ B5♩ Eb6♩ F#6♩ C#6♩ E6♩ E5♩ F#5♩ Eb6♩ Eb6♪ B6♩ F#6♩ D6♩ B5♩ F6♩ Bb6♩ B6♪ C7♪ G6♩ F#5♩ D6♩ F6♩ Eb6♩ C#6♪ F6♩ Ab5♩ B4♩ C#5♩ C#6♩ A5♩ B5♪ C#5♩ B4♪ G4♩ C4♩ F5♩ G5♩ Ab4♩ Bb4♩ Bb4𝅘𝅥𝅯  C#4♩ C4♩ G4♩ Eb4♩ A4♩ Ab4♪ E4♩ Ab4♩ B4♩ E5♩ Ab4♩ G4♪ F4♩ D4♩ F#4♩ C4♩ C#4♩ Eb4♩ E4♩ C#4♩ C3♩ C#4♩ G3♩ C#4♩ A3♩ C#4♩ C4♩ C4𝅘𝅥𝅯  A3♩ F3♩ Bb3♩ G3♩ C#4♩ E4♩ G3♩ Bb3♩ F3♩ G3♩ G3𝅘𝅥𝅯  Bb3♩ Bb3𝅘𝅥𝅯  Bb3𝅘𝅥𝅯  F3♩ A3♩ F3♩ Bb3♩ C3♩ F3♩ G3♩ 
+
+Westminster
+max cases =  34
+Ab3♩ C3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  F#4♩ B3♩ Ab3♩ Ab4♩ Ab4𝅘𝅥𝅯  F#5♩ F#5𝅘𝅥𝅯  B4♩ D5♩ F#4♩ F#5♩ D5♩ C5♩ C5𝅘𝅥𝅯  G5♩ F5♩ E5♪ D6♩ Ab5♩ Eb6♩ C6♩ F5♩ C6♩ Bb5♩ C7♩ E5♩ Bb5♩ A5♪ G6♩ Ab5♩ A5♪ Eb5♩ G5♩ F#5♪ B5♩ C5♩ Eb5♩ C5♩ D5♩ F5♩ G5♩ D5♩ C5♩ D4♩ E4♩ E4𝅘𝅥𝅯  D4♩ B3♩ A4♩ A4𝅘𝅥𝅯  E4♩ F#4♩ D5♩ Ab4♩ B4♩ C6♩ F#4♩ E4♩ C3♩ B3♩ D4♩ D4𝅘𝅥𝅯  D4𝅘𝅥𝅯  D4𝅘𝅥𝅯  E4♩ D4♩ D4𝅘𝅥𝅯  B3♩ E4♩ F#4♩ B3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  F#4♩ D4♩ Ab3♩ B3♩ Ab3♩ C3♩ Ab3♩ B3♩ B3𝅘𝅥𝅯  C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ Ab3♩ D4♩ C3♩ B3♩ D4♩ C3♩ E4♩ Ab3♩ Ab3𝅘𝅥𝅯  B3♩ D4♩ Ab3♩ Ab3𝅘𝅥𝅯  F#4♩ B3♩ C3♩ B3♩ C3♩ Ab3♩ B3♩ C3♩ B3♩ B3𝅘𝅥𝅯  Ab3♩ Ab3𝅘𝅥𝅯  C3♩ C3♩ D4♩ C3♩ Ab3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ C3♩ B3♩ B3𝅘𝅥𝅯  C3♩ C3♩ 
+
+Wigan
+max cases =  77
+G3♩ C3♩ F3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F3♩ C3♩ F3♩ F3𝅘𝅥𝅯  C3♩ F3♩ G3♩ C3♩ F3♩ Bb3♩ G3♩ A3♩ C#4♩ C#4𝅘𝅥𝅯  A4♩ G4♩ Eb4♩ Ab4♩ B4♩ D5♩ G4♩ D5♩ D5𝅘𝅥𝅯  Ab4♩ C#5♩ D5♪ G5♩ E5♩ F#5♩ D5♩ B5♩ D5♩ Eb5♪ F5♩ F5𝅘𝅥𝅯  Eb6♩ Bb5♩ A6♩ B5♩ C#6♪ G5♩ Bb6♩ C7♪ A6♩ B5♩ G5♩ E6♩ Eb6♪ F#6♩ Ab5♩ B5♩ F5♩ Eb5♩ Ab4♩ F6♩ A5♩ F5♩ Ab5♩ F#5♪ F5♪ C6♩ E5♩ F#5♩ B4♩ F#5♩ Bb4♩ F4♩ A4♩ Eb5♩ D5♩ F#4♩ Eb4♩ A5♩ G4♩ Eb4♩ F#4♩ F4♩ E4♩ Bb4♩ C#4♩ C#4𝅘𝅥𝅯  D4♩ Bb3♩ F#4♩ C4♩ C4𝅘𝅥𝅯  C3♩ C4♩ C#4♩ F4♩ D4♩ C#4♩ A3♩ C3♩ A3♩ Bb3♩ G3♩ C4♩ Bb3♩ G3♩ C3♩ F3♩ F3𝅘𝅥𝅯  G3♩ A3♩ G3♩ Bb3♩ G3♩ G3𝅘𝅥𝅯  C3♩ G3♩ C3♩ C3♩ Bb3♩ F3♩ F3𝅘𝅥𝅯  Bb3♩ G3♩ F3♩ A3♩ C3♩ 
+
+Wiltshire
+max cases =  69
+F3♩ C3♩ Ab3♩ F3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F3♩ Bb3♩ F3♩ B3♩ C3♩ C3♩ B3♩ F3♩ B3♩ C4♩ B3♩ B3𝅘𝅥𝅯  D4♩ D4𝅘𝅥𝅯  E4♩ C4♩ Eb4♩ C5♩ Eb4♩ Bb3♩ Ab4♩ F#4♩ F#4𝅘𝅥𝅯  F#4𝅘𝅥𝅯  Bb4♩ F4♩ C5♩ Ab4♩ F#4♩ G4♩ B4♩ C4♩ B4♩ G4♩ B4♩ C4♩ B4♩ A4♩ F4♩ G4♩ A4♩ F#4♩ Eb5♩ B4♩ Ab5♩ Bb5♪ B4♩ Ab5♩ A5♪ G5♪ E5♩ D5♩ D5𝅘𝅥𝅯  A5♩ Bb4♩ F4♩ G5♩ E5♩ Ab5♩ E5♩ A4♩ B4♩ C7♩ Bb5♩ B5♪ G4♩ E4♩ D4♩ Bb4♩ B4♪ F#4♩ Bb4♩ Ab4♩ E4♩ C4♩ Bb3♩ Eb4♩ F4♩ Eb4♩ Bb4♩ F4♩ F4𝅘𝅥𝅯  C4♩ Eb4♩ C4♩ D4♩ B4♩ A4♩ B3♩ F3♩ Bb3♩ Ab3♩ F3♩ C3♩ Ab3♩ C3♩ C3♩ Ab3♩ C3♩ Ab3♩ C3♩ F3♩ C3♩ F3♩ Ab3♩ F3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  C3♩ C3♩ F3♩ F3𝅘𝅥𝅯  F3𝅘𝅥𝅯  B3♩ F3♩ C3♩ F3♩ F3𝅘𝅥𝅯  B3♩ F3♩ C3♩ C3♩ 
+
+Windsor and Maidenhead
+max cases =  14
+C4♩ C3♩ C3♩ C4♩ F#4♩ Bb4♩ E5♩ C3♩ Bb4♩ C4♩ F#4♩ C4♩ C3♩ G5♩ E5♩ F#4♩ A5♩ A5𝅘𝅥𝅯  F#4♩ D6♩ E5♩ C#5♩ C6♩ F#4♩ F#6♩ A5♩ D6♩ C#5♩ C#5𝅘𝅥𝅯  D6♩ C#5♩ Bb4♩ E6♩ C#5♩ F#6♩ F#4♩ D6♩ A5♩ F#4♩ E6♩ Ab6♩ C7♩ E6♩ Bb4♩ E5♩ G5♩ C3♩ E5♩ G5♩ G5𝅘𝅥𝅯  E5♩ Ab6♩ G5♩ G5𝅘𝅥𝅯  C6♩ C#5♩ Bb4♩ E5♩ F#4♩ E5♩ C#5♩ E5♩ Bb4♩ F#4♩ C4♩ C#5♩ E5♩ C4♩ F#4♩ Bb4♩ C4♩ Bb4♩ C4♩ C4𝅘𝅥𝅯  Bb4♩ F#4♩ Bb4♩ E5♩ C4♩ F#4♩ C4♩ C#5♩ Bb4♩ C#5♩ C3♩ C3♩ F#4♩ C4♩ C6♩ C3♩ E5♩ F#4♩ C4♩ C3♩ C3♩ C3♩ C#5♩ C4♩ C3♩ C3♩ C3♩ C3♩ C3♩ C4♩ C3♩ C3♩ C3♩ F#4♩ C3♩ C4♩ C3♩ C3♩ C4♩ C3♩ C3♩ C4♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F#4♩ C3♩ C3♩ C3♩ 
+
+Wirral
+max cases =  52
+F#3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ A3♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  A3♩ C3♩ A3♩ C3♩ C3♩ F#3♩ A3♩ B3♩ D4♩ F4♩ A4♩ E4♩ Bb4♩ C#5♩ C5♩ G5♩ E5♩ D5♩ E5♩ C7♩ Ab6♩ G6♪ G6♪ A6♪ Bb6♪ Bb6𝅘𝅥𝅯  F#6♩ C6♩ Eb6♩ Bb5♩ Eb6♩ A6♩ F#6♩ C6♩ C6𝅘𝅥𝅯  Ab6♩ G6♪ G5♩ C#6♩ A6♩ F6♩ A5♩ F5♩ Eb5♩ F5♩ Ab5♩ F#5♩ D5♩ Eb6♩ A5♩ G5♪ C6♩ Eb6♩ F5♩ Eb6♩ B5♩ D5♩ G5♩ C6♩ Ab5♩ G6♩ F5♩ D5♩ G5♩ D5♩ F5♩ G5♩ C#5♩ D5♪ C#5♪ E4♩ F#5♩ C#5♩ F5♩ E5♪ C#5♩ C#5𝅘𝅥𝅯  A3♩ F4♩ C#5♩ A4♩ C5♩ C5𝅘𝅥𝅯  C#4♩ D4♩ B3♩ F4♩ B3♩ Bb4♩ G4♩ A4♩ B3♩ D4♩ C#5♩ Eb5♩ B4♩ E4♩ C#4♩ C#4𝅘𝅥𝅯  C#4𝅘𝅥𝅯  A3♩ Bb4♩ F4♩ E4♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ A3♩ A3𝅘𝅥𝅯  F#3♩ C3♩ B3♩ F#3♩ A3♩ F4♩ C3♩ A3♩ F#3♩ C3♩ 
+
+Wokingham
+max cases =  29
+Ab3♩ C3♩ C3♩ C3♩ C3♩ Ab3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ C3♩ C4♩ Eb4♩ C4♩ C3♩ C3♩ C4♩ C3♩ Ab3♩ F4♩ C4♩ C4𝅘𝅥𝅯  C3♩ Eb4♩ Ab3♩ Ab3𝅘𝅥𝅯  C4♩ G4♩ E5♩ B4♩ Ab5♩ Bb5♩ B4♩ A5♩ F4♩ E5♩ D5♩ C#5♩ B4♩ E5♩ F#5♩ G4♩ B5♩ Eb4♩ F5♩ C#6♩ E6♩ Ab5♩ C6♩ B6♩ F4♩ D5♩ C#5♩ C6♩ C7♩ G4♩ C#5♩ E5♩ F5♩ A4♩ B4♩ D5♩ F5♩ A5♩ C#5♩ F4♩ G4♩ G4𝅘𝅥𝅯  B5♩ B4♩ Eb4♩ C4♩ Eb4♩ B4♩ A4♩ G4♩ D5♩ C4♩ C4𝅘𝅥𝅯  Eb4♩ G4♩ Eb4♩ B4♩ C4♩ C4𝅘𝅥𝅯  Ab3♩ C4♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C4♩ C3♩ Eb4♩ C4♩ C3♩ Eb4♩ C4♩ Ab3♩ C4♩ C3♩ C4♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  A4♩ C4♩ C3♩ Ab3♩ C3♩ Ab3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C4♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  Ab3𝅘𝅥𝅯  C3♩ C3♩ C4♩ C3♩ Ab3♩ C3♩ C3♩ Ab3♩ Ab3𝅘𝅥𝅯  C3♩ Eb4♩ C3♩ C3♩ 
+
+Wolverhampton
+max cases =  48
+F#3♩ C3♩ C4♩ F#3♩ C3♩ C4♩ Eb4♩ Eb4𝅘𝅥𝅯  Bb4♩ G4♩ C4♩ C#4♩ D5♩ E4♩ F#4♩ D5♩ Bb4♩ Eb4♩ Ab4♩ A5♩ Bb4♩ C5♩ B5♩ F#5♩ C5♩ G5♩ A5♪ F#5♩ E5♩ Bb4♩ G5♩ A4♩ A5♩ D5♩ Eb6♩ F#5♩ Bb5♩ Ab4♩ Ab4𝅘𝅥𝅯  B5♩ Eb5♩ E5♪ C6♩ C6𝅘𝅥𝅯  B5♪ C#5♩ B5♩ Bb5♪ C7♩ Bb5♩ F#6♩ A5♩ Ab5♪ C#6♩ Eb5♩ Ab6♩ F5♩ E6♩ G4♩ C5♩ F#5♩ G4♩ A4♩ F#5♩ Ab4♩ Ab4𝅘𝅥𝅯  C5♩ G4♩ F#4♩ E4♩ Bb4♩ F5♩ A4♩ G4♩ A3♩ Eb4♩ C#4♩ C5♩ Bb4♩ A4♪ F#4♩ F#4𝅘𝅥𝅯  Eb4♩ A4♩ G4♩ Eb4♩ E4♩ C#4♩ C5♩ A4♩ Bb4♩ Eb4♩ C3♩ Eb4♩ C4♩ A3♩ E4♩ E4𝅘𝅥𝅯  F#4♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  C#4♩ E4♩ F#3♩ Bb4♩ F#3♩ C4♩ C3♩ F#3♩ C#4♩ Eb4♩ A3♩ Eb4♩ A3♩ A3𝅘𝅥𝅯  C#4♩ C4♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  F#3♩ C3♩ F#3♩ C4♩ A3♩ C3♩ C3♩ 
+
+Worcestershire
+max cases =  81
+G3♩ A3♩ Bb3♩ B3♩ C3♩ F3♩ Bb3♩ A3♩ C#4♩ C#4𝅘𝅥𝅯  E4♩ G4♩ G4♪ E4♩ G4♩ A4♩ C#5♩ C#5♪ C#5♪ G5♩ E5♩ B5♩ Ab5♩ G5♩ F5♪ Ab5♩ A4♩ E5♩ Ab5♩ C6♩ Bb5♩ A5♪ G5♩ Bb5♩ C#5♩ D5♩ C6♩ B5♪ E6♩ Bb6♩ G6♩ F6♩ G5♩ E6♩ G6♩ C7♩ F#5♩ Ab5♩ Ab5𝅘𝅥𝅯  G5♩ F5♩ D6♩ D5♩ E5♩ Ab5♩ F5♩ G4♩ D5♩ D5♪ A4♩ F#5♩ G4♩ F#4♩ B4♩ Eb5♩ C#5♩ B4♩ D5♩ A4♩ B4♩ Ab4♩ C#6♩ Ab4♩ C5♩ B4♪ E4♩ E4𝅘𝅥𝅯  F4♩ Bb3♩ G4♩ G4𝅘𝅥𝅯  B4♩ C#4♩ C#4𝅘𝅥𝅯  B3♩ G4♩ G3♩ C#4♩ D4♩ Eb4♩ C3♩ D4♩ A3♩ B3♩ B3𝅘𝅥𝅯  D4♩ E4♩ B3♩ B3𝅘𝅥𝅯  E4♩ D4♩ G3♩ C#4♩ A3♩ G3♩ G3𝅘𝅥𝅯  A3♩ C#4♩ A3♩ Bb3♩ B3♩ A3♩ Bb3♩ A3♩ D4♩ C3♩ F3♩ G3♩ A3♩ G3♩ B3♩ Bb3♩ C3♩ C3♩ 
+
+York
+max cases =  50
+F#3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F#3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ C3♩ F#3♩ C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ C3♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  F#3♩ F#3𝅘𝅥𝅯  C3♩ F#3♩ A3♩ F#3♩ F#3𝅘𝅥𝅯  Eb4♩ F4♩ C3♩ C#4♩ Eb4♩ B4♩ Bb4♪ G4♩ C#4♩ C#4𝅘𝅥𝅯  A4♩ C5♩ A4♩ Ab4♩ E4♩ B3♩ Eb4♩ C5♩ F4♩ F4𝅘𝅥𝅯  A4♩ C#5♩ E4♩ Ab4♩ D5♩ Bb4♩ A5♩ G5♪ G5𝅘𝅥𝅯  F5♩ B5♩ Ab5♩ F#5♩ C7♩ A5♩ G5♩ A5♩ F#5♩ C6♩ E6♩ F5♩ F#5♪ G5♩ Ab4♩ C5♩ C#6♩ B4♩ A4♩ G5♩ B4♩ F4♩ C#4♩ E4♩ E4𝅘𝅥𝅯  G4♩ A4♩ E4♩ C#4♩ B3♩ F4♩ Eb4♩ A4♩ C#4♩ B3♩ B3𝅘𝅥𝅯  F#3♩ C#4♩ F4♩ A3♩ F#3♩ B3♩ C3♩ F#3♩ C#4♩ A3♩ A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  A3𝅘𝅥𝅯  F#3♩ E4♩ F#3♩ A3♩ B3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  C3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  C3♩ B3♩ C3♩ F#3♩ F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  F#3𝅘𝅥𝅯  C3♩ F#3♩ C3♩ B3♩ C3♩ C3♩ 
+
