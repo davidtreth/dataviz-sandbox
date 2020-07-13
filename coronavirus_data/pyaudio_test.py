@@ -149,12 +149,12 @@ if __name__ == '__main__':
     
     # play the England cases, with square root scaling            
     cases_by_area = corona_python_text.cases_by_country
-    play_audio(cases_by_area, "", 2, 5, 0.5, args.short)
+    play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 2)
 
 
     # play regions, with square root scaling
     cases_by_area = corona_python_text.cases_by_region
-    play_audio(cases_by_area, "", 2, 5, 0.5, args.short)
+    play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 2)
 
     # play upper-tier local authorities
     cases_by_area = corona_python_text.cases_by_utla
@@ -168,4 +168,4 @@ if __name__ == '__main__':
     # play_audio(cases_by_area, selectedarea, scaling=0.5)
 
     # play all UTLAs with square-root scaling
-    play_audio(cases_by_area, "", 3, 4, 0.5, args.short)
+    play_audio(cases_by_area, "", 3, 4, 0.5, args.short, 2)
