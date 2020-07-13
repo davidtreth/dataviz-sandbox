@@ -23,10 +23,8 @@ def generate_sine_wave(frequency, duration, volume=0.2, sample_rate=44100):
         print('Warning: sample_rate must be at least double the frequency '
               f'to accurately represent it:\n    sample_rate {sample_rate}'
               f' ≯ {frequency*2} (frequency {frequency}*2)')
-
     num_samples = int(sample_rate * duration)
     rest_frames = num_samples % sample_rate
-
     pa = PyAudio()
     stream = pa.open(
         format=paUInt8,
@@ -34,7 +32,6 @@ def generate_sine_wave(frequency, duration, volume=0.2, sample_rate=44100):
         rate=sample_rate,
         output=True,
     )
-
     # make samples
     s = lambda i: volume * math.sin(2 * math.pi * frequency * i / sample_rate)
     samples = (int(s(i) * 0x7F + 0x80) for i in range(num_samples))
@@ -45,6 +42,44 @@ def generate_sine_wave(frequency, duration, volume=0.2, sample_rate=44100):
 
     # fill remainder of frameset with silence
     stream.write(b'\x80' * rest_frames)
+
+
+    stream.stop_stream()
+    stream.close()
+    pa.terminate()
+
+def generate_sine_wave_array(freq_arr, duration_arr, volume=0.2, sample_rate=44100):
+    ''' Generate a tone at the given frequency.
+
+        Limited to unsigned 8-bit samples at a given sample_rate.
+        The sample rate should be at least double the frequency.
+    '''
+    pa = PyAudio()
+    stream = pa.open(
+        format=paUInt8,
+        channels=1,  # mono
+        rate=sample_rate,
+        output=True,
+    )    
+    for frequency, duration in zip(freq_arr, duration_arr):
+        if sample_rate < (frequency * 2):
+            print('Warning: sample_rate must be at least double the frequency '
+                  f'to accurately represent it:\n    sample_rate {sample_rate}'
+                  f' ≯ {frequency*2} (frequency {frequency}*2)')
+        num_samples = int(sample_rate * duration)      
+        rest_frames = ((sample_rate - num_samples) % sample_rate)
+        
+
+        # make samples
+        s = lambda i: volume * math.sin(2 * math.pi * frequency * i / sample_rate)
+        samples = (int(s(i) * 0x7F + 0x80) for i in range(num_samples))
+
+        # write several samples at a time
+        for buf in zip( *([samples] * sample_rate) ):
+            stream.write(bytes(buf))
+
+        # fill remainder of frameset with silence
+        stream.write(b'\x80' * rest_frames)
 
 
     stream.stop_stream()
@@ -96,6 +131,8 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3, range_octaves=4
         #print(max(ncases_valslist))
         print("max cases = ",max_cases)
         
+        freq_arr = []
+        duration_arr = []
         for i, n in enumerate(zip(datelist, ncases_valslist)):
             # range of 4 octaves by default
             octaves = range_octaves*((n[1]/max_cases)**scaling)
@@ -125,16 +162,19 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3, range_octaves=4
                 print("{a}{b}{s}".format(a=notes[int((octaves*12) % 12)], b=int(bass_octave+math.floor(octaves)), s=note), end=" ")
             else:
                 print("{d} {c} cases, {f:.3f} Hz, {n:.3f} octaves, {a}{b}{s}".format(d=n[0], c=n[1], f=freq, n=octaves, a=notes[int((octaves*12) % 12)], b=int(bass_octave+math.floor(octaves)),s=note))
-                    
-            generate_sine_wave(
-            # see http://www.phy.mtu.edu/~suits/notefreqs.html
-                frequency=float(freq),   # Hz, waves per second C6
-                duration=duration_2,       # seconds to play sound
-                volume=0.25,        # 0..1 how loud it is
-                sample_rate=44100,  # number of samples per second: 11025, 22050, 44100
-            )
+            freq_arr.append(float(freq))
+            duration_arr.append(duration_2)        
+            # generate_sine_wave(
+            # # see http://www.phy.mtu.edu/~suits/notefreqs.html
+                # frequency=float(freq),   # Hz, waves per second C6
+                # duration=duration_2,       # seconds to play sound
+                # volume=0.25,        # 0..1 how loud it is
+                # sample_rate=44100,  # number of samples per second: 11025, 22050, 44100
+            # )
             
         print("\n")
+        generate_sine_wave_array(freq_arr, duration_arr, volume=0.25, sample_rate=44100)
+        
 
 
 if __name__ == '__main__':
