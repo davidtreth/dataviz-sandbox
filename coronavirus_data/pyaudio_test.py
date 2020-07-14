@@ -208,10 +208,21 @@ if __name__ == '__main__':
     # and for a few Scottish areas to a minor extent
     
     # set any negative values to zero
+    # and truncate the array before the first case
     cases_by_area = {}
     for c in ["Scotland", "Wales", "Northern Ireland"]:
         cases_by_area_c = [(datetime.date.isoformat(d), max(int(n),0)) for (d,n) in zip(countries_datearrays[c], countries_dailyarrays[c])]        
-        cases_by_area[c] = cases_by_area_c
+        cases_by_area_c2 = []
+        totalcases = 0        
+        for i, n in enumerate(cases_by_area_c):
+            totalcases = totalcases + n[1]
+            #print(n, totalcases)
+            if totalcases > 0:
+                cases_by_area_c2.append(n)
+
+        #print(cases_by_area_c)    
+        cases_by_area[c] = cases_by_area_c2
+    #print(cases_by_area)
     play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 0.5)
 
     # play Scottish and Welsh areas
@@ -219,7 +230,14 @@ if __name__ == '__main__':
     for c in ["Scotland", "Wales"]:
         for a in sorted(corona_python_text_csv.countries_areaarr[c]):
             cases_by_area_a = [(datetime.date.isoformat(d), max(int(n),0)) for (d,n) in zip(areas_datearrays[a], areas_dailyarrays[a])]
-            cases_by_area[a] = cases_by_area_a
+            cases_by_area_a2 = []
+            totalcases = 0
+            for i, n in enumerate(cases_by_area_a):
+                totalcases = totalcases + n[1]
+                if totalcases > 0:
+                    cases_by_area_a2.append(n)
+        
+            cases_by_area[a] = cases_by_area_a2
         play_audio(cases_by_area, "", 3, 4, 0.5, args.short, 0.5)
     
     # play upper-tier local authorities

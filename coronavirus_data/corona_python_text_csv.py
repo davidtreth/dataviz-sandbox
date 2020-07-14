@@ -41,8 +41,6 @@ datearray_obj = [datestr_to_date(d) for d in datearray]
 mindate = min(datearray_obj)
 maxdate = max(datearray_obj)
 
-print(mindate, maxdate)
-
 # create arrays of the dates, filling gaps
 # and also the cumulative numbers of cases
 
@@ -182,6 +180,7 @@ if __name__ == '__main__':
     else:
         tsleep = 0
         
+    print(mindate, maxdate)
     for c in countries:
         print_cases_by_area(c, datearray_obj, countries_casearrays[c], countries_dailyarrays[c], tsleep, cases_sym)
 
