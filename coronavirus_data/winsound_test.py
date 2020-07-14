@@ -136,10 +136,10 @@ if __name__ == '__main__':
     
     # play the England cases, with square root scaling            
     cases_by_area = corona_python_text.cases_by_country
-    #play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 0.5)	
+    play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 0.5)	
     # play regions, with square root scaling
     cases_by_area = corona_python_text.cases_by_region
-    #play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 0.5)
+    play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 0.5)
     
     # import from csv file (to get Scottish and Welsh local data)
     countries_datearrays = corona_python_text_csv.countries_datearrays
@@ -187,7 +187,7 @@ if __name__ == '__main__':
             cases_by_area[a] = cases_by_area_a2
         play_audio(cases_by_area, "", 3, 4, 0.5, args.short, 0.5)
     	
-    # play upper-tier local authorities
+    # play England upper-tier local authorities
     cases_by_area = corona_python_text.cases_by_utla
 
     # select only Cornwall
