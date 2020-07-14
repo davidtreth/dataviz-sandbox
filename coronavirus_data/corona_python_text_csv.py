@@ -20,7 +20,7 @@ areas_all = []
 countries = []
 countries_areaarr = defaultdict(list)
 datearray = []
-with open('20200713/covid-19-cases-uk.csv', newline='') as csvfile:
+with open('20200714/covid-19-cases-uk.csv', newline='') as csvfile:
     spamreader = csv.DictReader(csvfile, delimiter = ",")
     for row in spamreader:
         #print(row['Date'], row['Country'], row['Area'], row['TotalCases'])
@@ -30,6 +30,9 @@ with open('20200713/covid-19-cases-uk.csv', newline='') as csvfile:
         t = row['TotalCases']
         if d not in datearray:
             datearray.append(d)
+        # fill in missing 3 days
+        if d == '2020-01-30':
+            datearray.extend(['2020-01-31', '2020-02-01', '2020-02-02'])
         if c not in countries:
             countries.append(c)
         if a not in areas_all:
@@ -47,15 +50,18 @@ maxdate = max(datearray_obj)
 countries_datearrays = defaultdict(list)
 areas_datearrays = defaultdict(list)
 countries_casearrays = defaultdict(list)
+countries_deatharrays = defaultdict(list)
 areas_casearrays = defaultdict(list)
 
+countries.append("UK")
 for c in countries:
     d = mindate
     while d <= maxdate:
         countries_datearrays[c].append(d)
         d += datetime.timedelta(days=1)
     countries_casearrays[c] = numpy.zeros(len(countries_datearrays[c]))
-        
+    countries_deatharrays[c] = numpy.zeros(len(countries_datearrays[c]))
+
 for a in areas_all:
     d = mindate
     while d <= maxdate:
@@ -64,7 +70,7 @@ for a in areas_all:
     areas_casearrays[a] = numpy.zeros(len(areas_datearrays[a]))
     
 
-with open('20200713/covid-19-cases-uk.csv', newline='') as csvfile:
+with open('20200714/covid-19-cases-uk.csv', newline='') as csvfile:
     spamreader = csv.DictReader(csvfile, delimiter = ",")
     for row in spamreader:
         #print(row['Date'], row['Country'], row['Area'], row['TotalCases'])
@@ -72,7 +78,7 @@ with open('20200713/covid-19-cases-uk.csv', newline='') as csvfile:
         c = row['Country']
         a = row['Area']
         t = row['TotalCases']
-        if t == "NaN":
+        if t == "NaN" or t == "":
             t = 0
         else:
             t = int(t)
@@ -81,7 +87,25 @@ with open('20200713/covid-19-cases-uk.csv', newline='') as csvfile:
         #countries_casearrays[c][tdelta] += t
         areas_casearrays[a][tdelta] += t
         
-        
+for c in ["England", "Northern Ireland", "Scotland", "Wales", "UK"]:    
+    with open('20200714/covid-19-totals-{c}.csv'.format(c=c.lower().replace(" ","-")), newline='') as csvfile:
+        spamreader = csv.DictReader(csvfile, delimiter = ",")
+        #Date,Tests,ConfirmedCases,Deaths                
+        for row in spamreader:
+            d = row['Date']
+            t = row['Deaths']
+            if t == "NaN" or t == "":
+                t = 0
+            else:
+                t = int(t)        
+            dobj = datestr_to_date(d)
+            tdelta = int((dobj-mindate)/datetime.timedelta(days=1))
+            # data starts from before first positive case or death
+            if tdelta < 0:
+                continue
+            #print(dobj, c, tdelta, t)
+            countries_deatharrays[c][tdelta] += t        
+            
         
 # fill gaps in cumulative totals        
 #for c in countries_casearrays:
@@ -103,6 +127,7 @@ for a in areas_casearrays:
         for c in countries_areaarr:
             if a in countries_areaarr[c]:
                 countries_casearrays[c][i] += areas_casearrays[a][i]
+        countries_casearrays['UK'][i] += areas_casearrays[a][i]
              
     #print(a, areas_casearrays[a])
 
@@ -119,6 +144,15 @@ for c in countries_casearrays:
         else:
             countries_dailyarrays[c][i] = countries_casearrays[c][i]
     #print(c, countries_casearrays[c], countries_dailyarrays[c])
+
+countries_dailydeatharrays = {}
+for c in countries_deatharrays:
+    countries_dailydeatharrays[c] = numpy.zeros(len(countries_deatharrays[c]))
+    for i, v in enumerate(countries_deatharrays[c]):        
+        if i > 0:
+            countries_dailydeatharrays[c][i] = countries_deatharrays[c][i]-countries_deatharrays[c][i-1]
+        else:
+            countries_dailydeatharrays[c][i] = countries_deatharrays[c][i]
 
 areas_dailyarrays = {}            
 for a in areas_casearrays:
@@ -183,6 +217,10 @@ if __name__ == '__main__':
     print(mindate, maxdate)
     for c in countries:
         print_cases_by_area(c, datearray_obj, countries_casearrays[c], countries_dailyarrays[c], tsleep, cases_sym)
+    # deaths
+    print("Deaths\n")
+    for c in countries:
+        print_cases_by_area(c, datearray_obj, countries_deatharrays[c], countries_dailydeatharrays[c], tsleep, deaths_sym)
 
 # remove Northern Ireland due to problems with the data
 # some of the area names are not consistent with each other
@@ -191,6 +229,10 @@ if __name__ == '__main__':
 # or Unknown
 
     countries.remove("Northern Ireland")
+    countries.remove("UK")
+    print("Cases in local areas\n")
     for c in countries:
+        print(c)
+        print("Local Authorities (England, Scotland) or Health Board areas (Wales)")
         for a in sorted(countries_areaarr[c]):
             print_cases_by_area(a, datearray_obj, areas_casearrays[a], areas_dailyarrays[a], tsleep, cases_sym)
