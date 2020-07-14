@@ -107,7 +107,7 @@ def generate_sine_wave_array(freq_arr, duration_arr, volume=0.2, sample_rate=441
 notes = ["C", "C#", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"]
 
 
-def play_audio(cases_by_area, selected_area="", bass_octave = 3, range_octaves=4, scaling=1, shorttext=False, duration=1):    
+def play_audio(cases_by_area, selected_area="", bass_octave = 3, range_octaves=4, scaling=1, shorttext=False, duration=1, textonly=False):    
     bass_note = 261.63 / (5-bass_octave) # one octave below middle C if bass-octave is its default
     print("bass note = {h} Hz".format(h=bass_note))
     print("scaling = {s}. freq prop. to (cases/max cases)**scaling".format(s=scaling))
@@ -174,8 +174,9 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3, range_octaves=4
             # )
             
         print("\n")
-        generate_sine_wave_array(freq_arr, duration_arr, volume=0.25, sample_rate=44100)
-        
+        if not(textonly):
+            generate_sine_wave_array(freq_arr, duration_arr, volume=0.25, sample_rate=44100)
+            time.sleep(3)
 
 
 if __name__ == '__main__':
@@ -186,16 +187,18 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--short",action="store_true",
                         help="shorter form text output with just the note not date, cases, freq etc.")
+    parser.add_argument("--textonly",action="store_true",
+                        help="text only output (don't play audio)")                        
     args = parser.parse_args()
     
     # play the England cases, with square root scaling            
     cases_by_area = corona_python_text.cases_by_country
-    play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 2)
+    play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 2, args.textonly)
 
 
     # play regions, with square root scaling
     cases_by_area = corona_python_text.cases_by_region
-    play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 2)
+    play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 2, args.textonly)
 
     # import from csv file (to get Scottish and Welsh local data)
     countries_datearrays = corona_python_text_csv.countries_datearrays
@@ -223,11 +226,11 @@ if __name__ == '__main__':
         #print(cases_by_area_c)    
         cases_by_area[c] = cases_by_area_c2
     #print(cases_by_area)
-    play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 0.5)
+    play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 2, args.textonly)
 
     # play Scottish and Welsh areas
-    cases_by_area = {}
     for c in ["Scotland", "Wales"]:
+        cases_by_area = {}
         for a in sorted(corona_python_text_csv.countries_areaarr[c]):
             cases_by_area_a = [(datetime.date.isoformat(d), max(int(n),0)) for (d,n) in zip(areas_datearrays[a], areas_dailyarrays[a])]
             cases_by_area_a2 = []
@@ -238,7 +241,7 @@ if __name__ == '__main__':
                     cases_by_area_a2.append(n)
         
             cases_by_area[a] = cases_by_area_a2
-        play_audio(cases_by_area, "", 3, 4, 0.5, args.short, 0.5)
+        play_audio(cases_by_area, "", 3, 4, 0.5, args.short, 2, args.textonly)
     
     # play upper-tier local authorities
     cases_by_area = corona_python_text.cases_by_utla
@@ -252,4 +255,4 @@ if __name__ == '__main__':
     # play_audio(cases_by_area, selectedarea, scaling=0.5)
 
     # play all UTLAs with square-root scaling
-    play_audio(cases_by_area, "", 3, 4, 0.5, args.short, 2)
+    play_audio(cases_by_area, "", 3, 4, 0.5, args.short, 2, args.textonly)
