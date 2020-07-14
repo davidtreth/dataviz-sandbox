@@ -2,11 +2,13 @@
 # -*- coding: utf-8 -*-
 # this version only works on Windows as it uses the winsound library
 import corona_python_text
+import corona_python_text_csv
 import math
 import numpy
 from operator import itemgetter
 import winsound
 import time
+import datetime
 import argparse
 
 # code partly copied from answers at https://stackoverflow.com/questions/974071/python-library-for-playing-fixed-frequency-sound
@@ -137,7 +139,36 @@ if __name__ == '__main__':
     play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 0.5)	
     # play regions, with square root scaling
     cases_by_area = corona_python_text.cases_by_region
-    play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 0.5)	
+    play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 0.5)
+    
+    # import from csv file (to get Scottish and Welsh local data)
+    countries_datearrays = corona_python_text_csv.countries_datearrays
+    countries_dailyarrays = corona_python_text_csv.countries_dailyarrays
+    areas_datearrays = corona_python_text_csv.areas_datearrays
+    areas_dailyarrays = corona_python_text_csv.areas_dailyarrays
+    
+    
+    # play Scotland, Wales and Northern Ireland
+    # Northern Ireland has a few days with a negative number of daily cases!
+    # this occurs to a larger extent in NI local data
+    # also for "Unknown" area in Wales
+    # and for a few Scottish areas to a minor extent
+    
+    # set any negative values to zero
+    cases_by_area = {}
+    for c in ["Scotland", "Wales", "Northern Ireland"]:
+        cases_by_area_c = [(datetime.date.isoformat(d), max(int(n),0)) for (d,n) in zip(countries_datearrays[c], countries_dailyarrays[c])]        
+        cases_by_area[c] = cases_by_area_c
+    play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 0.5)
+
+    # play Scottish and Welsh areas
+    cases_by_area = {}
+    for c in ["Scotland", "Wales"]:
+        for a in sorted(corona_python_text_csv.countries_areaarr[c]):
+            cases_by_area_a = [(datetime.date.isoformat(d), max(int(n),0)) for (d,n) in zip(areas_datearrays[a], areas_dailyarrays[a])]
+            cases_by_area[a] = cases_by_area_a
+        play_audio(cases_by_area, "", 3, 4, 0.5, args.short, 0.5)
+    	
     # play upper-tier local authorities
     cases_by_area = corona_python_text.cases_by_utla
 
