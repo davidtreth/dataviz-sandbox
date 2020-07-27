@@ -20,7 +20,7 @@ areas_all = []
 countries = []
 countries_areaarr = defaultdict(list)
 datearray = []
-with open('20200714/covid-19-cases-uk.csv', newline='') as csvfile:
+with open('20200727/covid-19-cases-uk.csv', newline='') as csvfile:
     spamreader = csv.DictReader(csvfile, delimiter = ",")
     for row in spamreader:
         #print(row['Date'], row['Country'], row['Area'], row['TotalCases'])
@@ -70,7 +70,7 @@ for a in areas_all:
     areas_casearrays[a] = numpy.zeros(len(areas_datearrays[a]))
     
 
-with open('20200714/covid-19-cases-uk.csv', newline='') as csvfile:
+with open('20200727/covid-19-cases-uk.csv', newline='') as csvfile:
     spamreader = csv.DictReader(csvfile, delimiter = ",")
     for row in spamreader:
         #print(row['Date'], row['Country'], row['Area'], row['TotalCases'])
@@ -88,7 +88,7 @@ with open('20200714/covid-19-cases-uk.csv', newline='') as csvfile:
         areas_casearrays[a][tdelta] += t
         
 for c in ["England", "Northern Ireland", "Scotland", "Wales", "UK"]:    
-    with open('20200714/covid-19-totals-{c}.csv'.format(c=c.lower().replace(" ","-")), newline='') as csvfile:
+    with open('20200727/covid-19-totals-{c}.csv'.format(c=c.lower().replace(" ","-")), newline='') as csvfile:
         spamreader = csv.DictReader(csvfile, delimiter = ",")
         #Date,Tests,ConfirmedCases,Deaths                
         for row in spamreader:

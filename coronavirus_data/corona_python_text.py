@@ -14,11 +14,11 @@ import argparse
     
 # read and parse files
 # by default use a saved file
-with open('20200711/coronavirus-cases_latest.json', 'r') as myfile:
+with open('20200727/coronavirus-cases_latest.json', 'r') as myfile:
     data=myfile.read()
     cases = json.loads(data)
 
-with open('20200711/coronavirus-deaths_latest.json', 'r') as myfile:
+with open('20200727/coronavirus-deaths_latest.json', 'r') as myfile:
     data=myfile.read()
     deaths=json.loads(data)
 
