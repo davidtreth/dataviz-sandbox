@@ -3,7 +3,7 @@ import json
 
 all_nations = [
     "areaType=utla",
-    "date=2020-10-14"
+    "date=2020-11-28"
 ]
 
 cases_and_deaths = {
@@ -32,5 +32,5 @@ for a in all_UTLAs:
     print(a)
 
 json_str = json.dumps(data)
-with open("json-2020-10-14.json", "w") as f:
+with open("json-2020-11-28.json", "w") as f:
     f.write(json_str)
