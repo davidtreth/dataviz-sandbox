@@ -76,7 +76,9 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3, range_octaves=4
         max_cases = max(ncases_valslist)
         #print(max(ncases_valslist))
         print("max cases = ",max_cases)
-        
+        if max_cases == 0:
+            print(f"no cases in {area}, skipping")
+            continue
         freq_arr = []
         duration_arr = []
         for i, n in enumerate(zip(datelist, ncases_valslist)):

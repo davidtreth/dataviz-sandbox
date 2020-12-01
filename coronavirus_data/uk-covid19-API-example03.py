@@ -39,7 +39,7 @@ while(date < now):
         f"date={y:d}-{m:02}-{day:02}"
     ]
 
-    cases_and_deaths = {
+    cases_spec_pub = {
         "date": "date",
         "areaName": "areaName",
         "areaCode": "areaCode",
@@ -49,7 +49,7 @@ while(date < now):
 
     api = Cov19API(
         filters=cornwallIoS,
-        structure=cases_and_deaths
+        structure=cases_spec_pub
     )
 
     data = api.get_json()

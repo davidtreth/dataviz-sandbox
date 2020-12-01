@@ -6,7 +6,7 @@ all_nations = [
     "date=2020-11-28"
 ]
 
-cases_and_deaths = {
+cases_spec_pub = {
     "date": "date",
     "areaName": "areaName",
     "areaCode": "areaCode",
@@ -15,7 +15,7 @@ cases_and_deaths = {
 
 api = Cov19API(
     filters=all_nations,
-    structure=cases_and_deaths
+    structure=cases_spec_pub
 )
 
 data = api.get_json()

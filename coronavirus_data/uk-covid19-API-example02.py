@@ -21,7 +21,7 @@ while(length==0):
         f"date={y:d}-{m:02}-{day:02}"
     ]
 
-    cases_and_deaths = {
+    cases_spec_pub = {
         "date": "date",
         "areaName": "areaName",
         "areaCode": "areaCode",
@@ -30,7 +30,7 @@ while(length==0):
 
     api = Cov19API(
         filters=all_nations,
-        structure=cases_and_deaths
+        structure=cases_spec_pub
     )
 
     data = api.get_json()
