@@ -15,7 +15,8 @@ import datetime
 import argparse
 import corona_python_text_csv_api 
 
-# code partly copied from answers at https://stackoverflow.com/questions/974071/python-library-for-playing-fixed-frequency-sound
+# code partly copied from answers at
+# stackoverflow.com/questions/974071/python-library-for-playing-fixed-frequency-sound
 
      
 def generate_sine_wave(frequency, duration):
@@ -57,11 +58,15 @@ def generate_sine_wave_array(freq_arr, duration_arr, rest=0.2):
 notes = ["C", "C#", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"]
 
 
-def play_audio(cases_by_area, selected_area="", bass_octave = 3, range_octaves=4, scaling=1, shorttext=False, duration=1, textonly=False):
+def play_audio(cases_by_area, selected_area="", bass_octave = 3,
+               range_octaves=4, scaling=1, shorttext=False, duration=1,
+               textonly=False):
     textout = ""   
-    bass_note = 261.63 / (5-bass_octave) # one octave below middle C if bass-octave is its default
+    bass_note = 261.63 / (5-bass_octave)
+    # one octave below middle C if bass-octave is its default
     textout += "bass note = {h} Hz\n".format(h=bass_note)
-    textout += "scaling = {s}. freq prop. to (cases/max cases)^scaling\n".format(s=scaling)
+    textout += "scaling={s}. freq prop. to (cases/max cases)^scaling\n".format(
+                s=scaling)
     
     for area in sorted(cases_by_area):
         textout_a = ""
@@ -97,7 +102,8 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3, range_octaves=4
             if i > 0 and ncases_valslist[i-1]>0:
                 if ncases_valslist[i] == ncases_valslist[i-1]:
                     duration_2 = duration / 4
-                elif abs((ncases_valslist[i]-ncases_valslist[i-1])/ncases_valslist[i-1]) < 0.2:
+                elif abs(
+        (ncases_valslist[i]-ncases_valslist[i-1])/ncases_valslist[i-1]) < 0.2:
                     duration_2 = duration / 2
                 else:
                     duration_2 = duration
@@ -112,9 +118,17 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3, range_octaves=4
             else:
                 note = "♫"
             if shorttext:
-                textout_a += "{a}{b}{s} ".format(a=notes[int((octaves*12) % 12)], b=int(bass_octave+math.floor(octaves)), s=note)
+                textout_a += "{a}{b}{s} ".format(
+                    a=notes[int((octaves*12) % 12)],
+                    b=int(bass_octave+math.floor(octaves)), s=note)
+                if (i % 14 == 0 and i > 0):
+                    textout_a += "\n"
             else:
-                textout_a += "{d} {c} cases, {f:.3f} Hz, {n:.3f} octaves, {a}{b}{s}\n".format(d=n[0], c=n[1], f=freq, n=octaves, a=notes[int((octaves*12) % 12)], b=int(bass_octave+math.floor(octaves)),s=note)
+                textout_a += ("{d} {c} cases, {f:.3f} Hz, "
+                              "{n:.3f} octaves, {a}{b}{s}\n").format(
+                              d=n[0], c=n[1], f=freq, n=octaves,
+                              a=notes[int((octaves*12) % 12)],
+                              b=int(bass_octave+math.floor(octaves)),s=note)
             freq_arr.append(float(freq))
             duration_arr.append(duration_2)        
             # generate_sine_wave(
@@ -122,7 +136,8 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3, range_octaves=4
                 # frequency=float(freq),   # Hz, waves per second C6
                 # duration=duration_2,       # seconds to play sound
                 # volume=0.25,        # 0..1 how loud it is
-                # sample_rate=44100,  # number of samples per second: 11025, 22050, 44100
+                # sample_rate=44100,
+                # number of samples per second: 11025, 22050, 44100
             # )
             
         textout_a += "\n\n"
@@ -142,25 +157,30 @@ if __name__ == '__main__':
     # Create the command line options parser.
     parser = argparse.ArgumentParser()
     parser.add_argument("--short",action="store_true",
-                        help="shorter form text output with just the note not date, cases, freq etc.")
+                        help=("shorter form text output with just "
+                              "the note not date, cases, freq etc."))
     parser.add_argument("--textonly",action="store_true",
                         help="text only output (don't play audio)")
-    parser.add_argument("-o", "--output", help="Directs the text output to a filename of your choice")
+    parser.add_argument("-o", "--output", help=("Directs the text output to a "
+                                                "filename of your choice"))
     args = parser.parse_args()    
     
     # play the UK and nations cases, with square root scaling            
     cases_by_area = corona_python_text_csv_api.cases_by_country
     #print(cases_by_area)
     
-    notes_nations = play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 0.5, args.textonly)
+    notes_nations = play_audio(cases_by_area, "", 3, 5, 0.5,
+                               args.short, 1, args.textonly)
 
     # play regions of England	
     cases_by_area = corona_python_text_csv_api.cases_by_region
-    notes_regions = play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 0.5, args.textonly)
+    notes_regions = play_audio(cases_by_area, "", 3, 5, 0.5,
+                               args.short, 1, args.textonly)
 
     # play UTLAs
     cases_by_area = corona_python_text_csv_api.cases_by_UTLA
-    notes_UTLAs = play_audio(cases_by_area, "", 2, 5, 0.5, args.short, 0.5, args.textonly)
+    notes_UTLAs = play_audio(cases_by_area, "", 3, 5, 0.5,
+                             args.short, 1, args.textonly)
 
     if args.output:
         with open(args.output, 'w') as output_file:
