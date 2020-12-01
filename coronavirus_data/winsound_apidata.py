@@ -55,7 +55,7 @@ def generate_sine_wave_array(freq_arr, duration_arr, rest=0.2):
     # )
 
 
-notes = ["C", "C#", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"]
+notes = ["C ", "C#", "D ", "E♭", "E ", "F ", "F#", "G ", "A♭", "A ", "B♭", "B "]
 
 
 def play_audio(cases_by_area, selected_area="", bass_octave = 3,
@@ -110,11 +110,11 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3,
             else:
                 duration_2 = duration
             if duration_2 == duration:
-                note = "♩"
+                note = "♩ "
             elif duration_2 == duration/2:
-                note = "♪"
+                note = "♪ "
             elif duration_2 == duration/4:
-                note = "𝅘𝅥𝅯 "
+                note = "𝅘𝅥𝅯"
             else:
                 note = "♫"
             if shorttext:
