@@ -121,7 +121,7 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3,
                 textout_a += "{a}{b}{s}".format(
                     a=notes[int((octaves*12) % 12)],
                     b=int(bass_octave+math.floor(octaves)), s=note)
-                if (i % 14 == 0 and i > 0):
+                if ((i+1) % 14 == 0 and i > 0):
                     textout_a += "\n"
             else:
                 textout_a += ("{d} {c} cases, {f:.3f} Hz, "
