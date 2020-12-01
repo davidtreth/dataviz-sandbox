@@ -114,9 +114,9 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3,
             elif duration_2 == duration/2:
                 note = "♪ "
             elif duration_2 == duration/4:
-                note = "𝅘𝅥𝅯"
+                note = "𝅘𝅥𝅯 "
             else:
-                note = "♫"
+                note = "♫ "
             if shorttext:
                 textout_a += "{a}{b}{s}".format(
                     a=notes[int((octaves*12) % 12)],
