@@ -11,7 +11,7 @@ import glob
 import os
 
 
-# this version uses the fiels generated using the Public Health England API
+# this version uses the files generated using the Public Health England API
 # publichealthengland.github.io/coronavirus-dashboard-api-python-sdk/index.html
 # first run uk-covid19-API-download_all_utla.py
 # and uk-covid19-API-download_all_nation.py   
@@ -19,39 +19,15 @@ import os
 cases_by_country = defaultdict(list)
 cases_by_region = defaultdict(list)
 cases_by_UTLA = defaultdict(list)
+cases_by_LTLA = defaultdict(list)
 
-
+# enter the directory with the csv files in
 nationdatadir = 'data_all'
 os.chdir(nationdatadir)
 
-# get UK total
-UK_csvs = list(glob.glob("United_Kingdom*csv"))
-UK_csvs.sort(reverse=True)
-#print(UK_csvs[0])
-
-areaname = UK_csvs[0].split("-")[0]
-
-
-
-datearray = []
-with open(UK_csvs[0]) as csvfile:
-    spamreader = csv.DictReader(csvfile, delimiter = ",")
-    for row in spamreader:
-        d = row['date']
-        s = row['newCasesBySpecimenDate']
-        p = row['newCasesByPublishDate']
-        datearray.append(d)
-        cases_by_country['United Kingdom'].append((d, int(s)))
-                    
-datearray_obj = [datetime.datetime.fromisoformat(d) for d in datearray]
-mindate = min(datearray_obj)
-maxdate = max(datearray_obj)
-
-# nations
+# nations and United Kingdom total
 nation_csvs = list(glob.glob("*csv"))
-nation_csvs = [n for n in nation_csvs if n.split("-")[0] != "United_Kingdom"]
-
-#print(nation_csvs)
+# print(nation_csvs)
 for n in nation_csvs:
     areaname = n.split("-")[0]
     with open(n) as csvfile:
@@ -80,7 +56,7 @@ os.chdir("..")
 # Upper Tier Local Authorities
 os.chdir("UTLAs")
 UTLA_csvs = list(glob.glob("*csv"))
-#print(UTLA_csvs)
+# print(UTLA_csvs)
 for n in UTLA_csvs:
     areaname = n.split("-")[0]
     with open(n) as csvfile:
@@ -90,6 +66,22 @@ for n in UTLA_csvs:
             s = row['newCasesBySpecimenDate']
             p = row['newCasesByPublishDate']            
             cases_by_UTLA[areaname].append((d, int(s)))    
+os.chdir("..")
+
+# Lower Tier Local Authorities
+# not currently used by pygame_apidata.py
+os.chdir("LTLAs")
+LTLA_csvs = list(glob.glob("*csv"))
+# print(LTLA_csvs)
+for n in LTLA_csvs:
+    areaname = n.split("-")[0]
+    with open(n) as csvfile:
+        spamreader = csv.DictReader(csvfile, delimiter = ",")
+        for row in spamreader:
+            d = row['date']
+            s = row['newCasesBySpecimenDate']
+            p = row['newCasesByPublishDate']            
+            cases_by_LTLA[areaname].append((d, int(s)))    
 os.chdir("..")
 
 os.chdir("..")
