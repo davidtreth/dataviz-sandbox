@@ -31,7 +31,7 @@ pygame.init()
 _display_surf = pygame.display.set_mode(size, pygame.HWSURFACE | pygame.DOUBLEBUF)
 
      
-def generate_sine_wave(frequency, duration, volume=0.2, sample_rate=44100):
+def generate_sine_wave(frequency, duration, volume=0.5, sample_rate=44100):
     ''' Generate a tone at the given frequency.
 
         Limited to unsigned 8-bit samples at a given sample_rate.
@@ -46,18 +46,20 @@ def generate_sine_wave(frequency, duration, volume=0.2, sample_rate=44100):
 
     # make samples
     buf = numpy.zeros((num_samples + rest_frames, 2), dtype=numpy.int16)
-    s = lambda i: volume * math.sin(2 * math.pi * frequency * i / sample_rate)
+    max_sample = 2**(bits-1) - 1    
+    s = lambda i: volume * max_sample * math.sin(2 * math.pi * frequency * i / sample_rate)
     for k in range(num_samples):
-        buf[k][0] = s(k)
-        buf[k][1] = s(k)
+        buf[k][0] = s(k)*((num_samples-k)/num_samples)
+        buf[k][1] = s(k)*((num_samples-k)/num_samples)
     sound = pygame.sndarray.make_sound(buf)
     #play once
     sound.play()
+    time.sleep(duration)
         
 
 
 
-def generate_sine_wave_array(freq_arr, duration_arr, rest = 0.2, volume=0.2, sample_rate=44100):
+def generate_sine_wave_array(freq_arr, duration_arr, rest = 0.1, volume=0.5, sample_rate=44100):
     ''' Generate a tone at the given frequency.
 
         Limited to unsigned 8-bit samples at a given sample_rate.
@@ -74,13 +76,15 @@ def generate_sine_wave_array(freq_arr, duration_arr, rest = 0.2, volume=0.2, sam
         
         # make samples
         buf = numpy.zeros((num_samples + rest_frames, 2), dtype=numpy.int16)
-        s = lambda i: volume * math.sin(2 * math.pi * frequency * i / sample_rate)
+        max_sample = 2**(bits-1) - 1 
+        s = lambda i: volume * max_sample * math.sin(2 * math.pi * frequency * i / sample_rate)
         for k in range(num_samples):
-            buf[k][0] = s(k)
-            buf[k][1] = s(k)
+            buf[k][0] = s(k)*((num_samples-k)/num_samples)
+            buf[k][1] = s(k)*((num_samples-k)/num_samples)
         sound = pygame.sndarray.make_sound(buf)
         #play once
         sound.play()
+        time.sleep(duration)
 
 
 # octave = numpy.arange(13)
@@ -100,7 +104,7 @@ def generate_sine_wave_array(freq_arr, duration_arr, rest = 0.2, volume=0.2, sam
     # )
 
 
-notes = ["C ", "C#", "D ", "E♭", "E ", "F ", "F#", "G ", "A♭", "A ", "B♭", "B "]
+notes = ["C ", "C♯", "D ", "E♭", "E ", "F ", "F♯", "G ", "A♭", "A ", "B♭", "B "]
 
 
 def play_audio(cases_by_area, selected_area="", bass_octave = 3,
@@ -215,17 +219,17 @@ if __name__ == '__main__':
     #print(cases_by_area)
     
     notes_nations = play_audio(cases_by_area, "", 3, 5, 0.5,
-                               args.short, 2, args.textonly)
+                               args.short, 0.5, args.textonly)
 
     # play regions of England	
     cases_by_area = corona_python_text_csv_api.cases_by_region
     notes_regions = play_audio(cases_by_area, "", 3, 5, 0.5,
-                               args.short, 2, args.textonly)
+                               args.short, 0.5, args.textonly)
 
     # play UTLAs
     cases_by_area = corona_python_text_csv_api.cases_by_UTLA
     notes_UTLAs = play_audio(cases_by_area, "", 3, 5, 0.5,
-                             args.short, 2, args.textonly)
+                             args.short, 0.5, args.textonly)
 
     if args.output:
         with open(args.output, 'w') as output_file:
