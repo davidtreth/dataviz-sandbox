@@ -34,6 +34,8 @@ pygame.init()
 display_surf = pygame.display.set_mode(size, pygame.HWSURFACE | pygame.DOUBLEBUF)
 font = pygame.font.SysFont('dejavusansmono', 96)
 font2 = pygame.font.SysFont('dejavusans', 60)
+#time.sleep(10)
+
      
 def generate_sine_wave(frequency, duration, volume=0.5, sample_rate=44100):
     ''' Generate a tone at the given frequency.
@@ -136,10 +138,12 @@ def draw_graph_pygame(datelist, ncases_valslist, max_cases, area):
     pygame.draw.lines(display_surf, green, False, points, 3)
     pygame.display.flip()
         
-def overplot_fill_graph(datelist, ncases_valslist, max_cases, duration_arr, notetxt_arr):
+def overplot_fill_graph(datelist, ncases_valslist, max_cases, duration_arr, notetxt_arr, area):
     win_h = size[1]
     win_w = size[0]
     npoints = len(ncases_valslist)
+    min_duration = min(duration_arr)
+    pngfilecount = 0
     for i, (d, n, t, m) in enumerate(zip(datelist, ncases_valslist, duration_arr, notetxt_arr)):
         curtime = pygame.time.get_ticks()
         x = int((i/npoints) * win_w)    
@@ -152,12 +156,31 @@ def overplot_fill_graph(datelist, ncases_valslist, max_cases, duration_arr, note
         try:
             img = font.render(musicnote, True, green, black)
         except UnicodeError:
-            img = font.render(musicnote[0:3], True, green, black)
+            # the semiquaver is U+1D161, pygame doesn't seem to work with
+            # characters above FFFF
+            # replace with beamed semiquavers
+            musicnote = musicnote.replace("𝅘𝅥𝅯", "♬")
+            img = font.render(musicnote, True, green, black)
         display_surf.blit(img, (20, 220))
         #print(d)
         img = font2.render(f"{n:5} cases  ", True, green, black)        
         display_surf.blit(img, (500, 120))
         pygame.display.flip()
+        
+        # save png file
+        # these can be converted to video using ffmpeg
+        #hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video
+        if t == min_duration:
+            pngfile = os.path.join("graphfiles", f"{area}_{pngfilecount:05}.png")
+            pngfilecount += 1
+            pygame.image.save(display_surf, pngfile)
+        else:
+            dur = int(t / min_duration)            
+            for r in range(dur):
+                pngfile = os.path.join("graphfiles", f"{area}_{pngfilecount:05}.png")
+                pngfilecount += 1
+                pygame.image.save(display_surf, pngfile)
+                
         curtime2 = pygame.time.get_ticks()
         pygame.time.wait(int(t*1000) - (curtime2-curtime))
 
@@ -193,6 +216,12 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3,
             continue
         area_l = area.replace("_", " ")
         pygame.display.set_caption(f"SARS-CoV2 cases by specimen date in {area_l}")
+        
+        # find occurance of 1st case in the area
+        ncases_numpy = numpy.array(ncases_valslist, dtype=int)
+        firstnonzero = numpy.nonzero(ncases_numpy)[0][0]
+        datelist = datelist[firstnonzero:]
+        ncases_valslist = ncases_valslist[firstnonzero:]
 
         
         draw_graph_pygame(datelist, ncases_valslist, max_cases, area_l)
@@ -260,7 +289,7 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3,
             wavefile = os.path.join("audiofiles", wavefile)
             soundlength = generate_sine_wave_array(freq_arr, duration_arr, wavefile)
             #soundlength = generate_sine_wave_array(freq_arr, duration_arr, wavefile='')
-            overplot_fill_graph(datelist, ncases_valslist, max_cases, duration_arr, notetxt_arr)
+            overplot_fill_graph(datelist, ncases_valslist, max_cases, duration_arr, notetxt_arr, area)
             #time.sleep(3)        
     return textout
         
@@ -285,12 +314,12 @@ if __name__ == '__main__':
     cases_by_area = corona_python_text_csv_api.cases_by_country
     #print(cases_by_area)
     
-    notes_nations = play_audio(cases_by_area, "", 3, 5, 0.5,
+    notes_nations = play_audio(cases_by_area, "", 2, 6, 0.5,
                                args.short, 0.5, args.textonly)
 
     # play regions of England	
     cases_by_area = corona_python_text_csv_api.cases_by_region
-    notes_regions = play_audio(cases_by_area, "", 3, 5, 0.5,
+    notes_regions = play_audio(cases_by_area, "", 2, 6, 0.5,
                                args.short, 0.5, args.textonly)
 
     # play UTLAs
