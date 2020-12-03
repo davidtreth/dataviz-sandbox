@@ -70,49 +70,52 @@ def generate_sine_wave(frequency, duration, volume=0.5, sample_rate=44100):
 
 
 def generate_sine_wave_array(freq_arr, duration_arr, wavefile = '',
-                             rest = 0.1, volume=0.5, sample_rate=44100):
+                             rest = 0.1, volume=0.5, sample_rate=44100,
+                             quietmode=False):
     ''' Generate a tone at the given frequency.
 
         The sample rate should be at least double the frequency.
     '''
     # create one buffer for the whole array
     allbuf = numpy.zeros((0,2), dtype=numpy.int16)
-    
-    for frequency, duration in zip(freq_arr, duration_arr):
-        if sample_rate < (frequency * 2):
-            print('Warning: sample_rate must be at least double the frequency '
-                  f'to accurately represent it:\n    sample_rate {sample_rate}'
-                  f' ≯ {frequency*2} (frequency {frequency}*2)')
-        # calculate the number of samples, use variable 'rest' to leave a gap
-        # between one note and the next
-        num_samples = int(sample_rate * duration*(1-rest))
-        rest_frames = int(duration*rest*sample_rate)
-        # + ((sample_rate - num_samples) % sample_rate)
-        
-        # make samples
-        # a numpy array of zeros, 2 channels for stereo
-        buf = numpy.zeros((num_samples + rest_frames, 2), dtype=numpy.int16)
-        max_sample = 2**(bits-1) - 1
-        # generate sine wave at a particular frequency 
-        s = lambda i: volume * max_sample * math.sin(
+    if not(quietmode):
+        for frequency, duration in zip(freq_arr, duration_arr):
+            if sample_rate < (frequency * 2):
+                print(
+                'Warning: sample_rate must be at least double the frequency '
+                f'to accurately represent it:\n    sample_rate {sample_rate}'
+                f' ≯ {frequency*2} (frequency {frequency}*2)')
+            # calculate the number of samples, use variable 'rest' to leave a gap
+            # between one note and the next
+            num_samples = int(sample_rate * duration*(1-rest))
+            rest_frames = int(duration*rest*sample_rate)
+            # + ((sample_rate - num_samples) % sample_rate)
+            
+            # make samples
+            # a numpy array of zeros, 2 channels for stereo
+            buf = numpy.zeros((num_samples + rest_frames, 2),
+                              dtype=numpy.int16)
+            max_sample = 2**(bits-1) - 1
+            # generate sine wave at a particular frequency 
+            s = lambda i: volume * max_sample * math.sin(
                                     2 * math.pi * frequency * i / sample_rate)
-        # make the volume decay linearly with time
-        for k in range(num_samples):
-            buf[k][0] = s(k)*((num_samples-k)/num_samples)
-            buf[k][1] = s(k)*((num_samples-k)/num_samples)
-        # add this note to the buffer
-        allbuf = numpy.vstack((allbuf, buf))    
-    sound = pygame.sndarray.make_sound(allbuf)
+            # make the volume decay linearly with time
+            for k in range(num_samples):
+                buf[k][0] = s(k)*((num_samples-k)/num_samples)
+                buf[k][1] = s(k)*((num_samples-k)/num_samples)
+            # add this note to the buffer
+            allbuf = numpy.vstack((allbuf, buf))    
+        sound = pygame.sndarray.make_sound(allbuf)
     
-    if wavefile != '':
+    if not(quietmode):
         wfile = wave.open(wavefile, 'w')
         wfile.setframerate(sample_rate)
         wfile.setnchannels(2)
         wfile.setsampwidth(2)
         # write raw PyGame sound buffer to wave file
         wfile.writeframesraw(sound.get_raw())
-    # play once        
-    sound.play()
+        # play once      
+        sound.play()
     # the delay is now introduced in the code for drawing the animated graph
     # time.sleep(sound.get_length())
     return sound.get_length()
@@ -158,7 +161,7 @@ def draw_graph_pygame(datelist, ncases_valslist, max_cases, area):
     pygame.display.flip()
         
 def overplot_fill_graph(datelist, ncases_valslist, max_cases,
-                        duration_arr, notetxt_arr, area):
+                        duration_arr, notetxt_arr, area, quietmode=False):
     '''
     overplot a fill for the line graph
     animated, delay to sync with sound
@@ -170,7 +173,7 @@ def overplot_fill_graph(datelist, ncases_valslist, max_cases,
     npoints = len(ncases_valslist)
     # duration will be 1/4, 1/2 and 1 * the maximum duration
     # by default set to 0.5 seconds in call to function play_audio()
-    min_duration = min(duration_arr)
+    min_duration = max(duration_arr)/4
     pngfilecount = 0
     for i, (d, n, t, m) in enumerate(zip(datelist, ncases_valslist,
                                          duration_arr, notetxt_arr)):
@@ -204,6 +207,7 @@ def overplot_fill_graph(datelist, ncases_valslist, max_cases,
         # these can be converted to video using ffmpeg
         # hamelot.io/
         # visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video
+        # print(t/min_duration)        
         if t == min_duration:
             # i.e. if its a semiquaver
             # this is if its the same number of cases as the previous day
@@ -214,7 +218,7 @@ def overplot_fill_graph(datelist, ncases_valslist, max_cases,
         else:
             # this program uses a quaver where there is a small change in
             # case numbers, and a crochet if a large one or a zero
-            # if so, write out several png files as needed
+            # if so, write out several png files as needed            
             dur = int(t / min_duration)            
             for r in range(dur):
                 pngfile = os.path.join("graphfiles",
@@ -224,11 +228,12 @@ def overplot_fill_graph(datelist, ncases_valslist, max_cases,
                 
         curtime2 = pygame.time.get_ticks()
         # wait for the note duration, minus the time taken to execute the code
-        pygame.time.wait(int(t*1000) - (curtime2-curtime))
+        if not(quietmode):
+            pygame.time.wait(int(t*1000) - (curtime2-curtime))
 
 def play_audio(cases_by_area, selected_area="", bass_octave = 3,
                range_octaves=4, scaling=1, shorttext=False, duration=1,
-               textonly=False):
+               quietmode=False):
     textout = ""   
     bass_note = 261.63 / (5-bass_octave)
     # one octave below middle C if bass-octave is its default
@@ -308,20 +313,21 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3,
             else:
                 note = "♫ "
             # write text to terminal in either short or long form
-            if shorttext:
-                notetxt = "{a}{b}{s}".format(
-                    a=notes[int((octaves*12) % 12)],
-                    b=int(bass_octave+math.floor(octaves)), s=note)
+
+            notetxt = "{a}{b}{s}".format(
+                a=notes[int((octaves*12) % 12)],
+                b=int(bass_octave+math.floor(octaves)), s=note)
+            if shorttext:                    
                 textout_a += notetxt
                 if ((i+1) % 14 == 0 and i > 0):
                     textout_a += "\n"
             else:
-                notetxt = ("{d} {c} cases, {f:.3f} Hz, "
-                              "{n:.3f} octaves, {a}{b}{s}\n").format(
-                              d=n[0], c=n[1], f=freq, n=octaves,
-                              a=notes[int((octaves*12) % 12)],
-                              b=int(bass_octave+math.floor(octaves)),s=note)
-                textout_a += notetxt
+                notetxt2 = ("{d} {c} cases, {f:.3f} Hz, "
+                            "{n:.3f} octaves, {a}{b}{s}\n").format(
+                            d=n[0], c=n[1], f=freq, n=octaves,
+                            a=notes[int((octaves*12) % 12)],
+                            b=int(bass_octave+math.floor(octaves)),s=note)
+                textout_a += notetxt2
             
             # add the note to the arrays
             notetxt_arr.append(notetxt)
@@ -331,16 +337,16 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3,
         textout_a += "\n\n"
         textout += textout_a
         print(textout_a)
-        if not(textonly):
-            # except if text only output, play sound and save it to a wavefile
-            wavefile = area.lower() + ".wav"
-            wavefile = os.path.join("audiofiles", wavefile)
-            soundlength = generate_sine_wave_array(freq_arr, duration_arr,
-                                                   wavefile)
-            #soundlength = generate_sine_wave_array(freq_arr, duration_arr,
-            #                                       wavefile='')
-            overplot_fill_graph(datelist, ncases_valslist, max_cases,
-                                duration_arr, notetxt_arr, area)
+        # except if text only output, play sound and save it to a wavefile
+        # if text only, just save it to file but don't play it
+        # done by passing the value of quietmode to 
+        # generate_sine_wave_array and overplot_fill_graph
+        wavefile = area.lower() + ".wav"
+        wavefile = os.path.join("audiofiles", wavefile)
+        soundlength = generate_sine_wave_array(freq_arr, duration_arr,
+                                               wavefile, quietmode)
+        overplot_fill_graph(datelist, ncases_valslist, max_cases,
+                            duration_arr, notetxt_arr, area, quietmode)
     return textout
         
 
@@ -354,29 +360,33 @@ if __name__ == '__main__':
     parser.add_argument("--short",action="store_true",
                         help=("shorter form text output with just "
                               "the note not date, cases, freq etc."))
-    parser.add_argument("--textonly",action="store_true",
-                        help="text only output (don't play audio)")
+    parser.add_argument("--quietmode",action="store_true",
+                        help="quiet mode(don't play audio)")
     parser.add_argument("-o", "--output", help=("Directs the text output to a "
                                                 "filename of your choice"))
+                                                
     args = parser.parse_args()    
     
     # play the UK and nations cases, with square root scaling            
     cases_by_area = corona_python_text_csv_api.cases_by_country
-    #print(cases_by_area)
+    # print(cases_by_area)
     
     notes_nations = play_audio(cases_by_area, "", 2, 6, 0.5,
-                               args.short, 0.5, args.textonly)
-
+                               args.short, 0.5, args.quietmode)
+    
     # play regions of England	
     cases_by_area = corona_python_text_csv_api.cases_by_region
     notes_regions = play_audio(cases_by_area, "", 2, 6, 0.5,
-                               args.short, 0.5, args.textonly)
+                               args.short, 0.5, args.quietmode)
+    # example selecting a region
+    #notes_regions = play_audio(cases_by_area, "North_West", 2, 6, 0.5,
+    #                           args.short, 0.5, args.quietmode)
 
     # play UTLAs
     cases_by_area = corona_python_text_csv_api.cases_by_UTLA
     notes_UTLAs = play_audio(cases_by_area, "", 3, 5, 0.5,
-                             args.short, 0.5, args.textonly)
-
+                             args.short, 0.5, args.quietmode)
+    
     if args.output:
         with open(args.output, 'w') as output_file:
             output_file.write(notes_nations)
