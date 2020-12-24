@@ -23,6 +23,8 @@ nonzero = 0
 datearr = defaultdict(list)
 newSpecarr = defaultdict(list) 
 newPubarr = defaultdict(list)
+cumSpecRatearr = defaultdict(list)
+cumSpec7dayRatearr = defaultdict(list)
 zippedarr = defaultdict(list)
 
 # UK totals
@@ -52,7 +54,8 @@ cases_spec_pub = {
         "areaName": "areaName",
         "areaCode": "areaCode",
         "newCasesByPublishDate": "newCasesByPublishDate",
-        "newCasesBySpecimenDate": "newCasesBySpecimenDate"
+        "newCasesBySpecimenDate": "newCasesBySpecimenDate",
+        "cumCasesBySpecimenDateRate": "cumCasesBySpecimenDateRate"
     }
 
 for level, areatype in enumerate([all_UK, all_nations, all_regions,
@@ -87,9 +90,17 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
             utladata_day = [
                         d for d in utladata if datetime.datetime.fromisoformat(
                         d['date']) == date]
-            for k in utladata_day:
+            
+            for i, k in enumerate(utladata_day):
                 newSpec = k['newCasesBySpecimenDate']
                 newPub = k['newCasesByPublishDate']
+                if k['cumCasesBySpecimenDateRate']:
+                    rateSpec = k['cumCasesBySpecimenDateRate']
+                else:
+                    if i == 0:
+                        rateSpec = 0
+                    else:
+                        rateSpec = utladata_day[i-1]['cumCasesBySpecimenDateRate']
                 if newSpec is None:
                     newSpec = 0
                 if newPub is None:
@@ -97,10 +108,29 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
                 nonzero += newSpec
                 nonzero += newPub
                 if nonzero > 0:
-                    print(a, k['date'], newSpec, newPub)
+                    cumSpecRatearr[a].append(rateSpec)
+                    #print(cumSpecRatearr[a])
+                    # the last 8 days including the current day
+                    cumSpecRate7Dayarr = cumSpecRatearr[a][-8:]
+                    # if the last value for the cumulative case rate by specimen date
+                    # is zero, as long as it isn't the first day of the data,
+                    # use the previous day's data going back 8 days from there
+                    if len(cumSpecRate7Dayarr) > 1 and cumSpecRate7Dayarr[-1] == 0 and cumSpecRate7Dayarr[-2] > 0:
+                        cumSpecRate7Dayarr = cumSpecRatearr[a][-9:-1]
+                    # last day of data - day 7 days previous
+                    cumSpecRateLast7Day = cumSpecRate7Dayarr[-1] - cumSpecRate7Dayarr[0]
+                    cumSpecRateLast7Day = round(cumSpecRateLast7Day, 1)
+                    # print(cumSpecRate7Dayarr, cumSpecRateLast7Day)
+                    print(a, k['date'], newSpec, newPub, rateSpec,
+                    cumSpecRateLast7Day)
                     datearr[a].append(k['date'])
                     newSpecarr[a].append(newSpec)
                     newPubarr[a].append(newPub)
+                    
+                    
+                    cumSpec7dayRatearr[a].append(cumSpecRateLast7Day)                    
+                    
+                    
         # increment date before going back to top of while loop              
         date = date + datetime.timedelta(days=1)
     # output directory, where the UK and national totals are saved
@@ -116,7 +146,8 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
     elif level == 4:
         outdir = os.path.join(outdir, outdir4)    
     for a in all_UTLAs:        
-        zippedarr[a] = zip(datearr[a], newSpecarr[a], newPubarr[a])
+        zippedarr[a] = zip(datearr[a], newSpecarr[a], newPubarr[a],
+                           cumSpec7dayRatearr[a])
         # print(a, list(zippedarr[a]))
         # write to csv file
         # replace spaces with underscores and remove commas
@@ -125,11 +156,12 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
         outfilename = os.path.join(outdir, outfilename)
         with open(outfilename, 'w', newline='') as csvfile:
             fieldnames = ['date', 'newCasesBySpecimenDate',
-                          'newCasesByPublishDate']
+                          'newCasesByPublishDate', 'rate100kSpecDateLast7Days']
             spamwriter = csv.DictWriter(csvfile, fieldnames=fieldnames,
                                         delimiter=",")
             spamwriter.writeheader()
             for r in zippedarr[a]:
                 spamwriter.writerow({'date': r[0],
                                     'newCasesBySpecimenDate': r[1],
-                                    'newCasesByPublishDate': r[2]})
+                                    'newCasesByPublishDate': r[2],
+                                    'rate100kSpecDateLast7Days': r[3]})

@@ -30,13 +30,24 @@ size = (1920, 1080)
 # bits in the sound samples to be generated
 bits = 16
 green = (  0, 255,  0)
+darkgreen = (  0, 127,  0)
 black = (  0,   0,  0)
+
+yellow_0_10 = (  224, 229,  67)
+green_10_50 = (  116, 187, 104)
+green_50_100 = (  57, 147, 132)
+blue_100_200 = (  32, 103, 171)
+blue_200_400 = (  18,  64, 127)
+purple_400_800 = (83,   8,  74)
+purple_800_inf = (43,   2,  38)
+
 pygame.mixer.pre_init(44100, -bits, 2)
 pygame.init()
 display_surf = pygame.display.set_mode(size,
                                        pygame.HWSURFACE | pygame.DOUBLEBUF)
 font = pygame.font.SysFont('dejavusansmono', 96)
 font2 = pygame.font.SysFont('dejavusans', 60)
+font3 = pygame.font.SysFont('dejavusans', 24)
 #time.sleep(10)
 
      
@@ -159,8 +170,25 @@ def draw_graph_pygame(datelist, ncases_valslist, max_cases, area):
         points.append([x, y])
     pygame.draw.lines(display_surf, green, False, points, 3)
     pygame.display.flip()
+
+def choose_colour(rate100k):
+    if rate100k < 10.0:
+        colour = yellow_0_10
+    elif rate100k < 50.0:
+        colour = green_10_50
+    elif rate100k < 100.0:
+        colour = green_50_100
+    elif rate100k < 200.0:
+        colour = blue_100_200
+    elif rate100k < 400.0:
+        colour = blue_200_400
+    elif rate100k < 800.0:
+        colour = purple_400_800
+    else:
+        colour = purple_800_inf
+    return colour
         
-def overplot_fill_graph(datelist, ncases_valslist, max_cases,
+def overplot_fill_graph(datelist, ncases_valslist, caserate_list, max_cases,
                         duration_arr, notetxt_arr, area, quietmode=False):
     '''
     overplot a fill for the line graph
@@ -175,13 +203,21 @@ def overplot_fill_graph(datelist, ncases_valslist, max_cases,
     # by default set to 0.5 seconds in call to function play_audio()
     min_duration = max(duration_arr)/4
     pngfilecount = 0
-    for i, (d, n, t, m) in enumerate(zip(datelist, ncases_valslist,
-                                         duration_arr, notetxt_arr)):
+    for i, (d, n, r, t, m) in enumerate(zip(datelist, ncases_valslist,
+                                            caserate_list,
+                                            duration_arr, notetxt_arr)):
         curtime = pygame.time.get_ticks()
         # draw a vertical line
         x = int((i/npoints) * win_w)    
         y = int(win_h - (n/max_cases) * win_h)
-        pygame.draw.line(display_surf, green, [x, win_h], [x, y], 8)
+        # if its the first of the month
+        if d[-2:] == "01":
+            pygame.draw.line(display_surf, darkgreen, [x, win_h], [x, 0], 1)
+            # write month
+            img = font3.render(d[5:7], True, darkgreen, black)
+            display_surf.blit(img, (x+5, 5))
+            
+        pygame.draw.line(display_surf, choose_colour(r), [x, win_h], [x, y], 8)
         # write date in pygame window
         img = font2.render(d, True, green, black)        
         display_surf.blit(img, (20, 120))
@@ -199,10 +235,17 @@ def overplot_fill_graph(datelist, ncases_valslist, max_cases,
         display_surf.blit(img, (20, 220))
 
         # write number of cases on day
-        img = font2.render(f"{n:5} cases  ", True, green, black)        
-        display_surf.blit(img, (500, 120))
-        pygame.display.flip()
+        if n == 1:
+            img = font2.render(f"{n:5} case  ", True, green, black)        
+        else:
+            img = font2.render(f"{n:5} cases  ", True, green, black)        
+        display_surf.blit(img, (400, 120))
         
+        # write rate per 100k
+        img = font2.render(f"{r} /100k last 7 days  ", True, green, black)        
+        display_surf.blit(img, (900, 120))
+        
+        pygame.display.flip()
         # save png file
         # these can be converted to video using ffmpeg
         # hamelot.io/
@@ -253,6 +296,7 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3,
          
         datelist = [i[0] for i in area_cases]
         ncases_valslist = [i[1] if i[1] else 0 for i in area_cases]
+        caserate_list = [i[2] for i in area_cases]
 
         textout_a += area + "\n"
         max_cases = max(ncases_valslist)
@@ -272,6 +316,7 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3,
         # remove part of array before 1st case in the area
         datelist = datelist[firstnonzero:]
         ncases_valslist = ncases_valslist[firstnonzero:]
+        caserate_list = caserate_list[firstnonzero:]
         
         # draw the line graph for the area
         draw_graph_pygame(datelist, ncases_valslist, max_cases, area_l)
@@ -280,7 +325,7 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3,
         freq_arr = []
         duration_arr = []
         notetxt_arr = []
-        for i, n in enumerate(zip(datelist, ncases_valslist)):
+        for i, n in enumerate(zip(datelist, ncases_valslist, caserate_list)):
             # range of 4 octaves by default
             octaves = range_octaves*((n[1]/max_cases)**scaling)
             # quantise to the nearest semitone
@@ -323,10 +368,11 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3,
                     textout_a += "\n"
             else:
                 notetxt2 = ("{d} {c} cases, {f:.3f} Hz, "
-                            "{n:.3f} octaves, {a}{b}{s}\n").format(
+                            "{n:.3f} octaves, {a}{b}{s}{r}/100k last 7 days\n").format(
                             d=n[0], c=n[1], f=freq, n=octaves,
                             a=notes[int((octaves*12) % 12)],
-                            b=int(bass_octave+math.floor(octaves)),s=note)
+                            b=int(bass_octave+math.floor(octaves)),s=note,
+                            r=n[2])
                 textout_a += notetxt2
             
             # add the note to the arrays
@@ -345,8 +391,9 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3,
         wavefile = os.path.join("audiofiles", wavefile)
         soundlength = generate_sine_wave_array(freq_arr, duration_arr,
                                                wavefile, quietmode)
-        overplot_fill_graph(datelist, ncases_valslist, max_cases,
-                            duration_arr, notetxt_arr, area, quietmode)
+        overplot_fill_graph(datelist, ncases_valslist,  caserate_list,
+                            max_cases, duration_arr, notetxt_arr, area,
+                            quietmode)
     return textout
         
 
@@ -370,11 +417,11 @@ if __name__ == '__main__':
     # play the UK and nations cases, with square root scaling            
     cases_by_area = corona_python_text_csv_api.cases_by_country
     # print(cases_by_area)
-    
+
     notes_nations = play_audio(cases_by_area, "", 2, 6, 0.5,
                                args.short, 0.5, args.quietmode)
-    
-    # play regions of England	
+
+    # play regions of England
     cases_by_area = corona_python_text_csv_api.cases_by_region
     notes_regions = play_audio(cases_by_area, "", 2, 6, 0.5,
                                args.short, 0.5, args.quietmode)

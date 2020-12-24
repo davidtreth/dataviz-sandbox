@@ -35,8 +35,9 @@ for n in nation_csvs:
         for row in spamreader:
             d = row['date']
             s = row['newCasesBySpecimenDate']
-            p = row['newCasesByPublishDate']            
-            cases_by_country[areaname].append((d, int(s)))    
+            p = row['newCasesByPublishDate'] 
+            r100k = row['rate100kSpecDateLast7Days']           
+            cases_by_country[areaname].append((d, int(s), float(r100k)))    
 
 # regions of England
 os.chdir("regions")
@@ -49,8 +50,9 @@ for r in region_csvs:
         for row in spamreader:
             d = row['date']
             s = row['newCasesBySpecimenDate']
-            p = row['newCasesByPublishDate']            
-            cases_by_region[areaname].append((d, int(s)))    
+            p = row['newCasesByPublishDate']
+            r100k = row['rate100kSpecDateLast7Days']            
+            cases_by_region[areaname].append((d, int(s), float(r100k)))    
 os.chdir("..")
 
 # Upper Tier Local Authorities
@@ -64,8 +66,9 @@ for n in UTLA_csvs:
         for row in spamreader:
             d = row['date']
             s = row['newCasesBySpecimenDate']
-            p = row['newCasesByPublishDate']            
-            cases_by_UTLA[areaname].append((d, int(s)))    
+            p = row['newCasesByPublishDate']
+            r100k = row['rate100kSpecDateLast7Days']            
+            cases_by_UTLA[areaname].append((d, int(s), float(r100k)))    
 os.chdir("..")
 
 # Lower Tier Local Authorities
@@ -80,8 +83,9 @@ for n in LTLA_csvs:
         for row in spamreader:
             d = row['date']
             s = row['newCasesBySpecimenDate']
-            p = row['newCasesByPublishDate']            
-            cases_by_LTLA[areaname].append((d, int(s)))    
+            p = row['newCasesByPublishDate']
+            r100k = row['rate100kSpecDateLast7Days']            
+            cases_by_LTLA[areaname].append((d, int(s), float(r100k)))    
 os.chdir("..")
 
 os.chdir("..")
