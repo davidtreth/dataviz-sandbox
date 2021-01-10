@@ -150,8 +150,10 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
                            cumSpec7dayRatearr[a])
         # print(a, list(zippedarr[a]))
         # write to csv file
-        # replace spaces with underscores and remove commas
-        outfilename = f'{a.replace(" ", "_").replace(",", "")}-cases.csv'
+        # replace spaces and hyphens with underscores and remove commas
+        # only Na h-Eileanan_Siar has a hyphen
+        # it had previously been listed as Comhairle nan Eilean Siar
+        outfilename = f'{a.replace(" ", "_").replace("-", "_").replace(",", "")}-cases.csv'
 
         outfilename = os.path.join(outdir, outfilename)
         with open(outfilename, 'w', newline='') as csvfile:
