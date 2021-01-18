@@ -23,8 +23,12 @@ for filelist in filelists:
         exiftoolcmd = f"exiftool -Duration {f}"
         exif = subprocess.run(exiftoolcmd, shell=True, capture_output=True)
         duration = str(exif.stdout)
+        print(duration)
         duration = duration.split(":")
-        h, m, s = duration[-3:]
+        try:        
+            h, m, s = duration[-3:]
+        except:
+            h, m, s = "00", "00", "00"
         h = h.strip()
         h = int(h)
         m = int(m)

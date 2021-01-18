@@ -433,11 +433,24 @@ if __name__ == '__main__':
     cases_by_area = corona_python_text_csv_api.cases_by_UTLA
     notes_UTLAs = play_audio(cases_by_area, "", 3, 5, 0.5,
                              args.short, 0.5, args.quietmode)
+    # example selecting UTLA
+    # this was due to several areas being accidently deleted during processing
+    # when removing the png files following generating the videos
+    # this regenerated the relevant areas
+    # notes_UTLA1 = play_audio(cases_by_area, "Derbyshire", 3, 5, 0.5,
+                               # args.short, 0.5, args.quietmode)
+    # notes_UTLA2 = play_audio(cases_by_area, "Leicestershire", 3, 5, 0.5,
+                               # args.short, 0.5, args.quietmode)
+    # notes_UTLA3 = play_audio(cases_by_area, "Nottinghamshire", 3, 5, 0.5,
+                               # args.short, 0.5, args.quietmode)
     
     if args.output:
         with open(args.output, 'w') as output_file:
             output_file.write(notes_nations)
             output_file.write(notes_regions)
             output_file.write(notes_UTLAs)
+            #output_file.write(notes_UTLA1)
+            #output_file.write(notes_UTLA2)
+            #output_file.write(notes_UTLA3)
 
 pygame.quit()
