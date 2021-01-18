@@ -415,24 +415,24 @@ if __name__ == '__main__':
     args = parser.parse_args()    
     
     # play the UK and nations cases, with square root scaling            
-    cases_by_area = corona_python_text_csv_api.cases_by_country
+    #cases_by_area = corona_python_text_csv_api.cases_by_country
     # print(cases_by_area)
 
-    notes_nations = play_audio(cases_by_area, "", 2, 6, 0.5,
-                               args.short, 0.5, args.quietmode)
+    #notes_nations = play_audio(cases_by_area, "", 2, 6, 0.5,
+    #                           args.short, 0.5, args.quietmode)
 
     # play regions of England
-    cases_by_area = corona_python_text_csv_api.cases_by_region
-    notes_regions = play_audio(cases_by_area, "", 2, 6, 0.5,
-                               args.short, 0.5, args.quietmode)
+    #cases_by_area = corona_python_text_csv_api.cases_by_region
+    #notes_regions = play_audio(cases_by_area, "", 2, 6, 0.5,
+    #                           args.short, 0.5, args.quietmode)
     # example selecting a region
     #notes_regions = play_audio(cases_by_area, "North_West", 2, 6, 0.5,
     #                           args.short, 0.5, args.quietmode)
 
     # play UTLAs
     cases_by_area = corona_python_text_csv_api.cases_by_UTLA
-    notes_UTLAs = play_audio(cases_by_area, "", 3, 5, 0.5,
-                             args.short, 0.5, args.quietmode)
+    #notes_UTLAs = play_audio(cases_by_area, "", 3, 5, 0.5,
+    #                         args.short, 0.5, args.quietmode)
     # example selecting UTLA
     # this was due to several areas being accidently deleted during processing
     # when removing the png files following generating the videos
@@ -443,14 +443,17 @@ if __name__ == '__main__':
                                # args.short, 0.5, args.quietmode)
     # notes_UTLA3 = play_audio(cases_by_area, "Nottinghamshire", 3, 5, 0.5,
                                # args.short, 0.5, args.quietmode)
+    notes_UTLA4 = play_audio(cases_by_area, "North_East_Lincolnshire", 3, 5,
+                             0.5, args.short, 0.5, args.quietmode)                               
     
     if args.output:
         with open(args.output, 'w') as output_file:
-            output_file.write(notes_nations)
-            output_file.write(notes_regions)
-            output_file.write(notes_UTLAs)
+            #output_file.write(notes_nations)
+            #output_file.write(notes_regions)
+            #output_file.write(notes_UTLAs)
             #output_file.write(notes_UTLA1)
             #output_file.write(notes_UTLA2)
             #output_file.write(notes_UTLA3)
+            output_file.write(notes_UTLA4)
 
 pygame.quit()

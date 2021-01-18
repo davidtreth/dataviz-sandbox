@@ -17,7 +17,7 @@ def create_video(areaname, clearpng=True):
                  f" -acodec copy {videofile}")
     subprocess.call(ffmpeg_cmd, shell=True)
     # remove png files from graphdir
-    rmpng_cmd = f'rm -v {png_pattern.replace("%05d", "*")}'
+    rmpng_cmd = f'rm -v {png_pattern.replace("%05d",                                         "[0-9][0-9][0-9][0-9][0-9].png")}'
     subprocess.call(rmpng_cmd, shell=True)
     
         
