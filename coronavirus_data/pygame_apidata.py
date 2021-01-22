@@ -19,6 +19,7 @@ import time
 import datetime
 import argparse
 import os
+import re
 import corona_python_text_csv_api 
 
 # code partly copied from answers at
@@ -275,7 +276,7 @@ def overplot_fill_graph(datelist, ncases_valslist, caserate_list, max_cases,
         if not(quietmode):
             pygame.time.wait(int(t*1000) - (curtime2-curtime))
 
-def play_audio(cases_by_area, selected_area="", bass_octave = 3,
+def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
                range_octaves=4, scaling=1, shorttext=False, duration=1,
                quietmode=False):
     textout = ""   
@@ -287,7 +288,7 @@ def play_audio(cases_by_area, selected_area="", bass_octave = 3,
     
     for area in sorted(cases_by_area):
         textout_a = ""
-        if selected_area != "" and area != selected_area:
+        if len(selected_areas) > 0 and area not in selected_areas:
             continue
         area_cases = sorted(cases_by_area[area], key=itemgetter(0))        
         startDate = area_cases[0][0]
@@ -412,48 +413,70 @@ if __name__ == '__main__':
                         help="quiet mode(don't play audio)")
     parser.add_argument("-o", "--output", help=("Directs the text output to a "
                                                 "filename of your choice"))
-                                                
+    parser.add_argument("-a", "--areaselect", help=("Select areas containing"
+                                                    "text matching regex"))
+    parser.add_argument("--ltla",action="store_true",
+                        help=("include lower-tier LAs (England only)"
+                        "by default don't")) 
+                                                        
+    # example run this command to select LAs containing Isle/Island 
+    # python pygame_apidata.py --quietmode --areaselect Isl[ae] --short
+    
+    # example selects Devon (county council area), and the lower-tier areas
+    # East Devon, Mid Devon, North Devon, South Devon
+    # note - Devon county has some lower-tier areas
+    # that don't contain the word Devon
+    # and 2 unitary LAs (Plymouth + Torbay) separate from Devon county
+    # python pygame_apidata.py --quietmode --areaselect devon --short --ltla
+    
+                              
     args = parser.parse_args()    
+    if args.areaselect:
+        # if selecting areas using a substring, ignore case
+        q = re.compile(args.areaselect.strip(), re.IGNORECASE)
     
     # play the UK and nations cases, with square root scaling            
     cases_by_area = corona_python_text_csv_api.cases_by_country
     # print(cases_by_area)
 
+    if args.areaselect:                
+        cases_by_area = {k:v for k, v in cases_by_area.items() if q.search(k.lower())}
     notes_nations = play_audio(cases_by_area, "", 2, 6, 0.5,
                                args.short, 0.5, args.quietmode)
 
     # play regions of England
     cases_by_area = corona_python_text_csv_api.cases_by_region
+    if args.areaselect:
+        cases_by_area = {k:v for k, v in cases_by_area.items() if q.search(k.lower())}   
     notes_regions = play_audio(cases_by_area, "", 2, 6, 0.5,
                                args.short, 0.5, args.quietmode)
     # example selecting a region
-    #notes_regions = play_audio(cases_by_area, "North_West", 2, 6, 0.5,
+    #notes_regions = play_audio(cases_by_area, ["North_West"], 2, 6, 0.5,
     #                           args.short, 0.5, args.quietmode)
 
     # play UTLAs
-    cases_by_area = corona_python_text_csv_api.cases_by_UTLA
-    notes_UTLAs = play_audio(cases_by_area, "", 3, 5, 0.5,
+    cases_by_areaUTLA = corona_python_text_csv_api.cases_by_UTLA
+    if args.areaselect:
+        cases_by_area = {k:v for k, v in cases_by_areaUTLA.items() if q.search(k.lower())}   
+    notes_UTLAs = play_audio(cases_by_areaUTLA, "", 3, 5, 0.5,
                              args.short, 0.5, args.quietmode)
-    # example selecting UTLA
-    # this was due to several areas being accidently deleted during processing
-    # when removing the png files following generating the videos
-    # this regenerated the relevant areas
-    # notes_UTLA1 = play_audio(cases_by_area, "Derbyshire", 3, 5, 0.5,
-                               # args.short, 0.5, args.quietmode)
-    # notes_UTLA2 = play_audio(cases_by_area, "Leicestershire", 3, 5, 0.5,
-                               # args.short, 0.5, args.quietmode)
-    # notes_UTLA3 = play_audio(cases_by_area, "Nottinghamshire", 3, 5, 0.5,
-                               # args.short, 0.5, args.quietmode)
-    #notes_UTLA4 = play_audio(cases_by_area, "North_East_Lincolnshire", 3, 5,
-                            # 0.5, args.short, 0.5,args.quietmode)       
+
+    # play LTLAs only if the command-line argument is set
+    if args.ltla:
+        cases_by_areaLTLA = corona_python_text_csv_api.cases_by_LTLA
+        # remove any LTLA which is also a UTLA
+        cases_by_areaLTLA = {k:v for k, v in cases_by_areaLTLA.items() if k not in cases_by_areaUTLA.keys()}
+        if args.areaselect:
+            cases_by_areaLTLA = {k:v for k, v in cases_by_areaLTLA.items() if q.search(k.lower())}   
+        notes_LTLAs = play_audio(cases_by_areaLTLA, "", 3, 5, 0.5,
+                                 args.short, 0.5, args.quietmode)                             
+
     if args.output:
         with open(args.output, 'w') as output_file:
             output_file.write(notes_nations)
             output_file.write(notes_regions)
             output_file.write(notes_UTLAs)
-            #output_file.write(notes_UTLA1)
-            #output_file.write(notes_UTLA2)
-            #output_file.write(notes_UTLA3)
-            #output_file.write(notes_UTLA4)
+            if args.ltla:
+                output_file.write(notes_LTLAs)
 
 pygame.quit()

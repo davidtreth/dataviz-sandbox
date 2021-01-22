@@ -3,6 +3,7 @@
 # the website is no longer online as of Jan 2019
 # however see Twitter and Instagram @landsat365
 # and the index page is accessible via web.archive.org
+# the page was back up in Jan 2021!
 
 import os
 import numpy
@@ -99,6 +100,7 @@ subdir3 = "720px"
 os.chdir(picDir)
 os.makedirs(os.path.join(outdir, subdir), exist_ok=True)
 os.makedirs(os.path.join(outdir, subdir2), exist_ok=True)
+os.makedirs(os.path.join(outdir, subdir3), exist_ok=True)
 
 
 raw = open(indexfile,'r').read()
