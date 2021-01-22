@@ -26,10 +26,14 @@ def create_video(areaname, clearpng=True):
 nations = corona_python_text_csv_api.cases_by_country
 regions = corona_python_text_csv_api.cases_by_region
 UTLAs = corona_python_text_csv_api.cases_by_UTLA
+LTLAs = corona_python_text_csv_api.cases_by_LTLA
+LTLAs = {k:v for k, v in LTLAs.items() if k not in UTLAs.keys()}
 
 for areaname in nations:
     create_video(areaname)
 for areaname in regions:
     create_video(areaname)
 for areaname in UTLAs:
+    create_video(areaname)
+for areaname in LTLAs:
     create_video(areaname)

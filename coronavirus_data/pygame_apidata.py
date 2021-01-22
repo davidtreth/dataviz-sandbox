@@ -90,45 +90,46 @@ def generate_sine_wave_array(freq_arr, duration_arr, wavefile = '',
     '''
     # create one buffer for the whole array
     allbuf = numpy.zeros((0,2), dtype=numpy.int16)
-    if not(quietmode):
-        for frequency, duration in zip(freq_arr, duration_arr):
-            if sample_rate < (frequency * 2):
-                print(
-                'Warning: sample_rate must be at least double the frequency '
-                f'to accurately represent it:\n    sample_rate {sample_rate}'
-                f' ≯ {frequency*2} (frequency {frequency}*2)')
-            # calculate the number of samples, use variable 'rest' to leave a gap
-            # between one note and the next
-            num_samples = int(sample_rate * duration*(1-rest))
-            rest_frames = int(duration*rest*sample_rate)
-            # + ((sample_rate - num_samples) % sample_rate)
-            
-            # make samples
-            # a numpy array of zeros, 2 channels for stereo
-            buf = numpy.zeros((num_samples + rest_frames, 2),
-                              dtype=numpy.int16)
-            max_sample = 2**(bits-1) - 1
-            # generate sine wave at a particular frequency 
-            s = lambda i: volume * max_sample * math.sin(
-                                    2 * math.pi * frequency * i / sample_rate)
-            # make the volume decay linearly with time
-            for k in range(num_samples):
-                buf[k][0] = s(k)*((num_samples-k)/num_samples)
-                buf[k][1] = s(k)*((num_samples-k)/num_samples)
-            # add this note to the buffer
-            allbuf = numpy.vstack((allbuf, buf))    
-        sound = pygame.sndarray.make_sound(allbuf)
+    for frequency, duration in zip(freq_arr, duration_arr):
+        print(frequency, duration)
+        if sample_rate < (frequency * 2):
+            print(
+            'Warning: sample_rate must be at least double the frequency '
+            f'to accurately represent it:\n    sample_rate {sample_rate}'
+            f' ≯ {frequency*2} (frequency {frequency}*2)')
+        # calculate the number of samples, use variable 'rest' to leave a gap
+        # between one note and the next
+        num_samples = int(sample_rate * duration*(1-rest))
+        rest_frames = int(duration*rest*sample_rate)
+        # + ((sample_rate - num_samples) % sample_rate)
+        
+        # make samples
+        # a numpy array of zeros, 2 channels for stereo
+        buf = numpy.zeros((num_samples + rest_frames, 2),
+                          dtype=numpy.int16)
+        max_sample = 2**(bits-1) - 1
+        # generate sine wave at a particular frequency 
+        s = lambda i: volume * max_sample * math.sin(
+                                2 * math.pi * frequency * i / sample_rate)
+        # make the volume decay linearly with time
+        for k in range(num_samples):
+            buf[k][0] = s(k)*((num_samples-k)/num_samples)
+            buf[k][1] = s(k)*((num_samples-k)/num_samples)
+        print(buf)
+        # add this note to the buffer
+        allbuf = numpy.vstack((allbuf, buf))
+    sound = pygame.sndarray.make_sound(allbuf)
     
+    wfile = wave.open(wavefile, 'w')
+    wfile.setframerate(sample_rate)
+    wfile.setnchannels(2)
+    wfile.setsampwidth(2)
+    # write raw PyGame sound buffer to wave file
+    wfile.writeframesraw(sound.get_raw())
+    wfile.close()
+    # play once      
     if not(quietmode):
-        wfile = wave.open(wavefile, 'w')
-        wfile.setframerate(sample_rate)
-        wfile.setnchannels(2)
-        wfile.setsampwidth(2)
-        # write raw PyGame sound buffer to wave file
-        wfile.writeframesraw(sound.get_raw())
-        # play once      
-        if not(quietmode):
-            sound.play()
+        sound.play()
     # the delay is now introduced in the code for drawing the animated graph
     # time.sleep(sound.get_length())
     return sound.get_length()
@@ -441,15 +442,16 @@ if __name__ == '__main__':
 
     if args.areaselect:                
         cases_by_area = {k:v for k, v in cases_by_area.items() if q.search(k.lower())}
-    notes_nations = play_audio(cases_by_area, "", 2, 6, 0.5,
-                               args.short, 0.5, args.quietmode)
+    #notes_nations = play_audio(cases_by_area, "", 2, 6, 0.5,
+    #                           args.short, 0.5, args.quietmode)
 
     # play regions of England
     cases_by_area = corona_python_text_csv_api.cases_by_region
     if args.areaselect:
         cases_by_area = {k:v for k, v in cases_by_area.items() if q.search(k.lower())}   
-    notes_regions = play_audio(cases_by_area, "", 2, 6, 0.5,
-                               args.short, 0.5, args.quietmode)
+    #notes_regions = play_audio(cases_by_area, "", 2, 6, 0.5,
+    #                           args.short, 0.5, args.quietmode)
+    
     # example selecting a region
     #notes_regions = play_audio(cases_by_area, ["North_West"], 2, 6, 0.5,
     #                           args.short, 0.5, args.quietmode)
@@ -458,8 +460,8 @@ if __name__ == '__main__':
     cases_by_areaUTLA = corona_python_text_csv_api.cases_by_UTLA
     if args.areaselect:
         cases_by_area = {k:v for k, v in cases_by_areaUTLA.items() if q.search(k.lower())}   
-    notes_UTLAs = play_audio(cases_by_areaUTLA, "", 3, 5, 0.5,
-                             args.short, 0.5, args.quietmode)
+    #notes_UTLAs = play_audio(cases_by_areaUTLA, "", 3, 5, 0.5,
+    #                         args.short, 0.5, args.quietmode)
 
     # play LTLAs only if the command-line argument is set
     if args.ltla:
