@@ -128,13 +128,14 @@ def generate_sine_wave_array4(freq_arr_all,
                 allbuf2 = allbuf2 + allbuf
             sound = pygame.sndarray.make_sound(allbuf2)
     
+    
+    wfile = wave.open(wavefile, 'w')
+    wfile.setframerate(sample_rate)
+    wfile.setnchannels(2)
+    wfile.setsampwidth(2)
+    # write raw PyGame sound buffer to wave file
+    wfile.writeframesraw(sound.get_raw())
     if not(quietmode):
-        wfile = wave.open(wavefile, 'w')
-        wfile.setframerate(sample_rate)
-        wfile.setnchannels(2)
-        wfile.setsampwidth(2)
-        # write raw PyGame sound buffer to wave file
-        wfile.writeframesraw(sound.get_raw())
         # play once      
         sound.play()
     # the delay is now introduced in the code for drawing the animated graph
@@ -305,7 +306,7 @@ def play_audio(cases_by_area, selected_areas, num_x, num_y, bass_octave = 3,
                range_octaves=4, scaling=1, shorttext=False, duration=1,
                quietmode=False):
     textout = ""   
-    bass_note = 261.63 / (5-bass_octave)
+    bass_note = 261.63 * 2**(bass_octave-4)
     # one octave below middle C if bass-octave is its default
     textout += "bass note = {h} Hz\n".format(h=bass_note)
     textout += "scaling={s}. freq prop. to (cases/max cases)^scaling\n".format(
