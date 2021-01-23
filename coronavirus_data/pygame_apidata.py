@@ -194,7 +194,8 @@ def choose_colour(rate100k):
     return colour
         
 def overplot_fill_graph(datelist, ncases_valslist, caserate_list, max_cases,
-                        duration_arr, notetxt_arr, area, quietmode=False):
+                        duration_arr, notetxt_arr, area, quietmode=False,
+                        nodelay=False):
     '''
     overplot a fill for the line graph
     animated, delay to sync with sound
@@ -287,12 +288,12 @@ def overplot_fill_graph(datelist, ncases_valslist, caserate_list, max_cases,
                 
         curtime2 = pygame.time.get_ticks()
         # wait for the note duration, minus the time taken to execute the code
-        if not(quietmode):
+        if not(quietmode) and not(nodelay):
             pygame.time.wait(int(t*1000) - (curtime2-curtime))
 
 def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
                range_octaves=4, scaling=1, shorttext=False, duration=1,
-               quietmode=False, audioonly=False):
+               quietmode=False, audioonly=False, nodelay=False):
     textout = ""   
     bass_note = 261.63 * 2**(bass_octave-4)
     # one octave below middle C if bass-octave is its default
@@ -424,7 +425,7 @@ def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
         if not audioonly:
             overplot_fill_graph(datelist, ncases_valslist,  caserate_list,
                                 max_cases, duration_arr, notetxt_arr, area,
-                                quietmode)
+                                quietmode, nodelay)
     return textout
         
 
@@ -440,6 +441,8 @@ if __name__ == '__main__':
                               "the note not date, cases, freq etc."))
     parser.add_argument("--quietmode",action="store_true",
                         help="quiet mode (don't play audio)")
+    parser.add_argument("--nodelay",action="store_true",
+                        help="play audio, but no introduced delay")                        
     parser.add_argument("--audioonly",action="store_true",
                         help="audio only (no animated graphs, only line graph for each area)")                        
     parser.add_argument("-o", "--output", help=("Directs the text output to a "
@@ -473,14 +476,16 @@ if __name__ == '__main__':
     if args.areaselect:                
         cases_by_area = {k:v for k, v in cases_by_area.items() if q.search(k.lower())}
     notes_nations = play_audio(cases_by_area, "", 2, 6, 0.5,
-                               args.short, 0.5, args.quietmode, args.audioonly)
+                               args.short, 0.5, args.quietmode, args.audioonly,
+                               args.nodelay)
 
     # play regions of England
     cases_by_area = corona_python_text_csv_api.cases_by_region
     if args.areaselect:
         cases_by_area = {k:v for k, v in cases_by_area.items() if q.search(k.lower())}   
     notes_regions = play_audio(cases_by_area, "", 2, 6, 0.5,
-                               args.short, 0.5, args.quietmode, args.audioonly)
+                               args.short, 0.5, args.quietmode, args.audioonly,
+                               args.nodelay)
     
     # example selecting a region
     #notes_regions = play_audio(cases_by_area, ["North_West"], 2, 6, 0.5,
@@ -491,7 +496,8 @@ if __name__ == '__main__':
     if args.areaselect:
         cases_by_area = {k:v for k, v in cases_by_areaUTLA.items() if q.search(k.lower())}   
     notes_UTLAs = play_audio(cases_by_areaUTLA, "", 3, 5, 0.5,
-                             args.short, 0.5, args.quietmode, args.audioonly)
+                             args.short, 0.5, args.quietmode, args.audioonly,
+                             args.nodelay)
 
     # play LTLAs only if the command-line argument is set
     if args.ltla:
@@ -501,7 +507,8 @@ if __name__ == '__main__':
         if args.areaselect:
             cases_by_areaLTLA = {k:v for k, v in cases_by_areaLTLA.items() if q.search(k.lower())}   
         notes_LTLAs = play_audio(cases_by_areaLTLA, "", 3, 5, 0.5,
-                                 args.short, 0.5, args.quietmode, args.audioonly)                             
+                                 args.short, 0.5, args.quietmode,
+                                 args.audioonly, args.nodelay)                             
 
     if args.output:
         with open(args.output, 'w') as output_file:
