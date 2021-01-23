@@ -13,8 +13,7 @@ import os
 
 # this version uses the files generated using the Public Health England API
 # publichealthengland.github.io/coronavirus-dashboard-api-python-sdk/index.html
-# first run uk-covid19-API-download_all_utla.py
-# and uk-covid19-API-download_all_nation.py   
+# first run uk-covid19-API-download_all_nation.py   
 
 cases_by_country = defaultdict(list)
 cases_by_region = defaultdict(list)
