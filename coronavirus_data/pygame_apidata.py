@@ -120,17 +120,15 @@ def generate_sine_wave_array(freq_arr, duration_arr, wavefile = '',
         allbuf = numpy.vstack((allbuf, buf))
     
     
-    wfile = wave.open(wavefile, 'w')
-    wfile.setframerate(sample_rate)
-    wfile.setnchannels(2)
-    wfile.setsampwidth(2)
-    # write raw PyGame sound buffer to wave file
-    #wfile.writeframesraw(sound.get_raw())
-    wfile.writeframesraw(allbuf)
-    wfile.close()
-    # play once      
-    if not(quietmode):
+    if not(quietmode):    
+        wfile = wave.open(wavefile, 'w')
+        wfile.setframerate(sample_rate)
+        wfile.setnchannels(2)
+        wfile.setsampwidth(2)
+        # write raw PyGame sound buffer to wave file
         sound = pygame.sndarray.make_sound(allbuf)
+        wfile.writeframesraw(sound.get_raw())
+        wfile.close()        
         sound.play()
     # the delay is now introduced in the code for drawing the animated graph
     # time.sleep(sound.get_length())
@@ -326,11 +324,13 @@ def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
             
         total_cases = sum(ncases_valslist)        
         textout_a += f"total cases = {total_cases}\n"
-        
-        total_rate = sum(caserate_list)/7
+                
+        # discard last 7 days for calulating total rate and population
+        total_rate = sum(caserate_list[:-7])/7        
+        total_cases2 = sum(ncases_valslist[:-7])        
         textout_a += f"total rate/100k pop. = {total_rate}\n"
         
-        total_pop = round((100000/total_rate)*total_cases)
+        total_pop = round((100000/total_rate)*total_cases2)
         textout_a += f"total pop. = {total_pop}\n"
         
         # turn underscores back to spaces for captions
@@ -416,10 +416,11 @@ def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
         # if text only, just save it to file but don't play it
         # done by passing the value of quietmode to 
         # generate_sine_wave_array and overplot_fill_graph
-        wavefile = area.lower() + ".wav"
-        wavefile = os.path.join("audiofiles", wavefile)
-        soundlength = generate_sine_wave_array(freq_arr, duration_arr,
-                                               wavefile, quietmode)
+        if not quietmode:
+            wavefile = area.lower() + ".wav"
+            wavefile = os.path.join("audiofiles", wavefile)
+            soundlength = generate_sine_wave_array(freq_arr, duration_arr,
+                                                   wavefile, quietmode)
         if not audioonly:
             overplot_fill_graph(datelist, ncases_valslist,  caserate_list,
                                 max_cases, duration_arr, notetxt_arr, area,
@@ -438,7 +439,7 @@ if __name__ == '__main__':
                         help=("shorter form text output with just "
                               "the note not date, cases, freq etc."))
     parser.add_argument("--quietmode",action="store_true",
-                        help="quiet mode (don't play audio but still save to a file)")
+                        help="quiet mode (don't play audio)")
     parser.add_argument("--audioonly",action="store_true",
                         help="audio only (no animated graphs, only line graph for each area)")                        
     parser.add_argument("-o", "--output", help=("Directs the text output to a "
