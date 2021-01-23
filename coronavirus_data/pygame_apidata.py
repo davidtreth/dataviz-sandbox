@@ -91,7 +91,7 @@ def generate_sine_wave_array(freq_arr, duration_arr, wavefile = '',
     # create one buffer for the whole array
     allbuf = numpy.zeros((0,2), dtype=numpy.int16)
     for frequency, duration in zip(freq_arr, duration_arr):
-        print(frequency, duration)
+        #print(frequency, duration)
         if sample_rate < (frequency * 2):
             print(
             'Warning: sample_rate must be at least double the frequency '
@@ -115,20 +115,22 @@ def generate_sine_wave_array(freq_arr, duration_arr, wavefile = '',
         for k in range(num_samples):
             buf[k][0] = s(k)*((num_samples-k)/num_samples)
             buf[k][1] = s(k)*((num_samples-k)/num_samples)
-        print(buf)
+        #print(buf)
         # add this note to the buffer
         allbuf = numpy.vstack((allbuf, buf))
-    sound = pygame.sndarray.make_sound(allbuf)
+    
     
     wfile = wave.open(wavefile, 'w')
     wfile.setframerate(sample_rate)
     wfile.setnchannels(2)
     wfile.setsampwidth(2)
     # write raw PyGame sound buffer to wave file
-    wfile.writeframesraw(sound.get_raw())
+    #wfile.writeframesraw(sound.get_raw())
+    wfile.writeframesraw(allbuf)
     wfile.close()
     # play once      
     if not(quietmode):
+        sound = pygame.sndarray.make_sound(allbuf)
         sound.play()
     # the delay is now introduced in the code for drawing the animated graph
     # time.sleep(sound.get_length())
@@ -156,13 +158,15 @@ def generate_sine_wave_array(freq_arr, duration_arr, wavefile = '',
 notes = ["C ", "C♯", "D ", "E♭", "E ", "F ",
          "F♯", "G ", "A♭", "A ", "B♭", "B "]
 
-def draw_graph_pygame(datelist, ncases_valslist, max_cases, area):
+def draw_graph_pygame(datelist, ncases_valslist, max_cases, area, population):
     '''
     draw a line graph in a pygame window
     '''
+    arealabel = f"{area}      pop. {population}"
     display_surf.fill(black)
-    img = font2.render(area, True, green, black)        
-    display_surf.blit(img, (20, 20))    
+    img = font2.render(arealabel, True, green, black)        
+    display_surf.blit(img, (20, 20))
+    
     win_h = size[1]
     win_w = size[0]
     npoints = len(ncases_valslist)
@@ -206,6 +210,7 @@ def overplot_fill_graph(datelist, ncases_valslist, caserate_list, max_cases,
     # by default set to 0.5 seconds in call to function play_audio()
     min_duration = max(duration_arr)/4
     pngfilecount = 0
+    Ntotal = 0
     for i, (d, n, r, t, m) in enumerate(zip(datelist, ncases_valslist,
                                             caserate_list,
                                             duration_arr, notetxt_arr)):
@@ -249,6 +254,16 @@ def overplot_fill_graph(datelist, ncases_valslist, caserate_list, max_cases,
         display_surf.blit(img, (900, 120))
         
         pygame.display.flip()
+        
+        # write total number of cases
+        Ntotal += n
+        if Ntotal == 1:
+            img = font2.render(f"{Ntotal:8} case  ", True, green, black)        
+        elif Ntotal == 0:
+            img = font2.render(f"{Ntotal:8} cases  ", True, green, black)
+        else:
+            img = font2.render(f"{Ntotal:8} cases in total to date ", True, green, black)        
+        display_surf.blit(img, (350, 220))        
         # save png file
         # these can be converted to video using ffmpeg
         # hamelot.io/
@@ -279,7 +294,7 @@ def overplot_fill_graph(datelist, ncases_valslist, caserate_list, max_cases,
 
 def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
                range_octaves=4, scaling=1, shorttext=False, duration=1,
-               quietmode=False):
+               quietmode=False, audioonly=False):
     textout = ""   
     bass_note = 261.63 * 2**(bass_octave-4)
     # one octave below middle C if bass-octave is its default
@@ -308,6 +323,16 @@ def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
         if max_cases == 0:
             print(f"no cases in {area}, skipping")
             continue
+            
+        total_cases = sum(ncases_valslist)        
+        textout_a += f"total cases = {total_cases}\n"
+        
+        total_rate = sum(caserate_list)/7
+        textout_a += f"total rate/100k pop. = {total_rate}\n"
+        
+        total_pop = round((100000/total_rate)*total_cases)
+        textout_a += f"total pop. = {total_pop}\n"
+        
         # turn underscores back to spaces for captions
         area_l = area.replace("_", " ")
         pygame.display.set_caption(
@@ -322,7 +347,8 @@ def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
         caserate_list = caserate_list[firstnonzero:]
         
         # draw the line graph for the area
-        draw_graph_pygame(datelist, ncases_valslist, max_cases, area_l)
+        draw_graph_pygame(datelist, ncases_valslist, max_cases,
+                          area_l, total_pop)
         
         # generate the frequencies, durations, and musical note texts
         freq_arr = []
@@ -394,9 +420,10 @@ def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
         wavefile = os.path.join("audiofiles", wavefile)
         soundlength = generate_sine_wave_array(freq_arr, duration_arr,
                                                wavefile, quietmode)
-        overplot_fill_graph(datelist, ncases_valslist,  caserate_list,
-                            max_cases, duration_arr, notetxt_arr, area,
-                            quietmode)
+        if not audioonly:
+            overplot_fill_graph(datelist, ncases_valslist,  caserate_list,
+                                max_cases, duration_arr, notetxt_arr, area,
+                                quietmode)
     return textout
         
 
@@ -411,7 +438,9 @@ if __name__ == '__main__':
                         help=("shorter form text output with just "
                               "the note not date, cases, freq etc."))
     parser.add_argument("--quietmode",action="store_true",
-                        help="quiet mode(don't play audio)")
+                        help="quiet mode (don't play audio but still save to a file)")
+    parser.add_argument("--audioonly",action="store_true",
+                        help="audio only (no animated graphs, only line graph for each area)")                        
     parser.add_argument("-o", "--output", help=("Directs the text output to a "
                                                 "filename of your choice"))
     parser.add_argument("-a", "--areaselect", help=("Select areas containing"
@@ -442,26 +471,26 @@ if __name__ == '__main__':
 
     if args.areaselect:                
         cases_by_area = {k:v for k, v in cases_by_area.items() if q.search(k.lower())}
-    #notes_nations = play_audio(cases_by_area, "", 2, 6, 0.5,
-    #                           args.short, 0.5, args.quietmode)
+    notes_nations = play_audio(cases_by_area, "", 2, 6, 0.5,
+                               args.short, 0.5, args.quietmode, args.audioonly)
 
     # play regions of England
     cases_by_area = corona_python_text_csv_api.cases_by_region
     if args.areaselect:
         cases_by_area = {k:v for k, v in cases_by_area.items() if q.search(k.lower())}   
-    #notes_regions = play_audio(cases_by_area, "", 2, 6, 0.5,
-    #                           args.short, 0.5, args.quietmode)
+    notes_regions = play_audio(cases_by_area, "", 2, 6, 0.5,
+                               args.short, 0.5, args.quietmode, args.audioonly)
     
     # example selecting a region
     #notes_regions = play_audio(cases_by_area, ["North_West"], 2, 6, 0.5,
-    #                           args.short, 0.5, args.quietmode)
+    #                           args.short, 0.5, args.quietmode, args.audioonly)
 
     # play UTLAs
     cases_by_areaUTLA = corona_python_text_csv_api.cases_by_UTLA
     if args.areaselect:
         cases_by_area = {k:v for k, v in cases_by_areaUTLA.items() if q.search(k.lower())}   
-    #notes_UTLAs = play_audio(cases_by_areaUTLA, "", 3, 5, 0.5,
-    #                         args.short, 0.5, args.quietmode)
+    notes_UTLAs = play_audio(cases_by_areaUTLA, "", 3, 5, 0.5,
+                             args.short, 0.5, args.quietmode, args.audioonly)
 
     # play LTLAs only if the command-line argument is set
     if args.ltla:
@@ -471,7 +500,7 @@ if __name__ == '__main__':
         if args.areaselect:
             cases_by_areaLTLA = {k:v for k, v in cases_by_areaLTLA.items() if q.search(k.lower())}   
         notes_LTLAs = play_audio(cases_by_areaLTLA, "", 3, 5, 0.5,
-                                 args.short, 0.5, args.quietmode)                             
+                                 args.short, 0.5, args.quietmode, args.audioonly)                             
 
     if args.output:
         with open(args.output, 'w') as output_file:
