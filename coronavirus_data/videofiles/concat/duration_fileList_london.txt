@@ -1,33 +1,33 @@
 London: 0:00:00
-Barking and Dagenham: 0:02:09
-Barnet: 0:04:24
-Bexley: 0:06:37
-Brent: 0:08:46
-Bromley: 0:10:49
-Camden: 0:13:04
-Croydon: 0:15:17
-Ealing: 0:17:27
-Enfield: 0:19:39
-Greenwich: 0:21:49
-Hackney and City of London: 0:23:58
-Hammersmith and Fulham: 0:26:09
-Haringey: 0:28:40
-Harrow: 0:30:55
-Havering: 0:33:07
-Hillingdon: 0:35:22
-Hounslow: 0:37:36
-Islington: 0:39:50
-Kensington and Chelsea: 0:41:58
-Kingston upon Thames: 0:44:15
-Lambeth: 0:46:25
-Lewisham: 0:48:43
-Merton: 0:51:11
-Newham: 0:53:31
-Redbridge: 0:55:40
-Richmond upon Thames: 0:57:54
-Southwark: 1:00:08
-Sutton: 1:02:27
-Tower Hamlets: 1:04:42
-Waltham Forest: 1:06:55
-Wandsworth: 1:09:06
-Westminster: 1:11:17
+Barking and Dagenham: 0:02:11
+Barnet: 0:04:28
+Bexley: 0:06:44
+Brent: 0:08:56
+Bromley: 0:11:01
+Camden: 0:13:32
+Croydon: 0:15:48
+Ealing: 0:18:00
+Enfield: 0:20:14
+Greenwich: 0:22:27
+Hackney and City of London: 0:24:38
+Hammersmith and Fulham: 0:26:51
+Haringey: 0:29:26
+Harrow: 0:31:43
+Havering: 0:33:56
+Hillingdon: 0:36:13
+Hounslow: 0:38:29
+Islington: 0:40:44
+Kensington and Chelsea: 0:42:55
+Kingston upon Thames: 0:45:14
+Lambeth: 0:47:26
+Lewisham: 0:49:47
+Merton: 0:52:17
+Newham: 0:54:39
+Redbridge: 0:56:50
+Richmond upon Thames: 0:59:08
+Southwark: 1:01:24
+Sutton: 1:03:46
+Tower Hamlets: 1:06:03
+Waltham Forest: 1:08:18
+Wandsworth: 1:10:31
+Westminster: 1:12:44

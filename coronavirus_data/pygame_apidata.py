@@ -494,7 +494,7 @@ if __name__ == '__main__':
     # play UTLAs
     cases_by_areaUTLA = corona_python_text_csv_api.cases_by_UTLA
     if args.areaselect:
-        cases_by_area = {k:v for k, v in cases_by_areaUTLA.items() if q.search(k.lower())}   
+        cases_by_areaUTLA = {k:v for k, v in cases_by_areaUTLA.items() if q.search(k.lower())}   
     notes_UTLAs = play_audio(cases_by_areaUTLA, "", 3, 5, 0.5,
                              args.short, 0.5, args.quietmode, args.audioonly,
                              args.nodelay)

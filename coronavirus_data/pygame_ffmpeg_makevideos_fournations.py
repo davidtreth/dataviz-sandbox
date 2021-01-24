@@ -19,3 +19,4 @@ def create_video(areaname):
         
 
 create_video("four_nations")
+create_video("four_nations_globalmax")

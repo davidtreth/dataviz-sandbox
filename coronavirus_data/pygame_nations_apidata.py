@@ -129,13 +129,12 @@ def generate_sine_wave_array4(freq_arr_all,
             sound = pygame.sndarray.make_sound(allbuf2)
     
     
-    wfile = wave.open(wavefile, 'w')
-    wfile.setframerate(sample_rate)
-    wfile.setnchannels(2)
-    wfile.setsampwidth(2)
-    # write raw PyGame sound buffer to wave file
-    wfile.writeframesraw(sound.get_raw())
-    if not(quietmode):
+        wfile = wave.open(wavefile, 'w')
+        wfile.setframerate(sample_rate)
+        wfile.setnchannels(2)
+        wfile.setsampwidth(2)
+        # write raw PyGame sound buffer to wave file
+        wfile.writeframesraw(sound.get_raw())
         # play once      
         sound.play()
     # the delay is now introduced in the code for drawing the animated graph
@@ -165,7 +164,7 @@ notes = ["C ", "C♯", "D ", "E♭", "E ", "F ",
          "F♯", "G ", "A♭", "A ", "B♭", "B "]
 
 def draw_graph_pygame(datelists, ncases_valslists, max_cases_all, area_l_all,
-                      num_x, num_y):
+                      num_x, num_y, normfactors):
     '''
     draw a line graph in a pygame window
     '''
@@ -173,28 +172,26 @@ def draw_graph_pygame(datelists, ncases_valslists, max_cases_all, area_l_all,
     win_h = size[1]
     win_w = size[0]
     numareas = len(max_cases_all)
-    k = 0
     
     win_h_i = win_h / num_x
     win_w_i = win_w / num_y
     
-    while k < numareas:
-        for i in range(num_x):
-            for j in range(num_y):            
-                img = font2.render(area_l_all[k], True, green, black)        
-                display_surf.blit(img, (20+i*win_w_i, 20+j*win_h_i))    
+    for i in range(num_x):
+        for j in range(num_y):
+            k2 = 2*i + j                            
+            img = font2.render(area_l_all[k2], True, green, black)        
+            display_surf.blit(img, (20+i*win_w_i, 20+j*win_h_i))    
 
-                npoints = len(ncases_valslists[k])
-                points = [[i*win_w_i,(j+1)*win_h_i]]
-                #print(f"i,j = {i}, {j}. points = {points}")
-                for r, (d, n) in enumerate(zip(datelists[k],
-                                               ncases_valslists[k])):
-                    x = int((r/npoints) * win_w_i)
-                    y = int(win_h_i - (n/max_cases_all[k]) * win_h_i)
-                    points.append([i*win_w_i + x, j*win_h_i + y])
-                #print(f"i,j = {i}, {j}. points = {points}")
-                pygame.draw.lines(display_surf, green, False, points, 3)
-                k += 1
+            npoints = len(ncases_valslists[k2])
+            points = [[i*win_w_i,(j+1)*win_h_i]]
+            #print(f"i,j = {i}, {j}. points = {points}")
+            for r, (d, n) in enumerate(zip(datelists[k2],
+                                           ncases_valslists[k2])):
+                x = int((r/npoints) * win_w_i)
+                y = int(win_h_i - (n*normfactors[k2]/max_cases_all[k2]) * win_h_i)
+                points.append([i*win_w_i + x, j*win_h_i + y])
+            #print(f"i,j = {i}, {j}. points = {points}")
+            pygame.draw.lines(display_surf, green, False, points, 3)
     pygame.display.flip()
 
 def choose_colour(rate100k):
@@ -215,7 +212,8 @@ def choose_colour(rate100k):
     return colour
         
 def overplot_fill_graph(datelists, ncases_valslists, caserate_lists,
-                        max_cases_all, notetxt_arr_all, area_l_all, quietmode=False):
+                        max_cases_all, notetxt_arr_all, area_l_all,
+                        normfactors, quietmode=False, globalmax=False):
     '''
     overplot a fill for the line graph
     animated, delay to sync with sound
@@ -229,6 +227,7 @@ def overplot_fill_graph(datelists, ncases_valslists, caserate_lists,
     numareas = len(max_cases_all)
     k = 0
     pngfilecount = 0
+    Ntotal = numpy.zeros(numareas, dtype=int) #cumulative number of cases
     win_h_i = win_h / num_x
     win_w_i = win_w / num_y
     
@@ -245,7 +244,7 @@ def overplot_fill_graph(datelists, ncases_valslists, caserate_lists,
                                                                                          
                 # draw a vertical line
                 x = int(i*win_w_i+((q/npoints) * win_w_i))
-                y = int((j+1)*win_h_i - (ncases_valslists[k2][q]/max_cases_all[k2]) * win_h_i)
+                y = int((j+1)*win_h_i - (ncases_valslists[k2][q]*normfactors[k2]/max_cases_all[k2]) * win_h_i)
                 # if its the first of the month
                 if datelists[k2][q][-2:] == "01":
                     pygame.draw.line(display_surf, darkgreen, [x, (j+1)*win_h_i], [x, j*win_h_i], 1)
@@ -282,16 +281,27 @@ def overplot_fill_graph(datelists, ncases_valslists, caserate_lists,
                 img = font2.render(f"{caserate_lists[k2][q]} /100k last 7 days  ", True, green, black)        
                 display_surf.blit(img, (i*win_w_i+450,j*win_h_i+ 70))
 
-                
-        
                 pygame.display.flip()
+                # write total number of cases
+                Ntotal[k2] += ncases_valslists[k2][q]
+                if Ntotal[k2] == 1:
+                    img = font2.render(f"{Ntotal[k2]:8} case  ", True, green, black)        
+                elif Ntotal[k2] == 0:
+                    img = font2.render(f"{Ntotal[k2]:8} cases  ", True, green, black)
+                else:
+                    img = font2.render(f"{Ntotal[k2]:8} cases in total to date ", True, green, black)
+                display_surf.blit(img, (i*win_w_i + 170,j*win_h_i + 120))                                            
                 # save png file
                 # these can be converted to video using ffmpeg
                 # hamelot.io/
                 # visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video
-                # print(t/min_duration)                        
-                pngfile = os.path.join("graphfiles",
-                           f"four_nations_{pngfilecount:05}.png")
+                # print(t/min_duration)
+                if globalmax:                        
+                    pngfile = os.path.join("graphfiles",
+                           f"four_nations_globalmax_{pngfilecount:05}.png")
+                else:
+                    pngfile = os.path.join("graphfiles",
+                            f"four_nations_{pngfilecount:05}.png")
 
                 pygame.image.save(display_surf, pngfile)                 
         if k2+1 == numareas:               
@@ -304,7 +314,7 @@ def overplot_fill_graph(datelists, ncases_valslists, caserate_lists,
 
 def play_audio(cases_by_area, selected_areas, num_x, num_y, bass_octave = 3,
                range_octaves=4, scaling=1, shorttext=False, duration=1,
-               quietmode=False):
+               quietmode=False, globalmax=False):
     textout = ""   
     bass_note = 261.63 * 2**(bass_octave-4)
     # one octave below middle C if bass-octave is its default
@@ -316,9 +326,33 @@ def play_audio(cases_by_area, selected_areas, num_x, num_y, bass_octave = 3,
     ncases_valslists = []
     caserate_lists = []
     max_cases_all = []
+    normfactors = []
+    normdict = {}
     area_l_all = []
     freq_arr_all = []
     notetxt_arr_all = []
+    if globalmax:
+        globalmaxcases = 0
+        globalmaxrate = 0
+        for a in selected_areas:
+            for d in cases_by_area[a]:
+                globalmaxcases = max(globalmaxcases, d[1])
+                globalmaxrate = max(globalmaxrate, d[2])
+            caserate_list = [i[2] for i in cases_by_area[a]]
+            normfactor = max(caserate_list)/globalmaxrate
+            print(f"area: {a}, normfactor {normfactor}")
+            normfactors.append(normfactor)
+            normdict[a] = normfactor
+        print(f"globalmaxcases = {globalmaxcases}")
+        print(f"globalmaxrate = {globalmaxrate}")                        
+    else:
+        normfactors = [1 for a in selected_areas]
+        for a in selected_areas:
+            normdict[a] = 1
+    print(normdict)
+        
+                                        
+
     pygame.display.set_caption(
             f"SARS-CoV2 cases by specimen date in selected areas")    
     for area in sorted(selected_areas):
@@ -336,14 +370,27 @@ def play_audio(cases_by_area, selected_areas, num_x, num_y, bass_octave = 3,
 
         textout_a += area + "\n"
         max_cases = max(ncases_valslist)
-        # print(max(ncases_valslist))
+        # print(max(ncases_valslist))        
         textout_a += f"max cases = {max_cases}\n"
         if max_cases == 0:
             print(f"no cases in {area}, skipping")
             continue
+
+            
+        total_cases = sum(ncases_valslist)
+        textout_a += f"total cases = {total_cases}\n"
+        # not including last 7 days
+        total_rate = sum(caserate_list[:-7])/7
+        total_cases2 = sum(ncases_valslist[:-7])
+        textout_a += f"total rate/100k pop. = {total_rate}\n"
+        
+        total_pop = round((100000/total_rate)*total_cases2)
+        textout_a += f"total pop. = {total_pop}\n"        
+        
         # turn underscores back to spaces for captions
         area_l = area.replace("_", " ")
-
+        # add population label
+        area_l = f"{area_l}  pop. {total_pop}"
         
         # find occurance of 1st case in the area
         #ncases_numpy = numpy.array(ncases_valslist, dtype=int)
@@ -358,7 +405,7 @@ def play_audio(cases_by_area, selected_areas, num_x, num_y, bass_octave = 3,
         notetxt_arr = []
         for i, n in enumerate(zip(datelist, ncases_valslist, caserate_list)):
             # range of 4 octaves by default
-            octaves = range_octaves*((n[1]/max_cases)**scaling)
+            octaves = range_octaves*((n[1]*normdict[area]/max_cases)**scaling)
             # quantise to the nearest semitone
             octaves = math.floor(octaves*12.0)/12.0
             # calculate frequency
@@ -402,16 +449,19 @@ def play_audio(cases_by_area, selected_areas, num_x, num_y, bass_octave = 3,
     # if text only, just save it to file but don't play it
     # done by passing the value of quietmode to 
     # generate_sine_wave_array and overplot_fill_graph
-    wavefile = "four_nations.wav"
+    if globalmax:
+        wavefile = "four_nations_globalmax.wav"
+    else:
+        wavefile = "four_nations.wav"
     wavefile = os.path.join("audiofiles", wavefile)
     soundlength = generate_sine_wave_array4(freq_arr_all, 0.5,
                                            wavefile, quietmode=False)
     # draw the line graph for the areas
     draw_graph_pygame(datelists, ncases_valslists, max_cases_all, area_l_all,
-                      num_x, num_y)                                                
+                      num_x, num_y, normfactors)                                                
     overplot_fill_graph(datelists, ncases_valslists,  caserate_lists,
                             max_cases_all, notetxt_arr_all, area_l_all,
-                            quietmode)
+                            normfactors, quietmode, globalmax)
     return textout
         
 
@@ -429,17 +479,20 @@ if __name__ == '__main__':
                         help="quiet mode(don't play audio)")
     parser.add_argument("-o", "--output", help=("Directs the text output to a "
                                                 "filename of your choice"))
+    parser.add_argument("--globalmax",action="store_true",
+                        help="use a global maximum for all areas, rather than"       
+                             "normalising for each")                            
                                                 
     args = parser.parse_args()    
     
     # play the UK and nations cases, with square root scaling            
     cases_by_area = corona_python_text_csv_api.cases_by_country
     # print(cases_by_area)
-    nations = ["Northern_Ireland", "Scotland", "Wales", "England"]
+    nations = ["England", "Northern_Ireland", "Scotland", "Wales"]
     num_x = 2
     num_y = 2
     notes_nations = play_audio(cases_by_area, nations, num_x, num_y, 2, 6, 0.5,
-                               args.short, 0.5, args.quietmode)
+                               args.short, 0.5, args.quietmode, args.globalmax)
 
     # play regions of England
     #cases_by_area = corona_python_text_csv_api.cases_by_region

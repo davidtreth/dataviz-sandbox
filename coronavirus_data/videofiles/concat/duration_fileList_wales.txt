@@ -1,23 +1,23 @@
 Wales: 0:00:00
-Blaenau Gwent: 0:01:58
-Bridgend: 0:04:14
-Caerphilly: 0:06:26
-Cardiff: 0:08:39
-Carmarthenshire: 0:10:47
-Ceredigion: 0:13:01
-Conwy: 0:15:23
-Denbighshire: 0:17:35
-Flintshire: 0:19:47
-Gwynedd: 0:22:03
-Isle of Anglesey: 0:24:19
-Merthyr Tydfil: 0:26:40
-Monmouthshire: 0:28:55
-Neath Port Talbot: 0:31:15
-Newport: 0:33:29
-Pembrokeshire: 0:35:42
-Powys: 0:38:03
-Rhondda Cynon Taf: 0:40:22
-Swansea: 0:42:29
-Torfaen: 0:44:45
-Vale of Glamorgan: 0:47:04
-Wrexham: 0:49:15
+Blaenau Gwent: 0:02:00
+Bridgend: 0:04:19
+Caerphilly: 0:06:34
+Cardiff: 0:08:49
+Carmarthenshire: 0:10:59
+Ceredigion: 0:13:15
+Conwy: 0:15:40
+Denbighshire: 0:17:55
+Flintshire: 0:20:10
+Gwynedd: 0:22:28
+Isle of Anglesey: 0:24:47
+Merthyr Tydfil: 0:27:12
+Monmouthshire: 0:29:29
+Neath Port Talbot: 0:31:52
+Newport: 0:34:09
+Pembrokeshire: 0:36:25
+Powys: 0:38:49
+Rhondda Cynon Taf: 0:41:11
+Swansea: 0:43:20
+Torfaen: 0:45:38
+Vale of Glamorgan: 0:47:59
+Wrexham: 0:50:13
