@@ -154,8 +154,8 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
         # and apostrophes
         # only Na h-Eileanan_Siar has a hyphen
         # it had previously been listed as Comhairle nan Eilean Siar
-        outfilename = f'{a.replace(" ", "_").replace("-", "_").replace("'", "").replace(",", "")}-cases.csv'
-
+        outfilename = f'{a.replace(" ", "_").replace("-", "_")}-cases.csv'        
+        outfilename = outfilename.replace("'","").replace(",", "")
         outfilename = os.path.join(outdir, outfilename)
         with open(outfilename, 'w', newline='') as csvfile:
             fieldnames = ['date', 'newCasesBySpecimenDate',
