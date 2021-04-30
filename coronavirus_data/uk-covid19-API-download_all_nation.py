@@ -7,6 +7,7 @@ import datetime
 import os
 import numpy as np
 from collections import defaultdict
+import time
 
 now = datetime.datetime.today()
 
@@ -67,7 +68,7 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
             structure=cases_spec_pub
         )
     data = api.get_json()
-    # print(data)
+    #print(data)
 
     # collect names of the areas
     all_UTLAs = []
@@ -90,7 +91,14 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
             utladata_day = [
                         d for d in utladata if datetime.datetime.fromisoformat(
                         d['date']) == date]
-            
+            # expect only one set of data for each area for any given day
+            # but I had some problems on this on 30-04-2021
+            # therefore truncate to a list containing only the first element
+            print(a, utladata_day)
+            try:
+                assert(len(utladata_day)<=1)
+            except:
+                utladata_day = utladata_day[:1]
             for i, k in enumerate(utladata_day):
                 newSpec = k['newCasesBySpecimenDate']
                 newPub = k['newCasesByPublishDate']
@@ -109,15 +117,18 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
                 nonzero += newPub
                 if nonzero > 0:
                     cumSpecRatearr[a].append(rateSpec)
+                    #time.sleep(0.1)
                     #print(cumSpecRatearr[a])
                     # the last 8 days including the current day
                     cumSpecRate7Dayarr = cumSpecRatearr[a][-8:]
+                    print(cumSpecRate7Dayarr)
                     # if the last value for the cumulative case rate by specimen date
-                    # is zero, as long as it isn't the first day of the data,
+                    # is zero or None, as long as it isn't the first day of the data,
                     # use the previous day's data going back 8 days from there
-                    if len(cumSpecRate7Dayarr) > 1 and cumSpecRate7Dayarr[-1] == 0 and cumSpecRate7Dayarr[-2] > 0:
+                    if len(cumSpecRate7Dayarr) > 1 and (cumSpecRate7Dayarr[-1] == 0 or cumSpecRate7Dayarr[-1] is None) and cumSpecRate7Dayarr[-2] > 0:
                         cumSpecRate7Dayarr = cumSpecRatearr[a][-9:-1]
                     # last day of data - day 7 days previous
+                    # print(cumSpecRate7Dayarr[-1], cumSpecRate7Dayarr[0])
                     cumSpecRateLast7Day = cumSpecRate7Dayarr[-1] - cumSpecRate7Dayarr[0]
                     cumSpecRateLast7Day = round(cumSpecRateLast7Day, 1)
                     # print(cumSpecRate7Dayarr, cumSpecRateLast7Day)
