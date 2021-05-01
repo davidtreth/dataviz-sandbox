@@ -94,10 +94,12 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
             # expect only one set of data for each area for any given day
             # but I had some problems on this on 30-04-2021
             # therefore truncate to a list containing only the first element
-            print(a, utladata_day)
+            # print(a, utladata_day)
             try:
                 assert(len(utladata_day)<=1)
             except:
+                print(a, utladata_day)
+                time.sleep(5)
                 utladata_day = utladata_day[:1]
             for i, k in enumerate(utladata_day):
                 newSpec = k['newCasesBySpecimenDate']
@@ -121,7 +123,7 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
                     #print(cumSpecRatearr[a])
                     # the last 8 days including the current day
                     cumSpecRate7Dayarr = cumSpecRatearr[a][-8:]
-                    print(cumSpecRate7Dayarr)
+                    # print(cumSpecRate7Dayarr)
                     # if the last value for the cumulative case rate by specimen date
                     # is zero or None, as long as it isn't the first day of the data,
                     # use the previous day's data going back 8 days from there
@@ -132,8 +134,8 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
                     cumSpecRateLast7Day = cumSpecRate7Dayarr[-1] - cumSpecRate7Dayarr[0]
                     cumSpecRateLast7Day = round(cumSpecRateLast7Day, 1)
                     # print(cumSpecRate7Dayarr, cumSpecRateLast7Day)
-                    print(a, k['date'], newSpec, newPub, rateSpec,
-                    cumSpecRateLast7Day)
+                    # print(a, k['date'], newSpec, newPub, rateSpec,
+                    # cumSpecRateLast7Day)
                     datearr[a].append(k['date'])
                     newSpecarr[a].append(newSpec)
                     newPubarr[a].append(newPub)
