@@ -79,10 +79,10 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
 
     all_UTLAs = sorted(all_UTLAs)
     # print(all_UTLAs)
-    
+    print(areatype)
     while(date < now):
         y, m, day = date.year, date.month, date.day
-        # print(f"{y:d}-{m:02}-{day:02}")
+        #print(f"{y:d}-{m:02}-{day:02}")
         for a in all_UTLAs:
             # print(a, end = ": ")
             # select out the data for each area
@@ -94,12 +94,12 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
             # expect only one set of data for each area for any given day
             # but I had some problems on this on 30-04-2021
             # therefore truncate to a list containing only the first element
-            # print(a, utladata_day)
+            # print(a, utladata_day)            
             try:
                 assert(len(utladata_day)<=1)
             except:
                 print(a, utladata_day)
-                time.sleep(5)
+                time.sleep(7)
                 utladata_day = utladata_day[:1]
             for i, k in enumerate(utladata_day):
                 newSpec = k['newCasesBySpecimenDate']

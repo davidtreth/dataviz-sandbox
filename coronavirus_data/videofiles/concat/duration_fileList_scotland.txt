@@ -1,33 +1,33 @@
 Scotland: 0:00:00
-Aberdeen City: 0:02:29
-Aberdeenshire: 0:05:31
-Angus: 0:08:32
-Argyll and Bute: 0:11:43
-City of Edinburgh: 0:14:49
-Clackmannanshire: 0:17:35
-Dumfries and Galloway: 0:20:42
-Dundee City: 0:23:40
-East Ayrshire: 0:26:37
-East Dunbartonshire: 0:29:28
-East Lothian: 0:32:23
-East Renfrewshire: 0:35:21
-Falkirk: 0:38:12
-Fife: 0:41:07
-Glasgow City: 0:43:56
-Highland: 0:46:32
-Inverclyde: 0:49:35
-Midlothian: 0:52:33
-Moray: 0:55:36
-Na h Eileanan Siar: 0:58:43
-North Ayrshire: 1:01:53
-North Lanarkshire: 1:04:48
-Orkney Islands: 1:07:29
-Perth and Kinross: 1:10:39
-Renfrewshire: 1:13:39
-Scottish Borders: 1:16:26
-Shetland Islands: 1:19:32
-South Ayrshire: 1:22:52
-South Lanarkshire: 1:25:49
-Stirling: 1:28:34
-West Dunbartonshire: 1:31:38
-West Lothian: 1:34:40
+Aberdeen City: 0:02:34
+Aberdeenshire: 0:05:43
+Angus: 0:08:51
+Argyll and Bute: 0:12:09
+City of Edinburgh: 0:15:22
+Clackmannanshire: 0:18:14
+Dumfries and Galloway: 0:21:27
+Dundee City: 0:24:32
+East Ayrshire: 0:27:35
+East Dunbartonshire: 0:30:32
+East Lothian: 0:33:34
+East Renfrewshire: 0:36:39
+Falkirk: 0:39:36
+Fife: 0:42:39
+Glasgow City: 0:45:34
+Highland: 0:48:15
+Inverclyde: 0:51:25
+Midlothian: 0:54:30
+Moray: 0:57:41
+Na h Eileanan Siar: 1:00:54
+North Ayrshire: 1:04:11
+North Lanarkshire: 1:07:13
+Orkney Islands: 1:10:00
+Perth and Kinross: 1:13:17
+Renfrewshire: 1:16:24
+Scottish Borders: 1:19:17
+Shetland Islands: 1:22:30
+South Ayrshire: 1:25:57
+South Lanarkshire: 1:29:02
+Stirling: 1:31:54
+West Dunbartonshire: 1:35:05
+West Lothian: 1:38:13
