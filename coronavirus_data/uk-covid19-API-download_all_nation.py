@@ -98,9 +98,24 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
             try:
                 assert(len(utladata_day)<=1)
             except:
-                print(a, utladata_day)
-                time.sleep(7)
-                utladata_day = utladata_day[:1]
+                print(a, end=": ")
+                for k in utladata_day:
+                    print(k)
+                # select the elements where there is data for the cases by
+                # specimen date rate
+                utladata_day2 = [
+                   a for a in utladata_day if a['cumCasesBySpecimenDateRate']
+                   is not None]
+                # if none of the elements have data for cases by specimen date
+                # rate then select all of them
+                if len(utladata_day2) == 0:
+                    utladata_day2 = utladata_day
+                
+                # select the first one, that has data if possible
+                utladata_day = utladata_day2[:1]
+                print(a, end=": ")
+                print(utladata_day)
+                time.sleep(3)
             for i, k in enumerate(utladata_day):
                 newSpec = k['newCasesBySpecimenDate']
                 newPub = k['newCasesByPublishDate']
