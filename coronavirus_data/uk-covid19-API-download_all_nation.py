@@ -101,18 +101,28 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
                 print(a, end=": ")
                 for k in utladata_day:
                     print(k)
-                # select the elements where there is data for the cases by
+                # select where there is data for the cases by
                 # specimen date rate
-                utladata_day2 = [
-                   a for a in utladata_day if a['cumCasesBySpecimenDateRate']
-                   is not None]
-                # if none of the elements have data for cases by specimen date
-                # rate then select all of them
-                if len(utladata_day2) == 0:
-                    utladata_day2 = utladata_day
-                
-                # select the first one, that has data if possible
-                utladata_day = utladata_day2[:1]
+                utladata_day2 = {'date': None, 'areaName': None,
+                'areaCode': None, 'newCasesByPublishDate': None,
+                'newCasesBySpecimenDate': None,
+                'cumCasesBySpecimenDateRate': None}
+                for k in utladata_day:
+                    if utladata_day2['date'] is None:
+                        utladata_day2['date'] = k['date']
+                    if utladata_day2['areaName'] is None:
+                        utladata_day2['areaName'] = k['areaName']
+                    if utladata_day2['areaCode'] is None:
+                        utladata_day2['areaCode'] = k['areaCode']
+                    if utladata_day2['newCasesByPublishDate'] is None:
+                        utladata_day2['newCasesByPublishDate'] = k['newCasesByPublishDate']
+                    if utladata_day2['newCasesBySpecimenDate'] is None:
+                        utladata_day2['newCasesBySpecimenDate'] = k['newCasesBySpecimenDate']
+                    if utladata_day2['cumCasesBySpecimenDateRate'] is None:
+                        utladata_day2['cumCasesBySpecimenDateRate'] = k['cumCasesBySpecimenDateRate']
+                # replace with consolidated version which selects
+                # where there is data
+                utladata_day = [utladata_day2]
                 print(a, end=": ")
                 print(utladata_day)
                 time.sleep(3)
@@ -133,6 +143,9 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
                 nonzero += newSpec
                 nonzero += newPub
                 if nonzero > 0:
+                    # print(rateSpec)
+                    # print(a)
+                    # print(cumSpecRatearr[a])
                     cumSpecRatearr[a].append(rateSpec)
                     #time.sleep(0.1)
                     #print(cumSpecRatearr[a])
