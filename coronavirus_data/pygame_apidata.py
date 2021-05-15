@@ -30,6 +30,13 @@ import corona_python_text_csv_api
 size = (1920, 1080)
 # bits in the sound samples to be generated
 bits = 16
+
+# for labelling of y-axis
+dailycasenums = [1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000,
+                 20000, 50000, 100000]
+rates7day = [50.0, 100.0, 200.0, 400.0, 800.0, 1600.0]                
+
+# define colours to be used - based on Public Health England map
 green = (  0, 255,  0)
 darkgreen = (  0, 127,  0)
 black = (  0,   0,  0)
@@ -81,7 +88,7 @@ def generate_sine_wave(frequency, duration, volume=0.5, sample_rate=44100):
 
 
 
-def generate_sine_wave_array(freq_arr, duration_arr, wavefile = '',
+def generate_sine_wave_array(freq_arr, duration_arr, volume_arr, wavefile = '',
                              rest = 0.1, volume=0.5, sample_rate=44100,
                              quietmode=False):
     ''' Generate a tone at the given frequency.
@@ -90,7 +97,7 @@ def generate_sine_wave_array(freq_arr, duration_arr, wavefile = '',
     '''
     # create one buffer for the whole array
     allbuf = numpy.zeros((0,2), dtype=numpy.int16)
-    for frequency, duration in zip(freq_arr, duration_arr):
+    for frequency, duration, vol in zip(freq_arr, duration_arr, volume_arr):
         #print(frequency, duration)
         if sample_rate < (frequency * 2):
             print(
@@ -108,8 +115,9 @@ def generate_sine_wave_array(freq_arr, duration_arr, wavefile = '',
         buf = numpy.zeros((num_samples + rest_frames, 2),
                           dtype=numpy.int16)
         max_sample = 2**(bits-1) - 1
+        
         # generate sine wave at a particular frequency 
-        s = lambda i: volume * max_sample * math.sin(
+        s = lambda i: vol * volume * max_sample * math.sin(
                                 2 * math.pi * frequency * i / sample_rate)
         # make the volume decay linearly with time
         for k in range(num_samples):
@@ -162,11 +170,28 @@ def draw_graph_pygame(datelist, ncases_valslist, max_cases, area, population):
     '''
     arealabel = f"{area}      pop. {population}"
     display_surf.fill(black)
-    img = font2.render(arealabel, True, green, black)        
-    display_surf.blit(img, (20, 20))
-    
+    img = font2.render(arealabel, True, green, black)
+    display_surf.blit(img, (20, 20))            
+    max_7dayrate = (max_cases*7)/(population/100000.0)    
+    dailycasenums_yaxis = [c for c in dailycasenums if (
+                           c < max_cases and c > max_cases/20.0)]
+    rates7day_yaxis = [r for r in rates7day if r < (max_7dayrate-20)]    
     win_h = size[1]
-    win_w = size[0]
+    win_w = size[0]    
+    #yaxis_points = [int(win_h - (c/max_cases) * win_h)
+    #                for c in dailycasenums_yaxis]
+                    
+    #for yl in zip(dailycasenums_yaxis, yaxis_points):
+    
+    yaxis_points = [int(win_h - (r/max_7dayrate) * win_h)
+                    for r in rates7day_yaxis]
+    img = font3.render("7daycases/100k", True, darkgreen, black)
+    display_surf.blit(img, (win_w-200, 20))
+    for yl in zip(rates7day_yaxis, yaxis_points):
+        pygame.draw.line(display_surf, darkgreen, [0, yl[1]], [win_w, yl[1]], 1)                            
+        img = font3.render(str(int(yl[0])), True, darkgreen, black)
+        display_surf.blit(img, (win_w-100, yl[1]-10))
+        
     npoints = len(ncases_valslist)
     points = [[0, win_h]]
     for i, (d, n) in enumerate(zip(datelist, ncases_valslist)):
@@ -238,6 +263,7 @@ def overplot_fill_graph(datelist, ncases_valslist, caserate_list, max_cases,
             # pygame doesn't seem to work with characters above FFFF
             # replace with beamed semiquavers character
             musicnote = musicnote.replace("𝅘𝅥𝅯", "♬")
+            musicnote = musicnote.replace("   𝄽","rest")
             img = font.render(musicnote, True, green, black)
         display_surf.blit(img, (20, 220))
 
@@ -355,6 +381,8 @@ def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
         freq_arr = []
         duration_arr = []
         notetxt_arr = []
+        volume_arr = []
+        volume = 1
         for i, n in enumerate(zip(datelist, ncases_valslist, caserate_list)):
             # range of 4 octaves by default
             octaves = range_octaves*((n[1]/max_cases)**scaling)
@@ -387,11 +415,19 @@ def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
                 note = "𝅘𝅥𝅯 "
             else:
                 note = "♫ "
+                
+            if i > 2 and n[1]==0 and ncases_valslist[i-1]==0 and ncases_valslist[i-2]==0:
+                volume = 0.0
+                note = "𝄽 "
+            else:
+                volume = 1.0                
             # write text to terminal in either short or long form
-
-            notetxt = "{a}{b}{s}".format(
-                a=notes[int((octaves*12) % 12)],
-                b=int(bass_octave+math.floor(octaves)), s=note)
+            if note == "𝄽 ":
+                notetxt = f"   {note}"
+            else:
+                notetxt = "{a}{b}{s}".format(
+                    a=notes[int((octaves*12) % 12)],
+                    b=int(bass_octave+math.floor(octaves)), s=note)
             if shorttext:                    
                 textout_a += notetxt
                 if ((i+1) % 14 == 0 and i > 0):
@@ -404,11 +440,12 @@ def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
                             b=int(bass_octave+math.floor(octaves)),s=note,
                             r=n[2])
                 textout_a += notetxt2
-            
+
             # add the note to the arrays
             notetxt_arr.append(notetxt)
             freq_arr.append(float(freq))
-            duration_arr.append(duration_2)                    
+            duration_arr.append(duration_2)
+            volume_arr.append(volume)                    
             
         textout_a += "\n\n"
         textout += textout_a
@@ -421,6 +458,7 @@ def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
             wavefile = area.lower() + ".wav"
             wavefile = os.path.join("audiofiles", wavefile)
             soundlength = generate_sine_wave_array(freq_arr, duration_arr,
+                                                   volume_arr,
                                                    wavefile, quietmode)
         if not audioonly:
             overplot_fill_graph(datelist, ncases_valslist,  caserate_list,
