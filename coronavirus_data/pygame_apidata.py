@@ -27,7 +27,8 @@ import corona_python_text_csv_api
 # python-library-for-playing-fixed-frequency-sound
 # saving to file: https://github.com/esdalmaijer/Save_PyGame_Sound
 
-size = (1920, 1080)
+#size = (1920, 1080)
+# size = (1280, 720)
 # bits in the sound samples to be generated
 bits = 16
 
@@ -40,6 +41,7 @@ rates7day = [50.0, 100.0, 200.0, 400.0, 800.0, 1600.0]
 green = (  0, 255,  0)
 darkgreen = (  0, 127,  0)
 black = (  0,   0,  0)
+darkgrey = (76, 76, 76)
 
 yellow_0_10 = (  224, 229,  67)
 green_10_50 = (  116, 187, 104)
@@ -49,13 +51,7 @@ blue_200_400 = (  18,  64, 127)
 purple_400_800 = (83,   8,  74)
 purple_800_inf = (43,   2,  38)
 
-pygame.mixer.pre_init(44100, -bits, 2)
-pygame.init()
-display_surf = pygame.display.set_mode(size,
-                                       pygame.HWSURFACE | pygame.DOUBLEBUF)
-font = pygame.font.SysFont('dejavusansmono', 96)
-font2 = pygame.font.SysFont('dejavusans', 60)
-font3 = pygame.font.SysFont('dejavusans', 24)
+
 #time.sleep(10)
 
      
@@ -163,44 +159,6 @@ def generate_sine_wave_array(freq_arr, duration_arr, volume_arr, wavefile = '',
 
 notes = ["C ", "C♯", "D ", "E♭", "E ", "F ",
          "F♯", "G ", "A♭", "A ", "B♭", "B "]
-
-def draw_graph_pygame(datelist, ncases_valslist, max_cases, area, population):
-    '''
-    draw a line graph in a pygame window
-    '''
-    arealabel = f"{area}      pop. {population}"
-    display_surf.fill(black)
-    img = font2.render(arealabel, True, green, black)
-    display_surf.blit(img, (20, 20))            
-    max_7dayrate = (max_cases*7)/(population/100000.0)    
-    dailycasenums_yaxis = [c for c in dailycasenums if (
-                           c < max_cases and c > max_cases/20.0)]
-    rates7day_yaxis = [r for r in rates7day if r < (max_7dayrate-20)]    
-    win_h = size[1]
-    win_w = size[0]    
-    #yaxis_points = [int(win_h - (c/max_cases) * win_h)
-    #                for c in dailycasenums_yaxis]
-                    
-    #for yl in zip(dailycasenums_yaxis, yaxis_points):
-    
-    yaxis_points = [int(win_h - (r/max_7dayrate) * win_h)
-                    for r in rates7day_yaxis]
-    img = font3.render("7daycases/100k", True, darkgreen, black)
-    display_surf.blit(img, (win_w-200, 20))
-    for yl in zip(rates7day_yaxis, yaxis_points):
-        pygame.draw.line(display_surf, darkgreen, [0, yl[1]], [win_w, yl[1]], 1)                            
-        img = font3.render(str(int(yl[0])), True, darkgreen, black)
-        display_surf.blit(img, (win_w-100, yl[1]-10))
-        
-    npoints = len(ncases_valslist)
-    points = [[0, win_h]]
-    for i, (d, n) in enumerate(zip(datelist, ncases_valslist)):
-        x = int((i/npoints) * win_w)
-        y = int(win_h - (n/max_cases) * win_h)
-        points.append([x, y])
-    pygame.draw.lines(display_surf, green, False, points, 3)
-    pygame.display.flip()
-
 def choose_colour(rate100k):
     if rate100k < 10.0:
         colour = yellow_0_10
@@ -217,6 +175,43 @@ def choose_colour(rate100k):
     else:
         colour = purple_800_inf
     return colour
+    
+def draw_graph_pygame(datelist, ncases_valslist, max_cases, area, population):
+    '''
+    draw a line graph in a pygame window
+    '''
+    arealabel = f"{area}      pop. {population}"
+    display_surf.fill(darkgrey)
+    img = font2.render(arealabel, True, green, darkgrey)
+    display_surf.blit(img, (int(size[1]/54), int(size[1]/54)))            
+    max_7dayrate = (max_cases*7)/(population/100000.0)    
+    dailycasenums_yaxis = [c for c in dailycasenums if (
+                           c < max_cases and c > max_cases/20.0)]
+    rates7day_yaxis = [r for r in rates7day if r < (max_7dayrate-20)]    
+    win_h = size[1]
+    win_w = size[0]    
+    #yaxis_points = [int(win_h - (c/max_cases) * win_h)
+    #                for c in dailycasenums_yaxis]
+                    
+    #for yl in zip(dailycasenums_yaxis, yaxis_points):
+    
+    yaxis_points = [int(win_h - (r/max_7dayrate) * win_h)
+                    for r in rates7day_yaxis]
+    img = font3.render("7daycases/100k", True, darkgreen, black)
+    display_surf.blit(img, (win_w-int(size[1]/5.4), int(size[1]/54)))
+    for yl in zip(rates7day_yaxis, yaxis_points):
+        pygame.draw.line(display_surf, choose_colour(yl[0]), [0, yl[1]], [win_w, yl[1]], 1)                            
+        img = font3.render(str(int(yl[0])), True, choose_colour(yl[0]), darkgrey)
+        display_surf.blit(img, (win_w-int(size[1]/10.8), yl[1]-int(size[1]/108)))
+        
+    npoints = len(ncases_valslist)
+    points = [[0, win_h]]
+    for i, (d, n) in enumerate(zip(datelist, ncases_valslist)):
+        x = int((i/npoints) * win_w)
+        y = int(win_h - (n/max_cases) * win_h)
+        points.append([x, y])
+    pygame.draw.lines(display_surf, green, False, points, 3)
+    pygame.display.flip()
         
 def overplot_fill_graph(datelist, ncases_valslist, caserate_list, max_cases,
                         duration_arr, notetxt_arr, area, quietmode=False,
@@ -247,48 +242,48 @@ def overplot_fill_graph(datelist, ncases_valslist, caserate_list, max_cases,
             pygame.draw.line(display_surf, darkgreen, [x, win_h], [x, 0], 1)
             # write month
             img = font3.render(d[5:7], True, darkgreen, black)
-            display_surf.blit(img, (x+5, 5))
+            display_surf.blit(img, (x+int(size[1]/216), int(size[1]/216)))
             
         pygame.draw.line(display_surf, choose_colour(r), [x, win_h], [x, y], 8)
         # write date in pygame window
-        img = font2.render(d, True, green, black)        
-        display_surf.blit(img, (20, 120))
+        img = font2.render(d, True, green, darkgrey)        
+        display_surf.blit(img, (int(size[1]/54), int(size[1]/9)))
         
         # write the musical note text
         musicnote = m
         try:
-            img = font.render(musicnote, True, green, black)
+            img = font.render(musicnote, True, green, darkgrey)
         except UnicodeError:
             # the semiquaver in Unicode is U+1D161
             # pygame doesn't seem to work with characters above FFFF
             # replace with beamed semiquavers character
             musicnote = musicnote.replace("𝅘𝅥𝅯", "♬")
             musicnote = musicnote.replace("   𝄽","rest")
-            img = font.render(musicnote, True, green, black)
-        display_surf.blit(img, (20, 220))
+            img = font.render(musicnote, True, green, darkgrey)
+        display_surf.blit(img, (int(size[1]/54), int(size[1]/4.909)))
 
         # write number of cases on day
         if n == 1:
-            img = font2.render(f"{n:5} case  ", True, green, black)        
+            img = font2.render(f"{n:5} case  ", True, green, darkgrey)        
         else:
-            img = font2.render(f"{n:5} cases  ", True, green, black)        
-        display_surf.blit(img, (400, 120))
+            img = font2.render(f"{n:5} cases  ", True, green, darkgrey)        
+        display_surf.blit(img, (int(size[1]/2.7), int(size[1]/9)))
         
         # write rate per 100k
-        img = font2.render(f"{r} /100k last 7 days  ", True, green, black)        
-        display_surf.blit(img, (900, 120))
+        img = font2.render(f"{r} /100k last 7 days  ", True, green, darkgrey)        
+        display_surf.blit(img, (int(size[1]/1.2), int(size[1]/9)))
         
         pygame.display.flip()
         
         # write total number of cases
         Ntotal += n
         if Ntotal == 1:
-            img = font2.render(f"{Ntotal:8} case  ", True, green, black)        
+            img = font2.render(f"{Ntotal:8} case  ", True, green, darkgrey)        
         elif Ntotal == 0:
-            img = font2.render(f"{Ntotal:8} cases  ", True, green, black)
+            img = font2.render(f"{Ntotal:8} cases  ", True, green, darkgrey)
         else:
-            img = font2.render(f"{Ntotal:8} cases in total to date ", True, green, black)        
-        display_surf.blit(img, (350, 220))        
+            img = font2.render(f"{Ntotal:8} cases in total to date ", True, green, darkgrey)        
+        display_surf.blit(img, (int(size[1]/3.0857), int(size[1]/4.909)))        
         # save png file
         # these can be converted to video using ffmpeg
         # hamelot.io/
@@ -485,8 +480,13 @@ if __name__ == '__main__':
                         help="audio only (no animated graphs, only line graph for each area)")                        
     parser.add_argument("-o", "--output", help=("Directs the text output to a "
                                                 "filename of your choice"))
+    parser.add_argument("-y", "--ysize", help=("sets y size"
+                                                "default 1280x720"))                                                
     parser.add_argument("-a", "--areaselect", help=("Select areas containing"
                                                     "text matching regex"))
+    parser.add_argument("--utla",action="store_true",
+                        help=("include upper-tier LAs"
+                        "by default don't"))                                                     
     parser.add_argument("--ltla",action="store_true",
                         help=("include lower-tier LAs (England only)"
                         "by default don't")) 
@@ -502,7 +502,29 @@ if __name__ == '__main__':
     # python pygame_apidata.py --quietmode --areaselect devon --short --ltla
     
                               
-    args = parser.parse_args()    
+    args = parser.parse_args()
+    if args.ysize:
+        try:
+            ysize = int(args.ysize)
+        except:
+            # if args.ysize doesn't convert to an integer, set it to the default
+            ysize = 720
+        if ysize < 216 or ysize > 2160:
+            print("ysize out of bounds 216-2180, setting to default 720")
+            ysize = 720
+    else:
+        # if no args.ysize, set it to the default
+        ysize = 720
+    size = (int((16/9)*ysize), ysize)
+    pygame.mixer.pre_init(44100, -bits, 2)
+    pygame.init()
+    display_surf = pygame.display.set_mode(size,
+                                           pygame.HWSURFACE | pygame.DOUBLEBUF)
+                                           
+    font = pygame.font.SysFont('dejavusansmono', int(size[1]/11.25))
+    font2 = pygame.font.SysFont('dejavusans', int(size[1]/18))
+    font3 = pygame.font.SysFont('dejavusans', int(size[1]/45))    
+
     if args.areaselect:
         # if selecting areas using a substring, ignore case
         q = re.compile(args.areaselect.strip(), re.IGNORECASE)
@@ -529,13 +551,14 @@ if __name__ == '__main__':
     #notes_regions = play_audio(cases_by_area, ["North_West"], 2, 6, 0.5,
     #                           args.short, 0.5, args.quietmode, args.audioonly)
 
-    # play UTLAs
-    cases_by_areaUTLA = corona_python_text_csv_api.cases_by_UTLA
-    if args.areaselect:
-        cases_by_areaUTLA = {k:v for k, v in cases_by_areaUTLA.items() if q.search(k.lower())}   
-    notes_UTLAs = play_audio(cases_by_areaUTLA, "", 3, 5, 0.5,
-                             args.short, 0.5, args.quietmode, args.audioonly,
-                             args.nodelay)
+    # play UTLAs only if the command-line argument is set
+    if args.utla:
+        cases_by_areaUTLA = corona_python_text_csv_api.cases_by_UTLA
+        if args.areaselect:
+            cases_by_areaUTLA = {k:v for k, v in cases_by_areaUTLA.items() if q.search(k.lower())}   
+        notes_UTLAs = play_audio(cases_by_areaUTLA, "", 3, 5, 0.5,
+                                 args.short, 0.5, args.quietmode, args.audioonly,
+                                 args.nodelay)
 
     # play LTLAs only if the command-line argument is set
     if args.ltla:
@@ -552,8 +575,10 @@ if __name__ == '__main__':
         with open(args.output, 'w') as output_file:
             output_file.write(notes_nations)
             output_file.write(notes_regions)
-            output_file.write(notes_UTLAs)
+            if args.utla:
+                output_file.write(notes_UTLAs)
             if args.ltla:
                 output_file.write(notes_LTLAs)
+
 
 pygame.quit()
