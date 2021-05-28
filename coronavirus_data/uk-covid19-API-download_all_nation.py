@@ -82,7 +82,7 @@ for level, areatype in enumerate([all_UK, all_nations, all_regions,
     print(areatype)
     while(date < now):
         y, m, day = date.year, date.month, date.day
-        #print(f"{y:d}-{m:02}-{day:02}")
+        print(f"{y:d}-{m:02}-{day:02}")
         for a in all_UTLAs:
             # print(a, end = ": ")
             # select out the data for each area

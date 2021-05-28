@@ -307,6 +307,13 @@ def overplot_fill_graph(datelist, ncases_valslist, caserate_list, max_cases,
                 pngfilecount += 1
                 pygame.image.save(display_surf, pngfile)
                 
+        if i == (len(datelist)-6):
+            # produce output for the endframes video
+            pngfile2 = os.path.join("videofiles", "endframes",
+                                    f"{area}.png")
+            pygame.image.save(display_surf, pngfile2)
+            
+                
         curtime2 = pygame.time.get_ticks()
         # wait for the note duration, minus the time taken to execute the code
         if not(quietmode) and not(nodelay):
@@ -350,7 +357,7 @@ def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
         # discard last 7 days for calulating total rate and population
         total_rate = sum(caserate_list[:-7])/7        
         total_cases2 = sum(ncases_valslist[:-7])        
-        textout_a += f"total rate/100k pop. = {total_rate}\n"
+        textout_a += f"total rate/100k pop. = {total_rate:.2f}\n"
         
         total_pop = round((100000/total_rate)*total_cases2)
         textout_a += f"total pop. = {total_pop}\n"
