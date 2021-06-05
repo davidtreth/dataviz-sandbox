@@ -1,15 +1,15 @@
 United Kingdom: 0:00:00
-England: 0:02:37
-Northern Ireland: 0:05:16
-Scotland: 0:08:00
-Wales: 0:10:43
-East Midlands: 0:13:27
-East of England: 0:16:08
-London: 0:18:52
-North East: 0:21:39
-North West: 0:24:24
-South East: 0:26:57
-South West: 0:29:44
-West Midlands: 0:32:35
-Yorkshire and The Humber: 0:35:13
-Cornwall and Isles of Scilly: 0:37:49
+England: 0:02:40
+Northern Ireland: 0:05:22
+Scotland: 0:08:09
+Wales: 0:10:54
+East Midlands: 0:13:41
+East of England: 0:16:24
+London: 0:19:11
+North East: 0:22:00
+North West: 0:24:47
+South East: 0:27:22
+South West: 0:30:12
+West Midlands: 0:33:05
+Yorkshire and The Humber: 0:35:46
+Cornwall and Isles of Scilly: 0:38:24

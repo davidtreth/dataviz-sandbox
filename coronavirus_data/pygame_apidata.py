@@ -3,8 +3,7 @@
 #
 # this uses the API for the data
 # publichealthengland.github.io/coronavirus-dashboard-api-python-sdk/index.html
-# first run uk-covid19-API-download_all_utla.py
-# and uk-covid19-API-download_all_nation.py
+# first run uk-covid19-API-download_all_nation.py
 #
 # using pygame
 
@@ -516,7 +515,7 @@ if __name__ == '__main__':
         except:
             # if args.ysize doesn't convert to an integer, set it to the default
             ysize = 720
-        if ysize < 216 or ysize > 2160:
+        if ysize < 216 or ysize > 2180:
             print("ysize out of bounds 216-2180, setting to default 720")
             ysize = 720
     else:
