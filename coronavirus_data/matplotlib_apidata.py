@@ -65,10 +65,10 @@ def draw_graph(datelist, ncases_valslist, caserate_list, max_cases,
     fig, ax = plt.subplots()
     ax.plot(datelist, ncases_valslist)
     # Major ticks every 3 months.
-    fmt_3month = mdates.MonthLocator(interval=3)
+    fmt_3month = mdates.MonthLocator(bymonthday=1, interval=3)
     ax.xaxis.set_major_locator(fmt_3month)
     # Minor ticks every month.
-    fmt_month = mdates.MonthLocator()
+    fmt_month = mdates.MonthLocator(bymonthday=1)
     ax.xaxis.set_minor_locator(fmt_month)
     ax.set_title(caption)    
     
@@ -86,12 +86,13 @@ def allgraphs(cases_by_area, selected_areas=[], bass_octave = 3,
         if len(selected_areas) > 0 and area not in selected_areas:
             continue
         area_cases = sorted(cases_by_area[area], key=itemgetter(0))        
+        
         startDate = area_cases[0][0]
         endDate = area_cases[-1][0]
         startDate = datetime.datetime.fromisoformat(startDate)
         endDate = datetime.datetime.fromisoformat(endDate)
          
-        datelist = [i[0] for i in area_cases]
+        datelist = [datetime.datetime.fromisoformat(i[0]) for i in area_cases]
         ncases_valslist = [i[1] if i[1] else 0 for i in area_cases]
         caserate_list = [i[2] for i in area_cases]
 
@@ -122,10 +123,12 @@ def allgraphs(cases_by_area, selected_areas=[], bass_octave = 3,
         # find occurance of 1st case in the area
         ncases_numpy = numpy.array(ncases_valslist, dtype=int)
         firstnonzero = numpy.nonzero(ncases_numpy)[0][0]
-        # remove part of array before 1st case in the area
-        datelist = datelist[firstnonzero:]
-        ncases_valslist = ncases_valslist[firstnonzero:]
-        caserate_list = caserate_list[firstnonzero:]
+        # 
+        # COMMENTED OUT remove part of array before 1st case in the area
+        # 
+        # datelist = datelist[firstnonzero:]
+        # ncases_valslist = ncases_valslist[firstnonzero:]
+        # caserate_list = caserate_list[firstnonzero:]
         
         
         # generate the frequencies, durations, and musical note texts

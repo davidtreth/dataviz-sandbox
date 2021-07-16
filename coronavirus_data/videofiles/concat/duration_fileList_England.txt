@@ -1,160 +1,160 @@
 England: 0:00:00
-East Midlands: 0:02:45
-East of England: 0:05:33
-London: 0:08:24
-North East: 0:11:17
-North West: 0:14:09
-South East: 0:16:49
-South West: 0:19:43
-West Midlands: 0:22:42
-Yorkshire and The Humber: 0:25:27
-Barking and Dagenham: 0:28:09
-Barnet: 0:31:22
-Barnsley: 0:34:37
-Bath and North East Somerset: 0:37:45
-Bedford: 0:41:03
-Bexley: 0:44:17
-Birmingham: 0:47:30
-Blackburn with Darwen: 0:50:22
-Blackpool: 0:53:29
-Bolton: 0:56:45
-Bournemouth Christchurch and Poole: 0:59:53
-Bracknell Forest: 1:03:05
-Bradford: 1:06:27
-Brent: 1:09:22
-Brighton and Hove: 1:12:23
-Bristol City of: 1:15:55
-Bromley: 1:19:10
-Buckinghamshire: 1:22:29
-Bury: 1:25:47
-Calderdale: 1:29:02
-Cambridgeshire: 1:32:12
-Camden: 1:35:23
-Central Bedfordshire: 1:38:41
-Cheshire East: 1:41:56
-Cheshire West and Chester: 1:45:05
-Cornwall and Isles of Scilly: 1:48:15
-County Durham: 1:51:40
-Coventry: 1:54:41
-Croydon: 1:57:54
-Cumbria: 2:01:04
-Darlington: 2:04:18
-Derby: 2:07:46
-Derbyshire: 2:11:02
-Devon: 2:14:13
-Doncaster: 2:17:30
-Dorset: 2:20:38
-Dudley: 2:24:03
-Ealing: 2:27:13
-East Riding of Yorkshire: 2:30:23
-East Sussex: 2:33:36
-Enfield: 2:36:52
-Essex: 2:40:05
-Gateshead: 2:43:11
-Gloucestershire: 2:46:22
-Greenwich: 2:49:37
-Hackney and City of London: 2:52:45
-Halton: 2:56:00
-Hammersmith and Fulham: 2:59:17
-Hampshire: 3:02:37
-Haringey: 3:05:40
-Harrow: 3:08:56
-Hartlepool: 3:12:08
-Havering: 3:15:22
-Herefordshire County of: 3:18:40
-Hertfordshire: 3:22:03
-Hillingdon: 3:25:06
-Hounslow: 3:28:21
-Isle of Wight: 3:31:32
-Islington: 3:35:06
-Kensington and Chelsea: 3:38:17
-Kent: 3:41:33
-Kingston upon Hull City of: 3:44:32
-Kingston upon Thames: 3:47:45
-Kirklees: 3:50:57
-Knowsley: 3:53:49
-Lambeth: 3:57:01
-Lancashire: 4:00:23
-Leeds: 4:03:18
-Leicester: 4:06:22
-Leicestershire: 4:09:20
-Lewisham: 4:12:25
-Lincolnshire: 4:15:58
-Liverpool: 4:19:11
-Luton: 4:22:11
-Manchester: 4:25:23
-Medway: 4:28:22
-Merton: 4:31:37
-Middlesbrough: 4:34:59
-Milton Keynes: 4:38:06
-Newcastle upon Tyne: 4:41:21
-Newham: 4:44:32
-Norfolk: 4:47:40
-North East Lincolnshire: 4:50:51
-North Lincolnshire: 4:54:03
-North Somerset: 4:57:21
-North Tyneside: 5:00:43
-North Yorkshire: 5:03:57
-Northamptonshire: 5:07:09
-Northumberland: 5:10:12
-Nottingham: 5:13:24
-Nottinghamshire: 5:16:39
-Oldham: 5:19:44
-Oxfordshire: 5:22:53
-Peterborough: 5:26:14
-Plymouth: 5:29:24
-Portsmouth: 5:32:47
-Reading: 5:36:07
-Redbridge: 5:39:26
-Redcar and Cleveland: 5:42:43
-Richmond upon Thames: 5:46:03
-Rochdale: 5:49:21
-Rotherham: 5:52:21
-Rutland: 5:55:34
-Salford: 5:58:58
-Sandwell: 6:02:02
-Sefton: 6:05:05
-Sheffield: 6:08:14
-Shropshire: 6:11:14
-Slough: 6:14:25
-Solihull: 6:17:43
-Somerset: 6:20:56
-South Gloucestershire: 6:24:07
-South Tyneside: 6:27:24
-Southampton: 6:30:40
-Southend on Sea: 6:33:53
-Southwark: 6:37:11
-St. Helens: 6:40:32
-Staffordshire: 6:43:42
-Stockport: 6:46:47
-Stockton on Tees: 6:49:52
-Stoke on Trent: 6:53:06
-Suffolk: 6:56:16
-Sunderland: 6:59:33
-Surrey: 7:02:44
-Sutton: 7:05:46
-Swindon: 7:09:05
-Tameside: 7:12:27
-Telford and Wrekin: 7:15:34
-Thurrock: 7:18:50
-Torbay: 7:22:07
-Tower Hamlets: 7:25:34
-Trafford: 7:28:50
-Wakefield: 7:32:04
-Walsall: 7:35:03
-Waltham Forest: 7:38:11
-Wandsworth: 7:41:25
-Warrington: 7:44:38
-Warwickshire: 7:47:46
-West Berkshire: 7:50:57
-West Lothian: 7:54:29
-West Sussex: 7:57:47
-Westminster: 8:01:00
-Wigan: 8:04:17
-Wiltshire: 8:07:24
-Windsor and Maidenhead: 8:10:49
-Wirral: 8:14:14
-Wokingham: 8:17:26
-Wolverhampton: 8:20:52
-Worcestershire: 8:24:04
-York: 8:27:08
+East Midlands: 0:02:52
+East of England: 0:05:46
+London: 0:08:44
+North East: 0:11:43
+North West: 0:14:40
+South East: 0:17:27
+South West: 0:20:28
+West Midlands: 0:23:33
+Yorkshire and The Humber: 0:26:24
+Barking and Dagenham: 0:29:12
+Barnet: 0:32:35
+Barnsley: 0:35:57
+Bath and North East Somerset: 0:39:12
+Bedford: 0:42:37
+Bexley: 0:45:59
+Birmingham: 0:49:20
+Blackburn with Darwen: 0:52:18
+Blackpool: 0:55:33
+Bolton: 0:58:56
+Bournemouth Christchurch and Poole: 1:02:11
+Bracknell Forest: 1:05:29
+Bradford: 1:08:59
+Brent: 1:12:02
+Brighton and Hove: 1:15:11
+Bristol City of: 1:18:51
+Bromley: 1:22:12
+Buckinghamshire: 1:25:39
+Bury: 1:29:04
+Calderdale: 1:32:26
+Cambridgeshire: 1:35:44
+Camden: 1:39:02
+Central Bedfordshire: 1:42:28
+Cheshire East: 1:45:50
+Cheshire West and Chester: 1:49:06
+Cornwall and Isles of Scilly: 1:52:23
+County Durham: 1:55:54
+Coventry: 1:59:01
+Croydon: 2:02:20
+Cumbria: 2:05:37
+Darlington: 2:08:58
+Derby: 2:12:34
+Derbyshire: 2:15:58
+Devon: 2:19:16
+Doncaster: 2:22:40
+Dorset: 2:25:55
+Dudley: 2:29:28
+Ealing: 2:32:45
+East Riding of Yorkshire: 2:36:02
+East Sussex: 2:39:22
+Enfield: 2:42:46
+Essex: 2:46:08
+Gateshead: 2:49:22
+Gloucestershire: 2:52:41
+Greenwich: 2:56:02
+Hackney and City of London: 2:59:18
+Halton: 3:02:41
+Hammersmith and Fulham: 3:06:06
+Hampshire: 3:09:33
+Haringey: 3:12:43
+Harrow: 3:16:07
+Hartlepool: 3:19:27
+Havering: 3:22:49
+Herefordshire County of: 3:26:14
+Hertfordshire: 3:29:46
+Hillingdon: 3:32:56
+Hounslow: 3:36:19
+Isle of Wight: 3:39:38
+Islington: 3:43:21
+Kensington and Chelsea: 3:46:39
+Kent: 3:50:04
+Kingston upon Hull City of: 3:53:10
+Kingston upon Thames: 3:56:32
+Kirklees: 3:59:54
+Knowsley: 4:02:53
+Lambeth: 4:06:12
+Lancashire: 4:09:42
+Leeds: 4:12:44
+Leicester: 4:15:54
+Leicestershire: 4:18:59
+Lewisham: 4:22:11
+Lincolnshire: 4:25:51
+Liverpool: 4:29:11
+Luton: 4:32:18
+Manchester: 4:35:37
+Medway: 4:38:42
+Merton: 4:42:05
+Middlesbrough: 4:45:35
+Milton Keynes: 4:48:51
+Newcastle upon Tyne: 4:52:13
+Newham: 4:55:31
+Norfolk: 4:58:46
+North East Lincolnshire: 5:02:04
+North Lincolnshire: 5:05:23
+North Somerset: 5:08:49
+North Tyneside: 5:12:20
+North Yorkshire: 5:15:40
+Northamptonshire: 5:18:59
+Northumberland: 5:22:10
+Nottingham: 5:25:28
+Nottinghamshire: 5:28:49
+Oldham: 5:32:01
+Oxfordshire: 5:35:17
+Peterborough: 5:38:45
+Plymouth: 5:42:04
+Portsmouth: 5:45:35
+Reading: 5:49:03
+Redbridge: 5:52:29
+Redcar and Cleveland: 5:55:54
+Richmond upon Thames: 5:59:23
+Rochdale: 6:02:49
+Rotherham: 6:05:55
+Rutland: 6:09:17
+Salford: 6:12:50
+Sandwell: 6:16:01
+Sefton: 6:19:10
+Sheffield: 6:22:26
+Shropshire: 6:25:33
+Slough: 6:28:52
+Solihull: 6:32:19
+Somerset: 6:35:39
+South Gloucestershire: 6:38:57
+South Tyneside: 6:42:23
+Southampton: 6:45:47
+Southend on Sea: 6:49:07
+Southwark: 6:52:34
+St. Helens: 6:56:03
+Staffordshire: 6:59:19
+Stockport: 7:02:30
+Stockton on Tees: 7:05:42
+Stoke on Trent: 7:09:03
+Suffolk: 7:12:19
+Sunderland: 7:15:44
+Surrey: 7:19:03
+Sutton: 7:22:12
+Swindon: 7:25:38
+Tameside: 7:29:08
+Telford and Wrekin: 7:32:23
+Thurrock: 7:35:47
+Torbay: 7:39:12
+Tower Hamlets: 7:42:46
+Trafford: 7:46:09
+Wakefield: 7:49:30
+Walsall: 7:52:35
+Waltham Forest: 7:55:51
+Wandsworth: 7:59:12
+Warrington: 8:02:32
+Warwickshire: 8:05:48
+West Berkshire: 8:09:06
+West Lothian: 8:12:47
+West Sussex: 8:16:12
+Westminster: 8:19:33
+Wigan: 8:22:57
+Wiltshire: 8:26:10
+Windsor and Maidenhead: 8:29:43
+Wirral: 8:33:17
+Wokingham: 8:36:36
+Wolverhampton: 8:40:08
+Worcestershire: 8:43:25
+York: 8:46:37
