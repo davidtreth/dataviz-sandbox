@@ -487,7 +487,9 @@ if __name__ == '__main__':
     parser.add_argument("-o", "--output", help=("Directs the text output to a "
                                                 "filename of your choice"))
     parser.add_argument("-y", "--ysize", help=("sets y size"
-                                                "default 1280x720"))                                                
+                                                "default 1280x720"))
+    parser.add_argument("-d", "--duration", help=("sets note duration"
+                                                "default 0.5 sec"))
     parser.add_argument("-a", "--areaselect", help=("Select areas containing"
                                                     "text matching regex"))
     parser.add_argument("--utla",action="store_true",
@@ -522,6 +524,14 @@ if __name__ == '__main__':
         # if no args.ysize, set it to the default
         ysize = 720
     size = (int((16/9)*ysize), ysize)
+    if args.duration:
+        try:
+            duration = float(args.duration)
+        except:
+            # if args.duration doesn't convert to a float, set to default
+            duration = 0.5
+    else:
+        duration = 0.5
     pygame.mixer.pre_init(44100, -bits, 2)
     pygame.init()
     display_surf = pygame.display.set_mode(size,
@@ -542,16 +552,16 @@ if __name__ == '__main__':
     if args.areaselect:                
         cases_by_area = {k:v for k, v in cases_by_area.items() if q.search(k.lower())}
     notes_nations = play_audio(cases_by_area, "", 2, 6, 0.5,
-                               args.short, 0.5, args.quietmode, args.audioonly,
-                               args.nodelay)
+                               args.short, duration, args.quietmode,
+                               args.audioonly, args.nodelay)
 
     # play regions of England
     cases_by_area = corona_python_text_csv_api.cases_by_region
     if args.areaselect:
         cases_by_area = {k:v for k, v in cases_by_area.items() if q.search(k.lower())}   
     notes_regions = play_audio(cases_by_area, "", 2, 6, 0.5,
-                               args.short, 0.5, args.quietmode, args.audioonly,
-                               args.nodelay)
+                               args.short, duration, args.quietmode,
+                               args.audioonly, args.nodelay)
     
     # example selecting a region
     #notes_regions = play_audio(cases_by_area, ["North_West"], 2, 6, 0.5,
@@ -563,8 +573,8 @@ if __name__ == '__main__':
         if args.areaselect:
             cases_by_areaUTLA = {k:v for k, v in cases_by_areaUTLA.items() if q.search(k.lower())}   
         notes_UTLAs = play_audio(cases_by_areaUTLA, "", 3, 5, 0.5,
-                                 args.short, 0.5, args.quietmode, args.audioonly,
-                                 args.nodelay)
+                                 args.short, duration, args.quietmode,
+                                 args.audioonly, args.nodelay)
 
     # play LTLAs only if the command-line argument is set
     if args.ltla:
@@ -574,7 +584,7 @@ if __name__ == '__main__':
         if args.areaselect:
             cases_by_areaLTLA = {k:v for k, v in cases_by_areaLTLA.items() if q.search(k.lower())}   
         notes_LTLAs = play_audio(cases_by_areaLTLA, "", 3, 5, 0.5,
-                                 args.short, 0.5, args.quietmode,
+                                 args.short, duration, args.quietmode,
                                  args.audioonly, args.nodelay)                             
 
     if args.output:
