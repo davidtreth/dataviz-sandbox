@@ -4,7 +4,7 @@ sh concatvideos_wales.sh
 sh concatvideos_scotland.sh
 sh concatvideos_London.sh
 sh concatvideos_eng.sh
-sh concatvideos_eng_ltla.sh
+#sh concatvideos_eng_ltla.sh
 sh concatvideos.sh
 python pygame_concatvideos_duration.py
 cd ..

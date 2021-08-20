@@ -1,193 +1,193 @@
 Adur: 0:00:00
-Allerdale: 0:03:37
-Amber Valley: 0:07:19
-Arun: 0:10:57
-Ashfield: 0:14:34
-Ashford: 0:18:06
-Aylesbury Vale: 0:21:46
-Babergh: 0:25:17
-Barrow in Furness: 0:28:54
-Basildon: 0:32:35
-Basingstoke and Deane: 0:36:03
-Bassetlaw: 0:39:45
-Blaby: 0:43:24
-Bolsover: 0:47:02
-Boston: 0:50:47
-Braintree: 0:54:30
-Breckland: 0:58:04
-Brentwood: 1:01:42
-Broadland: 1:05:25
-Bromsgrove: 1:09:08
-Broxbourne: 1:12:41
-Broxtowe: 1:16:16
-Burnley: 1:19:54
-Cambridge: 1:23:26
-Cannock Chase: 1:27:05
-Canterbury: 1:30:44
-Carlisle: 1:34:19
-Castle Point: 1:38:00
-Charnwood: 1:41:39
-Chelmsford: 1:45:15
-Cheltenham: 1:48:53
-Cherwell: 1:52:35
-Chesterfield: 1:56:27
-Chichester: 2:00:09
-Chiltern: 2:03:58
-Chorley: 2:07:50
-Colchester: 2:11:23
-Copeland: 2:15:00
-Corby: 2:18:46
-Cotswold: 2:22:24
-Craven: 2:26:16
-Crawley: 2:30:01
-Dacorum: 2:33:34
-Dartford: 2:37:07
-Daventry: 2:40:46
-Derbyshire Dales: 2:44:27
-Dover: 2:48:13
-East Cambridgeshire: 2:51:55
-East Devon: 2:55:38
-East Hampshire: 2:59:20
-East Hertfordshire: 3:03:01
-East Lindsey: 3:06:46
-East Northamptonshire: 3:10:29
-East Staffordshire: 3:14:01
-East Suffolk: 3:17:37
-Eastbourne: 3:21:18
-Eastleigh: 3:25:03
-Eden: 3:28:38
-Elmbridge: 3:32:21
-Epping Forest: 3:36:01
-Epsom and Ewell: 3:39:42
-Erewash: 3:43:26
-Exeter: 3:47:03
-Fareham: 3:50:44
-Fenland: 3:54:25
-Folkestone and Hythe: 3:58:03
-Forest of Dean: 4:01:45
-Fylde: 4:05:28
-Gedling: 4:09:02
-Gloucester: 4:12:40
-Gosport: 4:16:18
-Gravesham: 4:19:58
-Great Yarmouth: 4:23:33
-Guildford: 4:27:18
-Hambleton: 4:31:00
-Harborough: 4:34:44
-Harlow: 4:38:21
-Harrogate: 4:42:01
-Hart: 4:45:32
-Hastings: 4:49:14
-Havant: 4:52:53
-Hertsmere: 4:56:36
-High Peak: 5:00:13
-Hinckley and Bosworth: 5:03:57
-Horsham: 5:07:32
-Huntingdonshire: 5:11:08
-Hyndburn: 5:14:40
-Ipswich: 5:18:14
-Kings Lynn and West Norfolk: 5:21:54
-Kettering: 5:25:37
-Lancaster: 5:29:18
-Lewes: 5:32:51
-Lichfield: 5:36:36
-Lincoln: 5:40:18
-Maidstone: 5:43:56
-Maldon: 5:47:30
-Malvern Hills: 5:51:13
-Mansfield: 5:55:00
-Melton: 5:58:40
-Mendip: 6:02:14
-Mid Devon: 6:05:59
-Mid Suffolk: 6:09:47
-Mid Sussex: 6:13:30
-Mole Valley: 6:17:06
-New Forest: 6:20:45
-Newark and Sherwood: 6:24:20
-Newcastle upon Tyne: 6:28:01
-Newcastle under Lyme: 6:31:26
-North Devon: 6:34:59
-North East Derbyshire: 6:38:43
-North Hertfordshire: 6:42:15
-North Kesteven: 6:45:50
-North Norfolk: 6:49:30
-North Warwickshire: 6:53:16
-North West Leicestershire: 6:57:03
-Northampton: 7:00:40
-Norwich: 7:04:12
-Nuneaton and Bedworth: 7:07:50
-Oadby and Wigston: 7:11:21
-Oxford: 7:14:55
-Pendle: 7:18:32
-Preston: 7:22:03
-Redditch: 7:25:25
-Reigate and Banstead: 7:29:00
-Ribble Valley: 7:32:37
-Richmondshire: 7:36:14
-Rochford: 7:40:01
-Rossendale: 7:43:36
-Rother: 7:47:09
-Rugby: 7:50:54
-Runnymede: 7:54:30
-Rushcliffe: 7:58:11
-Rushmoor: 8:01:45
-Ryedale: 8:05:27
-Scarborough: 8:09:15
-Sedgemoor: 8:12:55
-Selby: 8:16:34
-Sevenoaks: 8:20:08
-Somerset West and Taunton: 8:23:45
-South Bucks: 8:27:26
-South Cambridgeshire: 8:31:06
-South Derbyshire: 8:34:48
-South Hams: 8:38:22
-South Holland: 8:42:13
-South Kesteven: 8:46:02
-South Lakeland: 8:49:43
-South Norfolk: 8:53:30
-South Northamptonshire: 8:57:10
-South Oxfordshire: 9:00:44
-South Ribble: 9:04:26
-South Somerset: 9:08:00
-South Staffordshire: 9:11:45
-Spelthorne: 9:15:19
-St Albans: 9:18:55
-Stafford: 9:22:37
-Staffordshire Moorlands: 9:26:04
-Stevenage: 9:29:41
-Stratford on Avon: 9:33:29
-Stroud: 9:37:05
-Surrey Heath: 9:40:48
-Swale: 9:44:25
-Tamworth: 9:48:08
-Tandridge: 9:51:44
-Teignbridge: 9:55:29
-Tendring: 9:59:23
-Test Valley: 10:03:00
-Tewkesbury: 10:06:48
-Thanet: 10:10:35
-Three Rivers: 10:14:20
-Tonbridge and Malling: 10:18:00
-Torridge: 10:21:36
-Tunbridge Wells: 10:25:26
-Uttlesford: 10:29:04
-Vale of White Horse: 10:32:46
-Warwick: 10:36:25
-Watford: 10:39:54
-Waverley: 10:43:29
-Wealden: 10:47:09
-Wellingborough: 10:50:42
-Welwyn Hatfield: 10:54:14
-West Devon: 10:57:53
-West Lancashire: 11:01:52
-West Lindsey: 11:05:18
-West Oxfordshire: 11:09:00
-West Suffolk: 11:12:45
-Winchester: 11:16:27
-Woking: 11:20:12
-Worcester: 11:23:49
-Worthing: 11:27:29
-Wychavon: 11:31:05
-Wycombe: 11:34:41
-Wyre: 11:38:14
-Wyre Forest: 11:41:45
+Allerdale: 0:00:00
+Amber Valley: 0:00:00
+Arun: 0:00:00
+Ashfield: 0:00:00
+Ashford: 0:00:00
+Aylesbury Vale: 0:00:00
+Babergh: 0:00:00
+Barrow in Furness: 0:00:00
+Basildon: 0:00:00
+Basingstoke and Deane: 0:00:00
+Bassetlaw: 0:00:00
+Blaby: 0:00:00
+Bolsover: 0:00:00
+Boston: 0:00:00
+Braintree: 0:00:00
+Breckland: 0:00:00
+Brentwood: 0:00:00
+Broadland: 0:00:00
+Bromsgrove: 0:00:00
+Broxbourne: 0:00:00
+Broxtowe: 0:00:00
+Burnley: 0:00:00
+Cambridge: 0:00:00
+Cannock Chase: 0:00:00
+Canterbury: 0:00:00
+Carlisle: 0:00:00
+Castle Point: 0:00:00
+Charnwood: 0:00:00
+Chelmsford: 0:00:00
+Cheltenham: 0:00:00
+Cherwell: 0:00:00
+Chesterfield: 0:00:00
+Chichester: 0:00:00
+Chiltern: 0:00:00
+Chorley: 0:00:00
+Colchester: 0:00:00
+Copeland: 0:00:00
+Corby: 0:00:00
+Cotswold: 0:00:00
+Craven: 0:00:00
+Crawley: 0:00:00
+Dacorum: 0:00:00
+Dartford: 0:00:00
+Daventry: 0:00:00
+Derbyshire Dales: 0:00:00
+Dover: 0:00:00
+East Cambridgeshire: 0:00:00
+East Devon: 0:00:00
+East Hampshire: 0:00:00
+East Hertfordshire: 0:00:00
+East Lindsey: 0:00:00
+East Northamptonshire: 0:00:00
+East Staffordshire: 0:00:00
+East Suffolk: 0:00:00
+Eastbourne: 0:00:00
+Eastleigh: 0:00:00
+Eden: 0:00:00
+Elmbridge: 0:00:00
+Epping Forest: 0:00:00
+Epsom and Ewell: 0:00:00
+Erewash: 0:00:00
+Exeter: 0:00:00
+Fareham: 0:00:00
+Fenland: 0:00:00
+Folkestone and Hythe: 0:00:00
+Forest of Dean: 0:00:00
+Fylde: 0:00:00
+Gedling: 0:00:00
+Gloucester: 0:00:00
+Gosport: 0:00:00
+Gravesham: 0:00:00
+Great Yarmouth: 0:00:00
+Guildford: 0:00:00
+Hambleton: 0:00:00
+Harborough: 0:00:00
+Harlow: 0:00:00
+Harrogate: 0:00:00
+Hart: 0:00:00
+Hastings: 0:00:00
+Havant: 0:00:00
+Hertsmere: 0:00:00
+High Peak: 0:00:00
+Hinckley and Bosworth: 0:00:00
+Horsham: 0:00:00
+Huntingdonshire: 0:00:00
+Hyndburn: 0:00:00
+Ipswich: 0:00:00
+Kings Lynn and West Norfolk: 0:00:00
+Kettering: 0:00:00
+Lancaster: 0:00:00
+Lewes: 0:00:00
+Lichfield: 0:00:00
+Lincoln: 0:00:00
+Maidstone: 0:00:00
+Maldon: 0:00:00
+Malvern Hills: 0:00:00
+Mansfield: 0:00:00
+Melton: 0:00:00
+Mendip: 0:00:00
+Mid Devon: 0:00:00
+Mid Suffolk: 0:00:00
+Mid Sussex: 0:00:00
+Mole Valley: 0:00:00
+New Forest: 0:00:00
+Newark and Sherwood: 0:00:00
+Newcastle upon Tyne: 0:00:00
+Newcastle under Lyme: 0:01:44
+North Devon: 0:01:44
+North East Derbyshire: 0:01:44
+North Hertfordshire: 0:01:44
+North Kesteven: 0:01:44
+North Norfolk: 0:01:44
+North Warwickshire: 0:01:44
+North West Leicestershire: 0:01:44
+Northampton: 0:01:44
+Norwich: 0:01:44
+Nuneaton and Bedworth: 0:01:44
+Oadby and Wigston: 0:01:44
+Oxford: 0:01:44
+Pendle: 0:01:44
+Preston: 0:01:44
+Redditch: 0:01:44
+Reigate and Banstead: 0:01:44
+Ribble Valley: 0:01:44
+Richmondshire: 0:01:44
+Rochford: 0:01:44
+Rossendale: 0:01:44
+Rother: 0:01:44
+Rugby: 0:01:44
+Runnymede: 0:01:44
+Rushcliffe: 0:01:44
+Rushmoor: 0:01:44
+Ryedale: 0:01:44
+Scarborough: 0:01:44
+Sedgemoor: 0:01:44
+Selby: 0:01:44
+Sevenoaks: 0:01:44
+Somerset West and Taunton: 0:01:44
+South Bucks: 0:01:44
+South Cambridgeshire: 0:01:44
+South Derbyshire: 0:01:44
+South Hams: 0:01:44
+South Holland: 0:01:44
+South Kesteven: 0:01:44
+South Lakeland: 0:01:44
+South Norfolk: 0:01:44
+South Northamptonshire: 0:01:44
+South Oxfordshire: 0:01:44
+South Ribble: 0:01:44
+South Somerset: 0:01:44
+South Staffordshire: 0:01:44
+Spelthorne: 0:01:44
+St Albans: 0:01:44
+Stafford: 0:01:44
+Staffordshire Moorlands: 0:01:44
+Stevenage: 0:01:44
+Stratford on Avon: 0:01:44
+Stroud: 0:01:44
+Surrey Heath: 0:01:44
+Swale: 0:01:44
+Tamworth: 0:01:44
+Tandridge: 0:01:44
+Teignbridge: 0:01:44
+Tendring: 0:01:44
+Test Valley: 0:01:44
+Tewkesbury: 0:01:44
+Thanet: 0:01:44
+Three Rivers: 0:01:44
+Tonbridge and Malling: 0:01:44
+Torridge: 0:01:44
+Tunbridge Wells: 0:01:44
+Uttlesford: 0:01:44
+Vale of White Horse: 0:01:44
+Warwick: 0:01:44
+Watford: 0:01:44
+Waverley: 0:01:44
+Wealden: 0:01:44
+Wellingborough: 0:01:44
+Welwyn Hatfield: 0:01:44
+West Devon: 0:01:44
+West Lancashire: 0:01:44
+West Lindsey: 0:01:44
+West Oxfordshire: 0:01:44
+West Suffolk: 0:01:44
+Winchester: 0:01:44
+Woking: 0:01:44
+Worcester: 0:01:44
+Worthing: 0:01:44
+Wychavon: 0:01:44
+Wycombe: 0:01:44
+Wyre: 0:01:44
+Wyre Forest: 0:01:44
