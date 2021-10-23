@@ -1,12 +1,12 @@
 Northern Ireland: 0:00:00
-Antrim and Newtownabbey: 0:01:43
-Ards and North Down: 0:03:41
-Armagh City Banbridge and Craigavon: 0:05:43
-Belfast: 0:07:41
-Causeway Coast and Glens: 0:09:33
-Derry City and Strabane: 0:11:31
-Fermanagh and Omagh: 0:13:25
-Lisburn and Castlereagh: 0:15:27
-Mid Ulster: 0:17:24
-Mid and East Antrim: 0:19:20
-Newry Mourne and Down: 0:21:21
+Antrim and Newtownabbey: 0:01:45
+Ards and North Down: 0:03:46
+Armagh City Banbridge and Craigavon: 0:05:51
+Belfast: 0:07:51
+Causeway Coast and Glens: 0:09:45
+Derry City and Strabane: 0:11:45
+Fermanagh and Omagh: 0:13:41
+Lisburn and Castlereagh: 0:15:45
+Mid Ulster: 0:17:45
+Mid and East Antrim: 0:19:44
+Newry Mourne and Down: 0:21:47
