@@ -13,7 +13,7 @@ from operator import itemgetter
 # import time
 import datetime
 import argparse
-# import os
+import os
 import re
 import corona_python_text_csv_api 
 
@@ -36,10 +36,12 @@ blue_200_400 = (  18,  64, 127)
 purple_400_800 = (83,   8,  74)
 purple_800_inf = (43,   2,  38)
 
-notes = ["C ", "C♯", "D ", "E♭", "E ", "F ",
-         "F♯", "G ", "A♭", "A ", "B♭", "B "]
-         
-def choose_colour(rate100k):
+#notes = ["C ", "C♯", "D ", "E♭", "E ", "F ",
+#         "F♯", "G ", "A♭", "A ", "B♭", "B "]
+
+startDate0 = datetime.datetime.fromisoformat("2020-02-01")
+
+def choose_colour(rate100k, ):
     if rate100k < 10.0:
         colour = yellow_0_10
     elif rate100k < 50.0:
@@ -56,20 +58,42 @@ def choose_colour(rate100k):
         colour = purple_800_inf
     return colour
     
+def cases2rate7day(cases, population):
+    return 7*cases/(population/100000.0)
     
 def draw_graph(datelist, ncases_valslist, caserate_list, max_cases,
-                        duration_arr, notetxt_arr, area, population, caption):
+                         area, population, caption):
     '''
     draw a filled histogram
     '''
-    fig, ax = plt.subplots()
-    ax.plot(datelist, ncases_valslist)
+    def convert_cases_caserate7day(ax):
+        y1, y2 = ax.get_ylim()
+        ax_r.set_ylim(cases2rate7day(y1, population), cases2rate7day(y2, population))
+        ax_r.figure.canvas.draw()
+        
+    fig, ax = plt.subplots(dpi=300)
+    ax_r = ax.twinx()
+    ax.callbacks.connect("ylim_changed", convert_cases_caserate7day)
+    
+    ax.set_xlabel("Date")
+    ax.set_ylabel("cases by specimen date")
+    ax_r.set_ylabel("cases equiv. 7 day rate/100k")
+    ax.plot(datelist, ncases_valslist, linewidth=0.25, color='k')
+    colours = [tuple(y/255 for y in choose_colour(x)) for x in caserate_list]
+    ax.bar(datelist, ncases_valslist, width=1,color=colours)
+    ax.text(datelist[0], max_cases*0.90,
+    f"population = {population}", fontsize='small')    
+    ax.text(datelist[0], max_cases*0.85,
+    f"total cases = {sum(ncases_valslist)}", fontsize='small')
     # Major ticks every 3 months.
     fmt_3month = mdates.MonthLocator(bymonthday=1, interval=3)
     ax.xaxis.set_major_locator(fmt_3month)
     # Minor ticks every month.
     fmt_month = mdates.MonthLocator(bymonthday=1)
     ax.xaxis.set_minor_locator(fmt_month)
+    ax.grid(color='k', linestyle='--', linewidth=0.25)
+    ax.tick_params(labelsize=6)
+    ax_r.tick_params(labelsize=6)
     ax.set_title(caption)    
     
 def allgraphs(cases_by_area, selected_areas=[], bass_octave = 3,
@@ -80,7 +104,7 @@ def allgraphs(cases_by_area, selected_areas=[], bass_octave = 3,
     textout += "bass note = {h} Hz\n".format(h=bass_note)
     textout += "scaling={s}. freq prop. to (cases/max cases)^scaling\n".format(
                 s=scaling)
-    
+    # pngfilecount = 0
     for area in sorted(cases_by_area):
         textout_a = ""
         if len(selected_areas) > 0 and area not in selected_areas:
@@ -95,7 +119,22 @@ def allgraphs(cases_by_area, selected_areas=[], bass_octave = 3,
         datelist = [datetime.datetime.fromisoformat(i[0]) for i in area_cases]
         ncases_valslist = [i[1] if i[1] else 0 for i in area_cases]
         caserate_list = [i[2] for i in area_cases]
-
+        
+        if startDate > startDate0:
+            tdelta = startDate - startDate0
+            datelist_lead = [startDate0 + datetime.timedelta(i) for i in range(
+                tdelta.days)]
+            ncases_valslist_lead = list(numpy.zeros(tdelta.days, dtype=int))
+            caserate_list_lead = list(numpy.zeros(tdelta.days, dtype=float))
+            
+            datelist_lead.extend(datelist)
+            ncases_valslist_lead.extend(ncases_valslist)
+            caserate_list_lead.extend(caserate_list)
+            
+            datelist = datelist_lead
+            ncases_valslist = ncases_valslist_lead
+            caserate_list = caserate_list_lead
+            
         textout_a += area + "\n"
         max_cases = max(ncases_valslist)
         # print(max(ncases_valslist))
@@ -107,7 +146,7 @@ def allgraphs(cases_by_area, selected_areas=[], bass_octave = 3,
         total_cases = sum(ncases_valslist)        
         textout_a += f"total cases = {total_cases}\n"
                 
-        # discard last 7 days for calulating total rate and population
+        # discard last 7 days for calculating total rate and population
         total_rate = sum(caserate_list[:-7])/7        
         total_cases2 = sum(ncases_valslist[:-7])        
         textout_a += f"total rate/100k pop. = {total_rate:.2f}\n"
@@ -130,85 +169,92 @@ def allgraphs(cases_by_area, selected_areas=[], bass_octave = 3,
         # ncases_valslist = ncases_valslist[firstnonzero:]
         # caserate_list = caserate_list[firstnonzero:]
         
+        # music code not needed for now 15/11/21
         
         # generate the frequencies, durations, and musical note texts
-        freq_arr = []
-        duration_arr = []
-        notetxt_arr = []
-        volume_arr = []
-        volume = 1
-        for i, n in enumerate(zip(datelist, ncases_valslist, caserate_list)):
+        #freq_arr = []
+        #duration_arr = []
+        #notetxt_arr = []
+        #volume_arr = []
+        #volume = 1
+        #for i, n in enumerate(zip(datelist, ncases_valslist, caserate_list)):
             # range of 4 octaves by default
-            octaves = range_octaves*((n[1]/max_cases)**scaling)
+            #octaves = range_octaves*((n[1]/max_cases)**scaling)
             # quantise to the nearest semitone
-            octaves = math.floor(octaves*12.0)/12.0
+            #octaves = math.floor(octaves*12.0)/12.0
             # calculate frequency
-            freq = bass_note*(2**octaves)
+            #freq = bass_note*(2**octaves)
             
             # check change in cases since previous day            
-            if i > 0 and ncases_valslist[i-1]>0:
+            #if i > 0 and ncases_valslist[i-1]>0:
                 # if the same number, a semiquaver 
-                if ncases_valslist[i] == ncases_valslist[i-1]:
-                    duration_2 = duration / 4
+                #if ncases_valslist[i] == ncases_valslist[i-1]:
+                #    duration_2 = duration / 4
                 # if a small change, a quaver
-                elif abs(
-        (ncases_valslist[i]-ncases_valslist[i-1])/ncases_valslist[i-1]) < 0.2:            
-                    duration_2 = duration / 2
+                #elif abs(
+        #(ncases_valslist[i]-ncases_valslist[i-1])/ncases_valslist[i-1]) < 0.2:            
+                    #duration_2 = duration / 2
                 # if a large change, a crochet
-                else:
-                    duration_2 = duration
+                #else:
+                    #duration_2 = duration
             # also a crochet for the first element, or if previous was a zero
-            else:
-                duration_2 = duration
+            #else:
+            #    duration_2 = duration
             # create text for musical note
-            if duration_2 == duration:
-                note = "♩ "
-            elif duration_2 == duration/2:
-                note = "♪ "
-            elif duration_2 == duration/4:
-                note = "𝅘𝅥𝅯 "
-            else:
-                note = "♫ "
+            #if duration_2 == duration:
+            #    note = "♩ "
+            #elif duration_2 == duration/2:
+            #    note = "♪ "
+            #elif duration_2 == duration/4:
+            #    note = "𝅘𝅥𝅯 "
+            #else:
+            #    note = "♫ "
                 
-            if i > 2 and n[1]==0 and ncases_valslist[i-1]==0 and ncases_valslist[i-2]==0:
-                volume = 0.0
-                note = "𝄽 "
-            else:
-                volume = 1.0                
+            #if i > 2 and n[1]==0 and ncases_valslist[i-1]==0 and #ncases_valslist[i-2]==0:
+            #    volume = 0.0
+            #    note = "𝄽 "
+            #else:
+            #    volume = 1.0                
             # write text to terminal in either short or long form
-            if note == "𝄽 ":
-                notetxt = f"   {note}"
-            else:
-                notetxt = "{a}{b}{s}".format(
-                    a=notes[int((octaves*12) % 12)],
-                    b=int(bass_octave+math.floor(octaves)), s=note)
-            if shorttext:                    
-                textout_a += notetxt
-                if ((i+1) % 14 == 0 and i > 0):
-                    textout_a += "\n"
-            else:
-                notetxt2 = ("{d} {c} cases, {f:.3f} Hz, "
-                            "{n:.3f} octaves, {a}{b}{s}{r}/100k last 7 days\n").format(
-                            d=n[0], c=n[1], f=freq, n=octaves,
-                            a=notes[int((octaves*12) % 12)],
-                            b=int(bass_octave+math.floor(octaves)),s=note,
-                            r=n[2])
-                textout_a += notetxt2
+            #if note == "𝄽 ":
+            #    notetxt = f"   {note}"
+            #else:
+            #    notetxt = "{a}{b}{s}".format(
+            #        a=notes[int((octaves*12) % 12)],
+            #        b=int(bass_octave+math.floor(octaves)), s=note)
+            #if shorttext:                    
+            #    textout_a += notetxt
+            #    if ((i+1) % 14 == 0 and i > 0):
+            #        textout_a += "\n"
+            #else:
+            #    notetxt2 = ("{d} {c} cases, {f:.3f} Hz, "
+            #               "{n:.3f} octaves, {a}{b}{s}{r}/100k last 7 days\n").format(
+            #                d=n[0], c=n[1], f=freq, n=octaves,
+            #                a=notes[int((octaves*12) % 12)],
+            #                b=int(bass_octave+math.floor(octaves)),s=note,
+            #                r=n[2])
+            #    textout_a += notetxt2
 
             # add the note to the arrays
-            notetxt_arr.append(notetxt)
-            freq_arr.append(float(freq))
-            duration_arr.append(duration_2)
-            volume_arr.append(volume)                    
+            #notetxt_arr.append(notetxt)
+            #freq_arr.append(float(freq))
+            #duration_arr.append(duration_2)
+            #volume_arr.append(volume)                    
             
         textout_a += "\n\n"
         textout += textout_a
         print(textout_a)
 
         draw_graph(datelist, ncases_valslist,  caserate_list,
-                   max_cases, duration_arr, notetxt_arr, area,
+                   max_cases, area,
                    total_pop, caption)
-        plt.show()
+        #plt.show()
+        #pngfile = os.path.join("graphfiles", "matplotlib", 
+        #                           f"{area}_{pngfilecount:05}.png")
+        pngfile = os.path.join("graphfiles", "matplotlib", 
+                                   f"{area}.png")
+        # pngfilecount += 1        
+        plt.savefig(pngfile)
     return textout
     
 if __name__ == '__main__':
