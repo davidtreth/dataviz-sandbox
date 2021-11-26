@@ -71,7 +71,7 @@ def draw_graph(datelist, ncases_valslist, caserate_list, max_cases,
         ax_r.set_ylim(cases2rate7day(y1, population), cases2rate7day(y2, population))
         ax_r.figure.canvas.draw()
         
-    fig, ax = plt.subplots(dpi=300)
+    fig, ax = plt.subplots(dpi=200, figsize=[12.8, 7.2])
     ax_r = ax.twinx()
     ax.callbacks.connect("ylim_changed", convert_cases_caserate7day)
     
