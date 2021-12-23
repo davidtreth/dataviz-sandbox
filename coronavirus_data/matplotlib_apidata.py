@@ -33,9 +33,14 @@ green_10_50 = (  116, 187, 104)
 green_50_100 = (  57, 147, 132)
 blue_100_200 = (  32, 103, 171)
 blue_200_400 = (  18,  64, 127)
-purple_400_800 = (83,   8,  74)
-purple_800_inf = (43,   2,  38)
+#purple_400_800 = (83,   8,  74)
+#purple_800_inf = (43,   2,  38)
 
+# change of colour scheme on 21/12/2021 to create new categories
+# of rates 800-1600, > 1600
+purple_400_800 = (100,   0,  88)
+purple_800_1600 =( 59,   9,  48)
+black_1600_inf = (  0,   0,  0)
 #notes = ["C ", "C♯", "D ", "E♭", "E ", "F ",
 #         "F♯", "G ", "A♭", "A ", "B♭", "B "]
 
@@ -54,8 +59,10 @@ def choose_colour(rate100k, ):
         colour = blue_200_400
     elif rate100k < 800.0:
         colour = purple_400_800
+    elif rate100k < 1600.0:
+        colour = purple_800_1600
     else:
-        colour = purple_800_inf
+        colour = black_1600_inf
     return colour
     
 def cases2rate7day(cases, population):
