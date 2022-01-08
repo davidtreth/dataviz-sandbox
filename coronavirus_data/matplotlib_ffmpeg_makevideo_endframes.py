@@ -20,3 +20,14 @@ print(ffmpeg_cmd)
 os.chdir(matplotlibdir)
 subprocess.call(ffmpeg_cmd, shell=True)
 
+last6mdir = "last6m"
+png_pattern = f"*last6m.png"
+
+videofile = f"all_areas_endframes_matplotlib_last6m.mp4"
+ffmpeg_cmd = (f"ffmpeg -pattern_type glob -r 0.25 -f image2 -s 1920x1440"
+             f" -i '{png_pattern}' "
+             f"-vcodec libx264 -crf 25 -pix_fmt yuv420p "
+             f"{videofile}")
+print(ffmpeg_cmd)
+os.chdir(last6mdir)
+subprocess.call(ffmpeg_cmd, shell=True)

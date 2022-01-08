@@ -69,12 +69,12 @@ def cases2rate7day(cases, population):
     return 7*cases/(population/100000.0)
     
 def draw_graph(datelist, ncases_valslist, caserate_list, max_cases,
-                         area, population, caption):
+               total_cases, area, population, caption):
     '''
     draw a filled histogram
     '''
     def convert_cases_caserate7day(ax):
-        y1, y2 = ax.get_ylim()
+        y1, y2 = ax.get_ylim()        
         ax_r.set_ylim(cases2rate7day(y1, population), cases2rate7day(y2, population))
         ax_r.figure.canvas.draw()
         
@@ -85,13 +85,27 @@ def draw_graph(datelist, ncases_valslist, caserate_list, max_cases,
     ax.set_xlabel("Date")
     ax.set_ylabel("cases by specimen date")
     ax_r.set_ylabel("cases equiv. 7 day rate/100k")
+    
+    y1 = 0.0
+    y2 = 1000000.0
+    date_5dayfromend = datelist[-6]
+    plt.vlines(date_5dayfromend, y1, y2, 'red',
+               linestyle='dashed', linewidth=0.5)
     ax.plot(datelist, ncases_valslist, linewidth=0.25, color='k')
     colours = [tuple(y/255 for y in choose_colour(x)) for x in caserate_list]
-    ax.bar(datelist, ncases_valslist, width=1,color=colours)
+    datelist_main = datelist[:-5]
+    datelist_end = datelist[-5:]
+    ncases_valslist_main = ncases_valslist[:-5]
+    ncases_valslist_end = ncases_valslist[-5:]
+    colours_main = colours[:-5]
+    colours_end  = colours[-5:]
+    #ax.bar(datelist, ncases_valslist, width=1,color=colours)
+    ax.bar(datelist_main, ncases_valslist_main, width=1,color=colours_main)
+    ax.bar(datelist_end, ncases_valslist_end, width=1,color=colours_end, alpha=0.5)
     ax.text(datelist[0], max_cases*0.90,
     f"population = {population}", fontsize='small')    
     ax.text(datelist[0], max_cases*0.85,
-    f"total cases = {sum(ncases_valslist)}", fontsize='small')
+    f"total cases = {total_cases}", fontsize='small')
     # Major ticks every 3 months.
     fmt_3month = mdates.MonthLocator(bymonthday=1, interval=3)
     ax.xaxis.set_major_locator(fmt_3month)
@@ -251,15 +265,24 @@ def allgraphs(cases_by_area, selected_areas=[], bass_octave = 3,
         textout_a += "\n\n"
         textout += textout_a
         print(textout_a)
-
+        # find total cases in an area
+        total_cases = sum(ncases_valslist)
         draw_graph(datelist, ncases_valslist,  caserate_list,
-                   max_cases, area,
+                   max_cases, total_cases, area,
                    total_pop, caption)
         #plt.show()
         #pngfile = os.path.join("graphfiles", "matplotlib", 
         #                           f"{area}_{pngfilecount:05}.png")
         pngfile = os.path.join("graphfiles", "matplotlib", 
                                    f"{area}.png")
+        plt.savefig(pngfile)
+
+        max_cases6 = max(ncases_valslist[-183:])
+        draw_graph(datelist[-183:], ncases_valslist[-183:],
+                   caserate_list[-183:], max_cases6, total_cases, area,
+                   total_pop, caption)
+        pngfile = os.path.join("graphfiles", "matplotlib", "last6m",
+                                   f"{area}_last6m.png")                                   
         # pngfilecount += 1        
         plt.savefig(pngfile)
     return textout
