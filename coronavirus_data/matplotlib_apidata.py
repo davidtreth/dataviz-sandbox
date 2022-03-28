@@ -66,21 +66,26 @@ def choose_colour(rate100k, ):
     return colour
     
 def cases2rate7day(cases, population):
-    return 7*cases/(population/100000.0)
+    return 7*(cases/(population/100000.0))
     
 def draw_graph(datelist, ncases_valslist, caserate_list, max_cases,
-               total_cases, area, population, caption):
+               total_cases, area, population, caption, ynorm):
     '''
     draw a filled histogram
     '''
     def convert_cases_caserate7day(ax):
-        y1, y2 = ax.get_ylim()        
+        y1 = 0
+        y2 = max_cases
         ax_r.set_ylim(cases2rate7day(y1, population), cases2rate7day(y2, population))
         ax_r.figure.canvas.draw()
         
     fig, ax = plt.subplots(dpi=200, figsize=[12.8, 7.2])
     ax_r = ax.twinx()
     ax.callbacks.connect("ylim_changed", convert_cases_caserate7day)
+    if ynorm != -1:
+        ymax = ynorm * population/100000.0
+        ax.set_ylim(0, ymax)
+
     
     ax.set_xlabel("Date")
     ax.set_ylabel("cases by specimen date")
@@ -118,7 +123,8 @@ def draw_graph(datelist, ncases_valslist, caserate_list, max_cases,
     ax.set_title(caption)    
     
 def allgraphs(cases_by_area, selected_areas=[], bass_octave = 3,
-               range_octaves=4, scaling=1, shorttext=False, duration=1):
+               range_octaves=4, scaling=1, shorttext=False, duration=1,
+               ynorm=-1):
     textout = ""   
     bass_note = 261.63 * 2**(bass_octave-4)
     # one octave below middle C if bass-octave is its default
@@ -269,7 +275,7 @@ def allgraphs(cases_by_area, selected_areas=[], bass_octave = 3,
         total_cases = sum(ncases_valslist)
         draw_graph(datelist, ncases_valslist,  caserate_list,
                    max_cases, total_cases, area,
-                   total_pop, caption)
+                   total_pop, caption, ynorm)
         #plt.show()
         #pngfile = os.path.join("graphfiles", "matplotlib", 
         #                           f"{area}_{pngfilecount:05}.png")
@@ -280,7 +286,7 @@ def allgraphs(cases_by_area, selected_areas=[], bass_octave = 3,
         max_cases6 = max(ncases_valslist[-183:])
         draw_graph(datelist[-183:], ncases_valslist[-183:],
                    caserate_list[-183:], max_cases6, total_cases, area,
-                   total_pop, caption)
+                   total_pop, caption, ynorm)
         pngfile = os.path.join("graphfiles", "matplotlib", "last6m",
                                    f"{area}_last6m.png")                                   
         # pngfilecount += 1        
@@ -299,14 +305,18 @@ if __name__ == '__main__':
     parser.add_argument("-o", "--output", help=("Directs the text output to a "
                                                 "filename of your choice"))
     parser.add_argument("-y", "--ysize", help=("sets y size"
-                                                "default 1280x720"))                                                
-    parser.add_argument("-a", "--areaselect", help=("Select areas containing"
+                                                "default 1280x720"))
+    parser.add_argument("-ynorm", "--ynorm", help=("sets y-axis normalisation "
+                                                "default equal to "
+                                                " 6300/100k/7days "
+                                                " 900/100k"))
+    parser.add_argument("-a", "--areaselect", help=("Select areas containing "
                                                     "text matching regex"))
     parser.add_argument("--utla",action="store_true",
-                        help=("include upper-tier LAs"
+                        help=("include upper-tier LAs "
                         "by default don't"))                                                     
     parser.add_argument("--ltla",action="store_true",
-                        help=("include lower-tier LAs (England only)"
+                        help=("include lower-tier LAs (England only) "
                         "by default don't")) 
                                                         
     # example run this command to select LAs containing Isle/Island 
@@ -334,7 +344,21 @@ if __name__ == '__main__':
         # if no args.ysize, set it to the default
         ysize = 720
     size = (int((16/9)*ysize), ysize)
-
+    if args.ynorm:
+        try:
+            ynorm = float(args.nprm)
+        except:
+            # if args.ysize doesn't convert to an integer, set it to the default
+            ynorm = 7000
+        if ynorm < 70 or ynorm > 14000:
+            print("ynorm out of bounds 70-14000, setting to default 7000")
+            ynorm = 7000
+        # set ynorm as number of cases per 100k per day:
+        ynorm = ynorm / 7.0
+    else:
+        # if no args.ynorm, flag as -1
+        ynorm = -1
+        
     if args.areaselect:
         # if selecting areas using a substring, ignore case
         q = re.compile(args.areaselect.strip(), re.IGNORECASE)
@@ -349,14 +373,14 @@ if __name__ == '__main__':
         cases_by_area = {k:v for k, v in cases_by_area.items() if q.search(k.lower())}
 
     graphs_nations = allgraphs(cases_by_area, "", 2, 6, 0.5,
-                               args.short, 0.5)
+                               args.short, 0.5, ynorm)
     # regions of England
     cases_by_area = corona_python_text_csv_api.cases_by_region
     if args.areaselect:
         cases_by_area = {k:v for k, v in cases_by_area.items() if q.search(k.lower())}   
     # Code to create the graphs 
     graphs_regions = allgraphs(cases_by_area, "", 2, 6, 0.5,
-                               args.short, 0.5)
+                               args.short, 0.5, ynorm)
     # play UTLAs only if the command-line argument is set
     if args.utla:
         cases_by_areaUTLA = corona_python_text_csv_api.cases_by_UTLA
@@ -364,7 +388,7 @@ if __name__ == '__main__':
             cases_by_areaUTLA = {k:v for k, v in cases_by_areaUTLA.items() if q.search(k.lower())}   
         # Code to create the graphs 
         graphs_UTLAs = allgraphs(cases_by_areaUTLA, "", 3, 5, 0.5,
-                               args.short, 0.5)    
+                               args.short, 0.5, ynorm)    
     # play LTLAs only if the command-line argument is set
     if args.ltla:
         cases_by_areaLTLA = corona_python_text_csv_api.cases_by_LTLA
@@ -374,7 +398,7 @@ if __name__ == '__main__':
             cases_by_areaLTLA = {k:v for k, v in cases_by_areaLTLA.items() if q.search(k.lower())}
         # Code to create the graphs                
         graphs_LTLAs = allgraphs(cases_by_areaLTLA, "", 3, 5, 0.5,
-                               args.short, 0.5)
+                               args.short, 0.5, ynorm)
 
     # not sure what text to output for this file
     if args.output:

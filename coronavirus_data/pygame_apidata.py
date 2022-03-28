@@ -335,6 +335,11 @@ def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
     textout += "scaling={s}. freq prop. to (cases/max cases)^scaling\n".format(
                 s=scaling)
     
+    total_rate_max = 0.0    
+    total_rate_max_area = ""
+    total_total_pop = 0
+    total_total_cases = 0
+    total_caserate7day100k = 0.0
     for area in sorted(cases_by_area):
         textout_a = ""
         if len(selected_areas) > 0 and area not in selected_areas:
@@ -358,16 +363,37 @@ def play_audio(cases_by_area, selected_areas=[], bass_octave = 3,
             continue
             
         total_cases = sum(ncases_valslist)        
-        textout_a += f"total cases = {total_cases}\n"
+        textout_a += f"total cases in this area = {total_cases}\n"        
                 
         # discard last 7 days for calulating total rate and population
         total_rate = sum(caserate_list[:-7])/7        
-        total_cases2 = sum(ncases_valslist[:-7])        
-        textout_a += f"total rate/100k pop. = {total_rate:.2f}\n"
+        total_cases2 = sum(ncases_valslist[:-7])
+        total_total_cases += total_cases2
+        
+               
+        textout_a += f"total case rate/100k pop. in this area = {total_rate:.2f}\n"
         
         total_pop = round((100000/total_rate)*total_cases2)
-        textout_a += f"total pop. = {total_pop}\n"
+        total_total_pop += total_pop
+        total_caserate7day100k += (total_rate * total_pop/100000)
+        textout_a += f"total pop. of this area = {total_pop}\n"
+        textout_a += f"max case rate per 100k pop. over 7 day period in {area} = {7*max_cases/(total_pop/100000):.2f}\n"    
+        textout_a += f"average rate/100k pop. per 7 day period in all except last 7 days in all areas so far, weighted = {(7.0/len(area_cases))*total_caserate7day100k/(total_total_pop/100000):.2f}\n"
         
+        
+        total_cases2 = sum(ncases_valslist[:-7])        
+        textout_a += f"total cases so far = {total_total_cases}\n"           
+
+        if total_rate > total_rate_max:
+            total_rate_max = total_rate
+            total_rate_max_area = area
+            average_7day_rate_100k = numpy.mean(caserate_list[:-7])*7
+            total_avg_7day_rate_100k = (total_cases/len(ncases_valslist)) * 7
+            textout_a += f"maximum total rate/100k on a day, normalised to a 7 day period = {total_rate_max/7:.2f} in {total_rate_max_area}\n\n"
+        else:
+            textout_a += f"maximum total rate/100k on a day, normalised to a 7 day period = {total_rate_max/7:.2f} in {total_rate_max_area}\n\n"
+        
+            
         # turn underscores back to spaces for captions
         area_l = area.replace("_", " ")
         pygame.display.set_caption(
@@ -496,7 +522,7 @@ if __name__ == '__main__':
     parser.add_argument("-y", "--ysize", help=("sets y size"
                                                 "default 1280x720"))
     parser.add_argument("-d", "--duration", help=("sets note duration"
-                                                "default 0.5 sec"))
+                                                "default 0.25 sec"))
     parser.add_argument("-a", "--areaselect", help=("Select areas containing"
                                                     "text matching regex"))
     parser.add_argument("--utla",action="store_true",
@@ -536,9 +562,9 @@ if __name__ == '__main__':
             duration = float(args.duration)
         except:
             # if args.duration doesn't convert to a float, set to default
-            duration = 0.5
+            duration = 0.25
     else:
-        duration = 0.5
+        duration = 0.25
     pygame.mixer.pre_init(44100, -bits, 2)
     pygame.init()
     display_surf = pygame.display.set_mode(size,
@@ -558,7 +584,7 @@ if __name__ == '__main__':
 
     if args.areaselect:                
         cases_by_area = {k:v for k, v in cases_by_area.items() if q.search(k.lower())}
-    notes_nations = play_audio(cases_by_area, "", 2, 6, 0.5,
+    notes_nations = play_audio(cases_by_area, "", 2, 6, 0.25,
                                args.short, duration, args.quietmode,
                                args.audioonly, args.nodelay)
 
@@ -566,7 +592,7 @@ if __name__ == '__main__':
     cases_by_area = corona_python_text_csv_api.cases_by_region
     if args.areaselect:
         cases_by_area = {k:v for k, v in cases_by_area.items() if q.search(k.lower())}   
-    notes_regions = play_audio(cases_by_area, "", 2, 6, 0.5,
+    notes_regions = play_audio(cases_by_area, "", 2, 6, 0.25,
                                args.short, duration, args.quietmode,
                                args.audioonly, args.nodelay)
     
@@ -579,7 +605,7 @@ if __name__ == '__main__':
         cases_by_areaUTLA = corona_python_text_csv_api.cases_by_UTLA
         if args.areaselect:
             cases_by_areaUTLA = {k:v for k, v in cases_by_areaUTLA.items() if q.search(k.lower())}   
-        notes_UTLAs = play_audio(cases_by_areaUTLA, "", 3, 5, 0.5,
+        notes_UTLAs = play_audio(cases_by_areaUTLA, "", 2, 6, 0.25,
                                  args.short, duration, args.quietmode,
                                  args.audioonly, args.nodelay)
 
@@ -590,7 +616,7 @@ if __name__ == '__main__':
         cases_by_areaLTLA = {k:v for k, v in cases_by_areaLTLA.items() if k not in cases_by_areaUTLA.keys()}
         if args.areaselect:
             cases_by_areaLTLA = {k:v for k, v in cases_by_areaLTLA.items() if q.search(k.lower())}   
-        notes_LTLAs = play_audio(cases_by_areaLTLA, "", 3, 5, 0.5,
+        notes_LTLAs = play_audio(cases_by_areaLTLA, "", 2, 6, 0.25,
                                  args.short, duration, args.quietmode,
                                  args.audioonly, args.nodelay)                             
 
