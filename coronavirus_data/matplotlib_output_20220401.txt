@@ -1,0 +1,2955 @@
+bass note = 65.4075 Hz
+scaling=0.5. freq prop. to (cases/max cases)^scaling
+England
+max cases = 234820
+total cases = 17864686
+total rate/100k pop. = 30621.56
+total pop. = 57251563
+
+
+Northern_Ireland
+max cases = 8976
+total cases = 688062
+total rate/100k pop. = 35558.56
+total pop. = 1912468
+
+
+Scotland
+max cases = 23537
+total cases = 1800581
+total rate/100k pop. = 31520.07
+total pop. = 5568626
+
+
+United_Kingdom
+max cases = 275594
+total cases = 21210700
+total rate/100k pop. = 30655.97
+total pop. = 67908620
+
+
+Wales
+max cases = 16252
+total cases = 863544
+total rate/100k pop. = 26847.89
+total pop. = 3194363
+
+
+bass note = 65.4075 Hz
+scaling=0.5. freq prop. to (cases/max cases)^scaling
+East_Midlands
+max cases = 20048
+total cases = 1522513
+total rate/100k pop. = 30352.00
+total pop. = 4923629
+
+
+East_of_England
+max cases = 23994
+total cases = 1943575
+total rate/100k pop. = 29953.49
+total pop. = 6356866
+
+
+London
+max cases = 36919
+total cases = 2790572
+total rate/100k pop. = 30262.23
+total pop. = 9090226
+
+
+North_East
+max cases = 17150
+total cases = 902347
+total rate/100k pop. = 32688.79
+total pop. = 2709443
+
+
+North_West
+max cases = 40217
+total cases = 2476284
+total rate/100k pop. = 32738.34
+total pop. = 7442637
+
+
+South_East
+max cases = 31862
+total cases = 2871988
+total rate/100k pop. = 30050.47
+total pop. = 9352672
+
+
+South_West
+max cases = 17082
+total cases = 1655845
+total rate/100k pop. = 27953.77
+total pop. = 5767218
+
+
+West_Midlands
+max cases = 25393
+total cases = 1832704
+total rate/100k pop. = 29856.57
+total pop. = 6028683
+
+
+Yorkshire_and_The_Humber
+max cases = 26918
+total cases = 1732902
+total rate/100k pop. = 30490.23
+total pop. = 5585478
+
+
+bass note = 130.815 Hz
+scaling=0.5. freq prop. to (cases/max cases)^scaling
+Aberdeen_City
+max cases = 963
+total cases = 66275
+total rate/100k pop. = 27753.97
+total pop. = 233055
+
+
+Aberdeenshire
+max cases = 911
+total cases = 73132
+total rate/100k pop. = 26678.73
+total pop. = 266280
+
+
+Angus
+max cases = 451
+total cases = 33714
+total rate/100k pop. = 27904.11
+total pop. = 117900
+
+
+Antrim_and_Newtownabbey
+max cases = 587
+total cases = 53018
+total rate/100k pop. = 36833.33
+total pop. = 141988
+
+
+Ards_and_North_Down
+max cases = 584
+total cases = 52372
+total rate/100k pop. = 31392.60
+total pop. = 164144
+
+
+Argyll_and_Bute
+max cases = 307
+total cases = 22422
+total rate/100k pop. = 24815.27
+total pop. = 87486
+
+
+Armagh_City_Banbridge_and_Craigavon
+max cases = 953
+total cases = 79495
+total rate/100k pop. = 36074.96
+total pop. = 218603
+
+
+Barking_and_Dagenham
+max cases = 1074
+total cases = 67737
+total rate/100k pop. = 31136.94
+total pop. = 215407
+
+
+Barnet
+max cases = 1391
+total cases = 121493
+total rate/100k pop. = 29667.99
+total pop. = 403185
+
+
+Barnsley
+max cases = 1416
+total cases = 86401
+total rate/100k pop. = 33949.09
+total pop. = 250340
+
+
+Bath_and_North_East_Somerset
+max cases = 591
+total cases = 57852
+total rate/100k pop. = 28315.43
+total pop. = 199746
+
+
+Bedford
+max cases = 711
+total cases = 61753
+total rate/100k pop. = 34184.37
+total pop. = 177072
+
+
+Belfast
+max cases = 1549
+total cases = 124666
+total rate/100k pop. = 35646.26
+total pop. = 345672
+
+
+Bexley
+max cases = 1126
+total cases = 78948
+total rate/100k pop. = 30875.54
+total pop. = 251795
+
+
+Birmingham
+max cases = 4312
+total cases = 335558
+total rate/100k pop. = 28856.63
+total pop. = 1148987
+
+
+Blackburn_with_Darwen
+max cases = 929
+total cases = 54889
+total rate/100k pop. = 36003.04
+total pop. = 150857
+
+
+Blackpool
+max cases = 898
+total cases = 47508
+total rate/100k pop. = 33302.60
+total pop. = 139950
+
+
+Blaenau_Gwent
+max cases = 442
+total cases = 20973
+total rate/100k pop. = 29346.34
+total pop. = 70786
+
+
+Bolton
+max cases = 1581
+total cases = 92049
+total rate/100k pop. = 31318.73
+total pop. = 290353
+
+
+Bournemouth_Christchurch_and_Poole
+max cases = 1246
+total cases = 127980
+total rate/100k pop. = 30983.13
+total pop. = 403533
+
+
+Bracknell_Forest
+max cases = 557
+total cases = 40781
+total rate/100k pop. = 31597.94
+total pop. = 126065
+
+
+Bradford
+max cases = 2308
+total cases = 167808
+total rate/100k pop. = 30344.64
+total pop. = 546152
+
+
+Brent
+max cases = 1468
+total cases = 99092
+total rate/100k pop. = 29641.50
+total pop. = 330354
+
+
+Bridgend
+max cases = 813
+total cases = 40383
+total rate/100k pop. = 27032.44
+total pop. = 148481
+
+
+Brighton_and_Hove
+max cases = 1242
+total cases = 92006
+total rate/100k pop. = 30583.21
+total pop. = 295482
+
+
+Bristol_City_of
+max cases = 1770
+total cases = 161709
+total rate/100k pop. = 33583.11
+total pop. = 472347
+
+
+Bromley
+max cases = 1555
+total cases = 104691
+total rate/100k pop. = 30571.24
+total pop. = 336660
+
+
+Buckinghamshire
+max cases = 1873
+total cases = 173102
+total rate/100k pop. = 30585.04
+total pop. = 554689
+
+
+Bury
+max cases = 976
+total cases = 64095
+total rate/100k pop. = 32905.67
+total pop. = 192204
+
+
+Caerphilly
+max cases = 949
+total cases = 50764
+total rate/100k pop. = 27531.09
+total pop. = 183059
+
+
+Calderdale
+max cases = 1015
+total cases = 64689
+total rate/100k pop. = 29818.97
+total pop. = 213522
+
+
+Cambridgeshire
+max cases = 2066
+total cases = 199490
+total rate/100k pop. = 29095.00
+total pop. = 668668
+
+
+Camden
+max cases = 963
+total cases = 69049
+total rate/100k pop. = 23967.56
+total pop. = 283049
+
+
+Cardiff
+max cases = 1471
+total cases = 101554
+total rate/100k pop. = 27093.54
+total pop. = 372258
+
+
+Carmarthenshire
+max cases = 800
+total cases = 47304
+total rate/100k pop. = 24540.61
+total pop. = 191523
+
+
+Causeway_Coast_and_Glens
+max cases = 670
+total cases = 45720
+total rate/100k pop. = 30853.09
+total pop. = 146423
+
+
+Central_Bedfordshire
+max cases = 1136
+total cases = 93793
+total rate/100k pop. = 30774.13
+total pop. = 298293
+
+
+Ceredigion
+max cases = 269
+total cases = 12610
+total rate/100k pop. = 16970.59
+total pop. = 73698
+
+
+Cheshire_East
+max cases = 1825
+total cases = 123353
+total rate/100k pop. = 30715.71
+total pop. = 392389
+
+
+Cheshire_West_and_Chester
+max cases = 1734
+total cases = 115150
+total rate/100k pop. = 32322.31
+total pop. = 348567
+
+
+City_of_Edinburgh
+max cases = 1947
+total cases = 167764
+total rate/100k pop. = 30418.49
+total pop. = 537410
+
+
+Clackmannanshire
+max cases = 224
+total cases = 18741
+total rate/100k pop. = 35039.73
+total pop. = 52201
+
+
+Conwy
+max cases = 574
+total cases = 25934
+total rate/100k pop. = 21605.23
+total pop. = 119027
+
+
+Cornwall_and_Isles_of_Scilly
+max cases = 1464
+total cases = 149322
+total rate/100k pop. = 24621.84
+total pop. = 587470
+
+
+County_Durham
+max cases = 3154
+total cases = 174445
+total rate/100k pop. = 31759.96
+total pop. = 538908
+
+
+Coventry
+max cases = 1569
+total cases = 107745
+total rate/100k pop. = 27705.54
+total pop. = 382996
+
+
+Croydon
+max cases = 1962
+total cases = 120119
+total rate/100k pop. = 30183.33
+total pop. = 392336
+
+
+Cumbria
+max cases = 2862
+total cases = 151961
+total rate/100k pop. = 29302.97
+total pop. = 507474
+
+
+Darlington
+max cases = 784
+total cases = 36281
+total rate/100k pop. = 32793.27
+total pop. = 108711
+
+
+Denbighshire
+max cases = 379
+total cases = 24230
+total rate/100k pop. = 24632.04
+total pop. = 97621
+
+
+Derby
+max cases = 1253
+total cases = 82886
+total rate/100k pop. = 31313.53
+total pop. = 259763
+
+
+Derbyshire
+max cases = 3854
+total cases = 245501
+total rate/100k pop. = 29346.37
+total pop. = 818544
+
+
+Derry_City_and_Strabane
+max cases = 1373
+total cases = 60687
+total rate/100k pop. = 39354.63
+total pop. = 152485
+
+
+Devon
+max cases = 2276
+total cases = 220470
+total rate/100k pop. = 25802.27
+total pop. = 828419
+
+
+Doncaster
+max cases = 1695
+total cases = 104302
+total rate/100k pop. = 32403.50
+total pop. = 316244
+
+
+Dorset
+max cases = 1151
+total cases = 99805
+total rate/100k pop. = 24962.44
+total pop. = 388083
+
+
+Dudley
+max cases = 1587
+total cases = 104909
+total rate/100k pop. = 31727.46
+total pop. = 325220
+
+
+Dumfries_and_Galloway
+max cases = 666
+total cases = 40624
+total rate/100k pop. = 25997.50
+total pop. = 151491
+
+
+Dundee_City
+max cases = 639
+total cases = 50352
+total rate/100k pop. = 32711.63
+total pop. = 150870
+
+
+Ealing
+max cases = 1515
+total cases = 115267
+total rate/100k pop. = 33131.47
+total pop. = 343220
+
+
+East_Ayrshire
+max cases = 628
+total cases = 45811
+total rate/100k pop. = 36038.20
+total pop. = 123960
+
+
+East_Dunbartonshire
+max cases = 522
+total cases = 40576
+total rate/100k pop. = 35888.06
+total pop. = 110619
+
+
+East_Lothian
+max cases = 411
+total cases = 33732
+total rate/100k pop. = 29775.90
+total pop. = 110116
+
+
+East_Renfrewshire
+max cases = 505
+total cases = 36338
+total rate/100k pop. = 36498.94
+total pop. = 97540
+
+
+East_Riding_of_Yorkshire
+max cases = 1715
+total cases = 100585
+total rate/100k pop. = 30022.26
+total pop. = 327817
+
+
+East_Sussex
+max cases = 1805
+total cases = 157662
+total rate/100k pop. = 27272.97
+total pop. = 566132
+
+
+Enfield
+max cases = 1445
+total cases = 94076
+total rate/100k pop. = 27601.54
+total pop. = 336514
+
+
+Essex
+max cases = 6390
+total cases = 479414
+total rate/100k pop. = 31020.97
+total pop. = 1517348
+
+
+Falkirk
+max cases = 723
+total cases = 57193
+total rate/100k pop. = 34002.61
+total pop. = 163902
+
+
+Fermanagh_and_Omagh
+max cases = 777
+total cases = 41430
+total rate/100k pop. = 34452.49
+total pop. = 118633
+
+
+Fife
+max cases = 1434
+total cases = 118114
+total rate/100k pop. = 30143.91
+total pop. = 381284
+
+
+Flintshire
+max cases = 649
+total cases = 38676
+total rate/100k pop. = 24283.76
+total pop. = 158147
+
+
+Gateshead
+max cases = 1154
+total cases = 66755
+total rate/100k pop. = 32068.83
+total pop. = 204233
+
+
+Glasgow_City
+max cases = 3307
+total cases = 222767
+total rate/100k pop. = 33809.47
+total pop. = 645343
+
+
+Gloucestershire
+max cases = 1763
+total cases = 183219
+total rate/100k pop. = 27392.47
+total pop. = 651957
+
+
+Greenwich
+max cases = 1263
+total cases = 87225
+total rate/100k pop. = 33485.77
+total pop. = 256667
+
+
+Gwynedd
+max cases = 459
+total cases = 26576
+total rate/100k pop. = 20852.61
+total pop. = 126349
+
+
+Hackney_and_City_of_London
+max cases = 1547
+total cases = 87504
+total rate/100k pop. = 29306.10
+total pop. = 294543
+
+
+Halton
+max cases = 802
+total cases = 47612
+total rate/100k pop. = 35584.57
+total pop. = 131209
+
+
+Hammersmith_and_Fulham
+max cases = 902
+total cases = 61252
+total rate/100k pop. = 32560.57
+total pop. = 185368
+
+
+Hampshire
+max cases = 4457
+total cases = 420345
+total rate/100k pop. = 28956.39
+total pop. = 1414120
+
+
+Haringey
+max cases = 1132
+total cases = 80641
+total rate/100k pop. = 29610.13
+total pop. = 268898
+
+
+Harrow
+max cases = 985
+total cases = 78842
+total rate/100k pop. = 30493.19
+total pop. = 254834
+
+
+Hartlepool
+max cases = 839
+total cases = 32761
+total rate/100k pop. = 34174.79
+total pop. = 94540
+
+
+Havering
+max cases = 1308
+total cases = 86912
+total rate/100k pop. = 32641.31
+total pop. = 263004
+
+
+Herefordshire_County_of
+max cases = 624
+total cases = 49769
+total rate/100k pop. = 24550.29
+total pop. = 197366
+
+
+Hertfordshire
+max cases = 4893
+total cases = 388481
+total rate/100k pop. = 31460.63
+total pop. = 1210942
+
+
+Highland
+max cases = 804
+total cases = 61669
+total rate/100k pop. = 24658.67
+total pop. = 241773
+
+
+Hillingdon
+max cases = 1206
+total cases = 97455
+total rate/100k pop. = 30831.37
+total pop. = 311588
+
+
+Hounslow
+max cases = 1186
+total cases = 91877
+total rate/100k pop. = 33112.27
+total pop. = 273953
+
+
+Inverclyde
+max cases = 465
+total cases = 27482
+total rate/100k pop. = 34064.93
+total pop. = 78550
+
+
+Isle_of_Anglesey
+max cases = 312
+total cases = 14557
+total rate/100k pop. = 20273.79
+total pop. = 71240
+
+
+Isle_of_Wight
+max cases = 408
+total cases = 38299
+total rate/100k pop. = 25662.90
+total pop. = 145264
+
+
+Islington
+max cases = 1173
+total cases = 71499
+total rate/100k pop. = 27993.40
+total pop. = 250984
+
+
+Kensington_and_Chelsea
+max cases = 576
+total cases = 43070
+total rate/100k pop. = 26776.63
+total pop. = 158538
+
+
+Kent
+max cases = 5902
+total cases = 486185
+total rate/100k pop. = 29559.99
+total pop. = 1611347
+
+
+Kingston_upon_Hull_City_of
+max cases = 1399
+total cases = 86511
+total rate/100k pop. = 32475.16
+total pop. = 261772
+
+
+Kingston_upon_Thames
+max cases = 632
+total cases = 57737
+total rate/100k pop. = 31278.24
+total pop. = 181548
+
+
+Kirklees
+max cases = 2365
+total cases = 134143
+total rate/100k pop. = 29617.04
+total pop. = 445726
+
+
+Knowsley
+max cases = 1009
+total cases = 57933
+total rate/100k pop. = 37053.87
+total pop. = 153930
+
+
+Lambeth
+max cases = 2090
+total cases = 108463
+total rate/100k pop. = 32902.27
+total pop. = 325160
+
+
+Lancashire
+max cases = 6863
+total cases = 403126
+total rate/100k pop. = 32038.24
+total pop. = 1239100
+
+
+Leeds
+max cases = 3653
+total cases = 265390
+total rate/100k pop. = 32376.90
+total pop. = 806683
+
+
+Leicester
+max cases = 1738
+total cases = 117467
+total rate/100k pop. = 32629.67
+total pop. = 356210
+
+
+Leicestershire
+max cases = 3103
+total cases = 226431
+total rate/100k pop. = 30812.59
+total pop. = 721384
+
+
+Lewisham
+max cases = 1460
+total cases = 92641
+total rate/100k pop. = 29570.09
+total pop. = 308511
+
+
+Lincolnshire
+max cases = 2619
+total cases = 218905
+total rate/100k pop. = 28655.36
+total pop. = 746478
+
+
+Lisburn_and_Castlereagh
+max cases = 569
+total cases = 52794
+total rate/100k pop. = 35232.01
+total pop. = 147797
+
+
+Liverpool
+max cases = 2806
+total cases = 170610
+total rate/100k pop. = 33250.84
+total pop. = 505292
+
+
+Luton
+max cases = 814
+total cases = 73229
+total rate/100k pop. = 33646.49
+total pop. = 215095
+
+
+Manchester
+max cases = 2610
+total cases = 188247
+total rate/100k pop. = 33210.01
+total pop. = 560069
+
+
+Medway
+max cases = 1072
+total cases = 90840
+total rate/100k pop. = 31624.41
+total pop. = 282165
+
+
+Merthyr_Tydfil
+max cases = 331
+total cases = 19094
+total rate/100k pop. = 31134.93
+total pop. = 60883
+
+
+Merton
+max cases = 840
+total cases = 69839
+total rate/100k pop. = 32909.59
+total pop. = 208769
+
+
+Mid_Ulster
+max cases = 787
+total cases = 55172
+total rate/100k pop. = 36534.40
+total pop. = 149870
+
+
+Mid_and_East_Antrim
+max cases = 521
+total cases = 46042
+total rate/100k pop. = 32232.13
+total pop. = 140788
+
+
+Middlesbrough
+max cases = 1154
+total cases = 51039
+total rate/100k pop. = 35331.01
+total pop. = 142430
+
+
+Midlothian
+max cases = 353
+total cases = 31613
+total rate/100k pop. = 32442.29
+total pop. = 94947
+
+
+Milton_Keynes
+max cases = 1106
+total cases = 94425
+total rate/100k pop. = 33867.53
+total pop. = 273758
+
+
+Monmouthshire
+max cases = 305
+total cases = 19712
+total rate/100k pop. = 20327.10
+total pop. = 96152
+
+
+Moray
+max cases = 469
+total cases = 25243
+total rate/100k pop. = 24922.94
+total pop. = 97970
+
+
+Na_h_Eileanan_Siar
+max cases = 158
+total cases = 6474
+total rate/100k pop. = 21485.70
+total pop. = 28163
+
+
+Neath_Port_Talbot
+max cases = 797
+total cases = 42137
+total rate/100k pop. = 28876.76
+total pop. = 145141
+
+
+Newcastle_upon_Tyne
+max cases = 1555
+total cases = 102639
+total rate/100k pop. = 32535.46
+total pop. = 309951
+
+
+Newham
+max cases = 1613
+total cases = 104613
+total rate/100k pop. = 28932.76
+total pop. = 357681
+
+
+Newport
+max cases = 714
+total cases = 43587
+total rate/100k pop. = 27453.71
+total pop. = 157669
+
+
+Newry_Mourne_and_Down
+max cases = 931
+total cases = 66196
+total rate/100k pop. = 35837.83
+total pop. = 182932
+
+
+Norfolk
+max cases = 2892
+total cases = 249202
+total rate/100k pop. = 26187.06
+total pop. = 928703
+
+
+North_Ayrshire
+max cases = 670
+total cases = 46663
+total rate/100k pop. = 33045.01
+total pop. = 137055
+
+
+North_East_Lincolnshire
+max cases = 878
+total cases = 50102
+total rate/100k pop. = 30529.69
+total pop. = 160955
+
+
+North_Lanarkshire
+max cases = 2061
+total cases = 132434
+total rate/100k pop. = 37468.63
+total pop. = 346599
+
+
+North_Lincolnshire
+max cases = 813
+total cases = 50779
+total rate/100k pop. = 28351.43
+total pop. = 175212
+
+
+North_Somerset
+max cases = 650
+total cases = 65756
+total rate/100k pop. = 29097.34
+total pop. = 220151
+
+
+North_Tyneside
+max cases = 1245
+total cases = 74305
+total rate/100k pop. = 34346.81
+total pop. = 211487
+
+
+North_Yorkshire
+max cases = 2716
+total cases = 177315
+total rate/100k pop. = 27509.90
+total pop. = 629770
+
+
+Northamptonshire
+max cases = 2779
+total cases = 246037
+total rate/100k pop. = 31635.79
+total pop. = 765194
+
+
+Northumberland
+max cases = 1924
+total cases = 101709
+total rate/100k pop. = 30268.53
+total pop. = 328272
+
+
+Nottingham
+max cases = 1391
+total cases = 106612
+total rate/100k pop. = 30952.09
+total pop. = 340016
+
+
+Nottinghamshire
+max cases = 3698
+total cases = 267519
+total rate/100k pop. = 31064.69
+total pop. = 844200
+
+
+Oldham
+max cases = 1336
+total cases = 77219
+total rate/100k pop. = 31977.24
+total pop. = 239042
+
+
+Orkney_Islands
+max cases = 116
+total cases = 4765
+total rate/100k pop. = 20404.31
+total pop. = 22784
+
+
+Oxfordshire
+max cases = 2545
+total cases = 217973
+total rate/100k pop. = 29965.46
+total pop. = 709056
+
+
+Pembrokeshire
+max cases = 414
+total cases = 25744
+total rate/100k pop. = 19947.87
+total pop. = 128074
+
+
+Perth_and_Kinross
+max cases = 594
+total cases = 43118
+total rate/100k pop. = 27021.50
+total pop. = 155054
+
+
+Peterborough
+max cases = 737
+total cases = 71954
+total rate/100k pop. = 34635.29
+total pop. = 204575
+
+
+Plymouth
+max cases = 922
+total cases = 84677
+total rate/100k pop. = 30642.86
+total pop. = 268196
+
+
+Portsmouth
+max cases = 932
+total cases = 68451
+total rate/100k pop. = 30787.07
+total pop. = 217812
+
+
+Powys
+max cases = 458
+total cases = 25984
+total rate/100k pop. = 19203.96
+total pop. = 134363
+
+
+Reading
+max cases = 667
+total cases = 55049
+total rate/100k pop. = 33307.81
+total pop. = 162061
+
+
+Redbridge
+max cases = 1288
+total cases = 97851
+total rate/100k pop. = 31416.09
+total pop. = 307896
+
+
+Redcar_and_Cleveland
+max cases = 1116
+total cases = 45654
+total rate/100k pop. = 32446.64
+total pop. = 138421
+
+
+Renfrewshire
+max cases = 1024
+total cases = 68595
+total rate/100k pop. = 36647.87
+total pop. = 182663
+
+
+Rhondda_Cynon_Taf
+max cases = 1419
+total cases = 70424
+total rate/100k pop. = 28709.50
+total pop. = 243675
+
+
+Richmond_upon_Thames
+max cases = 700
+total cases = 63947
+total rate/100k pop. = 31325.83
+total pop. = 200458
+
+
+Rochdale
+max cases = 1301
+total cases = 74770
+total rate/100k pop. = 32853.89
+total pop. = 225088
+
+
+Rotherham
+max cases = 1513
+total cases = 89668
+total rate/100k pop. = 32944.39
+total pop. = 267587
+
+
+Rutland
+max cases = 127
+total cases = 11155
+total rate/100k pop. = 26523.27
+total pop. = 41051
+
+
+Salford
+max cases = 1518
+total cases = 93130
+total rate/100k pop. = 34689.33
+total pop. = 264906
+
+
+Sandwell
+max cases = 1561
+total cases = 107332
+total rate/100k pop. = 32058.54
+total pop. = 331281
+
+
+Scottish_Borders
+max cases = 461
+total cases = 29522
+total rate/100k pop. = 24128.47
+total pop. = 118101
+
+
+Sefton
+max cases = 1746
+total cases = 94876
+total rate/100k pop. = 33423.99
+total pop. = 279168
+
+
+Sheffield
+max cases = 2593
+total cases = 179833
+total rate/100k pop. = 29807.63
+total pop. = 594754
+
+
+Shetland_Islands
+max cases = 107
+total cases = 5608
+total rate/100k pop. = 22697.90
+total pop. = 23610
+
+
+Shropshire
+max cases = 1277
+total cases = 92037
+total rate/100k pop. = 27765.74
+total pop. = 322934
+
+
+Slough
+max cases = 533
+total cases = 50493
+total rate/100k pop. = 33143.51
+total pop. = 150645
+
+
+Solihull
+max cases = 864
+total cases = 70272
+total rate/100k pop. = 31385.67
+total pop. = 219925
+
+
+Somerset
+max cases = 1677
+total cases = 156813
+total rate/100k pop. = 26491.14
+total pop. = 575234
+
+
+South_Ayrshire
+max cases = 533
+total cases = 35891
+total rate/100k pop. = 30226.77
+total pop. = 114835
+
+
+South_Gloucestershire
+max cases = 923
+total cases = 93516
+total rate/100k pop. = 31236.94
+total pop. = 292433
+
+
+South_Lanarkshire
+max cases = 1831
+total cases = 122043
+total rate/100k pop. = 36579.00
+total pop. = 326228
+
+
+South_Tyneside
+max cases = 976
+total cases = 52504
+total rate/100k pop. = 33840.16
+total pop. = 152585
+
+
+Southampton
+max cases = 836
+total cases = 78354
+total rate/100k pop. = 29966.59
+total pop. = 256139
+
+
+Southend_on_Sea
+max cases = 865
+total cases = 58957
+total rate/100k pop. = 31289.90
+total pop. = 185076
+
+
+Southwark
+max cases = 1620
+total cases = 99019
+total rate/100k pop. = 30171.17
+total pop. = 323338
+
+
+St._Helens
+max cases = 1123
+total cases = 64649
+total rate/100k pop. = 34706.43
+total pop. = 183081
+
+
+Staffordshire
+max cases = 4155
+total cases = 279836
+total rate/100k pop. = 30603.21
+total pop. = 894730
+
+
+Stirling
+max cases = 361
+total cases = 29869
+total rate/100k pop. = 30431.64
+total pop. = 95785
+
+
+Stockport
+max cases = 1605
+total cases = 99597
+total rate/100k pop. = 32925.46
+total pop. = 297290
+
+
+Stockton_on_Tees
+max cases = 1565
+total cases = 69050
+total rate/100k pop. = 34118.89
+total pop. = 199127
+
+
+Stoke_on_Trent
+max cases = 1211
+total cases = 84427
+total rate/100k pop. = 31915.34
+total pop. = 259383
+
+
+Suffolk
+max cases = 2715
+total cases = 206464
+total rate/100k pop. = 25941.09
+total pop. = 775461
+
+
+Sunderland
+max cases = 1752
+total cases = 95179
+total rate/100k pop. = 33252.19
+total pop. = 280857
+
+
+Surrey
+max cases = 4056
+total cases = 392593
+total rate/100k pop. = 31659.53
+total pop. = 1215963
+
+
+Sutton
+max cases = 859
+total cases = 70585
+total rate/100k pop. = 32990.33
+total pop. = 210107
+
+
+Swansea
+max cases = 1388
+total cases = 67833
+total rate/100k pop. = 27223.83
+total pop. = 247970
+
+
+Swindon
+max cases = 873
+total cases = 70243
+total rate/100k pop. = 30357.76
+total pop. = 226262
+
+
+Tameside
+max cases = 1320
+total cases = 78168
+total rate/100k pop. = 33640.33
+total pop. = 229026
+
+
+Telford_and_Wrekin
+max cases = 745
+total cases = 60619
+total rate/100k pop. = 32280.16
+total pop. = 183689
+
+
+Thurrock
+max cases = 1025
+total cases = 60838
+total rate/100k pop. = 33923.50
+total pop. = 177045
+
+
+Torbay
+max cases = 475
+total cases = 41360
+total rate/100k pop. = 29015.81
+total pop. = 138793
+
+
+Torfaen
+max cases = 500
+total cases = 26524
+total rate/100k pop. = 27480.03
+total pop. = 95619
+
+
+Tower_Hamlets
+max cases = 1398
+total cases = 103158
+total rate/100k pop. = 31674.50
+total pop. = 321239
+
+
+Trafford
+max cases = 1247
+total cases = 82135
+total rate/100k pop. = 33642.60
+total pop. = 240201
+
+
+Vale_of_Glamorgan
+max cases = 557
+total cases = 36377
+total rate/100k pop. = 26437.07
+total pop. = 136513
+
+
+Wakefield
+max cases = 2062
+total cases = 113340
+total rate/100k pop. = 31343.71
+total pop. = 355092
+
+
+Walsall
+max cases = 1541
+total cases = 90158
+total rate/100k pop. = 30714.09
+total pop. = 289226
+
+
+Waltham_Forest
+max cases = 1268
+total cases = 87494
+total rate/100k pop. = 30878.43
+total pop. = 279480
+
+
+Wandsworth
+max cases = 2069
+total cases = 112937
+total rate/100k pop. = 33377.71
+total pop. = 333522
+
+
+Warrington
+max cases = 1096
+total cases = 74130
+total rate/100k pop. = 34304.96
+total pop. = 211710
+
+
+Warwickshire
+max cases = 2575
+total cases = 186649
+total rate/100k pop. = 30905.63
+total pop. = 591598
+
+
+West_Berkshire
+max cases = 518
+total cases = 47103
+total rate/100k pop. = 28368.71
+total pop. = 161460
+
+
+West_Dunbartonshire
+max cases = 523
+total cases = 33718
+total rate/100k pop. = 36687.51
+total pop. = 89905
+
+
+West_Lothian
+max cases = 815
+total cases = 63841
+total rate/100k pop. = 33226.50
+total pop. = 187299
+
+
+West_Sussex
+max cases = 2695
+total cases = 262533
+total rate/100k pop. = 29171.30
+total pop. = 880451
+
+
+Westminster
+max cases = 909
+total cases = 65532
+total rate/100k pop. = 23656.23
+total pop. = 272757
+
+
+Wigan
+max cases = 1973
+total cases = 112630
+total rate/100k pop. = 33306.71
+total pop. = 333518
+
+
+Wiltshire
+max cases = 1529
+total cases = 143123
+total rate/100k pop. = 27050.53
+total pop. = 514397
+
+
+Windsor_and_Maidenhead
+max cases = 564
+total cases = 49191
+total rate/100k pop. = 31422.53
+total pop. = 153457
+
+
+Wirral
+max cases = 2055
+total cases = 108436
+total rate/100k pop. = 32331.69
+total pop. = 328718
+
+
+Wokingham
+max cases = 690
+total cases = 56398
+total rate/100k pop. = 31155.40
+total pop. = 176592
+
+
+Wolverhampton
+max cases = 1294
+total cases = 86057
+total rate/100k pop. = 31773.34
+total pop. = 266746
+
+
+Worcestershire
+max cases = 2081
+total cases = 177336
+total rate/100k pop. = 28576.34
+total pop. = 606929
+
+
+Wrexham
+max cases = 522
+total cases = 37467
+total rate/100k pop. = 27143.03
+total pop. = 137170
+
+
+York
+max cases = 843
+total cases = 62003
+total rate/100k pop. = 28357.20
+total pop. = 214104
+
+
+bass note = 130.815 Hz
+scaling=0.5. freq prop. to (cases/max cases)^scaling
+Adur
+max cases = 221
+total cases = 18665
+total rate/100k pop. = 28684.03
+total pop. = 63757
+
+
+Allerdale
+max cases = 637
+total cases = 30032
+total rate/100k pop. = 29595.83
+total pop. = 99294
+
+
+Amber_Valley
+max cases = 549
+total cases = 38855
+total rate/100k pop. = 29077.94
+total pop. = 130735
+
+
+Arun
+max cases = 472
+total cases = 46586
+total rate/100k pop. = 27905.14
+total pop. = 163411
+
+
+Ashfield
+max cases = 598
+total cases = 41031
+total rate/100k pop. = 32477.47
+total pop. = 123886
+
+
+Ashford
+max cases = 505
+total cases = 41238
+total rate/100k pop. = 30393.70
+total pop. = 132883
+
+
+Aylesbury_Vale
+max cases = 681
+total cases = 64414
+total rate/100k pop. = 30039.90
+total pop. = 209821
+
+
+Babergh
+max cases = 356
+total cases = 24657
+total rate/100k pop. = 25372.60
+total pop. = 94393
+
+
+Barrow_in_Furness
+max cases = 529
+total cases = 23897
+total rate/100k pop. = 34627.74
+total pop. = 67674
+
+
+Basildon
+max cases = 853
+total cases = 63952
+total rate/100k pop. = 33140.49
+total pop. = 189919
+
+
+Basingstoke_and_Deane
+max cases = 733
+total cases = 55172
+total rate/100k pop. = 29780.90
+total pop. = 180790
+
+
+Bassetlaw
+max cases = 537
+total cases = 37927
+total rate/100k pop. = 31081.24
+total pop. = 119596
+
+
+Blaby
+max cases = 556
+total cases = 34242
+total rate/100k pop. = 32697.24
+total pop. = 103012
+
+
+Bolsover
+max cases = 441
+total cases = 25206
+total rate/100k pop. = 30041.57
+total pop. = 82253
+
+
+Boston
+max cases = 204
+total cases = 20150
+total rate/100k pop. = 27619.77
+total pop. = 71662
+
+
+Braintree
+max cases = 584
+total cases = 47219
+total rate/100k pop. = 29800.44
+total pop. = 155179
+
+
+Breckland
+max cases = 411
+total cases = 36847
+total rate/100k pop. = 25042.47
+total pop. = 143532
+
+
+Brentwood
+max cases = 303
+total cases = 25628
+total rate/100k pop. = 32237.09
+total pop. = 78149
+
+
+Broadland
+max cases = 457
+total cases = 37615
+total rate/100k pop. = 27383.87
+total pop. = 133969
+
+
+Bromsgrove
+max cases = 361
+total cases = 32281
+total rate/100k pop. = 31074.89
+total pop. = 101848
+
+
+Broxbourne
+max cases = 543
+total cases = 31450
+total rate/100k pop. = 31436.00
+total pop. = 98524
+
+
+Broxtowe
+max cases = 481
+total cases = 35999
+total rate/100k pop. = 30290.66
+total pop. = 116201
+
+
+Burnley
+max cases = 662
+total cases = 31995
+total rate/100k pop. = 35182.17
+total pop. = 89943
+
+
+Cambridge
+max cases = 404
+total cases = 41177
+total rate/100k pop. = 31498.39
+total pop. = 127356
+
+
+Cannock_Chase
+max cases = 535
+total cases = 33247
+total rate/100k pop. = 31660.43
+total pop. = 102740
+
+
+Canterbury
+max cases = 573
+total cases = 45026
+total rate/100k pop. = 25977.47
+total pop. = 169424
+
+
+Carlisle
+max cases = 533
+total cases = 34886
+total rate/100k pop. = 31053.20
+total pop. = 110140
+
+
+Castle_Point
+max cases = 407
+total cases = 29749
+total rate/100k pop. = 32015.37
+total pop. = 91537
+
+
+Charnwood
+max cases = 736
+total cases = 59293
+total rate/100k pop. = 30529.51
+total pop. = 190724
+
+
+Chelmsford
+max cases = 681
+total cases = 59282
+total rate/100k pop. = 32049.60
+total pop. = 181918
+
+
+Cheltenham
+max cases = 344
+total cases = 35310
+total rate/100k pop. = 29124.01
+total pop. = 118092
+
+
+Cherwell
+max cases = 628
+total cases = 50233
+total rate/100k pop. = 31713.31
+total pop. = 154430
+
+
+Chesterfield
+max cases = 625
+total cases = 32474
+total rate/100k pop. = 29882.04
+total pop. = 106432
+
+
+Chichester
+max cases = 300
+total cases = 33590
+total rate/100k pop. = 26555.97
+total pop. = 123373
+
+
+Chiltern
+max cases = 303
+total cases = 30286
+total rate/100k pop. = 30284.36
+total pop. = 97780
+
+
+Chorley
+max cases = 649
+total cases = 39679
+total rate/100k pop. = 32491.41
+total pop. = 120087
+
+
+Colchester
+max cases = 853
+total cases = 62120
+total rate/100k pop. = 30381.63
+total pop. = 200065
+
+
+Comhairle_nan_Eilean_Siar
+max cases = 84
+total cases = 3650
+total rate/100k pop. = 11871.69
+total pop. = 27603
+
+
+Copeland
+max cases = 519
+total cases = 22219
+total rate/100k pop. = 31593.53
+total pop. = 68903
+
+
+Corby
+max cases = 398
+total cases = 26044
+total rate/100k pop. = 34833.59
+total pop. = 73699
+
+
+Cotswold
+max cases = 225
+total cases = 22529
+total rate/100k pop. = 23710.63
+total pop. = 92149
+
+
+Craven
+max cases = 258
+total cases = 15944
+total rate/100k pop. = 26773.36
+total pop. = 58088
+
+
+Crawley
+max cases = 461
+total cases = 39225
+total rate/100k pop. = 33870.80
+total pop. = 113765
+
+
+Dacorum
+max cases = 604
+total cases = 49266
+total rate/100k pop. = 30727.63
+total pop. = 157298
+
+
+Dartford
+max cases = 574
+total cases = 38741
+total rate/100k pop. = 33137.14
+total pop. = 115052
+
+
+Daventry
+max cases = 304
+total cases = 26875
+total rate/100k pop. = 30038.11
+total pop. = 87948
+
+
+Derbyshire_Dales
+max cases = 308
+total cases = 18859
+total rate/100k pop. = 24975.61
+total pop. = 73696
+
+
+Dover
+max cases = 421
+total cases = 33575
+total rate/100k pop. = 27187.54
+total pop. = 120485
+
+
+East_Cambridgeshire
+max cases = 269
+total cases = 25563
+total rate/100k pop. = 27151.30
+total pop. = 91892
+
+
+East_Devon
+max cases = 356
+total cases = 39864
+total rate/100k pop. = 25641.81
+total pop. = 151097
+
+
+East_Hampshire
+max cases = 378
+total cases = 35059
+total rate/100k pop. = 26983.89
+total pop. = 126331
+
+
+East_Hertfordshire
+max cases = 680
+total cases = 48041
+total rate/100k pop. = 30510.69
+total pop. = 154051
+
+
+East_Lindsey
+max cases = 435
+total cases = 35609
+total rate/100k pop. = 24033.07
+total pop. = 144330
+
+
+East_Northamptonshire
+max cases = 355
+total cases = 27921
+total rate/100k pop. = 28360.24
+total pop. = 96519
+
+
+East_Staffordshire
+max cases = 603
+total cases = 39476
+total rate/100k pop. = 31582.60
+total pop. = 122488
+
+
+East_Suffolk
+max cases = 873
+total cases = 64456
+total rate/100k pop. = 24556.79
+total pop. = 255432
+
+
+Eastbourne
+max cases = 436
+total cases = 31563
+total rate/100k pop. = 29600.96
+total pop. = 104669
+
+
+Eastleigh
+max cases = 436
+total cases = 43270
+total rate/100k pop. = 30572.97
+total pop. = 137873
+
+
+Eden
+max cases = 197
+total cases = 13785
+total rate/100k pop. = 24554.16
+total pop. = 54716
+
+
+Elmbridge
+max cases = 528
+total cases = 47511
+total rate/100k pop. = 33546.13
+total pop. = 139041
+
+
+Epping_Forest
+max cases = 620
+total cases = 42522
+total rate/100k pop. = 31366.90
+total pop. = 133526
+
+
+Epsom_and_Ewell
+max cases = 335
+total cases = 27110
+total rate/100k pop. = 32477.09
+total pop. = 82006
+
+
+Erewash
+max cases = 621
+total cases = 35915
+total rate/100k pop. = 30039.10
+total pop. = 116968
+
+
+Exeter
+max cases = 389
+total cases = 39905
+total rate/100k pop. = 28629.69
+total pop. = 135702
+
+
+Fareham
+max cases = 428
+total cases = 34047
+total rate/100k pop. = 27876.24
+total pop. = 118689
+
+
+Fenland
+max cases = 321
+total cases = 29675
+total rate/100k pop. = 27997.06
+total pop. = 103747
+
+
+Folkestone_and_Hythe
+max cases = 386
+total cases = 32476
+total rate/100k pop. = 29245.10
+total pop. = 108432
+
+
+Forest_of_Dean
+max cases = 268
+total cases = 22838
+total rate/100k pop. = 25198.11
+total pop. = 88526
+
+
+Fylde
+max cases = 441
+total cases = 24935
+total rate/100k pop. = 29669.43
+total pop. = 82354
+
+
+Gedling
+max cases = 532
+total cases = 39176
+total rate/100k pop. = 32100.76
+total pop. = 119701
+
+
+Gloucester
+max cases = 420
+total cases = 41173
+total rate/100k pop. = 30685.47
+total pop. = 131424
+
+
+Gosport
+max cases = 278
+total cases = 25714
+total rate/100k pop. = 29012.91
+total pop. = 86265
+
+
+Gravesham
+max cases = 452
+total cases = 35680
+total rate/100k pop. = 32580.40
+total pop. = 107924
+
+
+Great_Yarmouth
+max cases = 422
+total cases = 29514
+total rate/100k pop. = 28799.69
+total pop. = 100428
+
+
+Guildford
+max cases = 424
+total cases = 44956
+total rate/100k pop. = 28845.77
+total pop. = 152532
+
+
+Hambleton
+max cases = 384
+total cases = 25224
+total rate/100k pop. = 26325.66
+total pop. = 93316
+
+
+Harborough
+max cases = 392
+total cases = 29439
+total rate/100k pop. = 29869.70
+total pop. = 96680
+
+
+Harlow
+max cases = 519
+total cases = 31251
+total rate/100k pop. = 34922.61
+total pop. = 88121
+
+
+Harrogate
+max cases = 681
+total cases = 50287
+total rate/100k pop. = 30035.17
+total pop. = 163928
+
+
+Hart
+max cases = 360
+total cases = 31590
+total rate/100k pop. = 30973.63
+total pop. = 99349
+
+
+Hastings
+max cases = 330
+total cases = 28428
+total rate/100k pop. = 29768.86
+total pop. = 93772
+
+
+Havant
+max cases = 440
+total cases = 37310
+total rate/100k pop. = 28406.00
+total pop. = 128388
+
+
+Hertsmere
+max cases = 459
+total cases = 36120
+total rate/100k pop. = 33220.43
+total pop. = 106739
+
+
+High_Peak
+max cases = 474
+total cases = 28455
+total rate/100k pop. = 29725.13
+total pop. = 93840
+
+
+Hinckley_and_Bosworth
+max cases = 519
+total cases = 35499
+total rate/100k pop. = 30258.56
+total pop. = 114956
+
+
+Horsham
+max cases = 422
+total cases = 42383
+total rate/100k pop. = 28179.39
+total pop. = 146983
+
+
+Huntingdonshire
+max cases = 728
+total cases = 53796
+total rate/100k pop. = 28837.34
+total pop. = 181861
+
+
+Hyndburn
+max cases = 538
+total cases = 28269
+total rate/100k pop. = 34271.09
+total pop. = 81637
+
+
+Ipswich
+max cases = 668
+total cases = 42949
+total rate/100k pop. = 30264.51
+total pop. = 138542
+
+
+Kettering
+max cases = 400
+total cases = 33950
+total rate/100k pop. = 32310.17
+total pop. = 103274
+
+
+Kings_Lynn_and_West_Norfolk
+max cases = 474
+total cases = 41961
+total rate/100k pop. = 26672.27
+total pop. = 153541
+
+
+Lancaster
+max cases = 698
+total cases = 44551
+total rate/100k pop. = 29045.16
+total pop. = 150280
+
+
+Lewes
+max cases = 342
+total cases = 28850
+total rate/100k pop. = 26813.37
+total pop. = 105145
+
+
+Lichfield
+max cases = 496
+total cases = 33236
+total rate/100k pop. = 30363.99
+total pop. = 107054
+
+
+Lincoln
+max cases = 426
+total cases = 32030
+total rate/100k pop. = 31044.36
+total pop. = 101300
+
+
+Maidstone
+max cases = 595
+total cases = 54805
+total rate/100k pop. = 30599.76
+total pop. = 175423
+
+
+Maldon
+max cases = 236
+total cases = 19151
+total rate/100k pop. = 28319.17
+total pop. = 66404
+
+
+Malvern_Hills
+max cases = 215
+total cases = 19079
+total rate/100k pop. = 22865.79
+total pop. = 80999
+
+
+Mansfield
+max cases = 617
+total cases = 36317
+total rate/100k pop. = 32158.57
+total pop. = 110838
+
+
+Melton
+max cases = 229
+total cases = 15621
+total rate/100k pop. = 29512.40
+total pop. = 52036
+
+
+Mendip
+max cases = 357
+total cases = 31679
+total rate/100k pop. = 26025.37
+total pop. = 118573
+
+
+Mid_Devon
+max cases = 207
+total cases = 22278
+total rate/100k pop. = 25384.63
+total pop. = 85059
+
+
+Mid_Suffolk
+max cases = 300
+total cases = 26946
+total rate/100k pop. = 24621.23
+total pop. = 106859
+
+
+Mid_Sussex
+max cases = 510
+total cases = 48393
+total rate/100k pop. = 30566.71
+total pop. = 154642
+
+
+Mole_Valley
+max cases = 305
+total cases = 26406
+total rate/100k pop. = 29191.67
+total pop. = 88721
+
+
+New_Forest
+max cases = 493
+total cases = 46982
+total rate/100k pop. = 24917.04
+total pop. = 183148
+
+
+Newark_and_Sherwood
+max cases = 584
+total cases = 37510
+total rate/100k pop. = 29450.59
+total pop. = 124846
+
+
+Newcastle_under_Lyme
+max cases = 591
+total cases = 39873
+total rate/100k pop. = 29696.09
+total pop. = 131330
+
+
+North_Devon
+max cases = 379
+total cases = 27154
+total rate/100k pop. = 26046.83
+total pop. = 100657
+
+
+North_East_Derbyshire
+max cases = 471
+total cases = 30927
+total rate/100k pop. = 29187.19
+total pop. = 103624
+
+
+North_Hertfordshire
+max cases = 474
+total cases = 41393
+total rate/100k pop. = 29735.11
+total pop. = 135685
+
+
+North_Kesteven
+max cases = 427
+total cases = 34106
+total rate/100k pop. = 27662.80
+total pop. = 120129
+
+
+North_Norfolk
+max cases = 321
+total cases = 22193
+total rate/100k pop. = 20080.73
+total pop. = 107287
+
+
+North_Warwickshire
+max cases = 360
+total cases = 20621
+total rate/100k pop. = 30606.99
+total pop. = 66171
+
+
+North_West_Leicestershire
+max cases = 465
+total cases = 32867
+total rate/100k pop. = 30311.60
+total pop. = 106184
+
+
+Northampton
+max cases = 826
+total cases = 77070
+total rate/100k pop. = 33639.33
+total pop. = 226208
+
+
+Norwich
+max cases = 525
+total cases = 42708
+total rate/100k pop. = 28902.30
+total pop. = 144483
+
+
+Nuneaton_and_Bedworth
+max cases = 799
+total cases = 44340
+total rate/100k pop. = 33093.17
+total pop. = 131789
+
+
+Oadby_and_Wigston
+max cases = 252
+total cases = 19470
+total rate/100k pop. = 33130.91
+total pop. = 57840
+
+
+Oxford
+max cases = 568
+total cases = 50258
+total rate/100k pop. = 32054.41
+total pop. = 153676
+
+
+Pendle
+max cases = 578
+total cases = 29943
+total rate/100k pop. = 31952.73
+total pop. = 92699
+
+
+Preston
+max cases = 810
+total cases = 49764
+total rate/100k pop. = 33843.63
+total pop. = 145256
+
+
+Redditch
+max cases = 366
+total cases = 27991
+total rate/100k pop. = 31729.44
+total pop. = 86645
+
+
+Reigate_and_Banstead
+max cases = 544
+total cases = 51464
+total rate/100k pop. = 33361.86
+total pop. = 151251
+
+
+Ribble_Valley
+max cases = 311
+total cases = 20450
+total rate/100k pop. = 32148.03
+total pop. = 62666
+
+
+Richmondshire
+max cases = 228
+total cases = 14525
+total rate/100k pop. = 26052.03
+total pop. = 54445
+
+
+Rochford
+max cases = 414
+total cases = 27765
+total rate/100k pop. = 30647.79
+total pop. = 88868
+
+
+Rossendale
+max cases = 398
+total cases = 23640
+total rate/100k pop. = 32476.41
+total pop. = 71945
+
+
+Rother
+max cases = 232
+total cases = 24679
+total rate/100k pop. = 24653.89
+total pop. = 98110
+
+
+Rugby
+max cases = 478
+total cases = 37314
+total rate/100k pop. = 32707.24
+total pop. = 112033
+
+
+Runnymede
+max cases = 304
+total cases = 27763
+total rate/100k pop. = 29752.23
+total pop. = 91499
+
+
+Rushcliffe
+max cases = 444
+total cases = 39559
+total rate/100k pop. = 31542.96
+total pop. = 123026
+
+
+Rushmoor
+max cases = 376
+total cases = 33702
+total rate/100k pop. = 34487.77
+total pop. = 95756
+
+
+Ryedale
+max cases = 219
+total cases = 13372
+total rate/100k pop. = 23060.19
+total pop. = 56647
+
+
+Scarborough
+max cases = 531
+total cases = 29530
+total rate/100k pop. = 26136.86
+total pop. = 110323
+
+
+Sedgemoor
+max cases = 356
+total cases = 36330
+total rate/100k pop. = 28173.81
+total pop. = 125659
+
+
+Selby
+max cases = 448
+total cases = 28433
+total rate/100k pop. = 29884.59
+total pop. = 93068
+
+
+Sevenoaks
+max cases = 467
+total cases = 37426
+total rate/100k pop. = 29852.01
+total pop. = 122970
+
+
+Somerset_West_and_Taunton
+max cases = 449
+total cases = 43022
+total rate/100k pop. = 26263.51
+total pop. = 158794
+
+
+South_Bucks
+max cases = 239
+total cases = 22547
+total rate/100k pop. = 31069.64
+total pop. = 71285
+
+
+South_Cambridgeshire
+max cases = 466
+total cases = 49279
+total rate/100k pop. = 29297.09
+total pop. = 163818
+
+
+South_Derbyshire
+max cases = 496
+total cases = 34787
+total rate/100k pop. = 30615.11
+total pop. = 110991
+
+
+South_Hams
+max cases = 282
+total cases = 22920
+total rate/100k pop. = 24666.30
+total pop. = 90062
+
+
+South_Holland
+max cases = 290
+total cases = 26633
+total rate/100k pop. = 26705.00
+total pop. = 97368
+
+
+South_Kesteven
+max cases = 538
+total cases = 42928
+total rate/100k pop. = 28836.66
+total pop. = 145527
+
+
+South_Lakeland
+max cases = 539
+total cases = 27142
+total rate/100k pop. = 24774.33
+total pop. = 106877
+
+
+South_Norfolk
+max cases = 430
+total cases = 38356
+total rate/100k pop. = 25674.26
+total pop. = 145605
+
+
+South_Northamptonshire
+max cases = 296
+total cases = 28933
+total rate/100k pop. = 29377.67
+total pop. = 96376
+
+
+South_Oxfordshire
+max cases = 539
+total cases = 43598
+total rate/100k pop. = 28932.39
+total pop. = 146438
+
+
+South_Ribble
+max cases = 635
+total cases = 37883
+total rate/100k pop. = 33195.90
+total pop. = 112321
+
+
+South_Somerset
+max cases = 527
+total cases = 45782
+total rate/100k pop. = 25788.30
+total pop. = 172245
+
+
+South_Staffordshire
+max cases = 514
+total cases = 35066
+total rate/100k pop. = 30217.90
+total pop. = 113628
+
+
+Spelthorne
+max cases = 421
+total cases = 34477
+total rate/100k pop. = 33565.36
+total pop. = 101012
+
+
+St_Albans
+max cases = 530
+total cases = 50218
+total rate/100k pop. = 32468.73
+total pop. = 151493
+
+
+Stafford
+max cases = 631
+total cases = 43569
+total rate/100k pop. = 30406.57
+total pop. = 139822
+
+
+Staffordshire_Moorlands
+max cases = 451
+total cases = 29232
+total rate/100k pop. = 28593.94
+total pop. = 99909
+
+
+Stevenage
+max cases = 442
+total cases = 28725
+total rate/100k pop. = 31553.64
+total pop. = 89235
+
+
+Stratford_on_Avon
+max cases = 429
+total cases = 38393
+total rate/100k pop. = 27798.74
+total pop. = 134711
+
+
+Stroud
+max cases = 315
+total cases = 33269
+total rate/100k pop. = 26226.53
+total pop. = 123272
+
+
+Surrey_Heath
+max cases = 378
+total cases = 29863
+total rate/100k pop. = 32302.53
+total pop. = 90494
+
+
+Swale
+max cases = 607
+total cases = 47180
+total rate/100k pop. = 30199.90
+total pop. = 153110
+
+
+Tamworth
+max cases = 334
+total cases = 26137
+total rate/100k pop. = 33004.67
+total pop. = 77801
+
+
+Tandridge
+max cases = 307
+total cases = 28314
+total rate/100k pop. = 30948.04
+total pop. = 89757
+
+
+Teignbridge
+max cases = 330
+total cases = 36937
+total rate/100k pop. = 25916.20
+total pop. = 137979
+
+
+Tendring
+max cases = 592
+total cases = 42678
+total rate/100k pop. = 27824.31
+total pop. = 149869
+
+
+Test_Valley
+max cases = 424
+total cases = 39581
+total rate/100k pop. = 29743.69
+total pop. = 129513
+
+
+Tewkesbury
+max cases = 243
+total cases = 28100
+total rate/100k pop. = 27828.81
+total pop. = 98387
+
+
+Thanet
+max cases = 544
+total cases = 42780
+total rate/100k pop. = 29020.86
+total pop. = 143938
+
+
+Three_Rivers
+max cases = 315
+total cases = 31357
+total rate/100k pop. = 32379.89
+total pop. = 95040
+
+
+Tonbridge_and_Malling
+max cases = 521
+total cases = 41277
+total rate/100k pop. = 30190.79
+total pop. = 134230
+
+
+Torridge
+max cases = 225
+total cases = 17531
+total rate/100k pop. = 24054.01
+total pop. = 70408
+
+
+Tunbridge_Wells
+max cases = 417
+total cases = 35906
+total rate/100k pop. = 29164.70
+total pop. = 120557
+
+
+Uttlesford
+max cases = 365
+total cases = 28090
+total rate/100k pop. = 29290.31
+total pop. = 93959
+
+
+Vale_of_White_Horse
+max cases = 489
+total cases = 41307
+total rate/100k pop. = 28513.80
+total pop. = 140763
+
+
+Warwick
+max cases = 509
+total cases = 45981
+total rate/100k pop. = 30532.06
+total pop. = 146993
+
+
+Watford
+max cases = 442
+total cases = 33830
+total rate/100k pop. = 34239.73
+total pop. = 97445
+
+
+Waverley
+max cases = 355
+total cases = 39887
+total rate/100k pop. = 30364.19
+total pop. = 128549
+
+
+Wealden
+max cases = 495
+total cases = 44347
+total rate/100k pop. = 26221.86
+total pop. = 165232
+
+
+Wellingborough
+max cases = 296
+total cases = 25244
+total rate/100k pop. = 30715.19
+total pop. = 80859
+
+
+Welwyn_Hatfield
+max cases = 441
+total cases = 38081
+total rate/100k pop. = 29772.59
+total pop. = 125528
+
+
+West_Devon
+max cases = 155
+total cases = 13881
+total rate/100k pop. = 23334.41
+total pop. = 57580
+
+
+West_Lancashire
+max cases = 625
+total cases = 37225
+total rate/100k pop. = 31623.13
+total pop. = 115776
+
+
+West_Lindsey
+max cases = 341
+total cases = 27449
+total rate/100k pop. = 27454.89
+total pop. = 97542
+
+
+West_Oxfordshire
+max cases = 365
+total cases = 32577
+total rate/100k pop. = 27871.96
+total pop. = 113849
+
+
+West_Suffolk
+max cases = 574
+total cases = 47456
+total rate/100k pop. = 25654.49
+total pop. = 180273
+
+
+Winchester
+max cases = 352
+total cases = 37918
+total rate/100k pop. = 28753.14
+total pop. = 128191
+
+
+Woking
+max cases = 377
+total cases = 34842
+total rate/100k pop. = 33760.44
+total pop. = 101192
+
+
+Worcester
+max cases = 340
+total cases = 31972
+total rate/100k pop. = 30794.26
+total pop. = 101701
+
+
+Worthing
+max cases = 378
+total cases = 33509
+total rate/100k pop. = 29137.70
+total pop. = 112517
+
+
+Wychavon
+max cases = 383
+total cases = 36461
+total rate/100k pop. = 26635.73
+total pop. = 133400
+
+
+Wycombe
+max cases = 673
+total cases = 55855
+total rate/100k pop. = 31203.10
+total pop. = 175822
+
+
+Wyre
+max cases = 630
+total cases = 34792
+total rate/100k pop. = 29796.84
+total pop. = 114354
+
+
+Wyre_Forest
+max cases = 488
+total cases = 29552
+total rate/100k pop. = 28218.56
+total pop. = 102507
+
+

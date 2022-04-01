@@ -73,9 +73,8 @@ def draw_graph(datelist, ncases_valslist, caserate_list, max_cases,
     '''
     draw a filled histogram
     '''
-    def convert_cases_caserate7day(ax):
+    def convert_cases_caserate7day(ax, y2=max_cases):
         y1 = 0
-        y2 = max_cases
         ax_r.set_ylim(cases2rate7day(y1, population), cases2rate7day(y2, population))
         ax_r.figure.canvas.draw()
         
@@ -85,6 +84,7 @@ def draw_graph(datelist, ncases_valslist, caserate_list, max_cases,
     if ynorm != -1:
         ymax = ynorm * population/100000.0
         ax.set_ylim(0, ymax)
+        ax.callbacks.connect("ylim_changed", convert_cases_caserate7day(ax,y2=ymax))
 
     
     ax.set_xlabel("Date")
@@ -346,7 +346,7 @@ if __name__ == '__main__':
     size = (int((16/9)*ysize), ysize)
     if args.ynorm:
         try:
-            ynorm = float(args.nprm)
+            ynorm = float(args.ynorm)
         except:
             # if args.ysize doesn't convert to an integer, set it to the default
             ynorm = 7000
